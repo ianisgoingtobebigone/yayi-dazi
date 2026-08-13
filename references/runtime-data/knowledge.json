@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "purpose": "Prototype knowledge base for non-diagnostic dental intake and signposting",
+    "verified_on": "2026-08-07",
+    "boundary": "Informational prototype only; not a substitute for a dentist or emergency service"
+  },
+  "sources": [
+    {
+      "source_id": "NHS-URGENT-2025",
+      "title": "Clinical guidance: unscheduled urgent and non-urgent dental care",
+      "organization": "NHS England",
+      "year": 2025,
+      "url": "https://www.england.nhs.uk/long-read/clinical-guidance-unscheduled-urgent-and-non-urgent-dental-care/",
+      "tags": ["general", "emergency", "urgent", "swelling", "trauma", "gum"],
+      "relevance": {
+        "general": "用于区分紧急、急需和非紧急牙科就诊路径",
+        "swelling": "说明扩散性口颌面肿胀、气道风险及全身症状的升级条件",
+        "trauma": "说明牙外伤、面部创伤和不可控出血的紧急处理优先级",
+        "gum": "说明严重牙龈出血和急性牙龈/黏膜问题的急诊分层"
+      },
+      "key_points": [
+        "呼吸道或颅内风险相关的扩散性口颌面肿胀属于紧急情况",
+        "无法通过局部措施控制的口腔出血需要紧急评估",
+        "严重疼痛、扩散或持续感染、影响功能的牙外伤通常需要急需牙科评估",
+        "远程建议不替代适当的面对面专业评估"
+      ]
+    },
+    {
+      "source_id": "NHS-TOOTHACHE-2024",
+      "title": "Toothache",
+      "organization": "NHS",
+      "year": 2024,
+      "url": "https://www.nhs.uk/symptoms/toothache/",
+      "tags": ["toothache", "soon", "urgent", "emergency"],
+      "relevance": {
+        "toothache": "用于牙痛持续时间、伴随发热/肿胀及气道相关症状的就医提示"
+      },
+      "key_points": [
+        "牙痛持续超过两天应由牙医评估",
+        "牙痛伴高热、咬合痛、牙龈红肿、口内异味或面颊/颌部肿胀需要牙科评估",
+        "眼周或颈部肿胀，以及影响呼吸、吞咽或说话的肿胀需要立即处理"
+      ]
+    },
+    {
+      "source_id": "NHS-ULCER-2024",
+      "title": "Mouth ulcers",
+      "organization": "NHS",
+      "year": 2024,
+      "url": "https://www.nhs.uk/conditions/mouth-ulcers/",
+      "tags": ["ulcer", "routine", "soon"],
+      "relevance": {
+        "ulcer": "用于口腔溃疡持续时间、异常变化和就医提示"
+      },
+      "key_points": [
+        "多数常见口腔溃疡会在一到两周内自行缓解",
+        "持续超过三周、与以往不同、出血或疼痛红肿加重时应由牙医或医生评估",
+        "避免辛辣、过咸、酸性、粗糙或过热食物可减少刺激"
+      ]
+    },
+    {
+      "source_id": "NHS-GUM-2026",
+      "title": "Gum disease",
+      "organization": "NHS",
+      "year": 2026,
+      "url": "https://www.nhs.uk/conditions/gum-disease/",
+      "tags": ["gum", "routine", "soon", "urgent"],
+      "relevance": {
+        "gum": "用于牙龈出血、红肿、疼痛、牙齿松动及口内肿块的就医提示"
+      },
+      "key_points": [
+        "刷牙或进食时牙龈出血、红肿或疼痛应由牙医检查",
+        "明显疼痛肿胀、牙齿松动、口内溃疡红斑或肿块需要更快的牙科评估",
+        "规律刷牙和清洁牙缝是基础口腔卫生措施"
+      ]
+    },
+    {
+      "source_id": "ADA-PAIN-2024",
+      "title": "Acute Dental Pain Management Guideline",
+      "organization": "American Dental Association",
+      "year": 2024,
+      "url": "https://www.ada.org/resources/research/science/evidence-based-dental-research/pain-management-guideline",
+      "tags": ["toothache", "general", "literature"],
+      "relevance": {
+        "toothache": "提供成人、青少年和儿童急性口腔疼痛的循证指南入口",
+        "general": "作为急性牙痛相关循证资料索引"
+      },
+      "key_points": [
+        "该页面汇总成人、青少年及儿童急性口腔疼痛的临床指南与系统综述",
+        "原型仅推荐资料入口，不生成个体化药物或剂量建议"
+      ]
+    },
+    {
+      "source_id": "ADA-ANTIBIOTIC-2019",
+      "title": "Antibiotics for Dental Pain and Swelling Guideline",
+      "organization": "American Dental Association",
+      "year": 2019,
+      "url": "https://www.ada.org/resources/research/science/evidence-based-dental-research/antibiotics-for-dental-pain-and-swelling",
+      "tags": ["toothache", "swelling", "urgent", "literature"],
+      "relevance": {
+        "toothache": "用于说明多数牙源性疼痛不能由远程系统简单归结为需要抗生素",
+        "swelling": "提供牙痛和口内肿胀的抗菌药物管理循证指南入口"
+      },
+      "key_points": [
+        "多数牙髓和根尖相关牙痛需要牙科处置，而非由远程系统自动建议抗生素",
+        "出现发热或全身不适等全身受累迹象时需要专业人员评估",
+        "内容不能替代专业判断、诊断或治疗"
+      ]
+    }
+  ]
+}
