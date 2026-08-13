@@ -1,0 +1,197 @@
+{
+  "schema_version": "cn-oral-consult.runtime-manifest.v2",
+  "built_on": "2026-08-13",
+  "runtime_entry": "scripts/cn_oral_consult_runtime.py",
+  "full_self_check": "scripts/full_runtime_self_check.py",
+  "module_package": "scripts/cn_oral_consult",
+  "module_coverage": [
+    "M00",
+    "M01",
+    "M02",
+    "M03",
+    "M04",
+    "M05",
+    "M06",
+    "M07",
+    "M08",
+    "M09",
+    "M10",
+    "M11",
+    "M12"
+  ],
+  "operations": [
+    "pre_gate",
+    "full_triage",
+    "final_guard",
+    "fact_ledger",
+    "specialist_modules",
+    "photo_rules",
+    "treatment_background",
+    "retrieve",
+    "orchestrate",
+    "evaluate",
+    "self-check"
+  ],
+  "asset_count": 31,
+  "assets": [
+    {
+      "path": "references/runtime-data/knowledge.json",
+      "bytes": 5014,
+      "sha256": "ff253a1d07b2a782e42e7ba0a0fc3bd4ae2d54cf7c86f577386509f39de6fcb3"
+    },
+    {
+      "path": "references/runtime-data/m02_m03_knowledge.json",
+      "bytes": 99196,
+      "sha256": "bbf0a2e002af4537ad500d96e2692ad7d2aa670a0e36981c2cf258bf7deae434"
+    },
+    {
+      "path": "references/runtime-data/m04_catalog.json",
+      "bytes": 306864,
+      "sha256": "0121539390ca3d35f3e18323e8b87f35bb03a77bdd8eb11529d06086b1d7b3f8"
+    },
+    {
+      "path": "references/runtime-data/m05_catalog.json",
+      "bytes": 168023,
+      "sha256": "8a7ba7aa19f0836f6ec9308e5ed5bf506b371235d8685091d44940672459a021"
+    },
+    {
+      "path": "references/runtime-data/m05_dxm_mnt_catalog.json",
+      "bytes": 56693,
+      "sha256": "9c817225bfdd17976825e899db8a787d04ba87c7185472fb3b78cb5285e2857a"
+    },
+    {
+      "path": "references/runtime-data/m05_prb_trt_catalog.json",
+      "bytes": 112198,
+      "sha256": "989b6b136aef385b6d919dcce77c526201d08dd2f6d0cff2d9890ce620130858"
+    },
+    {
+      "path": "references/runtime-data/m06_catalog.json",
+      "bytes": 86269,
+      "sha256": "93294d004f0e9bed79e77d36cd6b8d7a767bd85db8dc561fe48523398617330c"
+    },
+    {
+      "path": "references/runtime-data/m07_catalog.json",
+      "bytes": 149428,
+      "sha256": "d0e3cdfbe596359075a68b001b54497ae638a2bf00ac22d8ebcca605e9d61cb5"
+    },
+    {
+      "path": "references/runtime-data/m08_rules.json",
+      "bytes": 62650,
+      "sha256": "e3b2288639da34cffcf6f9369bfffc9bc0cc5721ae1c96d3f2be38f08365d9e9"
+    },
+    {
+      "path": "references/runtime-data/m09_catalog.json",
+      "bytes": 201700,
+      "sha256": "58d093b9b28c76d1c965114543f4a491a59176f7c246e482195c4303b9d0819a"
+    },
+    {
+      "path": "references/runtime-data/m10_catalog.json",
+      "bytes": 3382569,
+      "sha256": "b9222b943368185a183d468b63c0cd847997cef0c28e5d868f46154abb736178"
+    },
+    {
+      "path": "references/runtime-data/m12_eval_contract_v2_candidate.json",
+      "bytes": 5293,
+      "sha256": "45dbc8c73e3669902ce17bd300f5a15c6f61a6e3a4c910145a6579bb762130f9"
+    },
+    {
+      "path": "references/runtime-data/m12_eval_spec.json",
+      "bytes": 3008,
+      "sha256": "5452a7bcd2b666aa5c77a6eb61d089f7f3cdddc865e1febfe7cada4a7ebf5321"
+    },
+    {
+      "path": "scripts/cn_oral_consult/__init__.py",
+      "bytes": 2329,
+      "sha256": "72e84a15f81a1df26252ab8c7db34ec308c178eb1bbf16ed55ad0cc3f3dafc84"
+    },
+    {
+      "path": "scripts/cn_oral_consult/m00.py",
+      "bytes": 11674,
+      "sha256": "83cec8598b77609b98b0281780b7b926689543957471a645bd0d17e1b9d8bc63"
+    },
+    {
+      "path": "scripts/cn_oral_consult/m01.py",
+      "bytes": 3537,
+      "sha256": "38b68467ca22b6cef25a212d3ab5134c6190b3b16562b2a2e2890ce92562c7cd"
+    },
+    {
+      "path": "scripts/cn_oral_consult/m02.py",
+      "bytes": 3460,
+      "sha256": "85a12b62b4388b873e5a69d438f669c05067b1d8a9e6100ccaada97b85ad98d9"
+    },
+    {
+      "path": "scripts/cn_oral_consult/m03.py",
+      "bytes": 3887,
+      "sha256": "f998b2142deb73f8892408c106cff3cbdd7c69e39e0c6ffdd1d340925bffa351"
+    },
+    {
+      "path": "scripts/cn_oral_consult/m04.py",
+      "bytes": 19331,
+      "sha256": "4870dc7d9ce1b2fa884a6cd144d181798f41aa5e592526f0ad69cdf854059bb7"
+    },
+    {
+      "path": "scripts/cn_oral_consult/m05.py",
+      "bytes": 26132,
+      "sha256": "ad0d1df63f41bacc036385bf395d87c6e21a9df28aa3b321d5b04a91bc21274d"
+    },
+    {
+      "path": "scripts/cn_oral_consult/m06.py",
+      "bytes": 24357,
+      "sha256": "da3494d00655a3eb561ebf2c4bc0d2e4d45f69830e4991310f6c7e82057083c4"
+    },
+    {
+      "path": "scripts/cn_oral_consult/m07.py",
+      "bytes": 22481,
+      "sha256": "005598a6a3e4772b10a80df2c94adcccbb7c4a7e93180df7637461de03501c84"
+    },
+    {
+      "path": "scripts/cn_oral_consult/m08.py",
+      "bytes": 29243,
+      "sha256": "1eca2bf5ea8b533d895db577373599dbf2b5296de4378e647eb8d2e5f4fc15e9"
+    },
+    {
+      "path": "scripts/cn_oral_consult/m09.py",
+      "bytes": 11632,
+      "sha256": "d2d22bfa2748e8316bf3ae8fe7f32e6b2e20a2e751a53bc7fc480bff4e2117e9"
+    },
+    {
+      "path": "scripts/cn_oral_consult/m10.py",
+      "bytes": 20288,
+      "sha256": "1b0ebc185f2f700a410c75fab8df230c6b42f25f961c988231f775bada0e0b32"
+    },
+    {
+      "path": "scripts/cn_oral_consult/m11.py",
+      "bytes": 36185,
+      "sha256": "2dbce6c2016c0dee2a045abca54445f21fdf8d4bce617a608b01047c605484e9"
+    },
+    {
+      "path": "scripts/cn_oral_consult/m12_evaluator.py",
+      "bytes": 5044,
+      "sha256": "4491296c4d60e020ddd148dd76e9198d51936192e0e76af0cac43acc24a69379"
+    },
+    {
+      "path": "scripts/cn_oral_consult/runtime_paths.py",
+      "bytes": 433,
+      "sha256": "6fb93cad850a247879bf34802d6ca9f534aafb923456f559c0f597166640a04d"
+    },
+    {
+      "path": "scripts/cn_oral_consult/specialist_intake.py",
+      "bytes": 16949,
+      "sha256": "8207a952ea91eeff1b2eda9849b6a2ea78ece21a1d202d25a40491c6a21c69e7"
+    },
+    {
+      "path": "scripts/cn_oral_consult_runtime.py",
+      "bytes": 3972,
+      "sha256": "24a839bc87455fd0f523ecaf95abbaf3f09dfd282d74a0313e4f75100389823d"
+    },
+    {
+      "path": "scripts/full_runtime_self_check.py",
+      "bytes": 10924,
+      "sha256": "c9df22f4dc7daa1be708553541cfe602c0c979e472bb7554be01178927ac4251"
+    }
+  ],
+  "runtime_mode": "offline_internal_preflight",
+  "external_project_path_required": false,
+  "production_enabled": false,
+  "clinical_validity_claim_allowed": false
+}
