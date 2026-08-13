@@ -1,0 +1,1520 @@
+{
+  "metadata": {
+    "catalog_id": "M05-DXM-MNT-CATALOG",
+    "catalog_version": "m05-dxm-mnt.approved.1",
+    "generated_on": "2026-08-11",
+    "scope": [
+      "M05-DXM-001..M05-DXM-021",
+      "M05-MNT-001..M05-MNT-011"
+    ],
+    "catalog_status": "approved_for_cross_module_integration",
+    "production_eligible": false,
+    "status_note": "32项知识正文已获用户批准；M10、M11、M08和M12跨模块接入完成单独审核前仍禁止生产使用。",
+    "contract_ref": "evidence/25-m05-professional-rules-and-knowledge-contract.md",
+    "numbering_ref": "evidence/27-m05-formal-knowledge-numbering.md",
+    "user_approval_recorded": true,
+    "approved_on": "2026-08-12"
+  },
+  "assessment_methods": [
+    {
+      "prosthodontic_assessment_knowledge_id": "M05-DXM-001",
+      "entry_name_zh": "口腔修复病史采集",
+      "entry_type": "history",
+      "clinical_question_answered": [
+        "当前主要困扰、发生与变化时间及功能或外观影响是什么",
+        "既往口腔修复、相关口腔与全身情况及现有资料是什么",
+        "用户希望解决的问题和对修复的目标是什么"
+      ],
+      "required_prior_information": [
+        "用户原话及当前任务",
+        "既往修复、复诊和处理时间线",
+        "已有记录的日期、来源和原文"
+      ],
+      "operator_or_equipment_requirement": "qualified_clinician_or_facility",
+      "what_it_cannot_prove_alone": [
+        "不能单独确认疾病、并发问题或修复体质量",
+        "不能把用户目标转换为适应证、修复计划或材料选择",
+        "不能证明旧方案在当前仍然适用"
+      ],
+      "related_problem_ids": [
+        "M05-PRB-001",
+        "M05-PRB-002",
+        "M05-PRB-003",
+        "M05-PRB-004",
+        "M05-PRB-005",
+        "M05-PRB-006",
+        "M05-PRB-007",
+        "M05-PRB-008",
+        "M05-PRB-009",
+        "M05-PRB-010",
+        "M05-PRB-011",
+        "M05-PRB-012",
+        "M05-PRB-013",
+        "M05-PRB-014",
+        "M05-PRB-015",
+        "M05-PRB-016",
+        "M05-PRB-017",
+        "M05-PRB-018",
+        "M05-PRB-019",
+        "M05-PRB-020",
+        "M05-PRB-021",
+        "M05-PRB-022",
+        "M05-PRB-023",
+        "M05-PRB-024"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第2章，纸书7-9页",
+          "evidence_ids": [
+            "M05-EVD-009",
+            "M05-EVD-011"
+          ]
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "牙体缺损、牙列缺损与牙列缺失相应部分",
+          "evidence_ids": [
+            "M05-EVD-009"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthodontic_assessment_knowledge_id": "M05-DXM-002",
+      "entry_name_zh": "颌面部检查",
+      "entry_type": "clinical_examination",
+      "clinical_question_answered": [
+        "颌面外形、对称、比例与组织支持有哪些需现场记录的特征",
+        "面部表现与修复美学、功能目标之间有哪些需要共同评估的关系"
+      ],
+      "required_prior_information": [
+        "用户关注的面部或修复外观目标",
+        "既往修复和颌面相关资料",
+        "当前疼痛、肿胀、外伤等已由M00处理的事实"
+      ],
+      "operator_or_equipment_requirement": "qualified_clinician_or_facility",
+      "what_it_cannot_prove_alone": [
+        "普通照片不能替代现场颌面部检查",
+        "不能仅由外观确认牙齿构造、咬合、颌位或深部组织原因",
+        "不能据此单独决定修复或正畸方案"
+      ],
+      "related_problem_ids": [
+        "M05-PRB-018",
+        "M05-PRB-024"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第2章，纸书9页",
+          "evidence_ids": [
+            "M05-EVD-011"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthodontic_assessment_knowledge_id": "M05-DXM-003",
+      "entry_name_zh": "颞下颌关节检查",
+      "entry_type": "clinical_examination",
+      "clinical_question_answered": [
+        "关节活动、疼痛、弹响及其与下颌运动之间有哪些需现场核对的表现",
+        "关节相关表现是否需要转由M07继续评估"
+      ],
+      "required_prior_information": [
+        "用户自然状态下的疼痛、弹响或活动受限感受",
+        "表现与修复、咀嚼或外伤的时间关系",
+        "M07已有事实或专业记录"
+      ],
+      "operator_or_equipment_requirement": "qualified_clinician_or_facility",
+      "what_it_cannot_prove_alone": [
+        "不能由线上动作、声音描述或普通视频确认颞下颌关节疾病",
+        "不能单独确定症状来源或修复体责任",
+        "不能据此远程给出咬合调整或装置方案"
+      ],
+      "related_problem_ids": [
+        "M05-PRB-017"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第2章，纸书9页",
+          "evidence_ids": [
+            "M05-EVD-011"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthodontic_assessment_knowledge_id": "M05-DXM-004",
+      "entry_name_zh": "咀嚼肌检查",
+      "entry_type": "clinical_examination",
+      "clinical_question_answered": [
+        "咀嚼肌强度、对称、压痛等方面有哪些需由专业人员检查的特征",
+        "肌肉表现与咀嚼功能、下颌运动或关节不适之间有哪些需联合评估的关系"
+      ],
+      "required_prior_information": [
+        "肌疲劳、酸痛或活动相关感受",
+        "症状位置和时间关系",
+        "颞下颌关节、咬合及修复使用背景"
+      ],
+      "operator_or_equipment_requirement": "qualified_clinician_or_facility",
+      "what_it_cannot_prove_alone": [
+        "不能要求用户自行按压来模拟专业触诊",
+        "不能单独确认肌肉或颞下颌关节疾病",
+        "不能把肌肉不适直接归因于修复设计或咬合问题"
+      ],
+      "related_problem_ids": [
+        "M05-PRB-017"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第2章，纸书9页",
+          "evidence_ids": [
+            "M05-EVD-011"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthodontic_assessment_knowledge_id": "M05-DXM-005",
+      "entry_name_zh": "口腔一般情况检查",
+      "entry_type": "clinical_examination",
+      "clinical_question_answered": [
+        "口腔卫生、软组织、唾液及整体修复环境有哪些需现场记录的条件",
+        "是否存在应交由牙体牙髓、牙周或黏膜模块继续评估的事实"
+      ],
+      "required_prior_information": [
+        "当前口腔症状和修复装置范围",
+        "口腔卫生与维护背景",
+        "M02至M04已有事实和来源明确的记录"
+      ],
+      "operator_or_equipment_requirement": "qualified_clinician_or_facility",
+      "what_it_cannot_prove_alone": [
+        "不能单独确诊牙体、牙髓、牙周或黏膜疾病",
+        "不能由照片判断深部支持组织、触诊或探诊结果",
+        "不能据此直接选择修复类别"
+      ],
+      "related_problem_ids": [
+        "M05-PRB-001",
+        "M05-PRB-004",
+        "M05-PRB-005",
+        "M05-PRB-016",
+        "M05-PRB-022"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第2章，纸书9页",
+          "evidence_ids": [
+            "M05-EVD-009",
+            "M05-EVD-011"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthodontic_assessment_knowledge_id": "M05-DXM-006",
+      "entry_name_zh": "牙列检查",
+      "entry_type": "clinical_examination",
+      "clinical_question_answered": [
+        "牙体完整性、缺损或缺牙范围、排列、移位、磨耗和既有修复有哪些需现场记录的情况",
+        "余留牙及拟修复区域还需要哪些跨专科资料"
+      ],
+      "required_prior_information": [
+        "用户所述缺损或缺牙区域和范围",
+        "既有修复及近期变化",
+        "牙体牙髓、牙周相关记录及资料来源"
+      ],
+      "operator_or_equipment_requirement": "qualified_clinician_or_facility",
+      "what_it_cannot_prove_alone": [
+        "普通照片不能证明剩余牙体强度、可保存性或基牙适用性",
+        "不能单独确认牙髓和牙周状态",
+        "不能仅凭缺牙数量、牙位或排列选择修复方式"
+      ],
+      "related_problem_ids": [
+        "M05-PRB-001",
+        "M05-PRB-003",
+        "M05-PRB-004",
+        "M05-PRB-006",
+        "M05-PRB-007",
+        "M05-PRB-008",
+        "M05-PRB-018"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第2章，纸书9-10页",
+          "evidence_ids": [
+            "M05-EVD-009",
+            "M05-EVD-011"
+          ]
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "牙体缺损与牙列缺损检查部分",
+          "evidence_ids": [
+            "M05-EVD-009"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthodontic_assessment_knowledge_id": "M05-DXM-007",
+      "entry_name_zh": "咬合关系检查",
+      "entry_type": "occlusal_assessment",
+      "clinical_question_answered": [
+        "牙尖交错位及正中、侧方和前伸接触有哪些需专业记录的关系",
+        "用户所述先碰、咬不拢或咬着高需要哪些现场证据核对"
+      ],
+      "required_prior_information": [
+        "用户自然咬合感受及发生情境",
+        "修复完成、调整或变化的时间线",
+        "现有修复体、牙列和功能资料"
+      ],
+      "operator_or_equipment_requirement": "qualified_clinician_or_facility",
+      "what_it_cannot_prove_alone": [
+        "用户主观感受不能转写为专业咬合检查结果",
+        "不能要求用户用咬合纸、咬硬物或反复咬紧模拟检查",
+        "不能由线上描述确定调磨位置、参数或责任"
+      ],
+      "related_problem_ids": [
+        "M05-PRB-002",
+        "M05-PRB-003",
+        "M05-PRB-008",
+        "M05-PRB-009",
+        "M05-PRB-010",
+        "M05-PRB-012",
+        "M05-PRB-014",
+        "M05-PRB-017",
+        "M05-PRB-019",
+        "M05-PRB-020",
+        "M05-PRB-023"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第2章，纸书10-12页；第6章，纸书229-230页",
+          "evidence_ids": [
+            "M05-EVD-009",
+            "M05-EVD-011"
+          ]
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "相应检查部分",
+          "evidence_ids": [
+            "M05-EVD-009"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthodontic_assessment_knowledge_id": "M05-DXM-008",
+      "entry_name_zh": "颌位关系检查",
+      "entry_type": "occlusal_assessment",
+      "clinical_question_answered": [
+        "无牙颌或复杂修复中的颌位关系需要怎样记录和复核",
+        "颌位关系与修复空间、面部支持和功能之间有哪些需联合判断的关系"
+      ],
+      "required_prior_information": [
+        "牙列缺失或复杂修复范围",
+        "既有义齿和颌位记录",
+        "用户功能和面部支持目标"
+      ],
+      "operator_or_equipment_requirement": "qualified_clinician_or_facility",
+      "what_it_cannot_prove_alone": [
+        "不能由面部照片、用户咬合动作或旧义齿外观确认颌位关系",
+        "不能与一般咬合感受混同",
+        "不能远程生成颌位记录或修复设计"
+      ],
+      "related_problem_ids": [
+        "M05-PRB-002",
+        "M05-PRB-009",
+        "M05-PRB-010",
+        "M05-PRB-012",
+        "M05-PRB-017",
+        "M05-PRB-018",
+        "M05-PRB-019",
+        "M05-PRB-020"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第6章，纸书210-216页、228-230页",
+          "evidence_ids": [
+            "M05-EVD-009",
+            "M05-EVD-011"
+          ]
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "牙列缺失检查部分",
+          "evidence_ids": [
+            "M05-EVD-009"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthodontic_assessment_knowledge_id": "M05-DXM-009",
+      "entry_name_zh": "下颌运动检查",
+      "entry_type": "functional_assessment",
+      "clinical_question_answered": [
+        "开闭、前伸和侧方运动与功能协调有哪些需现场观察和记录的表现",
+        "运动表现是否需要结合关节、肌肉和咬合资料继续评估"
+      ],
+      "required_prior_information": [
+        "用户自然活动受限或不适的描述",
+        "颞下颌关节、咀嚼肌和咬合背景",
+        "与修复事件的时间关系"
+      ],
+      "operator_or_equipment_requirement": "qualified_clinician_or_facility",
+      "what_it_cannot_prove_alone": [
+        "不得远程要求用户完成诊断性动作",
+        "不能单独确认关节、肌肉或咬合疾病",
+        "不能由运动表现直接决定修复调整"
+      ],
+      "related_problem_ids": [
+        "M05-PRB-002",
+        "M05-PRB-012",
+        "M05-PRB-017"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第2章，纸书12页；第6章，纸书229-230页",
+          "evidence_ids": [
+            "M05-EVD-011"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthodontic_assessment_knowledge_id": "M05-DXM-010",
+      "entry_name_zh": "缺牙区检查",
+      "entry_type": "clinical_examination",
+      "clinical_question_answered": [
+        "缺牙区间隙、牙槽嵴、黏膜及修复空间有哪些需现场确认的条件",
+        "缺牙区与邻牙、对颌及拟修复范围之间有哪些需综合评估的关系"
+      ],
+      "required_prior_information": [
+        "缺牙区域、数量和时间",
+        "当前功能或外观影响",
+        "已有影像、检查和修复方案的日期与来源"
+      ],
+      "operator_or_equipment_requirement": "qualified_clinician_or_facility",
+      "what_it_cannot_prove_alone": [
+        "普通照片不能判断深部骨、支持条件、倒凹或完整修复空间",
+        "不能仅由缺牙数量或时间选择固定、可摘或种植修复",
+        "不能替代牙周、咬合和必要影像等综合评估"
+      ],
+      "related_problem_ids": [
+        "M05-PRB-003",
+        "M05-PRB-009",
+        "M05-PRB-010",
+        "M05-PRB-018",
+        "M05-PRB-020",
+        "M05-PRB-021"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第2章，纸书11页",
+          "evidence_ids": [
+            "M05-EVD-009",
+            "M05-EVD-011"
+          ]
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "牙列缺损检查部分",
+          "evidence_ids": [
+            "M05-EVD-009",
+            "M05-EVD-010"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthodontic_assessment_knowledge_id": "M05-DXM-011",
+      "entry_name_zh": "无牙颌检查",
+      "entry_type": "clinical_examination",
+      "clinical_question_answered": [
+        "无牙颌解剖标志、承托组织及口腔条件有哪些需专业检查的特征",
+        "旧义齿与现有无牙颌条件之间有哪些需重新评估的关系"
+      ],
+      "required_prior_information": [
+        "牙列缺失范围和时间",
+        "旧义齿类型、使用阶段及当前问题",
+        "已有检查、影像或复诊记录"
+      ],
+      "operator_or_equipment_requirement": "qualified_clinician_or_facility",
+      "what_it_cannot_prove_alone": [
+        "普通照片不能判断承托区、缓冲区、深部骨或黏膜承托条件",
+        "不能由年龄或旧义齿松动直接选择修复类别",
+        "不能据此远程生成印模、颌位或义齿设计"
+      ],
+      "related_problem_ids": [
+        "M05-PRB-005",
+        "M05-PRB-009",
+        "M05-PRB-010",
+        "M05-PRB-012",
+        "M05-PRB-018",
+        "M05-PRB-019",
+        "M05-PRB-020"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第2章，纸书11页；第6章，纸书193-204页",
+          "evidence_ids": [
+            "M05-EVD-009",
+            "M05-EVD-011"
+          ]
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "牙列缺失检查部分",
+          "evidence_ids": [
+            "M05-EVD-009"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthodontic_assessment_knowledge_id": "M05-DXM-012",
+      "entry_name_zh": "原有修复体及义齿检查",
+      "entry_type": "clinical_examination",
+      "clinical_question_answered": [
+        "原修复体或义齿的结构、固位、稳定、支持、适合性和完整性有哪些需现场检查的方面",
+        "周围组织、咬合、功能和既往效果之间有哪些需分别核对的关系"
+      ],
+      "required_prior_information": [
+        "用户所知装置类型、区域和完成时间",
+        "松动、破损、疼痛或功能变化的原话和情境",
+        "调整、修理、重衬或复诊记录及来源"
+      ],
+      "operator_or_equipment_requirement": "qualified_clinician_or_facility",
+      "what_it_cannot_prove_alone": [
+        "用户评价不能直接改写为专业质量结论",
+        "普通照片不能判断密合、咬合、支持、材料内部或可修理性",
+        "不能从一个表现确定原因、责任或处理类别"
+      ],
+      "related_problem_ids": [
+        "M05-PRB-001",
+        "M05-PRB-002",
+        "M05-PRB-003",
+        "M05-PRB-004",
+        "M05-PRB-005",
+        "M05-PRB-006",
+        "M05-PRB-007",
+        "M05-PRB-008",
+        "M05-PRB-009",
+        "M05-PRB-010",
+        "M05-PRB-011",
+        "M05-PRB-012",
+        "M05-PRB-013",
+        "M05-PRB-014",
+        "M05-PRB-015",
+        "M05-PRB-016",
+        "M05-PRB-017",
+        "M05-PRB-018",
+        "M05-PRB-019",
+        "M05-PRB-020",
+        "M05-PRB-021",
+        "M05-PRB-022",
+        "M05-PRB-023",
+        "M05-PRB-024"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第2章，纸书11页；第5-7章修复后问题部分",
+          "evidence_ids": [
+            "M05-EVD-011",
+            "M05-EVD-012",
+            "M05-EVD-013",
+            "M05-EVD-014"
+          ]
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "相应修复后检查与问题处理部分",
+          "evidence_ids": [
+            "M05-EVD-009",
+            "M05-EVD-012"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthodontic_assessment_knowledge_id": "M05-DXM-013",
+      "entry_name_zh": "发音检查",
+      "entry_type": "functional_assessment",
+      "clinical_question_answered": [
+        "发音变化与修复体、人工牙位置及相关口腔形态之间有哪些需专业核对的关系",
+        "发音影响的出现时间、具体情境和功能程度如何记录"
+      ],
+      "required_prior_information": [
+        "用户发音变化的原话和发生情境",
+        "装置类型、位置和使用阶段",
+        "修复完成或调整与发音变化的时间关系"
+      ],
+      "operator_or_equipment_requirement": "qualified_clinician_or_facility",
+      "what_it_cannot_prove_alone": [
+        "线上仅能保存用户感受，不能形成专业发音检查结论",
+        "不能单独确定人工牙位置、腭侧形态或其他具体原因",
+        "不能据此远程给出修复体调整位置或步骤"
+      ],
+      "related_problem_ids": [
+        "M05-PRB-013",
+        "M05-PRB-018",
+        "M05-PRB-019"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第2章，纸书11页；第5章，纸书186页；第6章，纸书232页",
+          "evidence_ids": [
+            "M05-EVD-011",
+            "M05-EVD-012"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthodontic_assessment_knowledge_id": "M05-DXM-014",
+      "entry_name_zh": "修复相关影像学检查",
+      "entry_type": "imaging",
+      "clinical_question_answered": [
+        "影像资料可为牙根、牙周支持、颌骨、缺牙区及种植相关结构提供哪些专业信息",
+        "现有影像报告的日期、来源和适用时间点是什么"
+      ],
+      "required_prior_information": [
+        "当前临床问题和拟回答的专业问题",
+        "已有影像种类、报告原文、日期和来源",
+        "与影像相匹配的现场检查背景"
+      ],
+      "operator_or_equipment_requirement": "qualified_clinician_or_facility",
+      "what_it_cannot_prove_alone": [
+        "Agent不能独立判读影像或从截图生成影像结论",
+        "不能为当前用户自动指定必做的影像种类",
+        "旧影像不能自动代表当前状态，也不能单独决定修复方案"
+      ],
+      "related_problem_ids": [
+        "M05-PRB-001",
+        "M05-PRB-006",
+        "M05-PRB-008",
+        "M05-PRB-020",
+        "M05-PRB-021",
+        "M05-PRB-022",
+        "M05-PRB-023"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第2章，纸书11-12页",
+          "evidence_ids": [
+            "M05-EVD-009",
+            "M05-EVD-011"
+          ]
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "牙体缺损、牙列缺损与牙列缺失相应检查部分",
+          "evidence_ids": [
+            "M05-EVD-009"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthodontic_assessment_knowledge_id": "M05-DXM-015",
+      "entry_name_zh": "模型检查",
+      "entry_type": "model_or_digital_assessment",
+      "clinical_question_answered": [
+        "模型可补充显示哪些牙位、形态、组织和上下颌关系",
+        "模型资料与现场口内、咬合和修复设计评估之间如何配合"
+      ],
+      "required_prior_information": [
+        "模型形成的日期、机构或专业人员来源",
+        "模型对应的口内状态和修复任务",
+        "相关临床、咬合或影像记录"
+      ],
+      "operator_or_equipment_requirement": "qualified_clinician_or_facility",
+      "what_it_cannot_prove_alone": [
+        "模型照片或截图不能替代专业模型检查",
+        "模型不能脱离其对应时间点和现场资料独立证明当前状态",
+        "Agent不能据模型截图生成临床修复设计"
+      ],
+      "related_problem_ids": [
+        "M05-PRB-002",
+        "M05-PRB-003",
+        "M05-PRB-009",
+        "M05-PRB-010",
+        "M05-PRB-018",
+        "M05-PRB-020",
+        "M05-PRB-021"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第2章，纸书12页",
+          "evidence_ids": [
+            "M05-EVD-009",
+            "M05-EVD-011"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthodontic_assessment_knowledge_id": "M05-DXM-016",
+      "entry_name_zh": "咀嚼功能检查",
+      "entry_type": "functional_assessment",
+      "clinical_question_answered": [
+        "咬合力、咀嚼效能、下颌运动轨迹和肌电等专业方法可分别回答哪些功能问题",
+        "用户主观咀嚼困难与专业功能测量之间需要如何区分"
+      ],
+      "required_prior_information": [
+        "用户咀嚼感受、食物情境和功能影响",
+        "装置类型、使用阶段与时间关系",
+        "由专业人员确定的具体功能评估任务"
+      ],
+      "operator_or_equipment_requirement": "qualified_clinician_or_facility",
+      "what_it_cannot_prove_alone": [
+        "主观咀嚼感受不能当作专业测定值",
+        "单项功能测量不能独立说明全部原因、修复质量或处理选择",
+        "Agent不能自行选择或模拟专业功能检查"
+      ],
+      "related_problem_ids": [
+        "M05-PRB-002",
+        "M05-PRB-009",
+        "M05-PRB-010",
+        "M05-PRB-012",
+        "M05-PRB-017",
+        "M05-PRB-019"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第2章，纸书12页",
+          "evidence_ids": [
+            "M05-EVD-011"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthodontic_assessment_knowledge_id": "M05-DXM-017",
+      "entry_name_zh": "可摘局部义齿模型观测",
+      "entry_type": "model_or_digital_assessment",
+      "clinical_question_answered": [
+        "模型观测如何支持就位方向、倒凹及设计相关问题的专业分析",
+        "模型观测资料需要哪些模型和专业设备条件"
+      ],
+      "required_prior_information": [
+        "合格工作模型及其来源和日期",
+        "可摘局部义齿修复任务和口内检查资料",
+        "由专业人员提出的观测与设计问题"
+      ],
+      "operator_or_equipment_requirement": "qualified_clinician_or_facility",
+      "what_it_cannot_prove_alone": [
+        "Agent不能用照片或截图模拟模型观测",
+        "不能从用户文字判断就位方向、倒凹或卡环设计",
+        "模型观测结果不等于当前用户已确定的义齿设计"
+      ],
+      "related_problem_ids": [
+        "M05-PRB-009",
+        "M05-PRB-010",
+        "M05-PRB-011",
+        "M05-PRB-020",
+        "M05-PRB-021"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第5章，纸书137-141页",
+          "evidence_ids": [
+            "M05-EVD-011"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthodontic_assessment_knowledge_id": "M05-DXM-018",
+      "entry_name_zh": "口颌三维数据获取与资料评估",
+      "entry_type": "model_or_digital_assessment",
+      "clinical_question_answered": [
+        "口内扫描、颌面扫描及相关三维资料可为修复评估提供哪些类型的信息",
+        "三维资料的来源、时间点、可见范围和技术局限是什么"
+      ],
+      "required_prior_information": [
+        "明确的修复任务和资料用途",
+        "三维资料类型、日期、机构或专业人员来源",
+        "与资料相对应的临床检查背景"
+      ],
+      "operator_or_equipment_requirement": "qualified_clinician_or_facility",
+      "what_it_cannot_prove_alone": [
+        "三维资料截图不能赋予Agent临床设计或影像判读权限",
+        "不能由数字资料自动决定材料、修复类别或具体设计",
+        "不能忽略资料采集时间、质量和现场检查限制"
+      ],
+      "related_problem_ids": [
+        "M05-PRB-002",
+        "M05-PRB-018",
+        "M05-PRB-023",
+        "M05-PRB-024"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第9章，纸书309-311页",
+          "evidence_ids": [
+            "M05-EVD-011"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthodontic_assessment_knowledge_id": "M05-DXM-019",
+      "entry_name_zh": "种植义齿修复专项检查",
+      "entry_type": "clinical_examination",
+      "clinical_question_answered": [
+        "种植体、基台或连接部件、上部修复体、咬合和周围组织分别需要核对哪些专业维度",
+        "种植修复的生物学、机械和美学问题需要哪些不同来源的证据"
+      ],
+      "required_prior_information": [
+        "用户所知区域、修复阶段和时间线",
+        "种植资料、复诊记录及专业报告的日期与来源",
+        "疼痛、松动、破损、功能或周围组织表现的原话"
+      ],
+      "operator_or_equipment_requirement": "qualified_clinician_or_facility",
+      "what_it_cannot_prove_alone": [
+        "用户所说种植牙松不能自动改写为某一具体部件松动",
+        "普通照片不能判断骨结合、深部周围组织、内部部件或具体机械问题",
+        "不能由文字或照片确认种植体周疾病、种植成功或个人处理方案"
+      ],
+      "related_problem_ids": [
+        "M05-PRB-001",
+        "M05-PRB-002",
+        "M05-PRB-004",
+        "M05-PRB-006",
+        "M05-PRB-007",
+        "M05-PRB-022",
+        "M05-PRB-023",
+        "M05-PRB-024"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第7章，纸书245-257页",
+          "evidence_ids": [
+            "M05-EVD-009",
+            "M05-EVD-014",
+            "M05-EVD-015"
+          ]
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "种植修复相关内容",
+          "evidence_ids": [
+            "M05-EVD-009",
+            "M05-EVD-014"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthodontic_assessment_knowledge_id": "M05-DXM-020",
+      "entry_name_zh": "修复美学评估",
+      "entry_type": "clinical_examination",
+      "clinical_question_answered": [
+        "牙齿颜色、形态、排列、软组织和面部协调有哪些需在修复语境中共同评估的维度",
+        "用户外观目标与现有修复体、缺牙或牙体缺损之间是什么关系"
+      ],
+      "required_prior_information": [
+        "用户具体外观目标和优先关注点",
+        "现有修复体、缺牙或牙体缺损范围",
+        "健康问题、正畸目标及面部关系等跨模块事实"
+      ],
+      "operator_or_equipment_requirement": "qualified_clinician_or_facility",
+      "what_it_cannot_prove_alone": [
+        "照片只能提供有限可见描述，不能替代专业比色、软组织和面部协调评估",
+        "不能从审美偏好直接推导贴面、全冠、正畸或其他个人方案",
+        "不能忽略疼痛、牙周或黏膜等健康问题而只处理外观"
+      ],
+      "related_problem_ids": [
+        "M05-PRB-018",
+        "M05-PRB-024"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第3章，纸书37-41页；第5章，纸书187页；第7章，纸书257页",
+          "evidence_ids": [
+            "M05-EVD-009",
+            "M05-EVD-012",
+            "M05-EVD-014"
+          ]
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "相应美学评估内容",
+          "evidence_ids": [
+            "M05-EVD-009"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthodontic_assessment_knowledge_id": "M05-DXM-021",
+      "entry_name_zh": "修复后复诊与复查",
+      "entry_type": "clinical_examination",
+      "clinical_question_answered": [
+        "修复效果、口腔条件、卫生维护和新问题需要在随访中复核哪些方面",
+        "当前状态与初诊、交付或既往复查记录之间发生了哪些变化"
+      ],
+      "required_prior_information": [
+        "修复体或义齿类型、完成时间和使用阶段",
+        "当前表现、维护情况和功能或外观变化",
+        "既往复诊记录、处理与个体说明的日期和来源"
+      ],
+      "operator_or_equipment_requirement": "qualified_clinician_or_facility",
+      "what_it_cannot_prove_alone": [
+        "线上随访问答不能替代现场复查",
+        "没有新检查时不能自动延续旧方案或旧结论",
+        "不能仅凭使用时间或单一表现决定调整、修理、重衬或重新制作"
+      ],
+      "related_problem_ids": [
+        "M05-PRB-001",
+        "M05-PRB-002",
+        "M05-PRB-003",
+        "M05-PRB-004",
+        "M05-PRB-005",
+        "M05-PRB-006",
+        "M05-PRB-007",
+        "M05-PRB-008",
+        "M05-PRB-009",
+        "M05-PRB-010",
+        "M05-PRB-011",
+        "M05-PRB-012",
+        "M05-PRB-013",
+        "M05-PRB-014",
+        "M05-PRB-015",
+        "M05-PRB-016",
+        "M05-PRB-017",
+        "M05-PRB-018",
+        "M05-PRB-019",
+        "M05-PRB-020",
+        "M05-PRB-021",
+        "M05-PRB-022",
+        "M05-PRB-023",
+        "M05-PRB-024"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第2章，纸书17-18页；第5-7章相应随访与问题内容",
+          "evidence_ids": [
+            "M05-EVD-012",
+            "M05-EVD-013",
+            "M05-EVD-014",
+            "M05-EVD-015"
+          ]
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "各部分随访与复查内容",
+          "evidence_ids": [
+            "M05-EVD-009",
+            "M05-EVD-015"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    }
+  ],
+  "maintenance_entries": [
+    {
+      "prosthesis_maintenance_knowledge_id": "M05-MNT-001",
+      "entry_name_zh": "固定修复体清洁与定期复查",
+      "device_scope": [
+        "固定牙体修复体",
+        "固定局部义齿"
+      ],
+      "maintenance_goal": [
+        "保持修复体及邻近口腔区域的日常清洁",
+        "通过复查了解修复体、周围组织和功能是否出现变化"
+      ],
+      "general_user_actions": [
+        "按照接诊人员针对该修复体给出的方式进行日常清洁",
+        "留意疼痛、松动、破损、牙龈变化和功能变化",
+        "按接诊人员安排进行专业复查"
+      ],
+      "exceptions_or_clinician_specific_instructions": [
+        "具体清洁工具、材料和频率以装置类型及接诊人员个体说明为准",
+        "既有专业说明需保留日期和来源；出现新变化时不能自动沿用旧说明"
+      ],
+      "stop_and_seek_professional_assessment_when": [
+        "出现新发或持续疼痛、敏感或明显咬合与咀嚼变化",
+        "出现松动、脱落、破损或邻近牙龈出血、肿胀、流液",
+        "出现吞咽或呼吸异常、误吸或误吞担忧时先交M00"
+      ],
+      "must_not_do": [
+        "不得自行粘接、打磨、撬动、拆卸或使用工具测试固定修复体",
+        "不得以加强清洁替代对疼痛、松动、破损或牙龈变化的专业评估"
+      ],
+      "follow_up_context": [
+        "例行复查与出现问题后的评估需分开记录",
+        "复查结合修复体、牙体牙髓、牙周、咬合和维护背景，由有资质人员决定具体内容"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第2章，纸书17-18页；第3-4章修复后问题部分",
+          "evidence_ids": [
+            "M05-EVD-012",
+            "M05-EVD-015"
+          ]
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "相应随访与维护内容",
+          "evidence_ids": [
+            "M05-EVD-015"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthesis_maintenance_knowledge_id": "M05-MNT-002",
+      "entry_name_zh": "可摘局部义齿佩戴与摘戴",
+      "device_scope": [
+        "可摘局部义齿"
+      ],
+      "maintenance_goal": [
+        "在既有专业指导下完成正常佩戴与摘戴",
+        "避免强行操作造成装置或口腔组织额外损伤"
+      ],
+      "general_user_actions": [
+        "沿用接诊人员已经示范或书面说明的佩戴与摘戴方式",
+        "记录摘戴是否困难、发生时间和有无疼痛或卡阻感",
+        "不能按原方式正常摘戴时停止强行操作并联系专业人员"
+      ],
+      "exceptions_or_clinician_specific_instructions": [
+        "不同装置结构的取戴方式不相同，个体示范优先于通用文字",
+        "装置类型或取戴路径不清楚时不由Agent补全步骤"
+      ],
+      "stop_and_seek_professional_assessment_when": [
+        "按原有方式仍无法正常戴入或取出",
+        "出现持续疼痛、黏膜破损、装置变形、松动或部件破损",
+        "出现吞咽或呼吸异常、误吸或误吞担忧时先交M00"
+      ],
+      "must_not_do": [
+        "不得强行取戴、弯折卡环、自行调改或使用工具撬取",
+        "不得根据线上文字重新设计取戴路径"
+      ],
+      "follow_up_context": [
+        "记录装置使用阶段、最近调整或修理时间及摘戴困难情境",
+        "专业复查需结合义齿、支持组织和就位情况"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第5章，纸书183-184页",
+          "evidence_ids": [
+            "M05-EVD-012",
+            "M05-EVD-015"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthesis_maintenance_knowledge_id": "M05-MNT-003",
+      "entry_name_zh": "可摘局部义齿清洁与保存",
+      "device_scope": [
+        "可摘局部义齿"
+      ],
+      "maintenance_goal": [
+        "维护义齿与相关口腔组织的清洁",
+        "在非佩戴状态下按装置特性妥善保存"
+      ],
+      "general_user_actions": [
+        "按照接诊人员对该义齿和相关口腔组织的说明进行清洁",
+        "按材料和装置专属说明进行非佩戴状态下的保存",
+        "清洁与保存过程中观察义齿完整性和口腔组织变化"
+      ],
+      "exceptions_or_clinician_specific_instructions": [
+        "清洁工具、清洁剂、浸泡和保存方式需按材料与接诊人员说明确定",
+        "不能把一种统一的浸泡或清洁剂方案套用于所有可摘局部义齿"
+      ],
+      "stop_and_seek_professional_assessment_when": [
+        "发现义齿裂纹、折断、变形、部件松动或无法正常就位",
+        "出现持续磨痛、黏膜破损、出血、肿胀或明显异味伴随其他变化",
+        "出现吞咽或呼吸异常、误吸或误吞担忧时先交M00"
+      ],
+      "must_not_do": [
+        "不得自行打磨、弯折、垫衬、粘接或修理义齿",
+        "不得使用未经条目审核且不确定是否适合该材料的临时清洁或修理材料"
+      ],
+      "follow_up_context": [
+        "复查时说明日常清洁与保存方式、出现变化的时间和既往专业指导来源",
+        "出现新问题后求助规则优先于普通维护建议"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第5章，纸书184页",
+          "evidence_ids": [
+            "M05-EVD-015"
+          ]
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "牙列缺损维护内容",
+          "evidence_ids": [
+            "M05-EVD-015"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthesis_maintenance_knowledge_id": "M05-MNT-004",
+      "entry_name_zh": "可摘局部义齿定期复查与求助",
+      "device_scope": [
+        "可摘局部义齿"
+      ],
+      "maintenance_goal": [
+        "区分无明显问题时的例行复查与出现问题后的专业评估",
+        "复核义齿、支持组织、固位稳定和功能变化"
+      ],
+      "general_user_actions": [
+        "按接诊人员安排进行例行复查",
+        "记录疼痛、固位或稳定、摘戴、破损和功能变化的时间及情境",
+        "出现新问题时携带既往装置说明和复诊记录咨询专业人员"
+      ],
+      "exceptions_or_clinician_specific_instructions": [
+        "复查时间由装置、口腔条件和接诊人员安排决定，本条目不设统一频率",
+        "既有复查安排不能覆盖新发疼痛、破损或明显功能变化"
+      ],
+      "stop_and_seek_professional_assessment_when": [
+        "出现持续疼痛、黏膜损伤、固位或稳定明显变化",
+        "出现摘戴困难、结构破损、余留牙变化或咀嚼与发音明显变化",
+        "出现吞咽或呼吸异常、误吸或误吞担忧时先交M00"
+      ],
+      "must_not_do": [
+        "不得以继续适应或加强清洁替代问题评估",
+        "不得自行调整、修理、重衬、弯折部件或强行摘戴"
+      ],
+      "follow_up_context": [
+        "复查需结合义齿使用阶段、支持组织、咬合、固位稳定与维护情况",
+        "调整、修理、重衬或重新制作仅可作为线下检查后讨论的处理类别"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第5章，纸书184-188页",
+          "evidence_ids": [
+            "M05-EVD-012",
+            "M05-EVD-013",
+            "M05-EVD-015"
+          ]
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "牙列缺损复诊与维护内容",
+          "evidence_ids": [
+            "M05-EVD-015"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthesis_maintenance_knowledge_id": "M05-MNT-005",
+      "entry_name_zh": "全口义齿初戴适应与佩戴",
+      "device_scope": [
+        "常规全口义齿"
+      ],
+      "maintenance_goal": [
+        "在专业交付说明下完成初戴阶段的适应与佩戴",
+        "区分一般适应过程和需要专业复查的问题"
+      ],
+      "general_user_actions": [
+        "按接诊人员交付时的个体说明佩戴并逐步记录使用感受",
+        "记录咀嚼、发音、恶心感、固位稳定和局部不适的变化",
+        "出现问题时说明义齿交付时间、触发情境和摘下后是否缓解"
+      ],
+      "exceptions_or_clinician_specific_instructions": [
+        "佩戴时长、进食安排和复查时间以接诊人员对该义齿的说明为准",
+        "不能把所有疼痛、黏膜损伤或明显功能问题解释为正常适应"
+      ],
+      "stop_and_seek_professional_assessment_when": [
+        "出现持续或明显疼痛、黏膜破损、出血或不能正常佩戴",
+        "出现固位稳定、咬合、咀嚼、发音或吞咽明显变化",
+        "出现吞咽或呼吸异常、误吸或误吞担忧时先交M00"
+      ],
+      "must_not_do": [
+        "不得自行调磨、垫衬、粘接或修改基托和人工牙",
+        "不得通过强行佩戴或继续忍受明显疼痛来完成所谓适应"
+      ],
+      "follow_up_context": [
+        "初戴复查与长期维护需分开记录",
+        "专业复查结合义齿、承托组织、颌位、咬合和功能，由接诊人员决定处理"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第6章，纸书228-233页",
+          "evidence_ids": [
+            "M05-EVD-012",
+            "M05-EVD-015"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthesis_maintenance_knowledge_id": "M05-MNT-006",
+      "entry_name_zh": "全口义齿清洁与保存",
+      "device_scope": [
+        "全口义齿"
+      ],
+      "maintenance_goal": [
+        "维护义齿、口腔黏膜和舌的清洁",
+        "在非佩戴状态下按照装置材料和个体说明保存义齿"
+      ],
+      "general_user_actions": [
+        "按接诊人员针对该义齿的说明清洁义齿、口腔黏膜和舌",
+        "按材料和装置说明进行非佩戴状态下的保存",
+        "清洁时观察义齿完整性及黏膜是否出现新变化"
+      ],
+      "exceptions_or_clinician_specific_instructions": [
+        "清洁工具、清洁剂、浸泡、夜间佩戴和保存方式以材料及接诊人员说明为准",
+        "本条目不提供适用于所有全口义齿的统一清洁剂或浸泡方案"
+      ],
+      "stop_and_seek_professional_assessment_when": [
+        "发现基托或人工牙破损、变形、固位稳定明显变化",
+        "出现持续疼痛、黏膜破损、出血、肿胀或明显功能变化",
+        "出现吞咽或呼吸异常、误吸或误吞担忧时先交M00"
+      ],
+      "must_not_do": [
+        "不得自行打磨、粘接、垫衬或修理义齿",
+        "不得使用未经审核且材料适用性不明的清洁剂或临时材料"
+      ],
+      "follow_up_context": [
+        "复查时说明当前清洁、保存和佩戴方式及个体指导来源",
+        "出现新问题时先进入专业评估，不继续追加普通维护操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第6章，纸书230页及戴用问题内容",
+          "evidence_ids": [
+            "M05-EVD-012",
+            "M05-EVD-015"
+          ]
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "牙列缺失维护内容",
+          "evidence_ids": [
+            "M05-EVD-015"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthesis_maintenance_knowledge_id": "M05-MNT-007",
+      "entry_name_zh": "全口义齿定期复查与求助",
+      "device_scope": [
+        "全口义齿"
+      ],
+      "maintenance_goal": [
+        "复核口腔组织变化、义齿固位稳定、咬合和功能",
+        "区分例行复查与需要及时专业评估的新问题"
+      ],
+      "general_user_actions": [
+        "按接诊人员安排进行专业复查",
+        "记录松动、翘动、疼痛、破损、咀嚼、发音和外观变化",
+        "出现新问题时携带既往记录并说明变化时间和使用情境"
+      ],
+      "exceptions_or_clinician_specific_instructions": [
+        "复查频率依义齿、口腔组织和个体情况确定，本条目不设统一周期",
+        "旧义齿使用年限不能单独决定重衬、重基托、修理或重新制作"
+      ],
+      "stop_and_seek_professional_assessment_when": [
+        "出现持续疼痛、黏膜损伤、固位稳定或咬合明显变化",
+        "出现基托或人工牙破损、无法正常使用或功能明显下降",
+        "出现吞咽或呼吸异常、误吸或误吞担忧时先交M00"
+      ],
+      "must_not_do": [
+        "不得自行调磨、粘接、垫衬、重衬或修理",
+        "不得根据松动感或使用时间自行决定重衬、重基托或重新制作"
+      ],
+      "follow_up_context": [
+        "专业复查结合承托组织、颌位、咬合、义齿状态和使用时间等资料",
+        "处理类别由线下检查决定，Agent只可解释一般目的和所需证据"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第6章，纸书230-235页",
+          "evidence_ids": [
+            "M05-EVD-012",
+            "M05-EVD-013",
+            "M05-EVD-015"
+          ]
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "牙列缺失复诊与维护内容",
+          "evidence_ids": [
+            "M05-EVD-015"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthesis_maintenance_knowledge_id": "M05-MNT-008",
+      "entry_name_zh": "即刻全口义齿戴用与复查",
+      "device_scope": [
+        "即刻全口义齿"
+      ],
+      "maintenance_goal": [
+        "在即刻义齿特有的组织变化与复查语境下遵循专业安排",
+        "及时记录戴用、适合性和功能变化"
+      ],
+      "general_user_actions": [
+        "严格按照交付团队针对即刻义齿给出的个体戴用与复查说明",
+        "保留交付、复诊和调整记录的日期与来源",
+        "记录疼痛、黏膜、固位稳定、咬合和功能变化并在复查时说明"
+      ],
+      "exceptions_or_clinician_specific_instructions": [
+        "即刻义齿不能直接套用常规全口义齿初戴安排",
+        "具体佩戴、清洁和复查时点以实施治疗的专业团队说明为准"
+      ],
+      "stop_and_seek_professional_assessment_when": [
+        "出现明显或持续疼痛、出血、肿胀、黏膜损伤或无法正常佩戴",
+        "出现义齿显著松动、破损、咬合或功能明显变化",
+        "出现吞咽或呼吸异常、难止出血或其他M00安全线索时先交M00"
+      ],
+      "must_not_do": [
+        "不得自行改变即刻义齿的专业戴用安排",
+        "不得自行调磨、垫衬、粘接、拆改或以通用建议替代复诊"
+      ],
+      "follow_up_context": [
+        "即刻义齿复查需保留独立语境，不与常规长期维护合并",
+        "组织变化与义齿处理由实施治疗的专业人员结合现场情况决定"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第6章，纸书236-237页",
+          "evidence_ids": [
+            "M05-EVD-013",
+            "M05-EVD-015"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthesis_maintenance_knowledge_id": "M05-MNT-009",
+      "entry_name_zh": "覆盖义齿与固定-可摘联合义齿维护",
+      "device_scope": [
+        "覆盖义齿",
+        "固定-可摘联合义齿"
+      ],
+      "maintenance_goal": [
+        "同时维护基牙或支持结构、附着部件、义齿和相关口腔组织",
+        "通过专业复查确认装置整体及各部分关系是否变化"
+      ],
+      "general_user_actions": [
+        "按接诊人员针对具体装置结构给出的方式进行佩戴、清洁和保存",
+        "观察基牙或支持结构、附着部件、义齿及周围组织是否出现变化",
+        "按个体复查安排携带装置和既往说明咨询专业人员"
+      ],
+      "exceptions_or_clinician_specific_instructions": [
+        "不同覆盖或联合装置的结构和维护要求不同，不能使用统一步骤",
+        "部件类型不清楚时保留不确定，不由Agent指导拆装或处理"
+      ],
+      "stop_and_seek_professional_assessment_when": [
+        "出现部件松动、破损、摘戴困难、固位稳定或功能变化",
+        "出现基牙疼痛、牙龈或黏膜出血、肿胀、损伤",
+        "出现吞咽或呼吸异常、误吸或误吞担忧时先交M00"
+      ],
+      "must_not_do": [
+        "不得自行拆卸、弯折、调改、打磨、粘接或处理附着部件",
+        "不得仅凭用户外观判断具体部件及其可修理性"
+      ],
+      "follow_up_context": [
+        "复查需同时关注支持结构、义齿、附着部件、咬合和口腔组织",
+        "具体部件维护和处理仅由有资质专业人员完成"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第8章，纸书259-275页",
+          "evidence_ids": [
+            "M05-EVD-009",
+            "M05-EVD-015"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthesis_maintenance_knowledge_id": "M05-MNT-010",
+      "entry_name_zh": "种植义齿自我维护",
+      "device_scope": [
+        "种植义齿"
+      ],
+      "maintenance_goal": [
+        "维护种植修复体及周围口腔区域的日常清洁",
+        "识别需要停止普通自我维护并转专业评估的变化"
+      ],
+      "general_user_actions": [
+        "按照接诊人员说明进行漱口、刷牙和邻间清洁等一般维护",
+        "观察周围组织、修复体完整性和功能是否出现新变化",
+        "保留种植资料和个体维护说明的日期与来源"
+      ],
+      "exceptions_or_clinician_specific_instructions": [
+        "具体清洁工具、材料和方式需与种植修复结构及接诊人员说明匹配",
+        "材料、部件或装置类型不明时不由Agent补充专属步骤"
+      ],
+      "stop_and_seek_professional_assessment_when": [
+        "出现疼痛、出血、肿胀、流液、怪味或周围组织明显变化",
+        "出现松动、晃动、破损、咬合或咀嚼明显变化",
+        "出现吞咽或呼吸异常、误吸或误吞担忧时先交M00"
+      ],
+      "must_not_do": [
+        "不得拆卸种植部件、使用工具测试松动或进行专业洁治操作",
+        "不得从普通照片或松动感判断种植体、基台、螺丝或上部修复体的具体问题"
+      ],
+      "follow_up_context": [
+        "新问题需分别考虑周围组织、机械部件、功能和美学方向",
+        "自我维护不能替代种植义齿专业复查与维护"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第7章，纸书254-255页",
+          "evidence_ids": [
+            "M05-EVD-014",
+            "M05-EVD-015"
+          ]
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "种植修复维护内容",
+          "evidence_ids": [
+            "M05-EVD-014",
+            "M05-EVD-015"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "prosthesis_maintenance_knowledge_id": "M05-MNT-011",
+      "entry_name_zh": "种植义齿专业复查与维护",
+      "device_scope": [
+        "种植义齿"
+      ],
+      "maintenance_goal": [
+        "通过随访检查复核周围组织、口腔卫生、修复部件、功能和美观",
+        "由专业人员实施与具体装置及组织状态相匹配的维护"
+      ],
+      "general_user_actions": [
+        "按接诊人员安排接受专业复查与维护",
+        "携带种植资料、既往复诊记录并说明当前自我维护情况",
+        "记录疼痛、出血、松动、破损、功能或外观变化的时间与情境"
+      ],
+      "exceptions_or_clinician_specific_instructions": [
+        "专业复查项目和维护频率由种植修复类型、周围组织和个体情况决定",
+        "疾病判断交M03；具体部件、影像和专业维护操作由有资质人员决定"
+      ],
+      "stop_and_seek_professional_assessment_when": [
+        "出现周围组织疼痛、出血、肿胀、流液或其他新变化",
+        "出现修复体或部件松动、破损、功能或美学明显变化",
+        "出现吞咽或呼吸异常、误吸或误吞担忧时先交M00"
+      ],
+      "must_not_do": [
+        "不得把普通复查概念转化为用户可执行的专业洁治、拆卸或调整步骤",
+        "不得根据单一表现或照片确认生物学、机械或美学并发症"
+      ],
+      "follow_up_context": [
+        "复查需区分种植体、连接部件、上部修复体、咬合和周围组织",
+        "种植体周疾病的专业主记录归M03，M05只保留修复关系和维护语境"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第7章，纸书254-257页",
+          "evidence_ids": [
+            "M05-EVD-014",
+            "M05-EVD-015"
+          ]
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "种植修复随访与维护内容",
+          "evidence_ids": [
+            "M05-EVD-014",
+            "M05-EVD-015"
+          ]
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
+}

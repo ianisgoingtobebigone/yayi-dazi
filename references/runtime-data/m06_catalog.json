@@ -1,0 +1,2249 @@
+{
+  "metadata": {
+    "catalog_id": "M06-KNOWLEDGE-CATALOG",
+    "catalog_version": "m06.approved.1",
+    "approved_on": "2026-08-12",
+    "scope": "成人中国化口腔正畸、美观与面部关系基础咨询",
+    "review_status": "approved_for_cross_module_integration",
+    "production_eligible": false,
+    "status_note": "54项正文已获本轮整体处理授权；M10、M11、M08、公共主Agent和M12分别审核前不得进入生产回答。",
+    "source_ids": [
+      "CN-ORTHO-001",
+      "CN-NHC-DENTOFACIAL-2022",
+      "CN-CHSA-ORTHO-DIGITAL-2024",
+      "CN-CHSA-PERIO-ORTHO-2023"
+    ],
+    "counts": {
+      "assessment_methods": 15,
+      "clinical_problem_directions": 20,
+      "maintenance_entries": 8,
+      "treatment_categories": 11,
+      "total": 54
+    }
+  },
+  "assessment_methods": [
+    {
+      "orthodontic_assessment_knowledge_id": "M06-DXM-001",
+      "canonical_name_zh": "正畸病史与治疗目标采集",
+      "entry_type": "history_and_goal",
+      "clinical_question_answered": "明确主诉、时间线、既往正畸及用户优先目标",
+      "required_prior_information": [
+        "当前用户目标",
+        "相关时间线",
+        "既有资料和健康背景"
+      ],
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "不能据此确定错𬌗分类、病因、适应证或方案",
+        "单项检查不能独立确定完整诊断或个人治疗方案"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第5章",
+          "printed_page_start": 51,
+          "printed_page_end": 52,
+          "pdf_page_start": 67,
+          "pdf_page_end": 68,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-CHSA-ORTHO-DIGITAL-2024",
+          "source_title": "T/CHSA 078—2024 口腔正畸数字化检查和测量分析专家共识",
+          "url": "https://www.cndent.com/wp-content/uploads/2024/11/78-%E5%8F%A3%E8%85%94%E6%AD%A3%E7%95%B8%E6%95%B0%E5%AD%97%E5%8C%96%E6%A3%80%E6%9F%A5%E5%92%8C%E6%B5%8B%E9%87%8F%E5%88%86%E6%9E%90%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%862.pdf",
+          "section": "第4至6部分：问诊、临床检查、数字化辅助检查、资料记录与专业实施者",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_assessment_knowledge_id": "M06-DXM-002",
+      "canonical_name_zh": "综合口腔与牙周健康检查",
+      "entry_type": "clinical_examination",
+      "clinical_question_answered": "评估牙体、牙周、黏膜及其他可能影响正畸的口腔情况",
+      "required_prior_information": [
+        "当前用户目标",
+        "相关时间线",
+        "既有资料和健康背景"
+      ],
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "文字、普通照片和刷牙出血自述不能替代现场检查",
+        "单项检查不能独立确定完整诊断或个人治疗方案"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第5章",
+          "printed_page_start": 52,
+          "printed_page_end": 54,
+          "pdf_page_start": 68,
+          "pdf_page_end": 70,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-CHSA-ORTHO-DIGITAL-2024",
+          "source_title": "T/CHSA 078—2024 口腔正畸数字化检查和测量分析专家共识",
+          "url": "https://www.cndent.com/wp-content/uploads/2024/11/78-%E5%8F%A3%E8%85%94%E6%AD%A3%E7%95%B8%E6%95%B0%E5%AD%97%E5%8C%96%E6%A3%80%E6%9F%A5%E5%92%8C%E6%B5%8B%E9%87%8F%E5%88%86%E6%9E%90%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%862.pdf",
+          "section": "第4至6部分：问诊、临床检查、数字化辅助检查、资料记录与专业实施者",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-CHSA-PERIO-ORTHO-2023",
+          "source_title": "T/CHSA 013—2023 牙周病患者正畸治疗指南",
+          "url": "https://cmsfiles.zhongkefu.com.cn/kouqiangweb/upload/kouqiang/6566fd534d7ed.pdf",
+          "section": "第4至5部分：从业者要求、治疗前牙周检查与多学科评估",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_assessment_knowledge_id": "M06-DXM-003",
+      "canonical_name_zh": "牙齿与牙列检查",
+      "entry_type": "clinical_examination",
+      "clinical_question_answered": "检查牙齿数目、形态、位置、排列、间隙及牙弓情况",
+      "required_prior_information": [
+        "当前用户目标",
+        "相关时间线",
+        "既有资料和健康背景"
+      ],
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "普通照片不能判断牙根、支持组织或牙移动可行性",
+        "单项检查不能独立确定完整诊断或个人治疗方案"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第5章",
+          "printed_page_start": 52,
+          "printed_page_end": 53,
+          "pdf_page_start": 68,
+          "pdf_page_end": 69,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_assessment_knowledge_id": "M06-DXM-004",
+      "canonical_name_zh": "咬合关系检查",
+      "entry_type": "clinical_examination",
+      "clinical_question_answered": "检查矢状、横向和垂直方向的上下牙列关系及接触",
+      "required_prior_information": [
+        "当前用户目标",
+        "相关时间线",
+        "既有资料和健康背景"
+      ],
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "主观咬合感受不能替代专业检查或形成错𬌗分类",
+        "单项检查不能独立确定完整诊断或个人治疗方案"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第5章",
+          "printed_page_start": 52,
+          "printed_page_end": 53,
+          "pdf_page_start": 68,
+          "pdf_page_end": 69,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_assessment_knowledge_id": "M06-DXM-005",
+      "canonical_name_zh": "颌面部正面形态检查",
+      "entry_type": "clinical_examination",
+      "clinical_question_answered": "评估正面对称、面部比例、口角及颏部等关系",
+      "required_prior_information": [
+        "当前用户目标",
+        "相关时间线",
+        "既有资料和健康背景"
+      ],
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "普通正面照片不能证明骨性来源、病因或手术适应证",
+        "单项检查不能独立确定完整诊断或个人治疗方案"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第5章",
+          "printed_page_start": 53,
+          "printed_page_end": 54,
+          "pdf_page_start": 69,
+          "pdf_page_end": 70,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-DENTOFACIAL-2022",
+          "source_title": "牙颌面畸形诊疗指南（2022年版）",
+          "url": "https://www.nhc.gov.cn/wjw/c100378/202210/db6de17358944c8b9b270d1412d9bf62/files/1732871385002_39239.pdf",
+          "section": "总论：适用范围、专科检查与正畸-正颌联合框架",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_assessment_knowledge_id": "M06-DXM-006",
+      "canonical_name_zh": "颌面部侧面形态检查",
+      "entry_type": "clinical_examination",
+      "clinical_question_answered": "评估侧貌、唇部姿态及颌面矢状关系",
+      "required_prior_information": [
+        "当前用户目标",
+        "相关时间线",
+        "既有资料和健康背景"
+      ],
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "侧面照片不能区分牙性、牙槽性或骨性来源",
+        "单项检查不能独立确定完整诊断或个人治疗方案"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第5章",
+          "printed_page_start": 53,
+          "printed_page_end": 54,
+          "pdf_page_start": 69,
+          "pdf_page_end": 70,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-DENTOFACIAL-2022",
+          "source_title": "牙颌面畸形诊疗指南（2022年版）",
+          "url": "https://www.nhc.gov.cn/wjw/c100378/202210/db6de17358944c8b9b270d1412d9bf62/files/1732871385002_39239.pdf",
+          "section": "总论：适用范围、专科检查与正畸-正颌联合框架",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_assessment_knowledge_id": "M06-DXM-007",
+      "canonical_name_zh": "微笑与唇齿关系评估",
+      "entry_type": "clinical_examination",
+      "clinical_question_answered": "评估微笑时露牙、露龈、中线、笑线及动态协调",
+      "required_prior_information": [
+        "当前用户目标",
+        "相关时间线",
+        "既有资料和健康背景"
+      ],
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "单张静态照片不能代表动态功能或预期治疗效果",
+        "单项检查不能独立确定完整诊断或个人治疗方案"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第5章",
+          "printed_page_start": 53,
+          "printed_page_end": 54,
+          "pdf_page_start": 69,
+          "pdf_page_end": 70,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-DENTOFACIAL-2022",
+          "source_title": "牙颌面畸形诊疗指南（2022年版）",
+          "url": "https://www.nhc.gov.cn/wjw/c100378/202210/db6de17358944c8b9b270d1412d9bf62/files/1732871385002_39239.pdf",
+          "section": "总论：适用范围、专科检查与正畸-正颌联合框架",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_assessment_knowledge_id": "M06-DXM-008",
+      "canonical_name_zh": "颞下颌关节与口颌功能检查",
+      "entry_type": "clinical_examination",
+      "clinical_question_answered": "评估开闭口、下颌运动、关节和相关功能背景",
+      "required_prior_information": [
+        "当前用户目标",
+        "相关时间线",
+        "既有资料和健康背景"
+      ],
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "远程动作、声音或自我触压不能形成关节诊断",
+        "单项检查不能独立确定完整诊断或个人治疗方案"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第5章",
+          "printed_page_start": 53,
+          "printed_page_end": 54,
+          "pdf_page_start": 69,
+          "pdf_page_end": 70,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_assessment_knowledge_id": "M06-DXM-009",
+      "canonical_name_zh": "牙模型或数字化牙列模型分析",
+      "entry_type": "model_analysis",
+      "clinical_question_answered": "分析牙冠、牙弓、排列、间隙及上下牙列关系",
+      "required_prior_information": [
+        "当前用户目标",
+        "相关时间线",
+        "既有资料和健康背景"
+      ],
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "模型截图或普通照片不能替代规范模型分析",
+        "单项检查不能独立确定完整诊断或个人治疗方案"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第5章",
+          "printed_page_start": 54,
+          "printed_page_end": 58,
+          "pdf_page_start": 70,
+          "pdf_page_end": 74,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-CHSA-ORTHO-DIGITAL-2024",
+          "source_title": "T/CHSA 078—2024 口腔正畸数字化检查和测量分析专家共识",
+          "url": "https://www.cndent.com/wp-content/uploads/2024/11/78-%E5%8F%A3%E8%85%94%E6%AD%A3%E7%95%B8%E6%95%B0%E5%AD%97%E5%8C%96%E6%A3%80%E6%9F%A5%E5%92%8C%E6%B5%8B%E9%87%8F%E5%88%86%E6%9E%90%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%862.pdf",
+          "section": "第4至6部分：问诊、临床检查、数字化辅助检查、资料记录与专业实施者",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_assessment_knowledge_id": "M06-DXM-010",
+      "canonical_name_zh": "正畸临床摄影",
+      "entry_type": "clinical_photography",
+      "clinical_question_answered": "按专业规范记录口内、正面、侧面和微笑资料",
+      "required_prior_information": [
+        "当前用户目标",
+        "相关时间线",
+        "既有资料和健康背景"
+      ],
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "用户照片仅可经M08形成受限可见描述，不能充当完整正畸病历",
+        "单项检查不能独立确定完整诊断或个人治疗方案"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第5章",
+          "printed_page_start": 75,
+          "printed_page_end": 76,
+          "pdf_page_start": 91,
+          "pdf_page_end": 92,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-CHSA-ORTHO-DIGITAL-2024",
+          "source_title": "T/CHSA 078—2024 口腔正畸数字化检查和测量分析专家共识",
+          "url": "https://www.cndent.com/wp-content/uploads/2024/11/78-%E5%8F%A3%E8%85%94%E6%AD%A3%E7%95%B8%E6%95%B0%E5%AD%97%E5%8C%96%E6%A3%80%E6%9F%A5%E5%92%8C%E6%B5%8B%E9%87%8F%E5%88%86%E6%9E%90%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%862.pdf",
+          "section": "第4至6部分：问诊、临床检查、数字化辅助检查、资料记录与专业实施者",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_assessment_knowledge_id": "M06-DXM-011",
+      "canonical_name_zh": "全口牙位曲面体层片检查",
+      "entry_type": "imaging",
+      "clinical_question_answered": "提供牙齿、牙根、萌出、阻生及颌骨概览资料",
+      "required_prior_information": [
+        "当前用户目标",
+        "相关时间线",
+        "既有资料和健康背景"
+      ],
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "Agent不独立判读，也不把该检查设为所有用户必做项目",
+        "单项检查不能独立确定完整诊断或个人治疗方案"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第5章",
+          "printed_page_start": 72,
+          "printed_page_end": 75,
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-CHSA-ORTHO-DIGITAL-2024",
+          "source_title": "T/CHSA 078—2024 口腔正畸数字化检查和测量分析专家共识",
+          "url": "https://www.cndent.com/wp-content/uploads/2024/11/78-%E5%8F%A3%E8%85%94%E6%AD%A3%E7%95%B8%E6%95%B0%E5%AD%97%E5%8C%96%E6%A3%80%E6%9F%A5%E5%92%8C%E6%B5%8B%E9%87%8F%E5%88%86%E6%9E%90%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%862.pdf",
+          "section": "第4至6部分：问诊、临床检查、数字化辅助检查、资料记录与专业实施者",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_assessment_knowledge_id": "M06-DXM-012",
+      "canonical_name_zh": "头颅侧位片与头影测量分析",
+      "entry_type": "imaging_and_measurement",
+      "clinical_question_answered": "分析颅颌面矢状和垂直关系及软硬组织测量",
+      "required_prior_information": [
+        "当前用户目标",
+        "相关时间线",
+        "既有资料和健康背景"
+      ],
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "普通侧面照片不能替代，单项测量不能独立决定方案",
+        "单项检查不能独立确定完整诊断或个人治疗方案"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第5章",
+          "printed_page_start": 59,
+          "printed_page_end": 72,
+          "pdf_page_start": 75,
+          "pdf_page_end": 88,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-CHSA-ORTHO-DIGITAL-2024",
+          "source_title": "T/CHSA 078—2024 口腔正畸数字化检查和测量分析专家共识",
+          "url": "https://www.cndent.com/wp-content/uploads/2024/11/78-%E5%8F%A3%E8%85%94%E6%AD%A3%E7%95%B8%E6%95%B0%E5%AD%97%E5%8C%96%E6%A3%80%E6%9F%A5%E5%92%8C%E6%B5%8B%E9%87%8F%E5%88%86%E6%9E%90%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%862.pdf",
+          "section": "第4至6部分：问诊、临床检查、数字化辅助检查、资料记录与专业实施者",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_assessment_knowledge_id": "M06-DXM-013",
+      "canonical_name_zh": "头颅正位片与不对称评估",
+      "entry_type": "imaging_and_measurement",
+      "clinical_question_answered": "辅助分析颅颌面横向关系与不对称",
+      "required_prior_information": [
+        "当前用户目标",
+        "相关时间线",
+        "既有资料和健康背景"
+      ],
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "面部外观或一张照片不能替代规范影像和专业分析",
+        "单项检查不能独立确定完整诊断或个人治疗方案"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第5章",
+          "printed_page_start": 72,
+          "printed_page_end": 75,
+          "pdf_page_start": 88,
+          "pdf_page_end": 91,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-CHSA-ORTHO-DIGITAL-2024",
+          "source_title": "T/CHSA 078—2024 口腔正畸数字化检查和测量分析专家共识",
+          "url": "https://www.cndent.com/wp-content/uploads/2024/11/78-%E5%8F%A3%E8%85%94%E6%AD%A3%E7%95%B8%E6%95%B0%E5%AD%97%E5%8C%96%E6%A3%80%E6%9F%A5%E5%92%8C%E6%B5%8B%E9%87%8F%E5%88%86%E6%9E%90%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%862.pdf",
+          "section": "第4至6部分：问诊、临床检查、数字化辅助检查、资料记录与专业实施者",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-DENTOFACIAL-2022",
+          "source_title": "牙颌面畸形诊疗指南（2022年版）",
+          "url": "https://www.nhc.gov.cn/wjw/c100378/202210/db6de17358944c8b9b270d1412d9bf62/files/1732871385002_39239.pdf",
+          "section": "总论：适用范围、专科检查与正畸-正颌联合框架",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_assessment_knowledge_id": "M06-DXM-014",
+      "canonical_name_zh": "锥形束CT条件性检查",
+      "entry_type": "conditional_imaging",
+      "clinical_question_answered": "在临床已有特定问题时提供三维结构信息",
+      "required_prior_information": [
+        "当前用户目标",
+        "相关时间线",
+        "既有资料和健康背景"
+      ],
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "不作为常规远程推荐；由有资质接诊人员依据必要性和辐射防护决定",
+        "单项检查不能独立确定完整诊断或个人治疗方案"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第5章",
+          "printed_page_start": 74,
+          "printed_page_end": 75,
+          "pdf_page_start": 90,
+          "pdf_page_end": 91,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-CHSA-ORTHO-DIGITAL-2024",
+          "source_title": "T/CHSA 078—2024 口腔正畸数字化检查和测量分析专家共识",
+          "url": "https://www.cndent.com/wp-content/uploads/2024/11/78-%E5%8F%A3%E8%85%94%E6%AD%A3%E7%95%B8%E6%95%B0%E5%AD%97%E5%8C%96%E6%A3%80%E6%9F%A5%E5%92%8C%E6%B5%8B%E9%87%8F%E5%88%86%E6%9E%90%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%862.pdf",
+          "section": "第4至6部分：问诊、临床检查、数字化辅助检查、资料记录与专业实施者",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_assessment_knowledge_id": "M06-DXM-015",
+      "canonical_name_zh": "正畸多学科联合评估",
+      "entry_type": "multidisciplinary_assessment",
+      "clinical_question_answered": "整合牙周、修复、颌面外科、关节或睡眠呼吸等专业问题",
+      "required_prior_information": [
+        "当前用户目标",
+        "相关时间线",
+        "既有资料和健康背景"
+      ],
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "模块关联不能替代各专科诊断或直接生成联合治疗方案",
+        "单项检查不能独立确定完整诊断或个人治疗方案"
+      ],
+      "selection_owner": "qualified_clinician",
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第10章",
+          "printed_page_start": 214,
+          "printed_page_end": 239,
+          "pdf_page_start": 230,
+          "pdf_page_end": 255,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-CHSA-PERIO-ORTHO-2023",
+          "source_title": "T/CHSA 013—2023 牙周病患者正畸治疗指南",
+          "url": "https://cmsfiles.zhongkefu.com.cn/kouqiangweb/upload/kouqiang/6566fd534d7ed.pdf",
+          "section": "第4至5部分：从业者要求、治疗前牙周检查与多学科评估",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-DENTOFACIAL-2022",
+          "source_title": "牙颌面畸形诊疗指南（2022年版）",
+          "url": "https://www.nhc.gov.cn/wjw/c100378/202210/db6de17358944c8b9b270d1412d9bf62/files/1732871385002_39239.pdf",
+          "section": "总论：适用范围、专科检查与正畸-正颌联合框架",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ],
+  "clinical_problem_directions": [
+    {
+      "orthodontic_problem_knowledge_id": "M06-PRB-001",
+      "canonical_name_zh": "牙列拥挤相关正畸问题",
+      "entry_kind": "orthodontic_clinical_problem_direction",
+      "patient_terms": [
+        "牙齿不齐",
+        "拥挤",
+        "重叠"
+      ],
+      "professional_question_dimensions": [
+        "牙列与牙弓检查",
+        "牙周健康"
+      ],
+      "required_clinician_evidence": [
+        "正畸专科病史与临床检查",
+        "按当前问题选择的辅助检查或多学科资料"
+      ],
+      "cross_module_targets": [
+        "M02-M07按实际健康、功能和多学科事实选择"
+      ],
+      "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+      "must_not_infer": [
+        "当前用户已被诊断为该问题",
+        "病因为牙性、牙槽性或骨性",
+        "当前用户需要某种矫治器、拔牙或手术"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第9章",
+          "printed_page_start": 171,
+          "printed_page_end": 177,
+          "pdf_page_start": 187,
+          "pdf_page_end": 193,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_problem_knowledge_id": "M06-PRB-002",
+      "canonical_name_zh": "牙列间隙相关正畸问题",
+      "entry_kind": "orthodontic_clinical_problem_direction",
+      "patient_terms": [
+        "牙缝",
+        "间隙",
+        "散开"
+      ],
+      "professional_question_dimensions": [
+        "间隙来源",
+        "牙齿数目与形态",
+        "牙周状态"
+      ],
+      "required_clinician_evidence": [
+        "正畸专科病史与临床检查",
+        "按当前问题选择的辅助检查或多学科资料"
+      ],
+      "cross_module_targets": [
+        "M02-M07按实际健康、功能和多学科事实选择"
+      ],
+      "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+      "must_not_infer": [
+        "当前用户已被诊断为该问题",
+        "病因为牙性、牙槽性或骨性",
+        "当前用户需要某种矫治器、拔牙或手术"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第9章",
+          "printed_page_start": 178,
+          "printed_page_end": 179,
+          "pdf_page_start": 194,
+          "pdf_page_end": 195,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_problem_knowledge_id": "M06-PRB-003",
+      "canonical_name_zh": "个别牙位置异常相关问题",
+      "entry_kind": "orthodontic_clinical_problem_direction",
+      "patient_terms": [
+        "扭转",
+        "高位",
+        "低位",
+        "位置变化"
+      ],
+      "professional_question_dimensions": [
+        "牙位与萌出状态",
+        "邻牙和空间",
+        "牙周支持"
+      ],
+      "required_clinician_evidence": [
+        "正畸专科病史与临床检查",
+        "按当前问题选择的辅助检查或多学科资料"
+      ],
+      "cross_module_targets": [
+        "M02-M07按实际健康、功能和多学科事实选择"
+      ],
+      "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+      "must_not_infer": [
+        "当前用户已被诊断为该问题",
+        "病因为牙性、牙槽性或骨性",
+        "当前用户需要某种矫治器、拔牙或手术"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第5章",
+          "printed_page_start": 52,
+          "printed_page_end": 53,
+          "pdf_page_start": 68,
+          "pdf_page_end": 69,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_problem_knowledge_id": "M06-PRB-004",
+      "canonical_name_zh": "前牙覆盖与前突相关问题",
+      "entry_kind": "orthodontic_clinical_problem_direction",
+      "patient_terms": [
+        "龅牙",
+        "前突",
+        "覆盖大"
+      ],
+      "professional_question_dimensions": [
+        "牙列关系",
+        "侧貌与唇闭合",
+        "软硬组织资料"
+      ],
+      "required_clinician_evidence": [
+        "正畸专科病史与临床检查",
+        "按当前问题选择的辅助检查或多学科资料"
+      ],
+      "cross_module_targets": [
+        "M02-M07按实际健康、功能和多学科事实选择"
+      ],
+      "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+      "must_not_infer": [
+        "当前用户已被诊断为该问题",
+        "病因为牙性、牙槽性或骨性",
+        "当前用户需要某种矫治器、拔牙或手术"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第9章",
+          "printed_page_start": 180,
+          "printed_page_end": 196,
+          "pdf_page_start": 196,
+          "pdf_page_end": 212,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_problem_knowledge_id": "M06-PRB-005",
+      "canonical_name_zh": "前牙反𬌗相关问题",
+      "entry_kind": "orthodontic_clinical_problem_direction",
+      "patient_terms": [
+        "地包天",
+        "下牙包上牙",
+        "反咬"
+      ],
+      "professional_question_dimensions": [
+        "前牙关系",
+        "颌面关系",
+        "功能与既往资料"
+      ],
+      "required_clinician_evidence": [
+        "正畸专科病史与临床检查",
+        "按当前问题选择的辅助检查或多学科资料"
+      ],
+      "cross_module_targets": [
+        "M02-M07按实际健康、功能和多学科事实选择"
+      ],
+      "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+      "must_not_infer": [
+        "当前用户已被诊断为该问题",
+        "病因为牙性、牙槽性或骨性",
+        "当前用户需要某种矫治器、拔牙或手术"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第9章",
+          "printed_page_start": 183,
+          "printed_page_end": 191,
+          "pdf_page_start": 199,
+          "pdf_page_end": 207,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_problem_knowledge_id": "M06-PRB-006",
+      "canonical_name_zh": "前牙开𬌗相关问题",
+      "entry_kind": "orthodontic_clinical_problem_direction",
+      "patient_terms": [
+        "前牙咬不上",
+        "开𬌗",
+        "有缝"
+      ],
+      "professional_question_dimensions": [
+        "垂直牙列关系",
+        "功能",
+        "相关习惯和病史"
+      ],
+      "required_clinician_evidence": [
+        "正畸专科病史与临床检查",
+        "按当前问题选择的辅助检查或多学科资料"
+      ],
+      "cross_module_targets": [
+        "M02-M07按实际健康、功能和多学科事实选择"
+      ],
+      "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+      "must_not_infer": [
+        "当前用户已被诊断为该问题",
+        "病因为牙性、牙槽性或骨性",
+        "当前用户需要某种矫治器、拔牙或手术"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第9章",
+          "printed_page_start": 209,
+          "printed_page_end": 213,
+          "pdf_page_start": 225,
+          "pdf_page_end": 229,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_problem_knowledge_id": "M06-PRB-007",
+      "canonical_name_zh": "深覆𬌗相关问题",
+      "entry_kind": "orthodontic_clinical_problem_direction",
+      "patient_terms": [
+        "上牙盖下牙多",
+        "咬得深",
+        "深覆𬌗"
+      ],
+      "professional_question_dimensions": [
+        "垂直牙列关系",
+        "软组织和功能",
+        "牙周情况"
+      ],
+      "required_clinician_evidence": [
+        "正畸专科病史与临床检查",
+        "按当前问题选择的辅助检查或多学科资料"
+      ],
+      "cross_module_targets": [
+        "M02-M07按实际健康、功能和多学科事实选择"
+      ],
+      "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+      "must_not_infer": [
+        "当前用户已被诊断为该问题",
+        "病因为牙性、牙槽性或骨性",
+        "当前用户需要某种矫治器、拔牙或手术"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第9章",
+          "printed_page_start": 201,
+          "printed_page_end": 208,
+          "pdf_page_start": 217,
+          "pdf_page_end": 224,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_problem_knowledge_id": "M06-PRB-008",
+      "canonical_name_zh": "后牙反𬌗或锁𬌗相关问题",
+      "entry_kind": "orthodontic_clinical_problem_direction",
+      "patient_terms": [
+        "后牙反咬",
+        "偏侧咬",
+        "锁𬌗"
+      ],
+      "professional_question_dimensions": [
+        "横向牙列关系",
+        "咀嚼功能",
+        "面部关系"
+      ],
+      "required_clinician_evidence": [
+        "正畸专科病史与临床检查",
+        "按当前问题选择的辅助检查或多学科资料"
+      ],
+      "cross_module_targets": [
+        "M02-M07按实际健康、功能和多学科事实选择"
+      ],
+      "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+      "must_not_infer": [
+        "当前用户已被诊断为该问题",
+        "病因为牙性、牙槽性或骨性",
+        "当前用户需要某种矫治器、拔牙或手术"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第9章",
+          "printed_page_start": 197,
+          "printed_page_end": 200,
+          "pdf_page_start": 213,
+          "pdf_page_end": 216,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_problem_knowledge_id": "M06-PRB-009",
+      "canonical_name_zh": "牙列中线偏移相关问题",
+      "entry_kind": "orthodontic_clinical_problem_direction",
+      "patient_terms": [
+        "牙中线偏",
+        "上下中线不齐",
+        "中线不正"
+      ],
+      "professional_question_dimensions": [
+        "牙列中线",
+        "面部中线",
+        "功能性偏移可能性"
+      ],
+      "required_clinician_evidence": [
+        "正畸专科病史与临床检查",
+        "按当前问题选择的辅助检查或多学科资料"
+      ],
+      "cross_module_targets": [
+        "M02-M07按实际健康、功能和多学科事实选择"
+      ],
+      "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+      "must_not_infer": [
+        "当前用户已被诊断为该问题",
+        "病因为牙性、牙槽性或骨性",
+        "当前用户需要某种矫治器、拔牙或手术"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第5章",
+          "printed_page_start": 53,
+          "printed_page_end": 54,
+          "pdf_page_start": 69,
+          "pdf_page_end": 70,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_problem_knowledge_id": "M06-PRB-010",
+      "canonical_name_zh": "笑线、露牙或露龈相关问题",
+      "entry_kind": "orthodontic_clinical_problem_direction",
+      "patient_terms": [
+        "笑线",
+        "露龈",
+        "露牙少",
+        "微笑不好看"
+      ],
+      "professional_question_dimensions": [
+        "静态与动态唇齿关系",
+        "牙龈和牙齿因素",
+        "用户目标"
+      ],
+      "required_clinician_evidence": [
+        "正畸专科病史与临床检查",
+        "按当前问题选择的辅助检查或多学科资料"
+      ],
+      "cross_module_targets": [
+        "M02-M07按实际健康、功能和多学科事实选择"
+      ],
+      "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+      "must_not_infer": [
+        "当前用户已被诊断为该问题",
+        "病因为牙性、牙槽性或骨性",
+        "当前用户需要某种矫治器、拔牙或手术"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第5章",
+          "printed_page_start": 53,
+          "printed_page_end": 54,
+          "pdf_page_start": 69,
+          "pdf_page_end": 70,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_problem_knowledge_id": "M06-PRB-011",
+      "canonical_name_zh": "唇闭合与唇齿关系相关问题",
+      "entry_kind": "orthodontic_clinical_problem_direction",
+      "patient_terms": [
+        "嘴合不上",
+        "嘴突",
+        "唇闭合费力"
+      ],
+      "professional_question_dimensions": [
+        "功能状态",
+        "牙列与侧貌",
+        "软组织关系"
+      ],
+      "required_clinician_evidence": [
+        "正畸专科病史与临床检查",
+        "按当前问题选择的辅助检查或多学科资料"
+      ],
+      "cross_module_targets": [
+        "M02-M07按实际健康、功能和多学科事实选择"
+      ],
+      "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+      "must_not_infer": [
+        "当前用户已被诊断为该问题",
+        "病因为牙性、牙槽性或骨性",
+        "当前用户需要某种矫治器、拔牙或手术"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第5章",
+          "printed_page_start": 53,
+          "printed_page_end": 54,
+          "pdf_page_start": 69,
+          "pdf_page_end": 70,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_problem_knowledge_id": "M06-PRB-012",
+      "canonical_name_zh": "长期稳定面部不对称相关问题",
+      "entry_kind": "orthodontic_clinical_problem_direction",
+      "patient_terms": [
+        "脸歪",
+        "下巴偏",
+        "左右不对称"
+      ],
+      "professional_question_dimensions": [
+        "稳定性与时间线",
+        "正面和动态关系",
+        "线下颌面评估"
+      ],
+      "required_clinician_evidence": [
+        "正畸专科病史与临床检查",
+        "按当前问题选择的辅助检查或多学科资料"
+      ],
+      "cross_module_targets": [
+        "M02-M07按实际健康、功能和多学科事实选择"
+      ],
+      "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+      "must_not_infer": [
+        "当前用户已被诊断为该问题",
+        "病因为牙性、牙槽性或骨性",
+        "当前用户需要某种矫治器、拔牙或手术"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第5章",
+          "printed_page_start": 53,
+          "printed_page_end": 54,
+          "pdf_page_start": 69,
+          "pdf_page_end": 70,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-DENTOFACIAL-2022",
+          "source_title": "牙颌面畸形诊疗指南（2022年版）",
+          "url": "https://www.nhc.gov.cn/wjw/c100378/202210/db6de17358944c8b9b270d1412d9bf62/files/1732871385002_39239.pdf",
+          "section": "总论：适用范围、专科检查与正畸-正颌联合框架",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_problem_knowledge_id": "M06-PRB-013",
+      "canonical_name_zh": "成人牙位继发变化相关问题",
+      "entry_kind": "orthodontic_clinical_problem_direction",
+      "patient_terms": [
+        "牙越来越歪",
+        "牙缝变大",
+        "牙齿移位"
+      ],
+      "professional_question_dimensions": [
+        "牙周与缺牙背景",
+        "变化时间",
+        "现有修复和咬合"
+      ],
+      "required_clinician_evidence": [
+        "正畸专科病史与临床检查",
+        "按当前问题选择的辅助检查或多学科资料"
+      ],
+      "cross_module_targets": [
+        "M02-M07按实际健康、功能和多学科事实选择"
+      ],
+      "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+      "must_not_infer": [
+        "当前用户已被诊断为该问题",
+        "病因为牙性、牙槽性或骨性",
+        "当前用户需要某种矫治器、拔牙或手术"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第11章",
+          "printed_page_start": 240,
+          "printed_page_end": 252,
+          "pdf_page_start": 256,
+          "pdf_page_end": 268,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-CHSA-PERIO-ORTHO-2023",
+          "source_title": "T/CHSA 013—2023 牙周病患者正畸治疗指南",
+          "url": "https://cmsfiles.zhongkefu.com.cn/kouqiangweb/upload/kouqiang/6566fd534d7ed.pdf",
+          "section": "第4至5部分：从业者要求、治疗前牙周检查与多学科评估",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_problem_knowledge_id": "M06-PRB-014",
+      "canonical_name_zh": "缺牙或修复前正畸相关问题",
+      "entry_kind": "orthodontic_clinical_problem_direction",
+      "patient_terms": [
+        "缺牙后矫牙",
+        "种牙前矫牙",
+        "修复前排牙"
+      ],
+      "professional_question_dimensions": [
+        "缺牙区和余留牙",
+        "牙周与修复条件",
+        "多学科顺序"
+      ],
+      "required_clinician_evidence": [
+        "正畸专科病史与临床检查",
+        "按当前问题选择的辅助检查或多学科资料"
+      ],
+      "cross_module_targets": [
+        "M02-M07按实际健康、功能和多学科事实选择"
+      ],
+      "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+      "must_not_infer": [
+        "当前用户已被诊断为该问题",
+        "病因为牙性、牙槽性或骨性",
+        "当前用户需要某种矫治器、拔牙或手术"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第10章",
+          "printed_page_start": 234,
+          "printed_page_end": 239,
+          "pdf_page_start": 250,
+          "pdf_page_end": 255,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-CHSA-PERIO-ORTHO-2023",
+          "source_title": "T/CHSA 013—2023 牙周病患者正畸治疗指南",
+          "url": "https://cmsfiles.zhongkefu.com.cn/kouqiangweb/upload/kouqiang/6566fd534d7ed.pdf",
+          "section": "第4至5部分：从业者要求、治疗前牙周检查与多学科评估",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_problem_knowledge_id": "M06-PRB-015",
+      "canonical_name_zh": "正畸治疗中疼痛或功能变化",
+      "entry_kind": "orthodontic_clinical_problem_direction",
+      "patient_terms": [
+        "戴牙套疼",
+        "咬不动",
+        "张口或咀嚼变化"
+      ],
+      "professional_question_dimensions": [
+        "时间和程度",
+        "装置与局部状态",
+        "安全和相关专科事实"
+      ],
+      "required_clinician_evidence": [
+        "正畸专科病史与临床检查",
+        "按当前问题选择的辅助检查或多学科资料"
+      ],
+      "cross_module_targets": [
+        "M02-M07按实际健康、功能和多学科事实选择"
+      ],
+      "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+      "must_not_infer": [
+        "当前用户已被诊断为该问题",
+        "病因为牙性、牙槽性或骨性",
+        "当前用户需要某种矫治器、拔牙或手术"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第13章",
+          "printed_page_start": 267,
+          "printed_page_end": 272,
+          "pdf_page_start": 283,
+          "pdf_page_end": 288,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_problem_knowledge_id": "M06-PRB-016",
+      "canonical_name_zh": "正畸装置异常相关问题",
+      "entry_kind": "orthodontic_clinical_problem_direction",
+      "patient_terms": [
+        "托槽掉了",
+        "弓丝扎",
+        "附件掉了",
+        "牙套不合"
+      ],
+      "professional_question_dimensions": [
+        "装置类别和位置",
+        "软组织和功能影响",
+        "原治疗团队记录"
+      ],
+      "required_clinician_evidence": [
+        "正畸专科病史与临床检查",
+        "按当前问题选择的辅助检查或多学科资料"
+      ],
+      "cross_module_targets": [
+        "M02-M07按实际健康、功能和多学科事实选择"
+      ],
+      "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+      "must_not_infer": [
+        "当前用户已被诊断为该问题",
+        "病因为牙性、牙槽性或骨性",
+        "当前用户需要某种矫治器、拔牙或手术"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第7章",
+          "printed_page_start": 94,
+          "printed_page_end": 145,
+          "pdf_page_start": 110,
+          "pdf_page_end": 161,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_problem_knowledge_id": "M06-PRB-017",
+      "canonical_name_zh": "正畸治疗中口腔卫生或牙周变化",
+      "entry_kind": "orthodontic_clinical_problem_direction",
+      "patient_terms": [
+        "刷牙出血",
+        "牙龈肿",
+        "清洁困难",
+        "牙齿松"
+      ],
+      "professional_question_dimensions": [
+        "牙周专业检查",
+        "卫生维护",
+        "治疗团队协作"
+      ],
+      "required_clinician_evidence": [
+        "正畸专科病史与临床检查",
+        "按当前问题选择的辅助检查或多学科资料"
+      ],
+      "cross_module_targets": [
+        "M02-M07按实际健康、功能和多学科事实选择"
+      ],
+      "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+      "must_not_infer": [
+        "当前用户已被诊断为该问题",
+        "病因为牙性、牙槽性或骨性",
+        "当前用户需要某种矫治器、拔牙或手术"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第13章",
+          "printed_page_start": 267,
+          "printed_page_end": 272,
+          "pdf_page_start": 283,
+          "pdf_page_end": 288,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-CHSA-PERIO-ORTHO-2023",
+          "source_title": "T/CHSA 013—2023 牙周病患者正畸治疗指南",
+          "url": "https://cmsfiles.zhongkefu.com.cn/kouqiangweb/upload/kouqiang/6566fd534d7ed.pdf",
+          "section": "第4至5部分：从业者要求、治疗前牙周检查与多学科评估",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_problem_knowledge_id": "M06-PRB-018",
+      "canonical_name_zh": "保持器使用或适合性问题",
+      "entry_kind": "orthodontic_clinical_problem_direction",
+      "patient_terms": [
+        "保持器戴不上",
+        "保持器松",
+        "保持器坏了"
+      ],
+      "professional_question_dimensions": [
+        "装置和使用背景",
+        "牙位变化",
+        "专业复诊"
+      ],
+      "required_clinician_evidence": [
+        "正畸专科病史与临床检查",
+        "按当前问题选择的辅助检查或多学科资料"
+      ],
+      "cross_module_targets": [
+        "M02-M07按实际健康、功能和多学科事实选择"
+      ],
+      "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+      "must_not_infer": [
+        "当前用户已被诊断为该问题",
+        "病因为牙性、牙槽性或骨性",
+        "当前用户需要某种矫治器、拔牙或手术"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第14章",
+          "printed_page_start": 273,
+          "printed_page_end": 279,
+          "pdf_page_start": 289,
+          "pdf_page_end": 295,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_problem_knowledge_id": "M06-PRB-019",
+      "canonical_name_zh": "正畸后复发担忧",
+      "entry_kind": "orthodontic_clinical_problem_direction",
+      "patient_terms": [
+        "拆牙套又歪",
+        "复发",
+        "牙缝回来"
+      ],
+      "professional_question_dimensions": [
+        "变化与时间",
+        "保持情况",
+        "当前牙周和咬合"
+      ],
+      "required_clinician_evidence": [
+        "正畸专科病史与临床检查",
+        "按当前问题选择的辅助检查或多学科资料"
+      ],
+      "cross_module_targets": [
+        "M02-M07按实际健康、功能和多学科事实选择"
+      ],
+      "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+      "must_not_infer": [
+        "当前用户已被诊断为该问题",
+        "病因为牙性、牙槽性或骨性",
+        "当前用户需要某种矫治器、拔牙或手术"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第14章",
+          "printed_page_start": 273,
+          "printed_page_end": 279,
+          "pdf_page_start": 289,
+          "pdf_page_end": 295,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_problem_knowledge_id": "M06-PRB-020",
+      "canonical_name_zh": "正畸与关节或睡眠呼吸交叉问题",
+      "entry_kind": "orthodontic_clinical_problem_direction",
+      "patient_terms": [
+        "关节响",
+        "张口不适",
+        "打鼾",
+        "睡眠呼吸"
+      ],
+      "professional_question_dimensions": [
+        "相应专科事实",
+        "时间关系",
+        "多学科评估"
+      ],
+      "required_clinician_evidence": [
+        "正畸专科病史与临床检查",
+        "按当前问题选择的辅助检查或多学科资料"
+      ],
+      "cross_module_targets": [
+        "M02-M07按实际健康、功能和多学科事实选择"
+      ],
+      "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+      "must_not_infer": [
+        "当前用户已被诊断为该问题",
+        "病因为牙性、牙槽性或骨性",
+        "当前用户需要某种矫治器、拔牙或手术"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第10章",
+          "printed_page_start": 227,
+          "printed_page_end": 233,
+          "pdf_page_start": 243,
+          "pdf_page_end": 249,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-DENTOFACIAL-2022",
+          "source_title": "牙颌面畸形诊疗指南（2022年版）",
+          "url": "https://www.nhc.gov.cn/wjw/c100378/202210/db6de17358944c8b9b270d1412d9bf62/files/1732871385002_39239.pdf",
+          "section": "总论：适用范围、专科检查与正畸-正颌联合框架",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ],
+  "maintenance_entries": [
+    {
+      "orthodontic_maintenance_knowledge_id": "M06-MNT-001",
+      "canonical_name_zh": "固定矫治期间口腔清洁与复诊",
+      "device_or_phase_scope": "fixed_appliance",
+      "general_user_actions": [
+        "按治疗团队指导进行口腔清洁、观察变化并按安排复诊",
+        "保留并遵循治疗团队已有的个体说明"
+      ],
+      "stop_and_seek_professional_assessment_when": [
+        "持续或明显疼痛、肿胀、出血、黏膜损伤或功能变化",
+        "装置破损、脱落、明显不合或牙位变化担忧"
+      ],
+      "must_not_do": [
+        "自行加力、弯折、剪切、粘接、打磨、调整附件或改变佩戴方案",
+        "以一般知识覆盖治疗团队的个体说明"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第7章",
+          "printed_page_start": 120,
+          "printed_page_end": 145,
+          "pdf_page_start": 136,
+          "pdf_page_end": 161,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第13章",
+          "printed_page_start": 267,
+          "printed_page_end": 272,
+          "pdf_page_start": 283,
+          "pdf_page_end": 288,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_maintenance_knowledge_id": "M06-MNT-002",
+      "canonical_name_zh": "可摘矫治装置的一般使用与清洁",
+      "device_or_phase_scope": "removable_appliance",
+      "general_user_actions": [
+        "沿用个体专业说明使用、清洁和保存装置",
+        "保留并遵循治疗团队已有的个体说明"
+      ],
+      "stop_and_seek_professional_assessment_when": [
+        "持续或明显疼痛、肿胀、出血、黏膜损伤或功能变化",
+        "装置破损、脱落、明显不合或牙位变化担忧"
+      ],
+      "must_not_do": [
+        "自行加力、弯折、剪切、粘接、打磨、调整附件或改变佩戴方案",
+        "以一般知识覆盖治疗团队的个体说明"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第7章",
+          "printed_page_start": 97,
+          "printed_page_end": 109,
+          "pdf_page_start": 113,
+          "pdf_page_end": 125,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第13章",
+          "printed_page_start": 267,
+          "printed_page_end": 272,
+          "pdf_page_start": 283,
+          "pdf_page_end": 288,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_maintenance_knowledge_id": "M06-MNT-003",
+      "canonical_name_zh": "无托槽矫治装置的一般使用与清洁",
+      "device_or_phase_scope": "clear_aligner",
+      "general_user_actions": [
+        "沿用治疗团队给出的个体佩戴、清洁与更换说明",
+        "保留并遵循治疗团队已有的个体说明"
+      ],
+      "stop_and_seek_professional_assessment_when": [
+        "持续或明显疼痛、肿胀、出血、黏膜损伤或功能变化",
+        "装置破损、脱落、明显不合或牙位变化担忧"
+      ],
+      "must_not_do": [
+        "自行加力、弯折、剪切、粘接、打磨、调整附件或改变佩戴方案",
+        "以一般知识覆盖治疗团队的个体说明"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第7章",
+          "printed_page_start": 140,
+          "printed_page_end": 141,
+          "pdf_page_start": 156,
+          "pdf_page_end": 157,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第13章",
+          "printed_page_start": 267,
+          "printed_page_end": 272,
+          "pdf_page_start": 283,
+          "pdf_page_end": 288,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_maintenance_knowledge_id": "M06-MNT-004",
+      "canonical_name_zh": "正畸装置异常时的保护与求助",
+      "device_or_phase_scope": "active_treatment_device_issue",
+      "general_user_actions": [
+        "停止自行调整，记录位置与影响并联系治疗团队或口腔正畸专业人员",
+        "保留并遵循治疗团队已有的个体说明"
+      ],
+      "stop_and_seek_professional_assessment_when": [
+        "持续或明显疼痛、肿胀、出血、黏膜损伤或功能变化",
+        "装置破损、脱落、明显不合或牙位变化担忧"
+      ],
+      "must_not_do": [
+        "自行加力、弯折、剪切、粘接、打磨、调整附件或改变佩戴方案",
+        "以一般知识覆盖治疗团队的个体说明"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第7章",
+          "printed_page_start": 94,
+          "printed_page_end": 145,
+          "pdf_page_start": 110,
+          "pdf_page_end": 161,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第13章",
+          "printed_page_start": 267,
+          "printed_page_end": 272,
+          "pdf_page_start": 283,
+          "pdf_page_end": 288,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_maintenance_knowledge_id": "M06-MNT-005",
+      "canonical_name_zh": "正畸治疗中牙龈与牙周变化的监测",
+      "device_or_phase_scope": "periodontal_monitoring",
+      "general_user_actions": [
+        "记录出血、肿胀、退缩、松动感或清洁变化并接受专业复核",
+        "保留并遵循治疗团队已有的个体说明"
+      ],
+      "stop_and_seek_professional_assessment_when": [
+        "持续或明显疼痛、肿胀、出血、黏膜损伤或功能变化",
+        "装置破损、脱落、明显不合或牙位变化担忧"
+      ],
+      "must_not_do": [
+        "自行加力、弯折、剪切、粘接、打磨、调整附件或改变佩戴方案",
+        "以一般知识覆盖治疗团队的个体说明"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第13章",
+          "printed_page_start": 267,
+          "printed_page_end": 272,
+          "pdf_page_start": 283,
+          "pdf_page_end": 288,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_maintenance_knowledge_id": "M06-MNT-006",
+      "canonical_name_zh": "保持器的一般使用、清洁与保存",
+      "device_or_phase_scope": "retainer",
+      "general_user_actions": [
+        "按个体专业说明佩戴、清洁、保存并观察适合性",
+        "保留并遵循治疗团队已有的个体说明"
+      ],
+      "stop_and_seek_professional_assessment_when": [
+        "持续或明显疼痛、肿胀、出血、黏膜损伤或功能变化",
+        "装置破损、脱落、明显不合或牙位变化担忧"
+      ],
+      "must_not_do": [
+        "自行加力、弯折、剪切、粘接、打磨、调整附件或改变佩戴方案",
+        "以一般知识覆盖治疗团队的个体说明"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第14章",
+          "printed_page_start": 273,
+          "printed_page_end": 279,
+          "pdf_page_start": 289,
+          "pdf_page_end": 295,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_maintenance_knowledge_id": "M06-MNT-007",
+      "canonical_name_zh": "保持器破损或不合时的专业复核",
+      "device_or_phase_scope": "retainer_problem",
+      "general_user_actions": [
+        "停止强行佩戴或自行修理，保留装置并寻求专业评估",
+        "保留并遵循治疗团队已有的个体说明"
+      ],
+      "stop_and_seek_professional_assessment_when": [
+        "持续或明显疼痛、肿胀、出血、黏膜损伤或功能变化",
+        "装置破损、脱落、明显不合或牙位变化担忧"
+      ],
+      "must_not_do": [
+        "自行加力、弯折、剪切、粘接、打磨、调整附件或改变佩戴方案",
+        "以一般知识覆盖治疗团队的个体说明"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第14章",
+          "printed_page_start": 273,
+          "printed_page_end": 279,
+          "pdf_page_start": 289,
+          "pdf_page_end": 295,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "orthodontic_maintenance_knowledge_id": "M06-MNT-008",
+      "canonical_name_zh": "正畸治疗后复诊与复发观察",
+      "device_or_phase_scope": "post_treatment_follow_up",
+      "general_user_actions": [
+        "记录牙位、咬合和保持器变化，按既有安排复诊",
+        "保留并遵循治疗团队已有的个体说明"
+      ],
+      "stop_and_seek_professional_assessment_when": [
+        "持续或明显疼痛、肿胀、出血、黏膜损伤或功能变化",
+        "装置破损、脱落、明显不合或牙位变化担忧"
+      ],
+      "must_not_do": [
+        "自行加力、弯折、剪切、粘接、打磨、调整附件或改变佩戴方案",
+        "以一般知识覆盖治疗团队的个体说明"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第14章",
+          "printed_page_start": 273,
+          "printed_page_end": 279,
+          "pdf_page_start": 289,
+          "pdf_page_end": 295,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ],
+  "treatment_categories": [
+    {
+      "treatment_category_id": "M09-TRT-028",
+      "canonical_name_zh": "固定矫治器正畸治疗",
+      "clinical_objectives": [
+        "通过固定于牙面的矫治装置进行专业控制下的牙移动"
+      ],
+      "candidate_contexts_for_education": [
+        "仅用于介绍面诊后可能讨论的治疗类别和决定条件"
+      ],
+      "runtime_scope": "adult_runtime",
+      "required_clinical_evidence": [
+        "完整正畸病史与临床检查",
+        "按专业问题选择的模型、影像、牙周或多学科资料"
+      ],
+      "comparison_dimensions": [
+        "治疗目标与范围",
+        "健康前提与风险",
+        "依从性与复诊",
+        "维护与保持",
+        "替代方向"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "年龄、预算、偏好、单一表现、普通照片或知识检索命中"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第7章",
+          "printed_page_start": 94,
+          "printed_page_end": 120,
+          "pdf_page_start": 110,
+          "pdf_page_end": 136,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "treatment_category_id": "M09-TRT-029",
+      "canonical_name_zh": "无托槽隐形矫治",
+      "clinical_objectives": [
+        "使用系列可摘透明矫治装置进行专业设计和复诊监控下的牙移动"
+      ],
+      "candidate_contexts_for_education": [
+        "仅用于介绍面诊后可能讨论的治疗类别和决定条件"
+      ],
+      "runtime_scope": "adult_runtime",
+      "required_clinical_evidence": [
+        "完整正畸病史与临床检查",
+        "按专业问题选择的模型、影像、牙周或多学科资料"
+      ],
+      "comparison_dimensions": [
+        "治疗目标与范围",
+        "健康前提与风险",
+        "依从性与复诊",
+        "维护与保持",
+        "替代方向"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "年龄、预算、偏好、单一表现、普通照片或知识检索命中"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第7章",
+          "printed_page_start": 97,
+          "printed_page_end": 101,
+          "pdf_page_start": 113,
+          "pdf_page_end": 117,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "treatment_category_id": "M09-TRT-030",
+      "canonical_name_zh": "可摘矫治器正畸治疗",
+      "clinical_objectives": [
+        "使用可由患者摘戴的矫治装置完成特定专业目标"
+      ],
+      "candidate_contexts_for_education": [
+        "仅用于介绍面诊后可能讨论的治疗类别和决定条件"
+      ],
+      "runtime_scope": "adult_runtime",
+      "required_clinical_evidence": [
+        "完整正畸病史与临床检查",
+        "按专业问题选择的模型、影像、牙周或多学科资料"
+      ],
+      "comparison_dimensions": [
+        "治疗目标与范围",
+        "健康前提与风险",
+        "依从性与复诊",
+        "维护与保持",
+        "替代方向"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "年龄、预算、偏好、单一表现、普通照片或知识检索命中"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第7章",
+          "printed_page_start": 97,
+          "printed_page_end": 109,
+          "pdf_page_start": 113,
+          "pdf_page_end": 125,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "treatment_category_id": "M09-TRT-031",
+      "canonical_name_zh": "功能矫治",
+      "clinical_objectives": [
+        "在特定生长发育和功能条件下使用功能性矫治装置的治疗类别"
+      ],
+      "candidate_contexts_for_education": [
+        "仅用于介绍面诊后可能讨论的治疗类别和决定条件"
+      ],
+      "runtime_scope": "out_of_adult_runtime",
+      "required_clinical_evidence": [
+        "完整正畸病史与临床检查",
+        "按专业问题选择的模型、影像、牙周或多学科资料"
+      ],
+      "comparison_dimensions": [
+        "治疗目标与范围",
+        "健康前提与风险",
+        "依从性与复诊",
+        "维护与保持",
+        "替代方向"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "年龄、预算、偏好、单一表现、普通照片或知识检索命中"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第7章",
+          "printed_page_start": 102,
+          "printed_page_end": 109,
+          "pdf_page_start": 118,
+          "pdf_page_end": 125,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "treatment_category_id": "M09-TRT-032",
+      "canonical_name_zh": "有限正畸或辅助性正畸治疗",
+      "clinical_objectives": [
+        "围绕修复、牙周或局部目标开展范围受限的正畸治疗"
+      ],
+      "candidate_contexts_for_education": [
+        "仅用于介绍面诊后可能讨论的治疗类别和决定条件"
+      ],
+      "runtime_scope": "adult_runtime",
+      "required_clinical_evidence": [
+        "完整正畸病史与临床检查",
+        "按专业问题选择的模型、影像、牙周或多学科资料"
+      ],
+      "comparison_dimensions": [
+        "治疗目标与范围",
+        "健康前提与风险",
+        "依从性与复诊",
+        "维护与保持",
+        "替代方向"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "年龄、预算、偏好、单一表现、普通照片或知识检索命中"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第11章",
+          "printed_page_start": 242,
+          "printed_page_end": 252,
+          "pdf_page_start": 258,
+          "pdf_page_end": 268,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "treatment_category_id": "M09-TRT-033",
+      "canonical_name_zh": "成人综合正畸治疗",
+      "clinical_objectives": [
+        "结合成人牙体、牙周、修复和全身背景的综合正畸治疗"
+      ],
+      "candidate_contexts_for_education": [
+        "仅用于介绍面诊后可能讨论的治疗类别和决定条件"
+      ],
+      "runtime_scope": "adult_runtime",
+      "required_clinical_evidence": [
+        "完整正畸病史与临床检查",
+        "按专业问题选择的模型、影像、牙周或多学科资料"
+      ],
+      "comparison_dimensions": [
+        "治疗目标与范围",
+        "健康前提与风险",
+        "依从性与复诊",
+        "维护与保持",
+        "替代方向"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "年龄、预算、偏好、单一表现、普通照片或知识检索命中"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第11章",
+          "printed_page_start": 240,
+          "printed_page_end": 252,
+          "pdf_page_start": 256,
+          "pdf_page_end": 268,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "treatment_category_id": "M09-TRT-034",
+      "canonical_name_zh": "牙周-正畸联合治疗",
+      "clinical_objectives": [
+        "在牙周专业评估和稳定维护基础上的联合治疗类别"
+      ],
+      "candidate_contexts_for_education": [
+        "仅用于介绍面诊后可能讨论的治疗类别和决定条件"
+      ],
+      "runtime_scope": "adult_runtime",
+      "required_clinical_evidence": [
+        "完整正畸病史与临床检查",
+        "按专业问题选择的模型、影像、牙周或多学科资料"
+      ],
+      "comparison_dimensions": [
+        "治疗目标与范围",
+        "健康前提与风险",
+        "依从性与复诊",
+        "维护与保持",
+        "替代方向"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "年龄、预算、偏好、单一表现、普通照片或知识检索命中"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第11章",
+          "printed_page_start": 240,
+          "printed_page_end": 252,
+          "pdf_page_start": 256,
+          "pdf_page_end": 268,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-CHSA-PERIO-ORTHO-2023",
+          "source_title": "T/CHSA 013—2023 牙周病患者正畸治疗指南",
+          "url": "https://cmsfiles.zhongkefu.com.cn/kouqiangweb/upload/kouqiang/6566fd534d7ed.pdf",
+          "section": "第4至5部分：从业者要求、治疗前牙周检查与多学科评估",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "treatment_category_id": "M09-TRT-035",
+      "canonical_name_zh": "修复-正畸联合治疗",
+      "clinical_objectives": [
+        "为缺牙或修复目标协调牙位、间隙和治疗顺序的联合治疗类别"
+      ],
+      "candidate_contexts_for_education": [
+        "仅用于介绍面诊后可能讨论的治疗类别和决定条件"
+      ],
+      "runtime_scope": "adult_runtime",
+      "required_clinical_evidence": [
+        "完整正畸病史与临床检查",
+        "按专业问题选择的模型、影像、牙周或多学科资料"
+      ],
+      "comparison_dimensions": [
+        "治疗目标与范围",
+        "健康前提与风险",
+        "依从性与复诊",
+        "维护与保持",
+        "替代方向"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "年龄、预算、偏好、单一表现、普通照片或知识检索命中"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第10章",
+          "printed_page_start": 234,
+          "printed_page_end": 239,
+          "pdf_page_start": 250,
+          "pdf_page_end": 255,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "treatment_category_id": "M09-TRT-036",
+      "canonical_name_zh": "正畸-正颌联合治疗",
+      "clinical_objectives": [
+        "经完整专科评估后由正畸与正颌外科协作的治疗类别"
+      ],
+      "candidate_contexts_for_education": [
+        "仅用于介绍面诊后可能讨论的治疗类别和决定条件"
+      ],
+      "runtime_scope": "adult_runtime",
+      "required_clinical_evidence": [
+        "完整正畸病史与临床检查",
+        "按专业问题选择的模型、影像、牙周或多学科资料"
+      ],
+      "comparison_dimensions": [
+        "治疗目标与范围",
+        "健康前提与风险",
+        "依从性与复诊",
+        "维护与保持",
+        "替代方向"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "年龄、预算、偏好、单一表现、普通照片或知识检索命中"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第10章",
+          "printed_page_start": 220,
+          "printed_page_end": 226,
+          "pdf_page_start": 236,
+          "pdf_page_end": 242,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-DENTOFACIAL-2022",
+          "source_title": "牙颌面畸形诊疗指南（2022年版）",
+          "url": "https://www.nhc.gov.cn/wjw/c100378/202210/db6de17358944c8b9b270d1412d9bf62/files/1732871385002_39239.pdf",
+          "section": "总论：适用范围、专科检查与正畸-正颌联合框架",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "treatment_category_id": "M09-TRT-037",
+      "canonical_name_zh": "阻生牙多学科联合处理",
+      "clinical_objectives": [
+        "围绕阻生牙位置、邻牙和牙列目标开展口腔外科与正畸协作"
+      ],
+      "candidate_contexts_for_education": [
+        "仅用于介绍面诊后可能讨论的治疗类别和决定条件"
+      ],
+      "runtime_scope": "adult_runtime",
+      "required_clinical_evidence": [
+        "完整正畸病史与临床检查",
+        "按专业问题选择的模型、影像、牙周或多学科资料"
+      ],
+      "comparison_dimensions": [
+        "治疗目标与范围",
+        "健康前提与风险",
+        "依从性与复诊",
+        "维护与保持",
+        "替代方向"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "年龄、预算、偏好、单一表现、普通照片或知识检索命中"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第10章",
+          "printed_page_start": 234,
+          "printed_page_end": 239,
+          "pdf_page_start": 250,
+          "pdf_page_end": 255,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "treatment_category_id": "M09-TRT-038",
+      "canonical_name_zh": "正畸治疗后的保持",
+      "clinical_objectives": [
+        "主动矫治后通过个体化保持和复诊降低牙位变化风险"
+      ],
+      "candidate_contexts_for_education": [
+        "仅用于介绍面诊后可能讨论的治疗类别和决定条件"
+      ],
+      "runtime_scope": "adult_runtime",
+      "required_clinical_evidence": [
+        "完整正畸病史与临床检查",
+        "按专业问题选择的模型、影像、牙周或多学科资料"
+      ],
+      "comparison_dimensions": [
+        "治疗目标与范围",
+        "健康前提与风险",
+        "依从性与复诊",
+        "维护与保持",
+        "替代方向"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "年龄、预算、偏好、单一表现、普通照片或知识检索命中"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第14章",
+          "printed_page_start": 273,
+          "printed_page_end": 279,
+          "pdf_page_start": 289,
+          "pdf_page_end": 295,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
+}

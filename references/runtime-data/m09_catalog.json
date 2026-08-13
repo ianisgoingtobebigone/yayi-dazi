@@ -1,0 +1,5466 @@
+{
+  "schema_version": "cn-dental-m09-catalog.v1",
+  "module": "M09",
+  "title": "中国化成人口腔治疗类别参考目录",
+  "production_enabled": false,
+  "internal_implementation_status": "implemented_approved_not_integrated",
+  "final_audit_ready": true,
+  "final_audit_status": "approved",
+  "existing_category_review_status": "approved",
+  "new_category_review_status": "approved",
+  "runtime_status": "disabled_pending_m12_evaluation",
+  "category_count": 90,
+  "counts_by_owner": {
+    "M02": 10,
+    "M03": 12,
+    "M04": 14,
+    "M05": 27,
+    "M06": 11,
+    "M07": 16
+  },
+  "category_ids": [
+    "M09-TRT-001",
+    "M09-TRT-002",
+    "M09-TRT-003",
+    "M09-TRT-004",
+    "M09-TRT-005",
+    "M09-TRT-006",
+    "M09-TRT-007",
+    "M09-TRT-008",
+    "M09-TRT-009",
+    "M09-TRT-010",
+    "M09-TRT-011",
+    "M09-TRT-012",
+    "M09-TRT-013",
+    "M09-TRT-014",
+    "M09-TRT-015",
+    "M09-TRT-016",
+    "M09-TRT-017",
+    "M09-TRT-018",
+    "M09-TRT-019",
+    "M09-TRT-020",
+    "M09-TRT-021",
+    "M09-TRT-022",
+    "M09-TRT-023",
+    "M09-TRT-024",
+    "M09-TRT-025",
+    "M09-TRT-026",
+    "M09-TRT-027",
+    "M09-TRT-028",
+    "M09-TRT-029",
+    "M09-TRT-030",
+    "M09-TRT-031",
+    "M09-TRT-032",
+    "M09-TRT-033",
+    "M09-TRT-034",
+    "M09-TRT-035",
+    "M09-TRT-036",
+    "M09-TRT-037",
+    "M09-TRT-038",
+    "M09-TRT-039",
+    "M09-TRT-040",
+    "M09-TRT-041",
+    "M09-TRT-042",
+    "M09-TRT-043",
+    "M09-TRT-044",
+    "M09-TRT-045",
+    "M09-TRT-046",
+    "M09-TRT-047",
+    "M09-TRT-048",
+    "M09-TRT-049",
+    "M09-TRT-050",
+    "M09-TRT-051",
+    "M09-TRT-052",
+    "M09-TRT-053",
+    "M09-TRT-054",
+    "M09-TRT-055",
+    "M09-TRT-056",
+    "M09-TRT-057",
+    "M09-TRT-058",
+    "M09-TRT-059",
+    "M09-TRT-060",
+    "M09-TRT-061",
+    "M09-TRT-062",
+    "M09-TRT-063",
+    "M09-TRT-064",
+    "M09-TRT-065",
+    "M09-TRT-066",
+    "M09-TRT-067",
+    "M09-TRT-068",
+    "M09-TRT-069",
+    "M09-TRT-070",
+    "M09-TRT-071",
+    "M09-TRT-072",
+    "M09-TRT-073",
+    "M09-TRT-074",
+    "M09-TRT-075",
+    "M09-TRT-076",
+    "M09-TRT-077",
+    "M09-TRT-078",
+    "M09-TRT-079",
+    "M09-TRT-080",
+    "M09-TRT-081",
+    "M09-TRT-082",
+    "M09-TRT-083",
+    "M09-TRT-084",
+    "M09-TRT-085",
+    "M09-TRT-086",
+    "M09-TRT-087",
+    "M09-TRT-088",
+    "M09-TRT-089",
+    "M09-TRT-090"
+  ],
+  "treatment_categories": [
+    {
+      "treatment_category_id": "M09-TRT-001",
+      "canonical_name_zh": "直接充填修复",
+      "owning_modules": [
+        "M05"
+      ],
+      "clinical_objectives": [
+        "恢复牙体缺损处的形态和基本功能",
+        "在符合专业条件时保护剩余牙体组织"
+      ],
+      "candidate_contexts_for_education": [
+        "牙体缺损修复类别的一般介绍",
+        "与间接修复类别进行条件式比较"
+      ],
+      "required_clinical_evidence": [
+        "牙体缺损范围及剩余牙体组织",
+        "牙髓、根尖周和牙周状态",
+        "咬合、功能及美观需求",
+        "材料和技术条件由接诊人员评估"
+      ],
+      "decision_dependencies": [
+        "修复范围",
+        "牙体组织条件",
+        "功能与美观目标",
+        "维护与后续修复可能性"
+      ],
+      "possible_alternatives": [
+        "暂时修复",
+        "嵌体或高嵌体修复",
+        "部分冠或全冠修复",
+        "与牙体牙髓处理衔接"
+      ],
+      "maintenance_or_follow_up": [
+        "按接诊人员说明完成日常清洁和复查",
+        "出现疼痛、敏感、松动、破损或牙龈变化时寻求专业评估"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单张照片",
+        "用户自述洞或缺口大小",
+        "年龄或预算",
+        "仅有疼痛或敏感"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "牙体缺损修复诊疗指南",
+          "basis": "直接修复类别、检查和治疗原则",
+          "rights_scope": "public_guideline_transformed_summary",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-002",
+      "canonical_name_zh": "暂时修复",
+      "owning_modules": [
+        "M05"
+      ],
+      "clinical_objectives": [
+        "在明确治疗序列中提供阶段性保护或过渡",
+        "为后续评估或修复保留条件"
+      ],
+      "candidate_contexts_for_education": [
+        "解释分阶段修复流程",
+        "说明暂时性处理与最终修复的区别"
+      ],
+      "required_clinical_evidence": [
+        "当前牙体、牙髓和牙周状态",
+        "修复目的与后续治疗序列",
+        "暂时修复体的预期使用语境",
+        "复查和转换计划"
+      ],
+      "decision_dependencies": [
+        "阶段性目标",
+        "预计使用语境",
+        "保护和功能范围",
+        "后续复查与最终修复衔接"
+      ],
+      "possible_alternatives": [
+        "直接充填修复",
+        "嵌体与高嵌体修复",
+        "部分冠或全冠修复",
+        "其他由检查决定的阶段性处理"
+      ],
+      "maintenance_or_follow_up": [
+        "遵循接诊人员的使用和复查说明",
+        "松动、脱落、破损、疼痛或功能改变时寻求评估"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "希望先凑合使用",
+        "单一症状",
+        "照片中的可见缺损",
+        "既往曾做过暂时修复"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第3章32-34页",
+          "basis": "暂时修复体的目的和专业流程",
+          "rights_scope": "internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-003",
+      "canonical_name_zh": "嵌体与高嵌体修复",
+      "owning_modules": [
+        "M05"
+      ],
+      "clinical_objectives": [
+        "在符合专业条件时恢复牙体缺损的形态、邻接和功能",
+        "根据缺损和咬合条件选择相应覆盖范围"
+      ],
+      "candidate_contexts_for_education": [
+        "牙体缺损间接修复的一般类别介绍",
+        "与直接充填、部分冠或全冠进行统一维度比较"
+      ],
+      "required_clinical_evidence": [
+        "缺损范围和剩余牙体组织",
+        "牙髓、根尖周和牙周状态",
+        "咬合、邻接和修复空间",
+        "美观与维护条件"
+      ],
+      "decision_dependencies": [
+        "牙体覆盖范围",
+        "剩余组织要求",
+        "邻接与咬合恢复",
+        "材料及维护的条件性差异"
+      ],
+      "possible_alternatives": [
+        "直接充填修复",
+        "部分冠修复",
+        "全冠修复",
+        "暂时修复"
+      ],
+      "maintenance_or_follow_up": [
+        "日常清洁和专业复查",
+        "疼痛、敏感、食物嵌塞、松动或破损时评估"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "缺损外观看起来较大或较小",
+        "材料偏好",
+        "一张照片",
+        "单一美观目标"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第3章66-71页",
+          "basis": "嵌体、高嵌体和部分冠相关专业框架",
+          "rights_scope": "internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "牙体缺损修复方法相关部分",
+          "basis": "现行中国诊疗框架",
+          "rights_scope": "public_guideline_transformed_summary",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-004",
+      "canonical_name_zh": "部分冠修复",
+      "owning_modules": [
+        "M05"
+      ],
+      "clinical_objectives": [
+        "在符合条件时以部分覆盖方式恢复牙体形态和功能",
+        "平衡剩余牙体保护与修复体固位稳定需求"
+      ],
+      "candidate_contexts_for_education": [
+        "间接部分覆盖修复类别介绍",
+        "与嵌体、高嵌体及全冠进行条件式比较"
+      ],
+      "required_clinical_evidence": [
+        "缺损范围和剩余牙体组织",
+        "牙髓牙周状态",
+        "固位条件、咬合和修复空间",
+        "美观和材料相关条件"
+      ],
+      "decision_dependencies": [
+        "覆盖范围",
+        "牙体组织条件",
+        "固位与咬合要求",
+        "美观、维护及可能替代方向"
+      ],
+      "possible_alternatives": [
+        "嵌体与高嵌体修复",
+        "全冠修复",
+        "直接充填修复",
+        "暂时修复"
+      ],
+      "maintenance_or_follow_up": [
+        "按修复体类型完成日常清洁和复查",
+        "出现疼痛、嵌塞、松动、破损或牙龈变化时评估"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户要求少磨牙",
+        "照片中的缺损形态",
+        "年龄或价格",
+        "单一材料偏好"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第3章66-71页",
+          "basis": "部分冠类别及专业评估前提",
+          "rights_scope": "internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "牙体缺损修复方法相关部分",
+          "basis": "现行中国诊疗框架",
+          "rights_scope": "public_guideline_transformed_summary",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-005",
+      "canonical_name_zh": "全冠修复",
+      "owning_modules": [
+        "M05"
+      ],
+      "clinical_objectives": [
+        "在符合条件时以全覆盖修复恢复牙体形态、功能和保护",
+        "满足与具体牙位、咬合和美观相关的修复目标"
+      ],
+      "candidate_contexts_for_education": [
+        "全覆盖牙体修复的一般介绍",
+        "与部分覆盖、贴面或直接修复进行统一维度比较"
+      ],
+      "required_clinical_evidence": [
+        "剩余牙体组织和牙体可修复条件",
+        "牙髓、根尖周和牙周状态",
+        "咬合、修复空间与邻接",
+        "美观、材料和维护要求"
+      ],
+      "decision_dependencies": [
+        "覆盖范围",
+        "牙体和固位条件",
+        "咬合及修复空间",
+        "美观、材料、维护和替代方向"
+      ],
+      "possible_alternatives": [
+        "部分冠修复",
+        "嵌体与高嵌体修复",
+        "贴面修复",
+        "直接充填或暂时修复"
+      ],
+      "maintenance_or_follow_up": [
+        "固定修复体清洁和定期复查",
+        "疼痛、敏感、食物嵌塞、松动、破损或牙龈改变时评估"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "牙体看起来缺损较大",
+        "用户要求耐用或美观",
+        "根管治疗史本身",
+        "单张照片或材料广告"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第3章41-65页",
+          "basis": "全冠类别、结构亚型和专业评估",
+          "rights_scope": "internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "牙体缺损修复方法相关部分",
+          "basis": "现行中国诊疗框架",
+          "rights_scope": "public_guideline_transformed_summary",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-006",
+      "canonical_name_zh": "桩核冠修复",
+      "owning_modules": [
+        "M05"
+      ],
+      "clinical_objectives": [
+        "在符合专业条件的根管治疗后牙体上建立修复基础并完成冠修复",
+        "恢复形态、功能及必要的美观"
+      ],
+      "candidate_contexts_for_education": [
+        "解释根管治疗后牙体缺损的修复类别之一",
+        "说明其与全冠及其他修复类别的关系"
+      ],
+      "required_clinical_evidence": [
+        "根管治疗和根尖周状态",
+        "剩余牙体组织与牙根条件",
+        "牙周支持和修复空间",
+        "咬合、功能和长期维护条件"
+      ],
+      "decision_dependencies": [
+        "根管治疗后牙体条件",
+        "剩余组织与固位需求",
+        "牙周和咬合条件",
+        "替代方向与维护"
+      ],
+      "possible_alternatives": [
+        "全冠或其他牙体修复类别",
+        "与牙体牙髓专科处理衔接",
+        "由可保存性评估决定的其他方向"
+      ],
+      "maintenance_or_follow_up": [
+        "固定修复体日常清洁和复查",
+        "疼痛、松动、破损或牙龈变化时专业评估"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "做过根管治疗",
+        "牙体缺损外观",
+        "年龄或预算",
+        "旧修复方案"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第3章72-77页",
+          "basis": "桩核冠类别及根管治疗后评估前提",
+          "rights_scope": "internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "牙体缺损修复相关部分",
+          "basis": "现行中国诊疗框架",
+          "rights_scope": "public_guideline_transformed_summary",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-007",
+      "canonical_name_zh": "贴面修复",
+      "owning_modules": [
+        "M05"
+      ],
+      "clinical_objectives": [
+        "在符合条件时改善前牙等相关区域的颜色、形态和表面外观",
+        "兼顾牙体条件、功能和美观目标"
+      ],
+      "candidate_contexts_for_education": [
+        "牙体美学修复类别介绍",
+        "与正畸、美白及其他修复类别进行条件式比较"
+      ],
+      "required_clinical_evidence": [
+        "牙体表面和剩余组织条件",
+        "牙髓牙周健康",
+        "牙列、咬合和修复空间",
+        "颜色、形态及用户美观目标"
+      ],
+      "decision_dependencies": [
+        "美观目标",
+        "牙体组织条件",
+        "牙列与咬合",
+        "维护、局限和替代方向"
+      ],
+      "possible_alternatives": [
+        "全冠或部分冠修复",
+        "其他牙体修复",
+        "正畸或其他美观处理类别",
+        "暂不处理并观察的专业讨论"
+      ],
+      "maintenance_or_follow_up": [
+        "固定修复体清洁和复查",
+        "松动、破损、敏感、牙龈变化或美观改变时评估"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单张微笑照片",
+        "仅有颜色或形态不满意",
+        "社交媒体示例",
+        "用户指定材料"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第3章78-83页",
+          "basis": "贴面修复类别与美学语境",
+          "rights_scope": "internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "牙体缺损修复方法相关部分",
+          "basis": "现行中国诊疗框架",
+          "rights_scope": "public_guideline_transformed_summary",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-008",
+      "canonical_name_zh": "固定局部义齿修复",
+      "owning_modules": [
+        "M05"
+      ],
+      "clinical_objectives": [
+        "在符合专业条件时修复部分牙列缺损并恢复相关功能与外观",
+        "通过余留牙等支持结构实现固定修复"
+      ],
+      "candidate_contexts_for_education": [
+        "部分缺牙固定修复类别介绍",
+        "与可摘局部义齿和种植义齿按统一维度比较"
+      ],
+      "required_clinical_evidence": [
+        "缺牙范围和修复空间",
+        "基牙候选的牙体、牙髓及牙周条件",
+        "咬合与牙弓关系",
+        "全身背景、维护能力及用户偏好"
+      ],
+      "decision_dependencies": [
+        "支持与固位方式",
+        "基牙和牙周要求",
+        "摘戴、功能与舒适",
+        "清洁、维护及替代方向"
+      ],
+      "possible_alternatives": [
+        "可摘局部义齿修复",
+        "部分牙列种植义齿修复",
+        "粘接固定桥修复",
+        "固定-可摘联合义齿修复"
+      ],
+      "maintenance_or_follow_up": [
+        "固定修复体和桥体周围清洁",
+        "定期复查基牙、牙周、修复体和咬合"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "缺牙数量",
+        "年龄",
+        "不想摘戴",
+        "单张照片或预算"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第4章101-132页",
+          "basis": "固定局部义齿组成、适应评估、设计和问题",
+          "rights_scope": "internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "牙列缺损修复诊疗指南",
+          "basis": "修复方式确定和统一比较框架",
+          "rights_scope": "public_guideline_transformed_summary",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-009",
+      "canonical_name_zh": "粘接固定桥修复",
+      "owning_modules": [
+        "M05"
+      ],
+      "clinical_objectives": [
+        "在符合特定专业条件时以粘接方式完成部分缺牙固定修复",
+        "恢复相关功能和外观"
+      ],
+      "candidate_contexts_for_education": [
+        "固定桥相关亚类的一般介绍",
+        "与常规固定局部义齿、可摘和种植类别比较"
+      ],
+      "required_clinical_evidence": [
+        "缺牙范围和位置",
+        "支持牙表面、牙体牙髓及牙周条件",
+        "咬合与修复空间",
+        "固位和维护条件"
+      ],
+      "decision_dependencies": [
+        "固位方式",
+        "支持牙条件",
+        "咬合和空间要求",
+        "维护、局限与替代方向"
+      ],
+      "possible_alternatives": [
+        "常规固定局部义齿修复",
+        "可摘局部义齿修复",
+        "部分牙列种植义齿修复",
+        "其他由缺牙条件决定的方向"
+      ],
+      "maintenance_or_follow_up": [
+        "固定桥周围清洁和定期复查",
+        "松动、脱落、嵌塞、疼痛或牙龈改变时评估"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "缺一颗牙",
+        "希望少磨牙",
+        "年龄或预算",
+        "牙齿照片"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第4章固定局部义齿相关内容",
+          "basis": "粘接固定桥作为固定修复类别背景",
+          "rights_scope": "internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "牙列缺损粘接修复相关部分",
+          "basis": "现行中国诊疗框架",
+          "rights_scope": "public_guideline_transformed_summary",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-010",
+      "canonical_name_zh": "可摘局部义齿修复",
+      "owning_modules": [
+        "M05"
+      ],
+      "clinical_objectives": [
+        "修复部分牙列缺损并恢复一定的咀嚼、发音和外观",
+        "形成可由用户按专业指导摘戴的修复体"
+      ],
+      "candidate_contexts_for_education": [
+        "部分缺牙可摘修复类别介绍",
+        "与固定局部义齿和种植义齿进行统一维度比较"
+      ],
+      "required_clinical_evidence": [
+        "缺牙范围、余留牙和牙周条件",
+        "缺牙区黏膜和牙槽嵴条件",
+        "咬合、颌位和修复空间",
+        "摘戴、清洁、维护能力及用户目标"
+      ],
+      "decision_dependencies": [
+        "支持与固位",
+        "用户摘戴和适应",
+        "余留牙与黏膜条件",
+        "清洁维护、功能和替代方向"
+      ],
+      "possible_alternatives": [
+        "固定局部义齿修复",
+        "部分牙列种植义齿修复",
+        "固定-可摘联合义齿修复",
+        "覆盖义齿修复"
+      ],
+      "maintenance_or_follow_up": [
+        "按专业指导完成摘戴、义齿和口腔清洁及保存",
+        "定期复查余留牙、软组织、义齿和咬合"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "年龄",
+        "缺牙数量",
+        "预算",
+        "照片或用户愿意摘戴"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第5章133-189页",
+          "basis": "可摘局部义齿评估、设计、戴用和维护",
+          "rights_scope": "internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "牙列缺损修复诊疗指南",
+          "basis": "修复方式比较和规范流程",
+          "rights_scope": "public_guideline_transformed_summary",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-011",
+      "canonical_name_zh": "固定-可摘联合义齿修复",
+      "owning_modules": [
+        "M05"
+      ],
+      "clinical_objectives": [
+        "在符合条件时综合固定与可摘结构完成牙列缺损或缺失修复",
+        "改善支持、固位、功能或外观"
+      ],
+      "candidate_contexts_for_education": [
+        "附着体义齿、套筒冠义齿等上位类别介绍",
+        "复杂缺牙修复类别的条件式比较"
+      ],
+      "required_clinical_evidence": [
+        "余留牙和牙周支持",
+        "缺牙区和软组织条件",
+        "修复空间、咬合及颌位",
+        "部件维护、清洁能力和长期复查条件"
+      ],
+      "decision_dependencies": [
+        "支持与固位组合",
+        "结构复杂度",
+        "摘戴、清洁和维护",
+        "功能、美观及替代方向"
+      ],
+      "possible_alternatives": [
+        "固定局部义齿修复",
+        "可摘局部义齿修复",
+        "覆盖义齿修复",
+        "种植支持修复类别"
+      ],
+      "maintenance_or_follow_up": [
+        "维护固定部分、可摘部分、支持牙和软组织",
+        "按计划复查附着部件、义齿、咬合和口腔组织"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "其他方案曾失败",
+        "希望更稳",
+        "缺牙数量",
+        "旧方案或单张照片"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第8章259-269页",
+          "basis": "固定-可摘联合义齿和相关亚型",
+          "rights_scope": "internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "牙列缺损修复相关部分",
+          "basis": "现行中国修复诊疗框架",
+          "rights_scope": "public_guideline_transformed_summary",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-012",
+      "canonical_name_zh": "覆盖义齿修复",
+      "owning_modules": [
+        "M05"
+      ],
+      "clinical_objectives": [
+        "利用符合条件的天然牙或牙根等支持完成覆盖义齿修复",
+        "恢复相关功能、外观和支持"
+      ],
+      "candidate_contexts_for_education": [
+        "天然牙或牙根支持覆盖义齿类别介绍",
+        "与常规可摘或全口义齿类别比较"
+      ],
+      "required_clinical_evidence": [
+        "保留牙或牙根的牙体牙髓及牙周条件",
+        "缺牙区和黏膜条件",
+        "咬合、颌位和修复空间",
+        "清洁维护和长期复查能力"
+      ],
+      "decision_dependencies": [
+        "支持结构",
+        "摘戴与维护",
+        "牙体牙周前提",
+        "功能、适应和替代方向"
+      ],
+      "possible_alternatives": [
+        "可摘局部义齿修复",
+        "常规全口义齿修复",
+        "种植覆盖义齿修复",
+        "其他修复类别"
+      ],
+      "maintenance_or_follow_up": [
+        "同时维护支持牙或牙根、义齿和黏膜",
+        "定期复查支持结构、适合性和咬合"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "仍有残根或少量牙",
+        "年龄",
+        "用户希望保留牙",
+        "照片或旧记录"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第8章270-275页",
+          "basis": "覆盖义齿概念、评估、流程及护理",
+          "rights_scope": "internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-013",
+      "canonical_name_zh": "部分牙列种植义齿修复",
+      "owning_modules": [
+        "M05"
+      ],
+      "clinical_objectives": [
+        "在符合条件时以种植支持修复部分牙列缺损",
+        "恢复功能、外观和缺牙区修复关系"
+      ],
+      "candidate_contexts_for_education": [
+        "单牙或多个牙缺失的种植修复类别介绍",
+        "与固定桥和可摘局部义齿统一比较"
+      ],
+      "required_clinical_evidence": [
+        "缺牙区软硬组织和空间条件",
+        "邻牙、牙周和整体口腔健康",
+        "咬合和修复设计条件",
+        "全身背景、维护能力和用户偏好"
+      ],
+      "decision_dependencies": [
+        "支持方式",
+        "软硬组织和空间前提",
+        "治疗阶段与维护",
+        "功能、美观、限制及替代方向"
+      ],
+      "possible_alternatives": [
+        "固定局部义齿修复",
+        "可摘局部义齿修复",
+        "粘接固定桥修复",
+        "其他缺牙处理方向"
+      ],
+      "maintenance_or_follow_up": [
+        "种植义齿日常清洁和定期专业复查",
+        "关注周围组织、修复部件、咬合和功能"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "缺牙数量",
+        "年龄",
+        "用户偏好种植",
+        "普通照片、预算或网络案例"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第7章242-253页",
+          "basis": "部分牙列种植义齿分类、评估和上部结构",
+          "rights_scope": "internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "牙列缺损种植修复相关部分",
+          "basis": "现行中国诊疗框架",
+          "rights_scope": "public_guideline_transformed_summary",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-014",
+      "canonical_name_zh": "常规全口义齿修复",
+      "owning_modules": [
+        "M05"
+      ],
+      "clinical_objectives": [
+        "修复牙列缺失并恢复一定的咀嚼、发音、外观和面部支持",
+        "以无牙颌承托组织支持完成可摘全口义齿"
+      ],
+      "candidate_contexts_for_education": [
+        "牙列缺失常规可摘修复类别介绍",
+        "与种植覆盖式和固定式全颌修复比较"
+      ],
+      "required_clinical_evidence": [
+        "无牙颌解剖和承托组织",
+        "旧义齿、颌位和咬合条件",
+        "功能、美观和适应目标",
+        "全身背景及使用维护能力"
+      ],
+      "decision_dependencies": [
+        "支持和固位",
+        "用户摘戴与适应",
+        "无牙颌和颌位要求",
+        "功能、维护和替代方向"
+      ],
+      "possible_alternatives": [
+        "即刻全口义齿修复",
+        "单颌全口义齿修复",
+        "种植覆盖式义齿修复",
+        "全颌固定式种植义齿修复"
+      ],
+      "maintenance_or_follow_up": [
+        "义齿和口腔组织清洁、保存及专业复查",
+        "出现疼痛、松动、黏膜损伤或功能变化时评估"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "全口无牙",
+        "高龄",
+        "预算",
+        "旧义齿松动或一张照片"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第6章190-235页",
+          "basis": "全口义齿评估、制作、戴用和维护框架",
+          "rights_scope": "internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "牙列缺失修复诊疗指南",
+          "basis": "现行中国诊疗框架",
+          "rights_scope": "public_guideline_transformed_summary",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-015",
+      "canonical_name_zh": "即刻全口义齿修复",
+      "owning_modules": [
+        "M05"
+      ],
+      "clinical_objectives": [
+        "在特定专业治疗序列中于牙齿拔除相关阶段提供即刻义齿",
+        "提供阶段性的外观、功能和组织过渡"
+      ],
+      "candidate_contexts_for_education": [
+        "解释即刻全口义齿与常规全口义齿的差异",
+        "说明组织变化和复查要求"
+      ],
+      "required_clinical_evidence": [
+        "拔牙及修复整体计划",
+        "余留牙、软硬组织和全身背景",
+        "颌位、咬合和美观资料",
+        "术后组织变化和复查安排"
+      ],
+      "decision_dependencies": [
+        "交付时机",
+        "组织变化",
+        "调整和复查需求",
+        "功能、美观及替代方向"
+      ],
+      "possible_alternatives": [
+        "常规全口义齿修复",
+        "阶段性暂时修复",
+        "种植相关全颌修复类别",
+        "由整体治疗计划决定的其他方向"
+      ],
+      "maintenance_or_follow_up": [
+        "严格按接诊团队安排进行戴用和复查",
+        "组织变化、疼痛、出血、松动或功能问题需及时评估"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "计划拔除余留牙",
+        "希望不空牙",
+        "年龄或美观需求",
+        "旧方案"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第6章236-237页",
+          "basis": "即刻全口义齿目的、限制和复查语境",
+          "rights_scope": "internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-016",
+      "canonical_name_zh": "单颌全口义齿修复",
+      "owning_modules": [
+        "M05"
+      ],
+      "clinical_objectives": [
+        "修复单颌牙列缺失并与对颌条件协调",
+        "恢复相关功能、外观和支持"
+      ],
+      "candidate_contexts_for_education": [
+        "单颌无牙的全口义齿类别介绍",
+        "说明对颌天然牙或修复体对计划的影响"
+      ],
+      "required_clinical_evidence": [
+        "无牙颌和对颌牙列或修复体状态",
+        "颌位与咬合",
+        "承托组织和修复空间",
+        "功能、美观和维护能力"
+      ],
+      "decision_dependencies": [
+        "对颌条件",
+        "咬合和颌位",
+        "支持与稳定",
+        "维护和替代方向"
+      ],
+      "possible_alternatives": [
+        "常规全口义齿相关方案",
+        "种植支持修复类别",
+        "对颌牙列的综合修复处理",
+        "其他由检查决定的方向"
+      ],
+      "maintenance_or_follow_up": [
+        "清洁义齿及口腔组织",
+        "定期复查对颌牙、义齿、咬合和承托组织"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单颌无牙",
+        "对颌还有牙",
+        "旧义齿体验",
+        "照片或年龄"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第6章238-240页",
+          "basis": "单颌全口义齿修复特点和评估依赖",
+          "rights_scope": "internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-017",
+      "canonical_name_zh": "全颌或半颌覆盖式种植义齿修复",
+      "owning_modules": [
+        "M05"
+      ],
+      "clinical_objectives": [
+        "在符合条件时以种植支持或固位改善全颌或半颌覆盖式义齿修复",
+        "恢复功能、稳定和外观"
+      ],
+      "candidate_contexts_for_education": [
+        "种植覆盖式义齿类别介绍",
+        "与常规全口义齿和全颌固定式种植义齿比较"
+      ],
+      "required_clinical_evidence": [
+        "颌骨和软组织条件",
+        "种植及修复空间和颌位咬合",
+        "全身与外科评估",
+        "摘戴、清洁和长期维护能力"
+      ],
+      "decision_dependencies": [
+        "支持和固位方式",
+        "摘戴与清洁",
+        "软硬组织和外科前提",
+        "功能、维护和替代方向"
+      ],
+      "possible_alternatives": [
+        "常规全口义齿修复",
+        "全颌固定式种植义齿修复",
+        "其他覆盖义齿修复",
+        "由专业评估决定的阶段性方向"
+      ],
+      "maintenance_or_follow_up": [
+        "维护种植周组织、附着部件和可摘义齿",
+        "按计划完成种植修复专业复查"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "全口无牙",
+        "义齿松动",
+        "用户希望更稳",
+        "骨量自述、年龄、照片或预算"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第7章242-253页",
+          "basis": "全颌种植义齿分类和上部结构",
+          "rights_scope": "internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "牙列缺失种植覆盖义齿相关部分",
+          "basis": "现行中国诊疗框架",
+          "rights_scope": "public_guideline_transformed_summary",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-018",
+      "canonical_name_zh": "全颌固定式种植义齿修复",
+      "owning_modules": [
+        "M05"
+      ],
+      "clinical_objectives": [
+        "在符合条件时以固定式种植支持修复全颌或半颌牙列缺失",
+        "恢复功能、外观和固定修复体验"
+      ],
+      "candidate_contexts_for_education": [
+        "全颌固定式种植修复类别介绍",
+        "与覆盖式种植义齿和常规全口义齿统一比较"
+      ],
+      "required_clinical_evidence": [
+        "颌骨、软组织和外科条件",
+        "种植位置、修复空间、颌位和咬合",
+        "全身背景和治疗承受条件",
+        "清洁可及性和长期维护能力"
+      ],
+      "decision_dependencies": [
+        "固定支持方式",
+        "软硬组织和外科前提",
+        "清洁与专业维护",
+        "功能、美观、限制和替代方向"
+      ],
+      "possible_alternatives": [
+        "全颌或半颌覆盖式种植义齿修复",
+        "常规全口义齿修复",
+        "阶段性修复",
+        "其他由多学科评估决定的方向"
+      ],
+      "maintenance_or_follow_up": [
+        "严格维护种植周组织和上部修复体",
+        "定期复查部件、咬合、功能和卫生状态"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "不想摘戴",
+        "追求一步到位",
+        "全口无牙",
+        "年龄、骨量自述、照片或预算"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第7章242-253页",
+          "basis": "全颌固定式种植义齿及上部结构背景",
+          "rights_scope": "internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "牙列缺失全颌固定式种植修复相关部分",
+          "basis": "现行中国诊疗框架",
+          "rights_scope": "public_guideline_transformed_summary",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-019",
+      "canonical_name_zh": "颌面缺损修复",
+      "owning_modules": [
+        "M05"
+      ],
+      "clinical_objectives": [
+        "修复颌面部组织缺损并改善相关功能、外观和社会生活",
+        "通过多学科协作完成修复支持"
+      ],
+      "candidate_contexts_for_education": [
+        "颌面缺损修复的一般类别介绍",
+        "解释M05修复背景与M07主临床入口的分工"
+      ],
+      "required_clinical_evidence": [
+        "缺损部位、范围和病因相关专业资料",
+        "软硬组织、功能和外观评估",
+        "全身与原发疾病状态",
+        "多学科治疗及维护条件"
+      ],
+      "decision_dependencies": [
+        "缺损范围和功能目标",
+        "支持与固位条件",
+        "多学科依赖",
+        "维护、复查和替代方向"
+      ],
+      "possible_alternatives": [
+        "其他颌面外科或修复处理类别",
+        "阶段性修复装置",
+        "由多学科评估决定的功能与外观支持"
+      ],
+      "maintenance_or_follow_up": [
+        "按颌面修复团队的装置和组织维护要求执行",
+        "功能、适合性、组织或装置变化时复查"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "面部照片",
+        "外观不对称",
+        "既往手术史",
+        "用户单一功能或美观目标"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第8章275-286页",
+          "basis": "颌面缺损修复类别和多学科前提",
+          "rights_scope": "internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-020",
+      "canonical_name_zh": "牙周病的修复治疗",
+      "owning_modules": [
+        "M05"
+      ],
+      "clinical_objectives": [
+        "在牙周专业诊断和控制基础上讨论相应修复目标",
+        "协调牙周支持、咬合、功能和修复体关系"
+      ],
+      "candidate_contexts_for_education": [
+        "牙周与修复多学科关系说明",
+        "解释为何牙周状态会影响修复计划"
+      ],
+      "required_clinical_evidence": [
+        "牙周疾病诊断、活动性和支持条件",
+        "余留牙及缺牙范围",
+        "咬合与修复需求",
+        "维护能力和牙周复查计划"
+      ],
+      "decision_dependencies": [
+        "牙周支持前提",
+        "修复目标",
+        "咬合和余留牙条件",
+        "长期维护与替代方向"
+      ],
+      "possible_alternatives": [
+        "先行或并行的牙周治疗类别",
+        "不同牙体或牙列修复类别",
+        "由多学科评估决定的其他方向"
+      ],
+      "maintenance_or_follow_up": [
+        "持续牙周支持性维护和修复体清洁",
+        "定期复查牙周组织、修复体和咬合"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "牙龈出血",
+        "牙齿松动感",
+        "缺牙数量",
+        "照片或既往牙周诊断"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第8章287-293页",
+          "basis": "牙周病修复治疗的目的、原则和评估前提",
+          "rights_scope": "internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-021",
+      "canonical_name_zh": "咬合病与颞下颌关节病的修复治疗",
+      "owning_modules": [
+        "M05"
+      ],
+      "clinical_objectives": [
+        "在明确的咬合或颞下颌关节专业诊断基础上讨论修复相关处理目标",
+        "协调咬合、关节、肌肉和修复体功能"
+      ],
+      "candidate_contexts_for_education": [
+        "解释咬合、关节与修复的多学科关系",
+        "说明相关处理依赖专业诊断"
+      ],
+      "required_clinical_evidence": [
+        "颞下颌关节和咀嚼肌专业检查",
+        "咬合、颌位和下颌运动评估",
+        "牙体牙周及修复体状态",
+        "症状病史和功能影响"
+      ],
+      "decision_dependencies": [
+        "诊断前提",
+        "咬合和关节肌肉目标",
+        "修复体及牙列条件",
+        "维护和替代方向"
+      ],
+      "possible_alternatives": [
+        "非修复性颞下颌关节相关处理类别",
+        "咬合或修复专业处理类别",
+        "由多学科评估决定的其他方向"
+      ],
+      "maintenance_or_follow_up": [
+        "按多学科计划复查症状、功能、咬合和修复体",
+        "新疼痛、张口或功能变化时重新评估"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "关节弹响或酸痛",
+        "用户所述咬着高",
+        "修复后时间关系",
+        "照片或远程下颌动作"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第8章294-308页",
+          "basis": "咬合病与颞下颌关节病修复治疗的专业背景",
+          "rights_scope": "internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-022",
+      "canonical_name_zh": "修复体或义齿专业调整",
+      "owning_modules": [
+        "M05"
+      ],
+      "clinical_objectives": [
+        "在专业检查后对修复体或义齿的相关适合性、功能或使用问题进行调整",
+        "改善符合调整适应条件的局部问题"
+      ],
+      "candidate_contexts_for_education": [
+        "说明面诊后可能讨论的处理类别",
+        "区分专业调整与自行改动"
+      ],
+      "required_clinical_evidence": [
+        "具体修复体和问题部位",
+        "牙体牙周、黏膜和支持组织状态",
+        "固位稳定、咬合与颌位",
+        "材料、结构及既往调整记录"
+      ],
+      "decision_dependencies": [
+        "问题性质和可调整范围",
+        "装置及支持组织状态",
+        "咬合和功能",
+        "与修理、重衬或重新制作的区别"
+      ],
+      "possible_alternatives": [
+        "修复体或义齿修理",
+        "义齿重衬或重基托",
+        "固定修复体拆除与再修复",
+        "修复体或义齿重新制作"
+      ],
+      "maintenance_or_follow_up": [
+        "调整后按专业说明使用并复查",
+        "症状持续、加重或出现新问题时重新评估"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "咬高、磨痛、松动或发音变化中的任一单项",
+        "使用年限",
+        "用户指出的高点",
+        "普通照片"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第5-7章初戴、复查与问题处理相关部分",
+          "basis": "专业调整的适用前提与边界",
+          "rights_scope": "internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "修复后问题与复诊相关部分",
+          "basis": "现行中国诊疗框架",
+          "rights_scope": "public_guideline_transformed_summary",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-023",
+      "canonical_name_zh": "修复体或义齿修理",
+      "owning_modules": [
+        "M05"
+      ],
+      "clinical_objectives": [
+        "在符合专业条件时修复破损部件或恢复装置部分功能",
+        "尽可能保留仍可专业修理的修复体或义齿"
+      ],
+      "candidate_contexts_for_education": [
+        "解释修理是可能讨论的处理类别之一",
+        "区分修理、调整、重衬和重新制作"
+      ],
+      "required_clinical_evidence": [
+        "破损部件、范围和材料",
+        "修复体整体与支持组织状态",
+        "咬合、颌位和功能",
+        "既往修理记录及继续使用条件"
+      ],
+      "decision_dependencies": [
+        "破损范围",
+        "剩余结构和材料",
+        "支持组织及咬合",
+        "与重新制作等替代类别的关系"
+      ],
+      "possible_alternatives": [
+        "专业调整",
+        "义齿重衬或重基托",
+        "固定修复体拆除与再修复",
+        "修复体或义齿重新制作"
+      ],
+      "maintenance_or_follow_up": [
+        "修理后按专业说明使用和复查",
+        "再次松动、破损、疼痛或功能改变时重新评估"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "可见裂纹或掉一块",
+        "用户认为还能用",
+        "装置价格或使用年限",
+        "照片"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第5章187-188页；第6章234-235页",
+          "basis": "可摘和全口义齿修理类别及专业前提",
+          "rights_scope": "internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-024",
+      "canonical_name_zh": "义齿重衬",
+      "owning_modules": [
+        "M05"
+      ],
+      "clinical_objectives": [
+        "在符合专业条件时改善义齿基托组织面与承托组织的适合性",
+        "恢复相应支持、固位或稳定关系"
+      ],
+      "candidate_contexts_for_education": [
+        "解释长期义齿适合性变化后可能讨论的类别",
+        "区分重衬、重基托和重新制作"
+      ],
+      "required_clinical_evidence": [
+        "基托和材料状态",
+        "承托组织及无牙颌变化",
+        "颌位、咬合、固位和稳定",
+        "义齿整体设计和继续使用条件"
+      ],
+      "decision_dependencies": [
+        "基托适合性",
+        "承托组织状态",
+        "咬合颌位和义齿整体状态",
+        "与重基托或重新制作的差异"
+      ],
+      "possible_alternatives": [
+        "专业调整",
+        "义齿修理",
+        "义齿重基托",
+        "义齿重新制作"
+      ],
+      "maintenance_or_follow_up": [
+        "重衬后按专业说明佩戴和清洁",
+        "复查适合性、黏膜、咬合和功能"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "义齿松动",
+        "使用年限",
+        "基托看起来不贴合",
+        "用户主观咀嚼下降或照片"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第5章188页；第6章235页",
+          "basis": "义齿重衬及其专业决定条件",
+          "rights_scope": "internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-025",
+      "canonical_name_zh": "义齿重基托",
+      "owning_modules": [
+        "M05"
+      ],
+      "clinical_objectives": [
+        "在符合专业条件时更换义齿基托材料并保留可继续利用的其他结构",
+        "恢复适合性和相应功能"
+      ],
+      "candidate_contexts_for_education": [
+        "解释重基托与重衬、修理和重新制作的区别",
+        "说明其依赖义齿整体状态"
+      ],
+      "required_clinical_evidence": [
+        "基托材料和结构状态",
+        "人工牙及其他可保留结构",
+        "承托组织、颌位和咬合",
+        "义齿整体继续使用条件"
+      ],
+      "decision_dependencies": [
+        "更换范围",
+        "可保留结构",
+        "承托组织和咬合",
+        "与修理、重衬和重新制作的差异"
+      ],
+      "possible_alternatives": [
+        "义齿修理",
+        "义齿重衬",
+        "专业调整",
+        "义齿重新制作"
+      ],
+      "maintenance_or_follow_up": [
+        "完成后按专业指导佩戴、清洁和复查",
+        "关注适合性、黏膜、固位稳定和功能"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "基托破损或变旧",
+        "义齿使用年限",
+        "松动",
+        "照片或用户希望保留人工牙"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第6章235页",
+          "basis": "义齿重基托类别及专业前提",
+          "rights_scope": "internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-026",
+      "canonical_name_zh": "固定修复体拆除与再修复",
+      "owning_modules": [
+        "M05"
+      ],
+      "clinical_objectives": [
+        "在专业判断需要时拆除既有固定修复体并重新评估牙体、支持组织和修复条件",
+        "为后续再修复或其他处理提供条件"
+      ],
+      "candidate_contexts_for_education": [
+        "解释某些固定修复问题可能需要先拆除评估",
+        "说明拆除不等于一定重做同一类别"
+      ],
+      "required_clinical_evidence": [
+        "既有固定修复体结构和完整性",
+        "支持牙、牙髓、牙周及周围组织",
+        "咬合和修复空间",
+        "拆除风险、再修复条件和替代方向"
+      ],
+      "decision_dependencies": [
+        "拆除目的",
+        "支持牙和修复体状态",
+        "再修复可行性",
+        "与调整、修理和重新制作的关系"
+      ],
+      "possible_alternatives": [
+        "专业调整",
+        "修复体修理",
+        "重新粘接等由专业检查决定的处理",
+        "其他修复体或义齿重新制作"
+      ],
+      "maintenance_or_follow_up": [
+        "按拆除后专业计划完成阶段性保护、复查和后续修复维护",
+        "新疼痛、肿胀或功能改变时重新评估"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "牙冠晃或疼",
+        "食物嵌塞",
+        "照片中的边缘",
+        "用户认为修复体做坏了"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第3章99-100页；第4章修复后问题相关内容",
+          "basis": "固定修复体拆除和再评估背景",
+          "rights_scope": "internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "修复后问题相关部分",
+          "basis": "现行中国诊疗框架",
+          "rights_scope": "public_guideline_transformed_summary",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-027",
+      "canonical_name_zh": "修复体或义齿重新制作",
+      "owning_modules": [
+        "M05"
+      ],
+      "clinical_objectives": [
+        "在既有修复体经专业评估不适合继续使用或其他处理不能满足目标时重新制作",
+        "重新建立符合当前牙体、组织、咬合、功能和美观条件的修复体"
+      ],
+      "candidate_contexts_for_education": [
+        "作为修复后问题可能讨论的处理类别之一",
+        "与调整、修理、重衬和重基托进行条件式比较"
+      ],
+      "required_clinical_evidence": [
+        "现有修复体整体状态和可修理性",
+        "牙体牙周、黏膜、缺牙区和种植相关条件",
+        "咬合、颌位、功能和美观目标",
+        "材料、维护和既往处理记录"
+      ],
+      "decision_dependencies": [
+        "现有修复体继续使用条件",
+        "调整或修理可能性",
+        "当前口腔和功能条件",
+        "新修复类别、维护和替代方向"
+      ],
+      "possible_alternatives": [
+        "专业调整",
+        "修复体或义齿修理",
+        "义齿重衬或重基托",
+        "不同修复类别或其他专业处理"
+      ],
+      "maintenance_or_follow_up": [
+        "新修复体交付后按装置类型进行清洁、使用和复查",
+        "出现疼痛、松动、破损、组织或功能变化时评估"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "使用年限",
+        "松、磨、掉、塞或外观不满意中的单一表现",
+        "照片",
+        "既往修理失败或用户要求重做"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PROSTH-001",
+          "locator": "第3-7章修复后问题与处理相关内容",
+          "basis": "修复体或义齿重新制作的专业决定语境",
+          "rights_scope": "internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-PROSTH-2022",
+          "locator": "牙体缺损、牙列缺损与牙列缺失修复后问题相关部分",
+          "basis": "现行中国诊疗框架",
+          "rights_scope": "public_guideline_transformed_summary",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-028",
+      "canonical_name_zh": "固定矫治器正畸治疗",
+      "owning_modules": [
+        "M06"
+      ],
+      "clinical_objectives": [
+        "通过固定于牙面的矫治装置进行专业控制下的牙移动"
+      ],
+      "candidate_contexts_for_education": [
+        "仅用于介绍面诊后可能讨论的治疗类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整正畸病史与临床检查",
+        "按专业问题选择的模型、影像、牙周或多学科资料"
+      ],
+      "decision_dependencies": [
+        "治疗目标与范围",
+        "健康前提与风险",
+        "依从性与复诊",
+        "维护与保持",
+        "替代方向"
+      ],
+      "possible_alternatives": [],
+      "maintenance_or_follow_up": [],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "年龄、预算、偏好、单一表现、普通照片或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第7章",
+          "printed_page_start": 94,
+          "printed_page_end": 120,
+          "pdf_page_start": 110,
+          "pdf_page_end": 136,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_runtime",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-029",
+      "canonical_name_zh": "无托槽隐形矫治",
+      "owning_modules": [
+        "M06"
+      ],
+      "clinical_objectives": [
+        "使用系列可摘透明矫治装置进行专业设计和复诊监控下的牙移动"
+      ],
+      "candidate_contexts_for_education": [
+        "仅用于介绍面诊后可能讨论的治疗类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整正畸病史与临床检查",
+        "按专业问题选择的模型、影像、牙周或多学科资料"
+      ],
+      "decision_dependencies": [
+        "治疗目标与范围",
+        "健康前提与风险",
+        "依从性与复诊",
+        "维护与保持",
+        "替代方向"
+      ],
+      "possible_alternatives": [],
+      "maintenance_or_follow_up": [],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "年龄、预算、偏好、单一表现、普通照片或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第7章",
+          "printed_page_start": 97,
+          "printed_page_end": 101,
+          "pdf_page_start": 113,
+          "pdf_page_end": 117,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_runtime",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-030",
+      "canonical_name_zh": "可摘矫治器正畸治疗",
+      "owning_modules": [
+        "M06"
+      ],
+      "clinical_objectives": [
+        "使用可由患者摘戴的矫治装置完成特定专业目标"
+      ],
+      "candidate_contexts_for_education": [
+        "仅用于介绍面诊后可能讨论的治疗类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整正畸病史与临床检查",
+        "按专业问题选择的模型、影像、牙周或多学科资料"
+      ],
+      "decision_dependencies": [
+        "治疗目标与范围",
+        "健康前提与风险",
+        "依从性与复诊",
+        "维护与保持",
+        "替代方向"
+      ],
+      "possible_alternatives": [],
+      "maintenance_or_follow_up": [],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "年龄、预算、偏好、单一表现、普通照片或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第7章",
+          "printed_page_start": 97,
+          "printed_page_end": 109,
+          "pdf_page_start": 113,
+          "pdf_page_end": 125,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_runtime",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-031",
+      "canonical_name_zh": "功能矫治",
+      "owning_modules": [
+        "M06"
+      ],
+      "clinical_objectives": [
+        "在特定生长发育和功能条件下使用功能性矫治装置的治疗类别"
+      ],
+      "candidate_contexts_for_education": [
+        "仅用于介绍面诊后可能讨论的治疗类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整正畸病史与临床检查",
+        "按专业问题选择的模型、影像、牙周或多学科资料"
+      ],
+      "decision_dependencies": [
+        "治疗目标与范围",
+        "健康前提与风险",
+        "依从性与复诊",
+        "维护与保持",
+        "替代方向"
+      ],
+      "possible_alternatives": [],
+      "maintenance_or_follow_up": [],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "年龄、预算、偏好、单一表现、普通照片或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第7章",
+          "printed_page_start": 102,
+          "printed_page_end": 109,
+          "pdf_page_start": 118,
+          "pdf_page_end": 125,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "out_of_adult_runtime",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-032",
+      "canonical_name_zh": "有限正畸或辅助性正畸治疗",
+      "owning_modules": [
+        "M06"
+      ],
+      "clinical_objectives": [
+        "围绕修复、牙周或局部目标开展范围受限的正畸治疗"
+      ],
+      "candidate_contexts_for_education": [
+        "仅用于介绍面诊后可能讨论的治疗类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整正畸病史与临床检查",
+        "按专业问题选择的模型、影像、牙周或多学科资料"
+      ],
+      "decision_dependencies": [
+        "治疗目标与范围",
+        "健康前提与风险",
+        "依从性与复诊",
+        "维护与保持",
+        "替代方向"
+      ],
+      "possible_alternatives": [],
+      "maintenance_or_follow_up": [],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "年龄、预算、偏好、单一表现、普通照片或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第11章",
+          "printed_page_start": 242,
+          "printed_page_end": 252,
+          "pdf_page_start": 258,
+          "pdf_page_end": 268,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_runtime",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-033",
+      "canonical_name_zh": "成人综合正畸治疗",
+      "owning_modules": [
+        "M06"
+      ],
+      "clinical_objectives": [
+        "结合成人牙体、牙周、修复和全身背景的综合正畸治疗"
+      ],
+      "candidate_contexts_for_education": [
+        "仅用于介绍面诊后可能讨论的治疗类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整正畸病史与临床检查",
+        "按专业问题选择的模型、影像、牙周或多学科资料"
+      ],
+      "decision_dependencies": [
+        "治疗目标与范围",
+        "健康前提与风险",
+        "依从性与复诊",
+        "维护与保持",
+        "替代方向"
+      ],
+      "possible_alternatives": [],
+      "maintenance_or_follow_up": [],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "年龄、预算、偏好、单一表现、普通照片或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第11章",
+          "printed_page_start": 240,
+          "printed_page_end": 252,
+          "pdf_page_start": 256,
+          "pdf_page_end": 268,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_runtime",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-034",
+      "canonical_name_zh": "牙周-正畸联合治疗",
+      "owning_modules": [
+        "M06"
+      ],
+      "clinical_objectives": [
+        "在牙周专业评估和稳定维护基础上的联合治疗类别"
+      ],
+      "candidate_contexts_for_education": [
+        "仅用于介绍面诊后可能讨论的治疗类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整正畸病史与临床检查",
+        "按专业问题选择的模型、影像、牙周或多学科资料"
+      ],
+      "decision_dependencies": [
+        "治疗目标与范围",
+        "健康前提与风险",
+        "依从性与复诊",
+        "维护与保持",
+        "替代方向"
+      ],
+      "possible_alternatives": [],
+      "maintenance_or_follow_up": [],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "年龄、预算、偏好、单一表现、普通照片或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第11章",
+          "printed_page_start": 240,
+          "printed_page_end": 252,
+          "pdf_page_start": 256,
+          "pdf_page_end": 268,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-CHSA-PERIO-ORTHO-2023",
+          "source_title": "T/CHSA 013—2023 牙周病患者正畸治疗指南",
+          "url": "https://cmsfiles.zhongkefu.com.cn/kouqiangweb/upload/kouqiang/6566fd534d7ed.pdf",
+          "section": "第4至5部分：从业者要求、治疗前牙周检查与多学科评估",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_runtime",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-035",
+      "canonical_name_zh": "修复-正畸联合治疗",
+      "owning_modules": [
+        "M06"
+      ],
+      "clinical_objectives": [
+        "为缺牙或修复目标协调牙位、间隙和治疗顺序的联合治疗类别"
+      ],
+      "candidate_contexts_for_education": [
+        "仅用于介绍面诊后可能讨论的治疗类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整正畸病史与临床检查",
+        "按专业问题选择的模型、影像、牙周或多学科资料"
+      ],
+      "decision_dependencies": [
+        "治疗目标与范围",
+        "健康前提与风险",
+        "依从性与复诊",
+        "维护与保持",
+        "替代方向"
+      ],
+      "possible_alternatives": [],
+      "maintenance_or_follow_up": [],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "年龄、预算、偏好、单一表现、普通照片或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第10章",
+          "printed_page_start": 234,
+          "printed_page_end": 239,
+          "pdf_page_start": 250,
+          "pdf_page_end": 255,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_runtime",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-036",
+      "canonical_name_zh": "正畸-正颌联合治疗",
+      "owning_modules": [
+        "M06"
+      ],
+      "clinical_objectives": [
+        "经完整专科评估后由正畸与正颌外科协作的治疗类别"
+      ],
+      "candidate_contexts_for_education": [
+        "仅用于介绍面诊后可能讨论的治疗类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整正畸病史与临床检查",
+        "按专业问题选择的模型、影像、牙周或多学科资料"
+      ],
+      "decision_dependencies": [
+        "治疗目标与范围",
+        "健康前提与风险",
+        "依从性与复诊",
+        "维护与保持",
+        "替代方向"
+      ],
+      "possible_alternatives": [],
+      "maintenance_or_follow_up": [],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "年龄、预算、偏好、单一表现、普通照片或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第10章",
+          "printed_page_start": 220,
+          "printed_page_end": 226,
+          "pdf_page_start": 236,
+          "pdf_page_end": 242,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-DENTOFACIAL-2022",
+          "source_title": "牙颌面畸形诊疗指南（2022年版）",
+          "url": "https://www.nhc.gov.cn/wjw/c100378/202210/db6de17358944c8b9b270d1412d9bf62/files/1732871385002_39239.pdf",
+          "section": "总论：适用范围、专科检查与正畸-正颌联合框架",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_runtime",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-037",
+      "canonical_name_zh": "阻生牙多学科联合处理",
+      "owning_modules": [
+        "M06"
+      ],
+      "clinical_objectives": [
+        "围绕阻生牙位置、邻牙和牙列目标开展口腔外科与正畸协作"
+      ],
+      "candidate_contexts_for_education": [
+        "仅用于介绍面诊后可能讨论的治疗类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整正畸病史与临床检查",
+        "按专业问题选择的模型、影像、牙周或多学科资料"
+      ],
+      "decision_dependencies": [
+        "治疗目标与范围",
+        "健康前提与风险",
+        "依从性与复诊",
+        "维护与保持",
+        "替代方向"
+      ],
+      "possible_alternatives": [],
+      "maintenance_or_follow_up": [],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "年龄、预算、偏好、单一表现、普通照片或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第10章",
+          "printed_page_start": 234,
+          "printed_page_end": 239,
+          "pdf_page_start": 250,
+          "pdf_page_end": 255,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_runtime",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-038",
+      "canonical_name_zh": "正畸治疗后的保持",
+      "owning_modules": [
+        "M06"
+      ],
+      "clinical_objectives": [
+        "主动矫治后通过个体化保持和复诊降低牙位变化风险"
+      ],
+      "candidate_contexts_for_education": [
+        "仅用于介绍面诊后可能讨论的治疗类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整正畸病史与临床检查",
+        "按专业问题选择的模型、影像、牙周或多学科资料"
+      ],
+      "decision_dependencies": [
+        "治疗目标与范围",
+        "健康前提与风险",
+        "依从性与复诊",
+        "维护与保持",
+        "替代方向"
+      ],
+      "possible_alternatives": [],
+      "maintenance_or_follow_up": [],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "年龄、预算、偏好、单一表现、普通照片或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "药物剂量、疗程、器械参数、手术步骤或自行操作"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ORTHO-001",
+          "source_title": "《口腔正畸学》第7版",
+          "chapter": "第14章",
+          "printed_page_start": 273,
+          "printed_page_end": 279,
+          "pdf_page_start": 289,
+          "pdf_page_end": 295,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_runtime",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-039",
+      "canonical_name_zh": "颞下颌关节疾病的保守治疗类别",
+      "owning_modules": [
+        "M07"
+      ],
+      "clinical_objectives": [
+        "在专业诊断和个体评估后采用的非手术处理类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_dependencies": [],
+      "possible_alternatives": [],
+      "maintenance_or_follow_up": [],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第12章",
+          "printed_page_start": 156,
+          "printed_page_end": 164,
+          "pdf_page_start": 181,
+          "pdf_page_end": 189,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-040",
+      "canonical_name_zh": "颞下颌关节疾病的介入或手术治疗类别",
+      "owning_modules": [
+        "M07"
+      ],
+      "clinical_objectives": [
+        "在明确专业问题及适应证后讨论的介入或手术类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_dependencies": [],
+      "possible_alternatives": [],
+      "maintenance_or_follow_up": [],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第12章",
+          "printed_page_start": 156,
+          "printed_page_end": 164,
+          "pdf_page_start": 181,
+          "pdf_page_end": 189,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-041",
+      "canonical_name_zh": "口腔颌面部感染的病因处理与抗感染治疗类别",
+      "owning_modules": [
+        "M07"
+      ],
+      "clinical_objectives": [
+        "围绕感染来源、范围和全身状态开展的专业治疗类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_dependencies": [],
+      "possible_alternatives": [],
+      "maintenance_or_follow_up": [],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第14章",
+          "printed_page_start": 179,
+          "printed_page_end": 190,
+          "pdf_page_start": 204,
+          "pdf_page_end": 215,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-042",
+      "canonical_name_zh": "口腔颌面部感染的专业引流与支持治疗类别",
+      "owning_modules": [
+        "M07"
+      ],
+      "clinical_objectives": [
+        "由临床人员依据感染范围和风险决定的专业处理类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_dependencies": [],
+      "possible_alternatives": [],
+      "maintenance_or_follow_up": [],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第14章",
+          "printed_page_start": 179,
+          "printed_page_end": 190,
+          "pdf_page_start": 204,
+          "pdf_page_end": 215,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-043",
+      "canonical_name_zh": "口腔颌面部损伤的急救与创口专业处理类别",
+      "owning_modules": [
+        "M07"
+      ],
+      "clinical_objectives": [
+        "围绕生命安全、出血、污染和重要结构开展的专业处理类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_dependencies": [],
+      "possible_alternatives": [],
+      "maintenance_or_follow_up": [],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第15章",
+          "printed_page_start": 191,
+          "printed_page_end": 209,
+          "pdf_page_start": 216,
+          "pdf_page_end": 234,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-044",
+      "canonical_name_zh": "牙及牙槽突损伤的保存与修复处理类别",
+      "owning_modules": [
+        "M07"
+      ],
+      "clinical_objectives": [
+        "依据牙、牙周膜、牙槽骨和时间条件讨论的处理类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_dependencies": [],
+      "possible_alternatives": [],
+      "maintenance_or_follow_up": [],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第15章",
+          "printed_page_start": 201,
+          "printed_page_end": 202,
+          "pdf_page_start": 226,
+          "pdf_page_end": 227,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-045",
+      "canonical_name_zh": "颌面部骨折的复位固定与功能重建类别",
+      "owning_modules": [
+        "M07"
+      ],
+      "clinical_objectives": [
+        "依据骨折、咬合、伴随损伤和影像制定的专业类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_dependencies": [],
+      "possible_alternatives": [],
+      "maintenance_or_follow_up": [],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第15章",
+          "printed_page_start": 202,
+          "printed_page_end": 209,
+          "pdf_page_start": 227,
+          "pdf_page_end": 234,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-046",
+      "canonical_name_zh": "唾液腺炎症或阻塞的专业治疗类别",
+      "owning_modules": [
+        "M07"
+      ],
+      "clinical_objectives": [
+        "依据腺体、导管、感染及阻塞情况讨论的处理类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_dependencies": [],
+      "possible_alternatives": [],
+      "maintenance_or_follow_up": [],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第16章",
+          "printed_page_start": 210,
+          "printed_page_end": 215,
+          "pdf_page_start": 235,
+          "pdf_page_end": 240,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-047",
+      "canonical_name_zh": "唾液腺囊肿的专业处理类别",
+      "owning_modules": [
+        "M07"
+      ],
+      "clinical_objectives": [
+        "依据部位、范围和复发情况讨论的处理类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_dependencies": [],
+      "possible_alternatives": [],
+      "maintenance_or_follow_up": [],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第16章",
+          "printed_page_start": 215,
+          "printed_page_end": 216,
+          "pdf_page_start": 240,
+          "pdf_page_end": 241,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-048",
+      "canonical_name_zh": "口腔颌面部良性肿物或囊肿的专业处理类别",
+      "owning_modules": [
+        "M07"
+      ],
+      "clinical_objectives": [
+        "依据组织来源、范围和病理讨论的处理类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_dependencies": [],
+      "possible_alternatives": [],
+      "maintenance_or_follow_up": [],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 224,
+          "printed_page_end": 229,
+          "pdf_page_start": 249,
+          "pdf_page_end": 254,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-049",
+      "canonical_name_zh": "口腔颌面部恶性肿瘤综合治疗类别",
+      "owning_modules": [
+        "M07"
+      ],
+      "clinical_objectives": [
+        "由多学科依据病理、分期和患者情况制定的综合治疗类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_dependencies": [],
+      "possible_alternatives": [],
+      "maintenance_or_follow_up": [],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 229,
+          "printed_page_end": 233,
+          "pdf_page_start": 254,
+          "pdf_page_end": 258,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-050",
+      "canonical_name_zh": "口腔颌面部缺损的修复重建类别",
+      "owning_modules": [
+        "M07"
+      ],
+      "clinical_objectives": [
+        "依据缺损范围、功能和全身条件讨论的重建类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_dependencies": [],
+      "possible_alternatives": [],
+      "maintenance_or_follow_up": [],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 219,
+          "printed_page_end": 233,
+          "pdf_page_start": 244,
+          "pdf_page_end": 258,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-051",
+      "canonical_name_zh": "三叉神经痛的药物及专业治疗类别",
+      "owning_modules": [
+        "M07"
+      ],
+      "clinical_objectives": [
+        "确诊和排除继发原因后由专业人员选择的治疗类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_dependencies": [],
+      "possible_alternatives": [],
+      "maintenance_or_follow_up": [],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第18章",
+          "printed_page_start": 234,
+          "printed_page_end": 238,
+          "pdf_page_start": 259,
+          "pdf_page_end": 263,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-052",
+      "canonical_name_zh": "面神经麻痹的病因治疗与康复类别",
+      "owning_modules": [
+        "M07"
+      ],
+      "clinical_objectives": [
+        "依据病因、部位、病程和功能损害选择的治疗类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_dependencies": [],
+      "possible_alternatives": [],
+      "maintenance_or_follow_up": [],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第18章",
+          "printed_page_start": 238,
+          "printed_page_end": 241,
+          "pdf_page_start": 263,
+          "pdf_page_end": 266,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-053",
+      "canonical_name_zh": "口腔颌面部肿物的病理诊断路径",
+      "owning_modules": [
+        "M07"
+      ],
+      "clinical_objectives": [
+        "由临床人员选择取材、病理及必要分子检查形成诊断证据"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_dependencies": [],
+      "possible_alternatives": [],
+      "maintenance_or_follow_up": [],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 219,
+          "printed_page_end": 233,
+          "pdf_page_start": 244,
+          "pdf_page_end": 258,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-054",
+      "canonical_name_zh": "口腔颌面跨专科联合诊疗类别",
+      "owning_modules": [
+        "M07"
+      ],
+      "clinical_objectives": [
+        "按主要临床问题组织相关专科协作的类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_dependencies": [],
+      "possible_alternatives": [],
+      "maintenance_or_follow_up": [],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第14章",
+          "printed_page_start": 179,
+          "printed_page_end": 241,
+          "pdf_page_start": 204,
+          "pdf_page_end": 266,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "existing_approved_catalog"
+    },
+    {
+      "treatment_category_id": "M09-TRT-055",
+      "canonical_name_zh": "龋病风险管理与非手术治疗",
+      "owning_modules": [
+        "M02"
+      ],
+      "clinical_objectives": [
+        "控制龋病危险因素并促进可控制病变的稳定"
+      ],
+      "candidate_contexts_for_education": [
+        "用户询问早期龋病、再矿化或能否先不进行修复时的一般教育"
+      ],
+      "required_clinical_evidence": [
+        "专业龋风险评估",
+        "牙体临床检查",
+        "必要的影像及病变活动性判断"
+      ],
+      "decision_dependencies": [
+        "病变深度与活动性",
+        "清洁和饮食相关因素",
+        "唾液与全身背景",
+        "患者依从和复查条件"
+      ],
+      "possible_alternatives": [
+        "M09-TRT-001直接充填修复",
+        "其他牙体修复类别"
+      ],
+      "maintenance_or_follow_up": [
+        "按专业人员确定的间隔复查病变活动性"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ENDO-001",
+          "source_title": "《牙体牙髓病学》第5版",
+          "chapter": "第4章 龋病的治疗计划",
+          "printed_page_start": 37,
+          "printed_page_end": 43,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-056",
+      "canonical_name_zh": "牙本质敏感症的病因控制与脱敏治疗",
+      "owning_modules": [
+        "M02"
+      ],
+      "clinical_objectives": [
+        "控制相关刺激和诱因并减轻敏感症状"
+      ],
+      "candidate_contexts_for_education": [
+        "冷、热、酸、甜或机械刺激相关短暂敏感的一般治疗背景"
+      ],
+      "required_clinical_evidence": [
+        "牙体、牙周和修复体临床检查",
+        "对龋病、牙髓病和牙隐裂等其他原因的鉴别"
+      ],
+      "decision_dependencies": [
+        "暴露部位和范围",
+        "可能诱因",
+        "症状特点",
+        "其他疾病是否排除"
+      ],
+      "possible_alternatives": [
+        "病因相关牙体或牙周处理",
+        "修复处理"
+      ],
+      "maintenance_or_follow_up": [
+        "评估症状变化并根据专业意见复查"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ENDO-001",
+          "source_title": "《牙体牙髓病学》第5版",
+          "chapter": "第8章 牙本质敏感症",
+          "printed_page_start": 79,
+          "printed_page_end": 81,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-057",
+      "canonical_name_zh": "牙慢性损伤的病因控制与修复处理",
+      "owning_modules": [
+        "M02"
+      ],
+      "clinical_objectives": [
+        "控制磨损、酸蚀、楔状缺损或隐裂相关因素并在需要时恢复牙体"
+      ],
+      "candidate_contexts_for_education": [
+        "牙体长期磨耗、缺口、裂纹样表现或酸蚀相关咨询"
+      ],
+      "required_clinical_evidence": [
+        "牙体临床检查",
+        "咬合和行为因素评估",
+        "必要的牙髓及影像评估"
+      ],
+      "decision_dependencies": [
+        "损伤类型和范围",
+        "症状与牙髓状态",
+        "功能及美观影响",
+        "持续危险因素"
+      ],
+      "possible_alternatives": [
+        "M09-TRT-001至007中的适用修复类别",
+        "观察与危险因素控制"
+      ],
+      "maintenance_or_follow_up": [
+        "复查进展、修复体状态和相关行为因素"
+      ],
+      "linked_existing_category_ids": [
+        "M09-TRT-001",
+        "M09-TRT-003",
+        "M09-TRT-005",
+        "M09-TRT-007"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ENDO-001",
+          "source_title": "《牙体牙髓病学》第5版",
+          "chapter": "第7章 牙慢性损伤",
+          "printed_page_start": 71,
+          "printed_page_end": 78,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-058",
+      "canonical_name_zh": "牙外伤的牙髓保存与根管相关处理",
+      "owning_modules": [
+        "M02"
+      ],
+      "clinical_objectives": [
+        "在牙外伤后尽可能保存牙髓、牙根和牙体功能"
+      ],
+      "candidate_contexts_for_education": [
+        "外伤牙的牙髓与根管治疗类别教育"
+      ],
+      "required_clinical_evidence": [
+        "外伤类型与发生时间",
+        "牙体、牙周膜和牙槽骨检查",
+        "牙髓状态及专业影像"
+      ],
+      "decision_dependencies": [
+        "牙根发育状态",
+        "牙髓暴露与活力",
+        "伴随脱位或骨折",
+        "就诊时间"
+      ],
+      "possible_alternatives": [
+        "M09-TRT-044牙及牙槽突损伤处理",
+        "活髓保存治疗",
+        "根管治疗",
+        "修复治疗"
+      ],
+      "maintenance_or_follow_up": [
+        "连续复查牙髓、牙根、牙周组织和修复状态"
+      ],
+      "linked_existing_category_ids": [
+        "M09-TRT-044",
+        "M09-TRT-059",
+        "M09-TRT-060"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ENDO-001",
+          "source_title": "《牙体牙髓病学》第5版",
+          "chapter": "第6章 牙外伤",
+          "printed_page_start": 63,
+          "printed_page_end": 70,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-059",
+      "canonical_name_zh": "活髓保存治疗",
+      "owning_modules": [
+        "M02"
+      ],
+      "clinical_objectives": [
+        "在符合条件时保存全部或部分有活力的牙髓组织"
+      ],
+      "candidate_contexts_for_education": [
+        "用户询问是否可能保留牙髓时的一般教育"
+      ],
+      "required_clinical_evidence": [
+        "症状与病史",
+        "牙髓和根尖周专业检查",
+        "牙体缺损、污染与可修复性评估"
+      ],
+      "decision_dependencies": [
+        "牙髓状态",
+        "暴露原因和范围",
+        "止血及封闭条件",
+        "后续修复和复查可行性"
+      ],
+      "possible_alternatives": [
+        "根管治疗",
+        "牙体修复类别"
+      ],
+      "maintenance_or_follow_up": [
+        "复查症状、牙髓状态、根尖发育和修复封闭"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ENDO-001",
+          "source_title": "《牙体牙髓病学》第5版",
+          "chapter": "第18章 牙髓根尖周病的治疗计划",
+          "printed_page_start": 187,
+          "printed_page_end": 196,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-060",
+      "canonical_name_zh": "根管治疗",
+      "owning_modules": [
+        "M02"
+      ],
+      "clinical_objectives": [
+        "清理并封闭根管系统，为控制牙髓或根尖周相关问题提供专业治疗路径"
+      ],
+      "candidate_contexts_for_education": [
+        "用户询问根管治疗的一般目的、前提和后续修复关系"
+      ],
+      "required_clinical_evidence": [
+        "牙髓与根尖周诊断性检查",
+        "患牙定位与可修复性",
+        "专业影像",
+        "牙周和全身背景"
+      ],
+      "decision_dependencies": [
+        "牙髓和根尖周状态",
+        "根管解剖与既往处理",
+        "剩余牙体和牙周支持",
+        "患者整体情况"
+      ],
+      "possible_alternatives": [
+        "活髓保存治疗",
+        "根管再治疗",
+        "根尖手术",
+        "拔除及缺牙后修复类别"
+      ],
+      "maintenance_or_follow_up": [
+        "完成治疗后的症状、根尖周状态和牙体修复复查"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ENDO-001",
+          "source_title": "《牙体牙髓病学》第5版",
+          "chapter": "第19章 根管治疗术",
+          "printed_page_start": 197,
+          "printed_page_end": 205,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-061",
+      "canonical_name_zh": "根尖诱导成形与根尖屏障治疗",
+      "owning_modules": [
+        "M02"
+      ],
+      "clinical_objectives": [
+        "为根尖未发育完成且牙髓坏死等特定情况建立继续发育或根尖屏障条件"
+      ],
+      "candidate_contexts_for_education": [
+        "年轻恒牙根尖未闭相关专业治疗背景"
+      ],
+      "required_clinical_evidence": [
+        "牙根发育和牙髓状态",
+        "专业影像",
+        "感染与可修复性评估"
+      ],
+      "decision_dependencies": [
+        "根尖发育阶段",
+        "牙髓组织状态",
+        "感染控制",
+        "长期复查条件"
+      ],
+      "possible_alternatives": [
+        "根管治疗相关路径",
+        "其他保存或修复路径"
+      ],
+      "maintenance_or_follow_up": [
+        "长期影像和临床复查"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ENDO-001",
+          "source_title": "《牙体牙髓病学》第5版",
+          "chapter": "第23章 根尖诱导成形术与根尖屏障术",
+          "printed_page_start": 237,
+          "printed_page_end": 242,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-062",
+      "canonical_name_zh": "显微根管治疗",
+      "owning_modules": [
+        "M02"
+      ],
+      "clinical_objectives": [
+        "在显微视野下处理复杂根管定位、钙化、器械或既往治疗相关问题"
+      ],
+      "candidate_contexts_for_education": [
+        "复杂根管或既往治疗困难的一般技术类别说明"
+      ],
+      "required_clinical_evidence": [
+        "常规临床和影像评估",
+        "复杂解剖或并发情况证据",
+        "设备与专业能力"
+      ],
+      "decision_dependencies": [
+        "问题类型和可处理性",
+        "牙体与牙周预后",
+        "替代路径",
+        "治疗风险"
+      ],
+      "possible_alternatives": [
+        "常规根管治疗",
+        "根管再治疗",
+        "根尖手术",
+        "其他保存或拔除路径"
+      ],
+      "maintenance_or_follow_up": [
+        "依据问题类型安排复查"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ENDO-001",
+          "source_title": "《牙体牙髓病学》第5版",
+          "chapter": "第24章 显微根管治疗与根尖手术",
+          "printed_page_start": 243,
+          "printed_page_end": 255,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-063",
+      "canonical_name_zh": "根尖手术",
+      "owning_modules": [
+        "M02"
+      ],
+      "clinical_objectives": [
+        "在符合适应条件时通过专业手术路径处理根尖周或根管相关持续问题"
+      ],
+      "candidate_contexts_for_education": [
+        "用户询问根管治疗后仍有问题时可能讨论的手术类别"
+      ],
+      "required_clinical_evidence": [
+        "症状、临床检查和专业影像",
+        "既往根管治疗质量",
+        "牙周与解剖关系",
+        "全身手术风险"
+      ],
+      "decision_dependencies": [
+        "非手术再治疗可行性",
+        "病变和解剖位置",
+        "牙体可保存性",
+        "患者风险与偏好"
+      ],
+      "possible_alternatives": [
+        "根管再治疗",
+        "继续观察",
+        "拔除及缺牙后修复类别"
+      ],
+      "maintenance_or_follow_up": [
+        "术后临床和影像复查"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ENDO-001",
+          "source_title": "《牙体牙髓病学》第5版",
+          "chapter": "第24章 显微根管治疗与根尖手术",
+          "printed_page_start": 243,
+          "printed_page_end": 255,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-064",
+      "canonical_name_zh": "根管再治疗",
+      "owning_modules": [
+        "M02"
+      ],
+      "clinical_objectives": [
+        "重新进入并处理既往根管治疗后的持续或新发问题"
+      ],
+      "candidate_contexts_for_education": [
+        "既往根管治疗牙再次不适或影像异常的一般教育"
+      ],
+      "required_clinical_evidence": [
+        "既往治疗记录",
+        "牙体、牙周及根尖周检查",
+        "专业影像",
+        "可修复性评估"
+      ],
+      "decision_dependencies": [
+        "原治疗情况",
+        "当前问题证据",
+        "再进入可行性",
+        "替代治疗和总体预后"
+      ],
+      "possible_alternatives": [
+        "显微根管治疗",
+        "根尖手术",
+        "拔除及缺牙后修复类别"
+      ],
+      "maintenance_or_follow_up": [
+        "治疗后的临床和影像复查"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-ENDO-001",
+          "source_title": "《牙体牙髓病学》第5版",
+          "chapter": "第25章 根管治疗并发症及根管再治疗",
+          "printed_page_start": 256,
+          "printed_page_end": 271,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-065",
+      "canonical_name_zh": "牙周治疗计划与危险因素控制",
+      "owning_modules": [
+        "M03"
+      ],
+      "clinical_objectives": [
+        "在完整牙周评估基础上形成分阶段治疗与危险因素管理框架"
+      ],
+      "candidate_contexts_for_education": [
+        "用户询问牙周治疗通常如何安排时的一般教育"
+      ],
+      "required_clinical_evidence": [
+        "完整牙周检查",
+        "影像和必要的辅助检查",
+        "全身及行为危险因素",
+        "患者目标"
+      ],
+      "decision_dependencies": [
+        "疾病范围和复杂度",
+        "危险因素可改变性",
+        "其他口腔治疗需求",
+        "复查与依从条件"
+      ],
+      "possible_alternatives": [
+        "分阶段牙周基础、手术或维护类别"
+      ],
+      "maintenance_or_follow_up": [
+        "每阶段完成后复评并调整后续计划"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PERIO-001",
+          "source_title": "《牙周病学》第5版",
+          "chapter": "第13至14章 危险因素评估、预后与治疗计划",
+          "printed_page_start": 193,
+          "printed_page_end": 203,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-066",
+      "canonical_name_zh": "口腔卫生指导与菌斑控制",
+      "owning_modules": [
+        "M03"
+      ],
+      "clinical_objectives": [
+        "建立可持续的个人菌斑控制和危险因素管理"
+      ],
+      "candidate_contexts_for_education": [
+        "牙龈出血、牙周治疗前后或正畸修复交叉场景的一般教育"
+      ],
+      "required_clinical_evidence": [
+        "口腔卫生和牙周状态评估",
+        "个体清洁困难部位",
+        "装置和修复体情况"
+      ],
+      "decision_dependencies": [
+        "手部能力和习惯",
+        "牙列与装置情况",
+        "牙龈和牙周状态",
+        "复查反馈"
+      ],
+      "possible_alternatives": [
+        "专业洁治",
+        "其他牙周基础治疗"
+      ],
+      "maintenance_or_follow_up": [
+        "持续复查并根据专业反馈调整方法"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PERIO-001",
+          "source_title": "《牙周病学》第5版",
+          "chapter": "第15章 牙周基础治疗",
+          "printed_page_start": 204,
+          "printed_page_end": 225,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-067",
+      "canonical_name_zh": "龈上洁治",
+      "owning_modules": [
+        "M03"
+      ],
+      "clinical_objectives": [
+        "由专业人员清除龈上菌斑、牙石和相关沉积物"
+      ],
+      "candidate_contexts_for_education": [
+        "用户询问洗牙或基础牙周治疗的一般目的"
+      ],
+      "required_clinical_evidence": [
+        "牙周和口腔检查",
+        "出血、牙石和修复体等局部情况",
+        "必要的全身风险评估"
+      ],
+      "decision_dependencies": [
+        "牙石和炎症范围",
+        "敏感与全身背景",
+        "后续龈下治疗需求"
+      ],
+      "possible_alternatives": [
+        "口腔卫生指导",
+        "龈下刮治与根面平整"
+      ],
+      "maintenance_or_follow_up": [
+        "复评炎症和个人菌斑控制"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PERIO-001",
+          "source_title": "《牙周病学》第5版",
+          "chapter": "第15章 牙周基础治疗",
+          "printed_page_start": 204,
+          "printed_page_end": 225,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-068",
+      "canonical_name_zh": "龈下刮治与根面平整",
+      "owning_modules": [
+        "M03"
+      ],
+      "clinical_objectives": [
+        "由专业人员处理龈下菌斑、牙石及受累根面"
+      ],
+      "candidate_contexts_for_education": [
+        "用户询问深部牙周基础治疗时的一般教育"
+      ],
+      "required_clinical_evidence": [
+        "牙周探诊与完整牙周记录",
+        "专业影像",
+        "牙齿和根面情况",
+        "全身风险"
+      ],
+      "decision_dependencies": [
+        "受累范围和深度",
+        "解剖与可达性",
+        "疼痛和全身风险",
+        "复评结果"
+      ],
+      "possible_alternatives": [
+        "其他基础治疗",
+        "牙周手术治疗",
+        "支持性牙周治疗"
+      ],
+      "maintenance_or_follow_up": [
+        "治疗后复评牙周组织反应"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PERIO-001",
+          "source_title": "《牙周病学》第5版",
+          "chapter": "第15章 牙周基础治疗",
+          "printed_page_start": 204,
+          "printed_page_end": 225,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-069",
+      "canonical_name_zh": "牙周药物辅助治疗",
+      "owning_modules": [
+        "M03"
+      ],
+      "clinical_objectives": [
+        "在特定牙周问题中作为机械治疗或综合治疗的辅助类别"
+      ],
+      "candidate_contexts_for_education": [
+        "用户询问牙周治疗是否涉及药物时的原则性说明"
+      ],
+      "required_clinical_evidence": [
+        "明确的牙周诊断和临床指征",
+        "既往治疗反应",
+        "用药史、过敏史和全身情况"
+      ],
+      "decision_dependencies": [
+        "药物必要性",
+        "局部或全身用药路径",
+        "耐药和不良反应风险",
+        "基础治疗是否充分"
+      ],
+      "possible_alternatives": [
+        "非药物牙周基础治疗",
+        "局部专业处理",
+        "复查观察"
+      ],
+      "maintenance_or_follow_up": [
+        "由开具或实施的专业人员监测疗效和不良反应"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PERIO-001",
+          "source_title": "《牙周病学》第5版",
+          "chapter": "第16章 牙周病的药物治疗",
+          "printed_page_start": 226,
+          "printed_page_end": 235,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-070",
+      "canonical_name_zh": "牙周基础治疗后的再评估",
+      "owning_modules": [
+        "M03"
+      ],
+      "clinical_objectives": [
+        "评价基础治疗反应并决定继续维护、再次基础治疗或进入手术评估"
+      ],
+      "candidate_contexts_for_education": [
+        "用户询问牙周治疗后为何需要复查时的一般教育"
+      ],
+      "required_clinical_evidence": [
+        "治疗前后牙周记录",
+        "个人菌斑控制",
+        "症状与组织反应",
+        "必要的影像和危险因素复核"
+      ],
+      "decision_dependencies": [
+        "残余问题范围",
+        "炎症控制",
+        "清洁能力",
+        "牙齿预后与患者目标"
+      ],
+      "possible_alternatives": [
+        "支持性牙周治疗",
+        "进一步基础治疗",
+        "牙周手术评估"
+      ],
+      "maintenance_or_follow_up": [
+        "按专业计划进入维护或进一步治疗"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PERIO-001",
+          "source_title": "《牙周病学》第5版",
+          "chapter": "第14至15章 治疗计划与基础治疗",
+          "printed_page_start": 199,
+          "printed_page_end": 225,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-071",
+      "canonical_name_zh": "牙周手术治疗",
+      "owning_modules": [
+        "M03"
+      ],
+      "clinical_objectives": [
+        "在完成基础治疗和再评估后处理特定残余牙周问题"
+      ],
+      "candidate_contexts_for_education": [
+        "用户询问牙周手术的一般目的和前提"
+      ],
+      "required_clinical_evidence": [
+        "完整牙周检查和影像",
+        "基础治疗反应",
+        "局部解剖与清洁条件",
+        "全身手术风险"
+      ],
+      "decision_dependencies": [
+        "残余问题类型和范围",
+        "牙齿预后",
+        "患者清洁能力",
+        "替代路径与风险"
+      ],
+      "possible_alternatives": [
+        "继续基础治疗或维护",
+        "再生性手术",
+        "膜龈手术"
+      ],
+      "maintenance_or_follow_up": [
+        "术后专业复查和长期支持治疗"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PERIO-001",
+          "source_title": "《牙周病学》第5版",
+          "chapter": "第17章 牙周病的手术治疗",
+          "printed_page_start": 236,
+          "printed_page_end": 273,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-072",
+      "canonical_name_zh": "牙周再生性手术",
+      "owning_modules": [
+        "M03"
+      ],
+      "clinical_objectives": [
+        "在符合条件的牙周缺损中争取牙周支持组织再生"
+      ],
+      "candidate_contexts_for_education": [
+        "用户询问牙周再生治疗的一般背景"
+      ],
+      "required_clinical_evidence": [
+        "缺损形态和牙周检查",
+        "专业影像",
+        "炎症及危险因素控制",
+        "牙齿总体预后"
+      ],
+      "decision_dependencies": [
+        "缺损解剖",
+        "感染和菌斑控制",
+        "吸烟与全身风险",
+        "术后维护能力"
+      ],
+      "possible_alternatives": [
+        "其他牙周手术",
+        "非手术治疗与维护"
+      ],
+      "maintenance_or_follow_up": [
+        "长期临床和必要的影像复查"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PERIO-001",
+          "source_title": "《牙周病学》第5版",
+          "chapter": "第17章 牙周病的手术治疗",
+          "printed_page_start": 236,
+          "printed_page_end": 273,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-073",
+      "canonical_name_zh": "膜龈手术与牙周美学处理",
+      "owning_modules": [
+        "M03"
+      ],
+      "clinical_objectives": [
+        "处理特定软组织、牙龈退缩、附着龈或牙周美学问题"
+      ],
+      "candidate_contexts_for_education": [
+        "牙龈退缩、软组织形态或修复正畸前牙周美学咨询"
+      ],
+      "required_clinical_evidence": [
+        "牙周和软组织检查",
+        "病因与危险因素",
+        "牙齿位置和修复正畸关系",
+        "患者目标"
+      ],
+      "decision_dependencies": [
+        "软组织条件",
+        "病因能否控制",
+        "牙齿位置",
+        "美学与功能预期"
+      ],
+      "possible_alternatives": [
+        "非手术危险因素控制",
+        "正畸或修复联合路径",
+        "观察维护"
+      ],
+      "maintenance_or_follow_up": [
+        "术后清洁、组织稳定性和相关治疗复查"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PERIO-001",
+          "source_title": "《牙周病学》第5版",
+          "chapter": "第17章 牙周病的手术治疗",
+          "printed_page_start": 236,
+          "printed_page_end": 273,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-074",
+      "canonical_name_zh": "牙周伴发病变的专业处理",
+      "owning_modules": [
+        "M03"
+      ],
+      "clinical_objectives": [
+        "处理牙周脓肿、牙周-牙髓联合问题或其他牙周伴发问题"
+      ],
+      "candidate_contexts_for_education": [
+        "急性局部肿痛、溢脓或牙周牙髓交叉问题的一般治疗背景"
+      ],
+      "required_clinical_evidence": [
+        "M00安全复核",
+        "牙周与牙髓联合检查",
+        "专业影像",
+        "全身情况"
+      ],
+      "decision_dependencies": [
+        "问题来源和范围",
+        "牙齿可保存性",
+        "感染扩展风险",
+        "相关专科先后顺序"
+      ],
+      "possible_alternatives": [
+        "M02牙体牙髓治疗类别",
+        "M07感染处理类别",
+        "牙周基础或手术治疗"
+      ],
+      "maintenance_or_follow_up": [
+        "急性期后复评并进入病因相关长期处理"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PERIO-001",
+          "source_title": "《牙周病学》第5版",
+          "chapter": "第11章 牙周炎的伴发病变",
+          "printed_page_start": 165,
+          "printed_page_end": 180,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-075",
+      "canonical_name_zh": "支持性牙周治疗与预防维护",
+      "owning_modules": [
+        "M03"
+      ],
+      "clinical_objectives": [
+        "长期维持牙周治疗结果并尽早识别复发或进展"
+      ],
+      "candidate_contexts_for_education": [
+        "牙周治疗完成后的复诊和维护背景"
+      ],
+      "required_clinical_evidence": [
+        "既往牙周诊断与治疗记录",
+        "当前牙周状态",
+        "危险因素和个人菌斑控制"
+      ],
+      "decision_dependencies": [
+        "复发风险",
+        "残余问题",
+        "全身和行为因素",
+        "修复、正畸或种植状态"
+      ],
+      "possible_alternatives": [
+        "再次基础治疗",
+        "进一步牙周评估"
+      ],
+      "maintenance_or_follow_up": [
+        "复查间隔由专业人员根据风险和治疗反应确定"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PERIO-001",
+          "source_title": "《牙周病学》第5版",
+          "chapter": "第18章 牙周病的疗效维护和预防",
+          "printed_page_start": 274,
+          "printed_page_end": 281,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-076",
+      "canonical_name_zh": "种植体周组织疾病的专业治疗",
+      "owning_modules": [
+        "M03"
+      ],
+      "clinical_objectives": [
+        "控制种植体周黏膜或支持组织问题并维护种植修复"
+      ],
+      "candidate_contexts_for_education": [
+        "种植体周出血、肿胀、溢脓或既有诊断的一般治疗背景"
+      ],
+      "required_clinical_evidence": [
+        "种植体周专业检查",
+        "专业影像和既往基线资料",
+        "修复体、清洁和全身危险因素"
+      ],
+      "decision_dependencies": [
+        "软组织或骨支持受累范围",
+        "修复体和局部结构",
+        "危险因素",
+        "既往治疗反应"
+      ],
+      "possible_alternatives": [
+        "非手术牙周处理",
+        "手术治疗评估",
+        "M05修复相关处理"
+      ],
+      "maintenance_or_follow_up": [
+        "持续种植体周和修复体维护复查"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-PERIO-001",
+          "source_title": "《牙周病学》第5版",
+          "chapter": "第20章 种植体周组织及其疾病",
+          "printed_page_start": 288,
+          "printed_page_end": 300,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-077",
+      "canonical_name_zh": "口腔黏膜病的病因或诱因控制与支持治疗",
+      "owning_modules": [
+        "M04"
+      ],
+      "clinical_objectives": [
+        "识别并控制可处理诱因，同时维持进食、清洁和黏膜保护"
+      ],
+      "candidate_contexts_for_education": [
+        "多数黏膜问题治疗原则的一般总览"
+      ],
+      "required_clinical_evidence": [
+        "病史与口腔黏膜检查",
+        "药物和接触史",
+        "必要的实验室或病理证据",
+        "全身背景"
+      ],
+      "decision_dependencies": [
+        "病损类型和范围",
+        "诱因可逆性",
+        "营养和水分状态",
+        "系统疾病关系"
+      ],
+      "possible_alternatives": [
+        "按病因选择的抗感染、抗炎、免疫或专业处理类别"
+      ],
+      "maintenance_or_follow_up": [
+        "观察病损变化、进食影响和全身表现"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-MUCOSA-001",
+          "source_title": "《口腔黏膜病学》第5版",
+          "chapter": "第1至12章 治疗原则",
+          "printed_page_start": 1,
+          "printed_page_end": 179,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-078",
+      "canonical_name_zh": "口腔黏膜抗真菌治疗类别",
+      "owning_modules": [
+        "M04"
+      ],
+      "clinical_objectives": [
+        "在专业确认或高度支持真菌相关问题后进行局部或系统性抗真菌治疗"
+      ],
+      "candidate_contexts_for_education": [
+        "用户询问真菌相关口腔黏膜问题的一般治疗背景"
+      ],
+      "required_clinical_evidence": [
+        "临床表现和危险因素",
+        "必要的微生物学证据",
+        "用药及免疫状态",
+        "深部感染评估"
+      ],
+      "decision_dependencies": [
+        "感染范围与严重程度",
+        "宿主免疫和肝肾等全身情况",
+        "局部诱因",
+        "药物相互作用"
+      ],
+      "possible_alternatives": [
+        "局部诱因控制",
+        "系统疾病评估",
+        "其他病原相关治疗"
+      ],
+      "maintenance_or_follow_up": [
+        "复查临床反应并处理复发危险因素"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-MUCOSA-001",
+          "source_title": "《口腔黏膜病学》第5版",
+          "chapter": "第2章 口腔黏膜感染性疾病",
+          "printed_page_start": 18,
+          "printed_page_end": 40,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-079",
+      "canonical_name_zh": "口腔黏膜抗病毒治疗类别",
+      "owning_modules": [
+        "M04"
+      ],
+      "clinical_objectives": [
+        "在适当临床时机和专业判断下处理病毒相关口腔黏膜问题"
+      ],
+      "candidate_contexts_for_education": [
+        "用户询问疱疹等病毒相关问题的一般治疗背景"
+      ],
+      "required_clinical_evidence": [
+        "病程、分布和全身表现",
+        "免疫状态",
+        "必要的实验室证据",
+        "药物风险"
+      ],
+      "decision_dependencies": [
+        "起病时间",
+        "范围和严重程度",
+        "免疫状态",
+        "特殊人群和全身受累"
+      ],
+      "possible_alternatives": [
+        "支持治疗",
+        "疼痛与营养支持",
+        "跨专科处理"
+      ],
+      "maintenance_or_follow_up": [
+        "关注复发、全身症状和眼部等特殊部位受累"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-MUCOSA-001",
+          "source_title": "《口腔黏膜病学》第5版",
+          "chapter": "第2章 口腔黏膜感染性疾病",
+          "printed_page_start": 18,
+          "printed_page_end": 40,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-080",
+      "canonical_name_zh": "口腔黏膜抗细菌及其他病原相关治疗类别",
+      "owning_modules": [
+        "M04"
+      ],
+      "clinical_objectives": [
+        "依据专业病原和临床证据处理细菌或其他感染相关黏膜问题"
+      ],
+      "candidate_contexts_for_education": [
+        "用户询问感染性口炎或特定病原治疗原则"
+      ],
+      "required_clinical_evidence": [
+        "临床和全身评估",
+        "必要的病原学或实验室证据",
+        "药物史和过敏史"
+      ],
+      "decision_dependencies": [
+        "病原证据",
+        "感染范围",
+        "免疫和全身状态",
+        "耐药与药物风险"
+      ],
+      "possible_alternatives": [
+        "局部专业处理",
+        "支持治疗",
+        "相关专科联合治疗"
+      ],
+      "maintenance_or_follow_up": [
+        "由专业人员评估反应、不良反应和复发"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-MUCOSA-001",
+          "source_title": "《口腔黏膜病学》第5版",
+          "chapter": "第2章 口腔黏膜感染性疾病",
+          "printed_page_start": 18,
+          "printed_page_end": 40,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-081",
+      "canonical_name_zh": "口腔黏膜局部抗炎与症状控制",
+      "owning_modules": [
+        "M04"
+      ],
+      "clinical_objectives": [
+        "在明确边界内减轻局部炎症、疼痛或进食影响"
+      ],
+      "candidate_contexts_for_education": [
+        "溃疡、糜烂、唇舌炎症等局部症状的一般治疗背景"
+      ],
+      "required_clinical_evidence": [
+        "黏膜检查",
+        "病因和感染排查",
+        "药物及过敏史",
+        "进食和全身影响"
+      ],
+      "decision_dependencies": [
+        "病损类型和范围",
+        "感染或免疫性背景",
+        "局部治疗可及性",
+        "吞咽及营养影响"
+      ],
+      "possible_alternatives": [
+        "病因治疗",
+        "系统性治疗",
+        "保护和支持治疗"
+      ],
+      "maintenance_or_follow_up": [
+        "短期复查疗效；持续或进展者重新评估诊断证据"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-MUCOSA-001",
+          "source_title": "《口腔黏膜病学》第5版",
+          "chapter": "第3至8章 变态反应、溃疡、大疱、斑纹及唇舌疾病",
+          "printed_page_start": 41,
+          "printed_page_end": 137,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-082",
+      "canonical_name_zh": "口腔黏膜系统性抗炎与免疫调节治疗",
+      "owning_modules": [
+        "M04"
+      ],
+      "clinical_objectives": [
+        "在专业诊断和监测下控制较广泛、严重或免疫相关黏膜疾病"
+      ],
+      "candidate_contexts_for_education": [
+        "用户询问激素、免疫相关治疗为什么需要专科评估时的一般说明"
+      ],
+      "required_clinical_evidence": [
+        "明确或高度支持的专业诊断",
+        "疾病范围和严重程度",
+        "感染排除",
+        "全身检查和用药风险"
+      ],
+      "decision_dependencies": [
+        "疾病活动度",
+        "并发感染风险",
+        "全身禁忌和共病",
+        "监测能力"
+      ],
+      "possible_alternatives": [
+        "局部治疗",
+        "其他系统性治疗",
+        "多学科联合管理"
+      ],
+      "maintenance_or_follow_up": [
+        "必须由专业人员持续监测疗效和系统性不良反应"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-MUCOSA-001",
+          "source_title": "《口腔黏膜病学》第5版",
+          "chapter": "第5至7章 大疱、斑纹及肉芽肿性疾病",
+          "printed_page_start": 70,
+          "printed_page_end": 120,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-083",
+      "canonical_name_zh": "口腔黏膜变态反应相关的回避与专业治疗",
+      "owning_modules": [
+        "M04"
+      ],
+      "clinical_objectives": [
+        "停止或避免已确认的相关暴露，并处理局部或全身变态反应"
+      ],
+      "candidate_contexts_for_education": [
+        "药物、接触物或食物相关口腔反应的一般治疗背景"
+      ],
+      "required_clinical_evidence": [
+        "暴露和时间关系",
+        "黏膜及全身表现",
+        "药物和过敏史",
+        "必要的专科评估"
+      ],
+      "decision_dependencies": [
+        "是否存在急性全身反应",
+        "致敏因素证据",
+        "再次暴露风险",
+        "替代药物或材料决定者"
+      ],
+      "possible_alternatives": [
+        "局部抗炎与支持治疗",
+        "急诊或过敏专科处理"
+      ],
+      "maintenance_or_follow_up": [
+        "明确记录可疑因素并由相关专业人员复核"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-MUCOSA-001",
+          "source_title": "《口腔黏膜病学》第5版",
+          "chapter": "第3章 口腔黏膜变态反应性疾病",
+          "printed_page_start": 41,
+          "printed_page_end": 52,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-084",
+      "canonical_name_zh": "复发性或慢性口腔溃疡的分层治疗",
+      "owning_modules": [
+        "M04"
+      ],
+      "clinical_objectives": [
+        "减轻症状、促进愈合并识别可处理诱因或系统性背景"
+      ],
+      "candidate_contexts_for_education": [
+        "反复、持续或多发溃疡的一般治疗路径说明"
+      ],
+      "required_clinical_evidence": [
+        "病程、复发和分布",
+        "黏膜检查",
+        "药物与全身背景",
+        "必要的实验室或病理证据"
+      ],
+      "decision_dependencies": [
+        "持续时间和复发模式",
+        "营养和系统性因素",
+        "创伤或药物因素",
+        "不愈合危险特征"
+      ],
+      "possible_alternatives": [
+        "局部症状控制",
+        "系统性或病因治疗",
+        "M07肿物病理路径"
+      ],
+      "maintenance_or_follow_up": [
+        "不愈合、增大、反复或伴全身表现时重新评估"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-MUCOSA-001",
+          "source_title": "《口腔黏膜病学》第5版",
+          "chapter": "第4章 口腔黏膜溃疡类疾病",
+          "printed_page_start": 53,
+          "printed_page_end": 69,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-085",
+      "canonical_name_zh": "口腔黏膜大疱性疾病的多学科治疗",
+      "owning_modules": [
+        "M04"
+      ],
+      "clinical_objectives": [
+        "控制黏膜损害并预防眼、皮肤或其他系统并发问题"
+      ],
+      "candidate_contexts_for_education": [
+        "水疱、大疱、剥脱或既有专科诊断的一般治疗背景"
+      ],
+      "required_clinical_evidence": [
+        "黏膜和皮肤检查",
+        "组织病理与免疫相关检查",
+        "全身受累和用药风险"
+      ],
+      "decision_dependencies": [
+        "疾病类型和活动度",
+        "眼、皮肤或其他系统受累",
+        "感染和营养风险",
+        "长期监测条件"
+      ],
+      "possible_alternatives": [
+        "局部治疗",
+        "系统性免疫相关治疗",
+        "皮肤科或其他专科联合管理"
+      ],
+      "maintenance_or_follow_up": [
+        "长期复查疾病活动和治疗不良反应"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-MUCOSA-001",
+          "source_title": "《口腔黏膜病学》第5版",
+          "chapter": "第5章 口腔黏膜大疱性疾病",
+          "printed_page_start": 70,
+          "printed_page_end": 86,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-086",
+      "canonical_name_zh": "口腔潜在恶性疾病的危险因素控制、监测与专业处理",
+      "owning_modules": [
+        "M04"
+      ],
+      "clinical_objectives": [
+        "控制危险因素、获取必要诊断证据并进行规范随访或专业处理"
+      ],
+      "candidate_contexts_for_education": [
+        "持续白斑、红斑或其他需排除潜在恶性变化的黏膜表现教育"
+      ],
+      "required_clinical_evidence": [
+        "完整黏膜检查",
+        "危险因素",
+        "必要的组织活检和病理",
+        "病损范围与变化记录"
+      ],
+      "decision_dependencies": [
+        "病理结果",
+        "病损类型、部位和范围",
+        "危险因素",
+        "患者整体情况"
+      ],
+      "possible_alternatives": [
+        "持续监测",
+        "专业局部处理",
+        "M07肿瘤综合治疗类别"
+      ],
+      "maintenance_or_follow_up": [
+        "由口腔黏膜或相关专科确定复查与再评估计划"
+      ],
+      "linked_existing_category_ids": [
+        "M09-TRT-049",
+        "M09-TRT-053"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-MUCOSA-001",
+          "source_title": "《口腔黏膜病学》第5版",
+          "chapter": "第6章 口腔斑纹类疾病",
+          "printed_page_start": 87,
+          "printed_page_end": 111,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-087",
+      "canonical_name_zh": "口腔黏膜病损的物理或手术专业处理",
+      "owning_modules": [
+        "M04"
+      ],
+      "clinical_objectives": [
+        "在病理性质和适应条件明确后对特定局限病损进行专业局部处理"
+      ],
+      "candidate_contexts_for_education": [
+        "用户询问切除、冷冻、激光等类别是否可能涉及的原则性背景"
+      ],
+      "required_clinical_evidence": [
+        "临床范围",
+        "必要的病理或辅助检查",
+        "解剖位置与功能风险",
+        "全身手术风险"
+      ],
+      "decision_dependencies": [
+        "病损性质和边界",
+        "取材与病理需求",
+        "复发和瘢痕风险",
+        "替代路径"
+      ],
+      "possible_alternatives": [
+        "观察监测",
+        "药物或病因治疗",
+        "M07肿物病理与综合治疗路径"
+      ],
+      "maintenance_or_follow_up": [
+        "术后病理、创面和复发复查"
+      ],
+      "linked_existing_category_ids": [
+        "M09-TRT-053"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-MUCOSA-001",
+          "source_title": "《口腔黏膜病学》第5版",
+          "chapter": "第2至12章 条件性专业处理",
+          "printed_page_start": 18,
+          "printed_page_end": 179,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-088",
+      "canonical_name_zh": "唇舌疾病的病因控制与对症处理",
+      "owning_modules": [
+        "M04"
+      ],
+      "clinical_objectives": [
+        "根据唇舌病损类型处理局部诱因、症状和相关全身因素"
+      ],
+      "candidate_contexts_for_education": [
+        "唇炎、口角炎、舌部疼痛或表面改变的一般治疗背景"
+      ],
+      "required_clinical_evidence": [
+        "唇舌和全口黏膜检查",
+        "接触、行为、营养和药物史",
+        "必要的实验室或病理证据"
+      ],
+      "decision_dependencies": [
+        "具体病损类型",
+        "持续诱因",
+        "感染或系统性关系",
+        "功能和进食影响"
+      ],
+      "possible_alternatives": [
+        "局部抗炎或抗感染类别",
+        "支持治疗",
+        "相关专科联合评估"
+      ],
+      "maintenance_or_follow_up": [
+        "复查持续、复发或性质变化"
+      ],
+      "linked_existing_category_ids": [],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-MUCOSA-001",
+          "source_title": "《口腔黏膜病学》第5版",
+          "chapter": "第8章 唇舌疾病",
+          "printed_page_start": 121,
+          "printed_page_end": 137,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-089",
+      "canonical_name_zh": "系统疾病相关口腔黏膜表现的联合治疗",
+      "owning_modules": [
+        "M04"
+      ],
+      "clinical_objectives": [
+        "协调口腔症状处理与原发系统疾病的专业治疗"
+      ],
+      "candidate_contexts_for_education": [
+        "血液、消化、免疫、内分泌、感染等系统疾病相关口腔表现的一般背景"
+      ],
+      "required_clinical_evidence": [
+        "既有系统疾病资料",
+        "口腔黏膜检查",
+        "相关实验室和专科评估",
+        "当前治疗及药物"
+      ],
+      "decision_dependencies": [
+        "原发疾病控制",
+        "口腔问题性质和严重程度",
+        "药物相互影响",
+        "多专科优先顺序"
+      ],
+      "possible_alternatives": [
+        "局部支持或症状治疗",
+        "相关系统专科治疗",
+        "M07跨专科联合诊疗"
+      ],
+      "maintenance_or_follow_up": [
+        "口腔与相关专科共同随访"
+      ],
+      "linked_existing_category_ids": [
+        "M09-TRT-054"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-MUCOSA-001",
+          "source_title": "《口腔黏膜病学》第5版",
+          "chapter": "第9至11章 感染与系统疾病的口腔表征",
+          "printed_page_start": 138,
+          "printed_page_end": 171,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    },
+    {
+      "treatment_category_id": "M09-TRT-090",
+      "canonical_name_zh": "口腔黏膜色素异常的病因评估与专业处理",
+      "owning_modules": [
+        "M04"
+      ],
+      "clinical_objectives": [
+        "区分生理、外源、药物、系统性或病理相关色素改变后决定观察或专业处理"
+      ],
+      "candidate_contexts_for_education": [
+        "口腔色素斑、颜色变化或美观困扰的一般治疗背景"
+      ],
+      "required_clinical_evidence": [
+        "病程和分布",
+        "口腔及皮肤检查",
+        "药物与全身背景",
+        "必要的实验室或病理证据"
+      ],
+      "decision_dependencies": [
+        "色素来源和稳定性",
+        "病损变化",
+        "系统性线索",
+        "病理检查必要性"
+      ],
+      "possible_alternatives": [
+        "观察与记录",
+        "病因相关处理",
+        "专业局部处理或M07病理路径"
+      ],
+      "maintenance_or_follow_up": [
+        "对变化、增大或新症状进行复查"
+      ],
+      "linked_existing_category_ids": [
+        "M09-TRT-053"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "用户自述的单一症状或病名",
+        "一张普通照片或未经专业解释的检查资料",
+        "年龄、预算、偏好、广告或既往他人方案中的任一单项信息",
+        "结构化目录或检索命中本身"
+      ],
+      "must_not_disclose": [
+        "当前用户应该、必须或首选该类别的结论",
+        "处方药名称选择、剂量、频次、疗程、停换药或禁忌判断",
+        "器械、材料品牌、操作参数、手术步骤或自行处理方法",
+        "疗效保证、成功率承诺、固定完成周期或按价格作优劣排序"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-MUCOSA-001",
+          "source_title": "《口腔黏膜病学》第5版",
+          "chapter": "第12章 口腔黏膜色素异常",
+          "printed_page_start": 172,
+          "printed_page_end": 179,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_m12_evaluation",
+      "adult_runtime_scope": "adult_first_release",
+      "source_origin": "m09_new_m02_m04_batch"
+    }
+  ],
+  "user_output_contract": {
+    "allowed_sections": [
+      "可能讨论的治疗类别",
+      "一般目的",
+      "线下决定前提",
+      "当前不能确定",
+      "其他可能方向",
+      "复查维护",
+      "来源与能力边界"
+    ],
+    "required_phrasing": [
+      "面诊后可能讨论",
+      "具体取决于线下检查和专业共同决策"
+    ],
+    "prohibited": [
+      "个人治疗选择",
+      "处方药选择或剂量疗程",
+      "器械参数或操作步骤",
+      "疗效保证",
+      "价格排序",
+      "延迟M00就诊行动"
+    ]
+  }
+}

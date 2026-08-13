@@ -1,0 +1,1897 @@
+{
+  "schema_version": "cn-dental-m08-rules.v1.2",
+  "module": "M08",
+  "production_enabled": false,
+  "internal_implementation_status": "implemented_not_release_validated",
+  "final_audit_ready": true,
+  "final_audit_status": "approved",
+  "general_rule_review_status": "approved",
+  "capture_view_review_status": "approved",
+  "score_scale": "0-100",
+  "score_status": "engineering_score_unvalidated",
+  "task_codes": [
+    "single_tooth_or_area",
+    "gingiva_region",
+    "mucosal_region",
+    "intraoral_visible_area",
+    "intraoral_frontal",
+    "intraoral_right",
+    "intraoral_left",
+    "upper_arch",
+    "lower_arch",
+    "face_frontal_rest",
+    "face_frontal_smile",
+    "face_profile",
+    "local_external_swelling",
+    "mouth_open_closed_comparison",
+    "wound_or_device_area",
+    "prosthesis_or_appliance_area",
+    "report_page"
+  ],
+  "capture_view_codes": [
+    "frontal_rest",
+    "profile_rest",
+    "oblique_45_rest",
+    "frontal_smile",
+    "profile_smile",
+    "oblique_45_smile",
+    "intraoral_right",
+    "intraoral_frontal",
+    "intraoral_left",
+    "anterior_overbite_overjet",
+    "upper_arch",
+    "lower_arch"
+  ],
+  "capture_view_count": 12,
+  "capture_views": [
+    {
+      "code": "frontal_rest",
+      "name_zh": "正面静息像",
+      "tier": "core",
+      "textbook_figure": "图5-6-1A",
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "code": "profile_rest",
+      "name_zh": "侧面静息像",
+      "tier": "core",
+      "textbook_figure": "图5-6-1B",
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "code": "oblique_45_rest",
+      "name_zh": "45度侧面静息像",
+      "tier": "conditional",
+      "textbook_figure": "图5-6-1C",
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "code": "frontal_smile",
+      "name_zh": "正面微笑像",
+      "tier": "core",
+      "textbook_figure": "图5-6-1D",
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "code": "profile_smile",
+      "name_zh": "侧面微笑像",
+      "tier": "conditional",
+      "textbook_figure": "图5-6-1E",
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "code": "oblique_45_smile",
+      "name_zh": "45度侧面微笑像",
+      "tier": "conditional",
+      "textbook_figure": "图5-6-1F",
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "code": "intraoral_right",
+      "name_zh": "口内右侧面观",
+      "tier": "core",
+      "textbook_figure": "图5-6-1G",
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "code": "intraoral_frontal",
+      "name_zh": "口内正面观",
+      "tier": "core",
+      "textbook_figure": "图5-6-1H",
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "code": "intraoral_left",
+      "name_zh": "口内左侧面观",
+      "tier": "core",
+      "textbook_figure": "图5-6-1I",
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "code": "anterior_overbite_overjet",
+      "name_zh": "前牙覆𬌗覆盖观",
+      "tier": "conditional",
+      "textbook_figure": "图5-6-1J",
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "code": "upper_arch",
+      "name_zh": "上𬌗面观",
+      "tier": "core",
+      "textbook_figure": "图5-6-1K",
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "code": "lower_arch",
+      "name_zh": "下𬌗面观",
+      "tier": "core",
+      "textbook_figure": "图5-6-1L",
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    }
+  ],
+  "orthodontic_observation_profile_review_status": "approved",
+  "orthodontic_observation_profile_codes": [
+    "M08-ORTHO-PAT-001",
+    "M08-ORTHO-PAT-002",
+    "M08-ORTHO-PAT-003",
+    "M08-ORTHO-PAT-004",
+    "M08-ORTHO-PAT-005",
+    "M08-ORTHO-PAT-006",
+    "M08-ORTHO-PAT-007",
+    "M08-ORTHO-PAT-008",
+    "M08-ORTHO-PAT-009",
+    "M08-ORTHO-DEV-001",
+    "M08-ORTHO-DEV-002",
+    "M08-ORTHO-DEV-003",
+    "M08-ORTHO-DEV-004",
+    "M08-ORTHO-DEV-005",
+    "M08-ORTHO-DEV-006",
+    "M08-ORTHO-DEV-007"
+  ],
+  "orthodontic_observation_profile_count": 16,
+  "orthodontic_observation_profiles": [
+    {
+      "profile_code": "M08-ORTHO-PAT-001",
+      "clinical_anchor_zh": "牙列拥挤",
+      "neutral_observation_zh": "仅描述照片内牙齿重叠、错位或排列不齐外观",
+      "allowed_tasks": [
+        "intraoral_frontal",
+        "upper_arch",
+        "lower_arch"
+      ],
+      "preferred_capture_views": [
+        "intraoral_frontal",
+        "upper_arch",
+        "lower_arch"
+      ],
+      "allowed_observation_types": [
+        "crowding_appearance",
+        "tooth_alignment_appearance"
+      ],
+      "must_not_infer": [
+        "拥挤量",
+        "严重程度分级",
+        "拔牙或扩弓需要"
+      ],
+      "source_refs": [
+        "CN-ORTHO-001:chapter-9:printed-pages-171-177"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "profile_code": "M08-ORTHO-PAT-002",
+      "clinical_anchor_zh": "牙列间隙",
+      "neutral_observation_zh": "仅描述照片内可见牙间空隙及所在区域",
+      "allowed_tasks": [
+        "intraoral_frontal",
+        "upper_arch",
+        "lower_arch"
+      ],
+      "preferred_capture_views": [
+        "intraoral_frontal",
+        "upper_arch",
+        "lower_arch"
+      ],
+      "allowed_observation_types": [
+        "spacing_appearance"
+      ],
+      "must_not_infer": [
+        "间隙总量",
+        "缺牙或牙周病因",
+        "关闭间隙方案"
+      ],
+      "source_refs": [
+        "CN-ORTHO-001:chapter-9:printed-pages-178-179"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "profile_code": "M08-ORTHO-PAT-003",
+      "clinical_anchor_zh": "双颌前突相关外观",
+      "neutral_observation_zh": "仅描述标准侧面照片中的唇部姿态、闭唇状态与前牙显露外观",
+      "allowed_tasks": [
+        "face_frontal_rest",
+        "face_profile",
+        "intraoral_frontal"
+      ],
+      "preferred_capture_views": [
+        "frontal_rest",
+        "profile_rest",
+        "intraoral_frontal"
+      ],
+      "allowed_observation_types": [
+        "lip_posture_in_frame",
+        "tooth_alignment_appearance"
+      ],
+      "must_not_infer": [
+        "双颌前突诊断",
+        "牙性或骨性来源",
+        "拔牙或侧貌改善结果"
+      ],
+      "source_refs": [
+        "CN-ORTHO-001:chapter-9:printed-pages-180-182"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "profile_code": "M08-ORTHO-PAT-004",
+      "clinical_anchor_zh": "前牙反𬌗",
+      "neutral_observation_zh": "仅描述自然咬合照片中上下前牙可见的前后相对关系",
+      "allowed_tasks": [
+        "intraoral_frontal",
+        "intraoral_right",
+        "intraoral_left"
+      ],
+      "preferred_capture_views": [
+        "intraoral_frontal",
+        "anterior_overbite_overjet"
+      ],
+      "allowed_observation_types": [
+        "anterior_horizontal_relation_in_frame"
+      ],
+      "must_not_infer": [
+        "前牙反𬌗确诊",
+        "功能性、牙性或骨性分类",
+        "生长趋势或治疗方案"
+      ],
+      "source_refs": [
+        "CN-ORTHO-001:chapter-9:printed-pages-183-191"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "profile_code": "M08-ORTHO-PAT-005",
+      "clinical_anchor_zh": "前牙深覆盖",
+      "neutral_observation_zh": "仅描述自然咬合照片中上下前牙水平向可见关系",
+      "allowed_tasks": [
+        "intraoral_frontal",
+        "intraoral_right",
+        "intraoral_left"
+      ],
+      "preferred_capture_views": [
+        "anterior_overbite_overjet",
+        "intraoral_frontal"
+      ],
+      "allowed_observation_types": [
+        "anterior_horizontal_relation_in_frame"
+      ],
+      "must_not_infer": [
+        "毫米数值",
+        "覆盖分级",
+        "牙性或骨性来源"
+      ],
+      "source_refs": [
+        "CN-ORTHO-001:chapter-9:printed-pages-192-196"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "profile_code": "M08-ORTHO-PAT-006",
+      "clinical_anchor_zh": "后牙反𬌗",
+      "neutral_observation_zh": "仅描述对应侧自然咬合照片中上下后牙横向可见关系",
+      "allowed_tasks": [
+        "intraoral_right",
+        "intraoral_left"
+      ],
+      "preferred_capture_views": [
+        "intraoral_right",
+        "intraoral_left"
+      ],
+      "allowed_observation_types": [
+        "posterior_transverse_relation_in_frame"
+      ],
+      "must_not_infer": [
+        "后牙反𬌗确诊",
+        "单侧或双侧完整分类",
+        "功能性偏移或骨性来源"
+      ],
+      "source_refs": [
+        "CN-ORTHO-001:chapter-9:printed-pages-197-198"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "profile_code": "M08-ORTHO-PAT-007",
+      "clinical_anchor_zh": "后牙锁𬌗",
+      "neutral_observation_zh": "仅描述对应侧照片中上下后牙颊舌向覆盖外观",
+      "allowed_tasks": [
+        "intraoral_right",
+        "intraoral_left"
+      ],
+      "preferred_capture_views": [
+        "intraoral_right",
+        "intraoral_left"
+      ],
+      "allowed_observation_types": [
+        "posterior_transverse_relation_in_frame"
+      ],
+      "must_not_infer": [
+        "正锁𬌗或反锁𬌗分类",
+        "完整咬合接触",
+        "病因或处理方案"
+      ],
+      "source_refs": [
+        "CN-ORTHO-001:chapter-9:printed-pages-199-200"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "profile_code": "M08-ORTHO-PAT-008",
+      "clinical_anchor_zh": "深覆𬌗",
+      "neutral_observation_zh": "仅描述自然咬合照片中上下前牙垂直重叠外观",
+      "allowed_tasks": [
+        "intraoral_frontal"
+      ],
+      "preferred_capture_views": [
+        "intraoral_frontal",
+        "anterior_overbite_overjet"
+      ],
+      "allowed_observation_types": [
+        "anterior_vertical_relation_in_frame"
+      ],
+      "must_not_infer": [
+        "覆𬌗比例或等级",
+        "软组织损伤机制",
+        "治疗指征"
+      ],
+      "source_refs": [
+        "CN-ORTHO-001:chapter-9:printed-pages-201-208"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "profile_code": "M08-ORTHO-PAT-009",
+      "clinical_anchor_zh": "开𬌗",
+      "neutral_observation_zh": "仅描述自然咬合照片中上下牙之间可见的垂直间隙外观",
+      "allowed_tasks": [
+        "intraoral_frontal",
+        "intraoral_right",
+        "intraoral_left"
+      ],
+      "preferred_capture_views": [
+        "intraoral_frontal",
+        "anterior_overbite_overjet"
+      ],
+      "allowed_observation_types": [
+        "anterior_vertical_relation_in_frame"
+      ],
+      "must_not_infer": [
+        "开𬌗分类或范围",
+        "习惯或骨性病因",
+        "治疗方式"
+      ],
+      "source_refs": [
+        "CN-ORTHO-001:chapter-9:printed-pages-209-213"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "profile_code": "M08-ORTHO-DEV-001",
+      "clinical_anchor_zh": "固定矫治装置",
+      "neutral_observation_zh": "仅描述照片内托槽、弓丝、带环或其他可见部件的连续性与位置外观",
+      "allowed_tasks": [
+        "prosthesis_or_appliance_area",
+        "wound_or_device_area"
+      ],
+      "preferred_capture_views": [],
+      "allowed_observation_types": [
+        "prosthesis_or_appliance_integrity_in_frame",
+        "prosthesis_or_appliance_position_in_frame"
+      ],
+      "must_not_infer": [
+        "力学状态",
+        "失败原因",
+        "如何复位、粘接、弯折或剪切"
+      ],
+      "source_refs": [
+        "CN-ORTHO-001:chapter-7:printed-pages-120-145"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "profile_code": "M08-ORTHO-DEV-002",
+      "clinical_anchor_zh": "可摘矫治装置",
+      "neutral_observation_zh": "仅描述装置在照片内是否完整入镜及可见破损、变形或位置外观",
+      "allowed_tasks": [
+        "prosthesis_or_appliance_area",
+        "wound_or_device_area"
+      ],
+      "preferred_capture_views": [],
+      "allowed_observation_types": [
+        "prosthesis_or_appliance_integrity_in_frame",
+        "prosthesis_or_appliance_position_in_frame"
+      ],
+      "must_not_infer": [
+        "适合性",
+        "作用机制",
+        "佩戴时间或自行调整方法"
+      ],
+      "source_refs": [
+        "CN-ORTHO-001:chapter-7:printed-pages-97-109"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "profile_code": "M08-ORTHO-DEV-003",
+      "clinical_anchor_zh": "无托槽矫治装置",
+      "neutral_observation_zh": "仅描述透明装置在画面中的可见边缘、完整性与就位外观",
+      "allowed_tasks": [
+        "prosthesis_or_appliance_area",
+        "wound_or_device_area"
+      ],
+      "preferred_capture_views": [],
+      "allowed_observation_types": [
+        "prosthesis_or_appliance_integrity_in_frame",
+        "prosthesis_or_appliance_position_in_frame"
+      ],
+      "must_not_infer": [
+        "牙移动是否按计划",
+        "附件或装置失效原因",
+        "是否更换下一副"
+      ],
+      "source_refs": [
+        "CN-ORTHO-001:chapter-7:printed-pages-140-141"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "profile_code": "M08-ORTHO-DEV-004",
+      "clinical_anchor_zh": "保持器",
+      "neutral_observation_zh": "仅描述可摘或固定保持装置的可见完整性、位置及与照片内牙面的关系",
+      "allowed_tasks": [
+        "prosthesis_or_appliance_area",
+        "wound_or_device_area"
+      ],
+      "preferred_capture_views": [],
+      "allowed_observation_types": [
+        "prosthesis_or_appliance_integrity_in_frame",
+        "prosthesis_or_appliance_position_in_frame"
+      ],
+      "must_not_infer": [
+        "保持是否充分",
+        "复发诊断",
+        "佩戴期限或修理方法"
+      ],
+      "source_refs": [
+        "CN-ORTHO-001:chapter-14:printed-pages-273-279"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "profile_code": "M08-ORTHO-DEV-005",
+      "clinical_anchor_zh": "矫治装置邻近软组织变化",
+      "neutral_observation_zh": "仅描述装置邻近牙龈或黏膜的可见颜色、隆起、表面中断或血迹",
+      "allowed_tasks": [
+        "gingiva_region",
+        "mucosal_region",
+        "wound_or_device_area"
+      ],
+      "preferred_capture_views": [],
+      "allowed_observation_types": [
+        "color_category",
+        "visible_elevation",
+        "surface_continuity_break",
+        "visible_blood_or_trace"
+      ],
+      "must_not_infer": [
+        "牙龈炎或牙周炎诊断",
+        "探诊出血",
+        "溃疡深度或装置致病因果"
+      ],
+      "source_refs": [
+        "CN-ORTHO-001:chapter-13:printed-pages-267-272"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "profile_code": "M08-ORTHO-DEV-006",
+      "clinical_anchor_zh": "矫治装置周围清洁与牙面外观",
+      "neutral_observation_zh": "仅描述装置周围可见覆盖物、表面附着或牙面颜色/透明度外观变化",
+      "allowed_tasks": [
+        "gingiva_region",
+        "single_tooth_or_area",
+        "prosthesis_or_appliance_area"
+      ],
+      "preferred_capture_views": [],
+      "allowed_observation_types": [
+        "visible_covering",
+        "visible_fluid_or_covering",
+        "surface_appearance",
+        "color_category"
+      ],
+      "must_not_infer": [
+        "菌斑指数",
+        "釉质脱矿或龋病诊断",
+        "清洁依从性或责任归因"
+      ],
+      "source_refs": [
+        "CN-ORTHO-001:chapter-13:printed-pages-267-272"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "profile_code": "M08-ORTHO-DEV-007",
+      "clinical_anchor_zh": "保持阶段或治疗后牙位变化",
+      "neutral_observation_zh": "仅在可比的历史与当前照片中分别记录排列、间隙或中线的可见差异",
+      "allowed_tasks": [
+        "intraoral_frontal",
+        "upper_arch",
+        "lower_arch"
+      ],
+      "preferred_capture_views": [
+        "intraoral_frontal",
+        "upper_arch",
+        "lower_arch"
+      ],
+      "allowed_observation_types": [
+        "tooth_alignment_appearance",
+        "spacing_appearance",
+        "crowding_appearance",
+        "midline_relation_in_frame"
+      ],
+      "must_not_infer": [
+        "正畸复发诊断",
+        "变化原因",
+        "重新矫治或保持方案"
+      ],
+      "source_refs": [
+        "CN-ORTHO-001:chapter-14:printed-pages-273-279"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    }
+  ],
+  "counts": {
+    "TASK": 17,
+    "QLT": 20,
+    "LOC": 14,
+    "OBS": 20,
+    "FUS": 12,
+    "PRV": 10,
+    "total": 93
+  },
+  "rules": [
+    {
+      "rule_id": "M08-IMG-TASK-001",
+      "name_zh": "单牙或局部牙体区域",
+      "requirement": "目标牙或用户所指局部完整入镜并可定位；不替代叩诊、探诊、牙髓活力或影像检查",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-TASK-002",
+      "name_zh": "局部牙龈",
+      "requirement": "目标牙龈及邻近牙面入镜；只描述可见颜色、形态、表面和血迹",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-TASK-003",
+      "name_zh": "局部口腔黏膜",
+      "requirement": "目标黏膜及邻近解剖标志入镜；不判断深度、触感、病原或组织性质",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-TASK-004",
+      "name_zh": "口内指定可见区域",
+      "requirement": "先确认部位再描述可见事实；目标不明时不得猜测位置",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-TASK-005",
+      "name_zh": "正面咬合像",
+      "requirement": "自然咬合、正面、牙列和牙龈关键范围可见；不据此完成专业错𬌗分类",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-TASK-006",
+      "name_zh": "右侧咬合像",
+      "requirement": "右侧牙列关系完整、无遮挡且角度可比较",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-TASK-007",
+      "name_zh": "左侧咬合像",
+      "requirement": "左侧牙列关系完整、无遮挡且角度可比较",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-TASK-008",
+      "name_zh": "上牙弓像",
+      "requirement": "上牙弓尽量完整入镜，避免严重透视变形；不替代模型测量",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-TASK-009",
+      "name_zh": "下牙弓像",
+      "requirement": "下牙弓尽量完整入镜，避免舌和反光遮挡；不替代模型测量",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-TASK-010",
+      "name_zh": "面部正面静息像",
+      "requirement": "头位基本正直、静息、双侧完整；只描述照片内对称关系",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-TASK-011",
+      "name_zh": "面部正面微笑像",
+      "requirement": "正面自然微笑、牙齿显露和面部关键范围完整",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-TASK-012",
+      "name_zh": "面部侧面像",
+      "requirement": "标准侧位、头位和轮廓完整；不从普通照片判断骨性类型",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-TASK-013",
+      "name_zh": "颌面局部外观改变",
+      "requirement": "双侧或邻近区域具有基本比较条件；不判断深部范围、波动感或病因",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-TASK-014",
+      "name_zh": "张口与闭口对照",
+      "requirement": "同一时间段、相近角度和距离的成对图片；不替代动态功能检查",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-TASK-015",
+      "name_zh": "创口或装置局部",
+      "requirement": "目标和邻近组织完整入镜；不指导挤压、拆卸或复位",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-TASK-016",
+      "name_zh": "修复体或矫治装置局部",
+      "requirement": "仅记录图中完整性和位置外观；不判断失败原因或个人处理方案",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-TASK-017",
+      "name_zh": "既有检查报告页面",
+      "requirement": "页面完整、文字清晰；只提取报告文字，不判读影像本体",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-QLT-001",
+      "name_zh": "文件完整性",
+      "requirement": "文件可读取且方向正确；得分只允许0、25、50、75、100",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-QLT-002",
+      "name_zh": "目标覆盖",
+      "requirement": "确认任务目标是否出现及关键边界是否完整；权重20%",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-QLT-003",
+      "name_zh": "对焦与细节",
+      "requirement": "判断关键细节是否可分辨；权重20%",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-QLT-004",
+      "name_zh": "曝光与颜色",
+      "requirement": "判断亮度、白平衡和颜色是否足以支持颜色描述；权重10%",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-QLT-005",
+      "name_zh": "拍摄角度与姿势",
+      "requirement": "判断视角、咬合状态或面部姿势是否符合任务；权重15%",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-QLT-006",
+      "name_zh": "透视变形",
+      "requirement": "判断位置关系是否受到明显透视影响；权重10%",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-QLT-007",
+      "name_zh": "遮挡",
+      "requirement": "判断舌、手指、器械、反光、唾液等是否遮挡；权重10%",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-QLT-008",
+      "name_zh": "前后可比性",
+      "requirement": "比较任务需核对时间、距离、角度、姿势和光线；权重5%",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-QLT-009",
+      "name_zh": "质量总分公式",
+      "requirement": "八项得分乘各自权重后求和，输出0—100并保留1位小数",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-QLT-010",
+      "name_zh": "完全适用阈值",
+      "requirement": "无硬失败且质量总分达到85.0时为suitable",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-QLT-011",
+      "name_zh": "部分适用阈值",
+      "requirement": "无硬失败且质量总分为60.0—84.9时为partially_suitable",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-QLT-012",
+      "name_zh": "不适用阈值",
+      "requirement": "质量总分低于60.0或出现任一硬失败时为not_suitable",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-QLT-013",
+      "name_zh": "硬失败覆盖",
+      "requirement": "解码失败、目标缺失、关键区域裁切或不可辨、强滤镜、任务视图不符等直接判不适用",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-QLT-014",
+      "name_zh": "颜色描述阈值",
+      "requirement": "曝光与颜色分项至少75且无强滤镜时才允许颜色描述",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-QLT-015",
+      "name_zh": "观察事实阈值",
+      "requirement": "有效置信分数至少85.0才写入明确可见事实",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-QLT-016",
+      "name_zh": "受限表述阈值",
+      "requirement": "有效置信分数70.0—84.9时只写受限可见可能",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-QLT-017",
+      "name_zh": "澄清阈值",
+      "requirement": "有效置信分数50.0—69.9时不写事实，只补拍或澄清",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-QLT-018",
+      "name_zh": "丢弃阈值",
+      "requirement": "有效置信分数低于50.0时丢弃该观察",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-QLT-019",
+      "name_zh": "有效置信分数",
+      "requirement": "取位置置信分数、观察置信分数和任务质量总分三者最小值",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-QLT-020",
+      "name_zh": "分数语义",
+      "requirement": "校准前全部标记engineering_score_unvalidated，不得解释为概率",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-LOC-001",
+      "name_zh": "牙或牙列区域",
+      "requirement": "可确认牙位时记录牙位；不能确认时只保存区域或象限",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-LOC-002",
+      "name_zh": "牙龈",
+      "requirement": "记录邻近牙区、侧别和可见范围",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-LOC-003",
+      "name_zh": "唇或口角",
+      "requirement": "区分唇红、唇黏膜和口角的可见区域",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-LOC-004",
+      "name_zh": "颊黏膜",
+      "requirement": "记录左、右及邻近牙区",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-LOC-005",
+      "name_zh": "舌",
+      "requirement": "记录舌背、舌侧缘、舌腹等照片可确认区域",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-LOC-006",
+      "name_zh": "口底",
+      "requirement": "只记录照片可见区域，不推断深部范围",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-LOC-007",
+      "name_zh": "腭",
+      "requirement": "区分硬腭、软腭等可确认区域",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-LOC-008",
+      "name_zh": "口咽可见区域",
+      "requirement": "仅记录画面可见部分，不把未显示当正常",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-LOC-009",
+      "name_zh": "修复体或装置",
+      "requirement": "记录装置类型由用户资料或可见外形支持，不猜测材料",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-LOC-010",
+      "name_zh": "面部左侧",
+      "requirement": "采用照片中明确方向并保存镜像不确定性",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-LOC-011",
+      "name_zh": "面部右侧",
+      "requirement": "采用照片中明确方向并保存镜像不确定性",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-LOC-012",
+      "name_zh": "面部中线",
+      "requirement": "只用于照片内相对关系，不等同专业测量基准",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-LOC-013",
+      "name_zh": "颌面局部",
+      "requirement": "记录侧别和表面范围，不推断深部解剖来源",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-LOC-014",
+      "name_zh": "报告页面",
+      "requirement": "记录页码、标题和文字区域，不处理影像本体",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-OBS-001",
+      "name_zh": "数量",
+      "requirement": "记录画面中可辨数量；遮挡时注明下限而非完整总数",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-OBS-002",
+      "name_zh": "分布",
+      "requirement": "记录局限、散在、多处或成组等中性分布",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-OBS-003",
+      "name_zh": "侧别",
+      "requirement": "记录左、右、双侧或中线；镜像不明时不得猜测",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-OBS-004",
+      "name_zh": "照片内对称性",
+      "requirement": "只描述标准姿势照片中的可见对称关系",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-OBS-005",
+      "name_zh": "形状",
+      "requirement": "使用圆形、椭圆形、线状、不规则等中性外观",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-OBS-006",
+      "name_zh": "边界可见性",
+      "requirement": "记录清楚、部分可见或不可见，不推断浸润",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-OBS-007",
+      "name_zh": "表面外观",
+      "requirement": "记录光滑、粗糙外观等视觉属性，不写触感",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-OBS-008",
+      "name_zh": "可见覆盖物",
+      "requirement": "记录颜色和覆盖范围，不判断成分或病原",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-OBS-009",
+      "name_zh": "颜色类别",
+      "requirement": "仅在颜色分项达到75且无强滤镜时记录",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-OBS-010",
+      "name_zh": "可见隆起",
+      "requirement": "记录相对周围表面的隆起外观，不判断组织来源",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-OBS-011",
+      "name_zh": "可见凹陷",
+      "requirement": "记录凹陷外观，不判断深度",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-OBS-012",
+      "name_zh": "表面连续性中断",
+      "requirement": "记录位置、数量、范围和边界，不直接命名溃疡或糜烂",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-OBS-013",
+      "name_zh": "可见裂隙",
+      "requirement": "记录线状表面中断外观，不判断深部延伸",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-OBS-014",
+      "name_zh": "可见缺损",
+      "requirement": "记录照片内缺失或破损外观，不判断原因",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-OBS-015",
+      "name_zh": "可见血液或血迹",
+      "requirement": "记录是否可见、范围和来源能否定位，不判断失控、探诊出血或指数",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-OBS-016",
+      "name_zh": "可见液体或表面附着",
+      "requirement": "只记录外观，不判断脓液、渗出性质或感染",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-OBS-017",
+      "name_zh": "牙齿排列外观",
+      "requirement": "记录照片内排列关系，不完成专业错𬌗分类",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-OBS-018",
+      "name_zh": "间隙或拥挤外观",
+      "requirement": "记录照片内可见关系，不替代模型测量",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-OBS-019",
+      "name_zh": "中线关系",
+      "requirement": "记录牙列与面部中线的照片内关系，不推断病因",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-OBS-020",
+      "name_zh": "修复体或装置外观",
+      "requirement": "记录可见完整性和位置，不判断失败机制或个人处置",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2",
+        "CN-ENDO-001:chapter-27",
+        "CN-PERIO-001:chapters-7-8",
+        "CN-MUCOSA-001:chapter-1",
+        "CN-PROSTH-001:chapter-2",
+        "CN-ORTHO-001:chapter-5"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-FUS-001",
+      "name_zh": "来源并列保存",
+      "requirement": "用户文字和图像事实分别保存，互不覆盖",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-FUS-002",
+      "name_zh": "照片未显示不等于否认",
+      "requirement": "用户报告存在而照片未显示时保留用户事实",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-FUS-003",
+      "name_zh": "当前与历史分离",
+      "requirement": "历史照片、当前照片和当前症状不得跨时间互相否定",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-FUS-004",
+      "name_zh": "同部位同时间差异",
+      "requirement": "记录cross_source_difference并保留两种来源",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-FUS-005",
+      "name_zh": "单次高价值澄清",
+      "requirement": "同一差异最多提出1个可改变路由或安全判断的问题",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-FUS-006",
+      "name_zh": "图像新增安全候选",
+      "requirement": "有效置信分数达到50.0即交回M00复核",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-FUS-007",
+      "name_zh": "安全候选确定性",
+      "requirement": "50.0—69.9标记uncertain_visible_candidate，70.0—100标记visible_candidate",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-FUS-008",
+      "name_zh": "不得降低风险",
+      "requirement": "图像缺失、正常外观或低分观察不得降低M00既有紧迫度",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-FUS-009",
+      "name_zh": "M00再次运行",
+      "requirement": "每次产生或拒绝图像观察后都返回M00复核",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-FUS-010",
+      "name_zh": "M11保持所有权",
+      "requirement": "M08不得自行确定主次模块或新增多个分道",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-FUS-011",
+      "name_zh": "专业模块继续完整度",
+      "requirement": "M00复核后回原专业模块判断是否仍需澄清",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-FUS-012",
+      "name_zh": "U1不补拍延误",
+      "requirement": "M00为U1时可转交已有观察，但补拍指令数量固定为0",
+      "source_refs": [
+        "CN-INDEX-001:chapter-2"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-PRV-001",
+      "name_zh": "合法来源",
+      "requirement": "记录本人上传或已获合法授权，缺失时不处理",
+      "source_refs": [
+        "CN-PIPL-2021",
+        "CN-NHC-AI-HEALTH-2025"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-PRV-002",
+      "name_zh": "当前咨询同意",
+      "requirement": "当前咨询处理必须单独记录明确同意",
+      "source_refs": [
+        "CN-PIPL-2021",
+        "CN-NHC-AI-HEALTH-2025"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-PRV-003",
+      "name_zh": "目的告知",
+      "requirement": "上传前说明用途、范围、保存期限和退出方式",
+      "source_refs": [
+        "CN-PIPL-2021",
+        "CN-NHC-AI-HEALTH-2025"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-PRV-004",
+      "name_zh": "二次用途分离",
+      "requirement": "当前咨询同意不自动覆盖评测或训练",
+      "source_refs": [
+        "CN-PIPL-2021",
+        "CN-NHC-AI-HEALTH-2025"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-PRV-005",
+      "name_zh": "训练单独同意",
+      "requirement": "training_use_consent默认false且必须单独取得",
+      "source_refs": [
+        "CN-PIPL-2021",
+        "CN-NHC-AI-HEALTH-2025"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-PRV-006",
+      "name_zh": "最小采集",
+      "requirement": "无需面部时不采集整张脸；每次只请求完成任务所需视图",
+      "source_refs": [
+        "CN-PIPL-2021",
+        "CN-NHC-AI-HEALTH-2025"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-PRV-007",
+      "name_zh": "元数据最小化",
+      "requirement": "无必要时移除位置等EXIF元数据",
+      "source_refs": [
+        "CN-PIPL-2021",
+        "CN-NHC-AI-HEALTH-2025"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-PRV-008",
+      "name_zh": "访问与导出审计",
+      "requirement": "读取、导出、删除和异常使用必须可追踪",
+      "source_refs": [
+        "CN-PIPL-2021",
+        "CN-NHC-AI-HEALTH-2025"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-PRV-009",
+      "name_zh": "撤回与删除",
+      "requirement": "撤回授权和保存期到期后必须执行处置",
+      "source_refs": [
+        "CN-PIPL-2021",
+        "CN-NHC-AI-HEALTH-2025"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    },
+    {
+      "rule_id": "M08-IMG-PRV-010",
+      "name_zh": "教材图片禁用",
+      "requirement": "教材图片不进入公开或商业评测集",
+      "source_refs": [
+        "CN-PIPL-2021",
+        "CN-NHC-AI-HEALTH-2025"
+      ],
+      "review_status": "approved",
+      "runtime_status": "disabled_pending_real_image_validation"
+    }
+  ]
+}

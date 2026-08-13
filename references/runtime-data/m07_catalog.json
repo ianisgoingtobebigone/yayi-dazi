@@ -1,0 +1,4058 @@
+{
+  "metadata": {
+    "catalog_id": "M07-KNOWLEDGE-CATALOG",
+    "catalog_version": "m07.approved.1",
+    "approved_on": "2026-08-12",
+    "scope": "成人中国化口腔颌面及跨专科基础咨询",
+    "review_status": "approved_for_cross_module_integration",
+    "production_eligible": false,
+    "status_note": "正文已获M07整体处理授权；完整M08、M10、M11、公共主Agent和M12分别审核前不得进入生产回答。",
+    "source_ids": [
+      "CN-INDEX-001",
+      "CN-CHSA-CONDYLE-FX-2023",
+      "CN-CHSA-ORAL-PATH-2020",
+      "CN-CHSA-PAROTID-MALIGNANT-2023",
+      "CN-CHSA-SALIVARY-PATH-2020",
+      "CN-CHSA-TRAUMATIC-FP-2024",
+      "CN-NHC-AMELO-2022",
+      "CN-NHC-MAND-FX-2022",
+      "CN-NHC-MAX-FX-2022",
+      "CN-NHC-MFSI-2022",
+      "CN-NHC-ODONTO-CYST-2022",
+      "CN-NHC-OM-2022",
+      "CN-NHC-PAROTID-BENIGN-2022",
+      "CN-NHC-RANULA-2022",
+      "CN-NHC-TONGUE-CA-2022"
+    ],
+    "counts": {
+      "disease_entries": 60,
+      "assessment_methods": 18,
+      "clinical_problem_directions": 18,
+      "treatment_categories": 16,
+      "total": 112
+    }
+  },
+  "disease_entries": [
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-001",
+      "canonical_name_zh": "颞下颌关节紊乱病",
+      "consultation_branch": "tmj",
+      "patient_terms": [
+        "关节响",
+        "关节痛",
+        "张口不适"
+      ],
+      "professional_evidence_question": "区分关节、咀嚼肌与其他颌面疼痛来源",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第12章",
+          "printed_page_start": 156,
+          "printed_page_end": 160,
+          "pdf_page_start": 181,
+          "pdf_page_end": 185,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-002",
+      "canonical_name_zh": "咀嚼肌紊乱疾病",
+      "consultation_branch": "tmj",
+      "patient_terms": [
+        "咬肌疼",
+        "脸颊酸",
+        "张口肌肉痛"
+      ],
+      "professional_evidence_question": "咀嚼肌与关节、牙源性疼痛的现场鉴别",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第12章",
+          "printed_page_start": 157,
+          "printed_page_end": 158,
+          "pdf_page_start": 182,
+          "pdf_page_end": 183,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-003",
+      "canonical_name_zh": "颞下颌关节结构紊乱疾病",
+      "consultation_branch": "tmj",
+      "patient_terms": [
+        "弹响",
+        "卡住",
+        "开口轨迹偏"
+      ],
+      "professional_evidence_question": "关节运动、影像及临床检查之间的关系",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第12章",
+          "printed_page_start": 158,
+          "printed_page_end": 159,
+          "pdf_page_start": 183,
+          "pdf_page_end": 184,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-004",
+      "canonical_name_zh": "颞下颌关节紊乱相关炎性疾病",
+      "consultation_branch": "tmj",
+      "patient_terms": [
+        "关节区痛",
+        "张口痛",
+        "压痛"
+      ],
+      "professional_evidence_question": "炎症、创伤与其他关节问题的鉴别",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第12章",
+          "printed_page_start": 159,
+          "printed_page_end": 160,
+          "pdf_page_start": 184,
+          "pdf_page_end": 185,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-005",
+      "canonical_name_zh": "颞下颌关节骨关节病",
+      "consultation_branch": "tmj",
+      "patient_terms": [
+        "摩擦音",
+        "关节疼",
+        "下颌运动变化"
+      ],
+      "professional_evidence_question": "骨性改变需结合临床与专业影像",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第12章",
+          "printed_page_start": 160,
+          "printed_page_end": 160,
+          "pdf_page_start": 185,
+          "pdf_page_end": 185,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-006",
+      "canonical_name_zh": "颞下颌关节急性前脱位",
+      "consultation_branch": "tmj",
+      "patient_terms": [
+        "嘴合不上",
+        "下巴卡住",
+        "张口后闭不上"
+      ],
+      "professional_evidence_question": "急性闭口障碍的现场识别与处理",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第12章",
+          "printed_page_start": 160,
+          "printed_page_end": 161,
+          "pdf_page_start": 185,
+          "pdf_page_end": 186,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-007",
+      "canonical_name_zh": "颞下颌关节复发性脱位",
+      "consultation_branch": "tmj",
+      "patient_terms": [
+        "反复掉下巴",
+        "反复合不上嘴"
+      ],
+      "professional_evidence_question": "复发史、诱因及专业检查",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第12章",
+          "printed_page_start": 161,
+          "printed_page_end": 161,
+          "pdf_page_start": 186,
+          "pdf_page_end": 186,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-008",
+      "canonical_name_zh": "颞下颌关节陈旧性脱位",
+      "consultation_branch": "tmj",
+      "patient_terms": [
+        "嘴长期合不上",
+        "下颌位置异常"
+      ],
+      "professional_evidence_question": "病程、功能和专业影像评估",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第12章",
+          "printed_page_start": 161,
+          "printed_page_end": 162,
+          "pdf_page_start": 186,
+          "pdf_page_end": 187,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-009",
+      "canonical_name_zh": "颞下颌关节内强直",
+      "consultation_branch": "tmj",
+      "patient_terms": [
+        "张不开嘴",
+        "开口越来越小"
+      ],
+      "professional_evidence_question": "强直性质需依赖临床及影像",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第12章",
+          "printed_page_start": 162,
+          "printed_page_end": 163,
+          "pdf_page_start": 187,
+          "pdf_page_end": 188,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-010",
+      "canonical_name_zh": "颌间挛缩",
+      "consultation_branch": "tmj",
+      "patient_terms": [
+        "张口受限",
+        "口内瘢痕",
+        "脸部受伤后张不开"
+      ],
+      "professional_evidence_question": "关节外原因与关节内原因鉴别",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第12章",
+          "printed_page_start": 163,
+          "printed_page_end": 164,
+          "pdf_page_start": 188,
+          "pdf_page_end": 189,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-011",
+      "canonical_name_zh": "颞下颌关节肿瘤",
+      "consultation_branch": "mass",
+      "patient_terms": [
+        "关节区包块",
+        "下颌偏",
+        "关节区持续肿痛"
+      ],
+      "professional_evidence_question": "肿物性质依赖影像与病理",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第12章",
+          "printed_page_start": 164,
+          "printed_page_end": 164,
+          "pdf_page_start": 189,
+          "pdf_page_end": 189,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-012",
+      "canonical_name_zh": "下颌第三磨牙冠周炎",
+      "consultation_branch": "infection",
+      "patient_terms": [
+        "智齿肿痛",
+        "后牙龈肿",
+        "张口疼"
+      ],
+      "professional_evidence_question": "牙位、局部感染范围与并发症检查",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第14章",
+          "printed_page_start": 180,
+          "printed_page_end": 181,
+          "pdf_page_start": 205,
+          "pdf_page_end": 206,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-013",
+      "canonical_name_zh": "口腔颌面部间隙感染",
+      "consultation_branch": "infection",
+      "patient_terms": [
+        "脸肿",
+        "口底肿",
+        "颌下肿",
+        "张口受限"
+      ],
+      "professional_evidence_question": "感染范围、来源和气道风险需现场评估",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第14章",
+          "printed_page_start": 182,
+          "printed_page_end": 186,
+          "pdf_page_start": 207,
+          "pdf_page_end": 211,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-MFSI-2022",
+          "source_title": "口腔颌面部间隙感染诊疗指南（2022年版）",
+          "url": "https://www.nhc.gov.cn/wjw/c100378/202210/db6de17358944c8b9b270d1412d9bf62.shtml",
+          "section": "附件5",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-014",
+      "canonical_name_zh": "眶下间隙感染",
+      "consultation_branch": "infection",
+      "patient_terms": [
+        "眼下肿",
+        "上唇肿",
+        "面中部肿"
+      ],
+      "professional_evidence_question": "眼眶及邻近间隙受累情况",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第14章",
+          "printed_page_start": 183,
+          "printed_page_end": 183,
+          "pdf_page_start": 208,
+          "pdf_page_end": 208,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-MFSI-2022",
+          "source_title": "口腔颌面部间隙感染诊疗指南（2022年版）",
+          "url": "https://www.nhc.gov.cn/wjw/c100378/202210/db6de17358944c8b9b270d1412d9bf62.shtml",
+          "section": "附件5",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-015",
+      "canonical_name_zh": "颊间隙感染",
+      "consultation_branch": "infection",
+      "patient_terms": [
+        "脸颊肿",
+        "颊部疼痛"
+      ],
+      "professional_evidence_question": "深浅位置及牙源性来源",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第14章",
+          "printed_page_start": 183,
+          "printed_page_end": 184,
+          "pdf_page_start": 208,
+          "pdf_page_end": 209,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-MFSI-2022",
+          "source_title": "口腔颌面部间隙感染诊疗指南（2022年版）",
+          "url": "https://www.nhc.gov.cn/wjw/c100378/202210/db6de17358944c8b9b270d1412d9bf62.shtml",
+          "section": "附件5",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-016",
+      "canonical_name_zh": "咀嚼肌间隙感染",
+      "consultation_branch": "infection",
+      "patient_terms": [
+        "张口受限",
+        "咬肌区肿痛"
+      ],
+      "professional_evidence_question": "感染间隙与颌骨、牙源性来源",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第14章",
+          "printed_page_start": 184,
+          "printed_page_end": 185,
+          "pdf_page_start": 209,
+          "pdf_page_end": 210,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-MFSI-2022",
+          "source_title": "口腔颌面部间隙感染诊疗指南（2022年版）",
+          "url": "https://www.nhc.gov.cn/wjw/c100378/202210/db6de17358944c8b9b270d1412d9bf62.shtml",
+          "section": "附件5",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-017",
+      "canonical_name_zh": "下颌下间隙感染",
+      "consultation_branch": "infection",
+      "patient_terms": [
+        "下巴下面肿",
+        "颌下肿痛"
+      ],
+      "professional_evidence_question": "口底、颈部和气道关系",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第14章",
+          "printed_page_start": 185,
+          "printed_page_end": 185,
+          "pdf_page_start": 210,
+          "pdf_page_end": 210,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-MFSI-2022",
+          "source_title": "口腔颌面部间隙感染诊疗指南（2022年版）",
+          "url": "https://www.nhc.gov.cn/wjw/c100378/202210/db6de17358944c8b9b270d1412d9bf62.shtml",
+          "section": "附件5",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-018",
+      "canonical_name_zh": "口底多间隙感染",
+      "consultation_branch": "infection",
+      "patient_terms": [
+        "口底肿",
+        "舌头被顶起",
+        "吞咽困难"
+      ],
+      "professional_evidence_question": "多间隙扩展及呼吸吞咽风险",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第14章",
+          "printed_page_start": 185,
+          "printed_page_end": 186,
+          "pdf_page_start": 210,
+          "pdf_page_end": 211,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-MFSI-2022",
+          "source_title": "口腔颌面部间隙感染诊疗指南（2022年版）",
+          "url": "https://www.nhc.gov.cn/wjw/c100378/202210/db6de17358944c8b9b270d1412d9bf62.shtml",
+          "section": "附件5",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-019",
+      "canonical_name_zh": "化脓性颌骨骨髓炎",
+      "consultation_branch": "infection",
+      "patient_terms": [
+        "颌骨肿痛",
+        "反复流脓",
+        "牙松动"
+      ],
+      "professional_evidence_question": "颌骨感染的临床、影像和实验室证据",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第14章",
+          "printed_page_start": 186,
+          "printed_page_end": 188,
+          "pdf_page_start": 211,
+          "pdf_page_end": 213,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-OM-2022",
+          "source_title": "化脓性颌骨骨髓炎诊疗指南（2022年版）",
+          "url": "https://www.nhc.gov.cn/wjw/c100378/202210/db6de17358944c8b9b270d1412d9bf62.shtml",
+          "section": "附件14",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-020",
+      "canonical_name_zh": "婴幼儿上颌骨骨髓炎",
+      "consultation_branch": "infection",
+      "patient_terms": [
+        "婴幼儿面部肿胀"
+      ],
+      "professional_evidence_question": "儿童专科现场诊疗",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "out_of_adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第14章",
+          "printed_page_start": 188,
+          "printed_page_end": 188,
+          "pdf_page_start": 213,
+          "pdf_page_end": 213,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-021",
+      "canonical_name_zh": "放射性颌骨骨髓炎",
+      "consultation_branch": "infection",
+      "patient_terms": [
+        "放疗后颌骨疼痛",
+        "放疗区创口不愈"
+      ],
+      "professional_evidence_question": "放疗史、骨与软组织状态及影像",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第14章",
+          "printed_page_start": 188,
+          "printed_page_end": 189,
+          "pdf_page_start": 213,
+          "pdf_page_end": 214,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-022",
+      "canonical_name_zh": "药物相关性颌骨坏死",
+      "consultation_branch": "infection",
+      "patient_terms": [
+        "用药后颌骨露出",
+        "拔牙后不愈合"
+      ],
+      "professional_evidence_question": "相关药物、暴露时间和专业检查",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第14章",
+          "printed_page_start": 189,
+          "printed_page_end": 189,
+          "pdf_page_start": 214,
+          "pdf_page_end": 214,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-023",
+      "canonical_name_zh": "颜面部疖和痈",
+      "consultation_branch": "infection",
+      "patient_terms": [
+        "脸上疖子",
+        "上唇长包",
+        "面部脓包"
+      ],
+      "professional_evidence_question": "危险区域感染扩展及全身表现",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第14章",
+          "printed_page_start": 189,
+          "printed_page_end": 190,
+          "pdf_page_start": 214,
+          "pdf_page_end": 215,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-024",
+      "canonical_name_zh": "口腔颌面部闭合性软组织损伤",
+      "consultation_branch": "trauma",
+      "patient_terms": [
+        "撞伤肿了",
+        "面部淤青",
+        "血肿"
+      ],
+      "professional_evidence_question": "深部损伤、骨折及神经血管状态",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第15章",
+          "printed_page_start": 197,
+          "printed_page_end": 198,
+          "pdf_page_start": 222,
+          "pdf_page_end": 223,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-025",
+      "canonical_name_zh": "口腔颌面部开放性软组织损伤",
+      "consultation_branch": "trauma",
+      "patient_terms": [
+        "脸上伤口",
+        "嘴唇裂伤",
+        "口内伤口"
+      ],
+      "professional_evidence_question": "伤口范围、污染、重要结构和伴随损伤",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第15章",
+          "printed_page_start": 198,
+          "printed_page_end": 200,
+          "pdf_page_start": 223,
+          "pdf_page_end": 225,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-026",
+      "canonical_name_zh": "牙挫伤",
+      "consultation_branch": "trauma",
+      "patient_terms": [
+        "牙被撞了",
+        "牙疼但没掉"
+      ],
+      "professional_evidence_question": "牙髓、牙周膜及牙槽骨检查",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第15章",
+          "printed_page_start": 201,
+          "printed_page_end": 201,
+          "pdf_page_start": 226,
+          "pdf_page_end": 226,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-027",
+      "canonical_name_zh": "牙脱位",
+      "consultation_branch": "trauma",
+      "patient_terms": [
+        "牙被撞歪",
+        "牙松了",
+        "牙掉出来"
+      ],
+      "professional_evidence_question": "脱位类型、牙根及牙槽骨状态",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第15章",
+          "printed_page_start": 201,
+          "printed_page_end": 202,
+          "pdf_page_start": 226,
+          "pdf_page_end": 227,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-028",
+      "canonical_name_zh": "牙折",
+      "consultation_branch": "trauma",
+      "patient_terms": [
+        "牙撞断",
+        "牙掉了一块"
+      ],
+      "professional_evidence_question": "折裂范围、牙髓和牙根情况",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第15章",
+          "printed_page_start": 202,
+          "printed_page_end": 202,
+          "pdf_page_start": 227,
+          "pdf_page_end": 227,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-029",
+      "canonical_name_zh": "牙槽突骨折",
+      "consultation_branch": "trauma",
+      "patient_terms": [
+        "一排牙一起动",
+        "牙槽骨撞伤"
+      ],
+      "professional_evidence_question": "牙槽段活动、咬合和影像",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第15章",
+          "printed_page_start": 202,
+          "printed_page_end": 202,
+          "pdf_page_start": 227,
+          "pdf_page_end": 227,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-030",
+      "canonical_name_zh": "上颌骨骨折",
+      "consultation_branch": "trauma",
+      "patient_terms": [
+        "上颌撞伤",
+        "咬合变了",
+        "面中部活动"
+      ],
+      "professional_evidence_question": "生命体征、伴随颅脑眼眶损伤、咬合和影像",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第15章",
+          "printed_page_start": 202,
+          "printed_page_end": 204,
+          "pdf_page_start": 227,
+          "pdf_page_end": 229,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-MAX-FX-2022",
+          "source_title": "上颌骨骨折诊疗指南（2022年版）",
+          "url": "https://www.nhc.gov.cn/wjw/c100378/202210/db6de17358944c8b9b270d1412d9bf62.shtml",
+          "section": "附件8",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-031",
+      "canonical_name_zh": "下颌骨骨折",
+      "consultation_branch": "trauma",
+      "patient_terms": [
+        "下巴撞伤",
+        "咬不上",
+        "下唇麻"
+      ],
+      "professional_evidence_question": "骨折部位、咬合、神经和影像",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第15章",
+          "printed_page_start": 203,
+          "printed_page_end": 207,
+          "pdf_page_start": 228,
+          "pdf_page_end": 232,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-MAND-FX-2022",
+          "source_title": "下颌骨骨折诊疗指南（2022年版）",
+          "url": "https://www.nhc.gov.cn/wjw/c100378/202210/db6de17358944c8b9b270d1412d9bf62.shtml",
+          "section": "附件9",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-CHSA-CONDYLE-FX-2023",
+          "source_title": "T/CHSA 011—2023 成人髁突骨折诊疗专家共识",
+          "url": "https://www.cndent.com/archives/88821",
+          "section": "正式发布标准",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-032",
+      "canonical_name_zh": "颧骨及颧弓骨折",
+      "consultation_branch": "trauma",
+      "patient_terms": [
+        "颧骨撞伤",
+        "脸塌了",
+        "张口受限"
+      ],
+      "professional_evidence_question": "眼眶、张口、面部轮廓和影像",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第15章",
+          "printed_page_start": 207,
+          "printed_page_end": 209,
+          "pdf_page_start": 232,
+          "pdf_page_end": 234,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-033",
+      "canonical_name_zh": "急性化脓性腮腺炎",
+      "consultation_branch": "salivary",
+      "patient_terms": [
+        "耳前肿痛",
+        "腮腺肿",
+        "腮帮子肿"
+      ],
+      "professional_evidence_question": "腮腺区、导管口、全身表现及感染证据",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第16章",
+          "printed_page_start": 210,
+          "printed_page_end": 212,
+          "pdf_page_start": 235,
+          "pdf_page_end": 237,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-034",
+      "canonical_name_zh": "慢性复发性腮腺炎",
+      "consultation_branch": "salivary",
+      "patient_terms": [
+        "腮腺反复肿",
+        "耳前反复不适"
+      ],
+      "professional_evidence_question": "复发时间线、导管和影像",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第16章",
+          "printed_page_start": 212,
+          "printed_page_end": 213,
+          "pdf_page_start": 237,
+          "pdf_page_end": 238,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-035",
+      "canonical_name_zh": "慢性阻塞性腮腺炎",
+      "consultation_branch": "salivary",
+      "patient_terms": [
+        "吃饭时腮腺肿",
+        "耳前胀"
+      ],
+      "professional_evidence_question": "进食关系、阻塞位置及影像",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第16章",
+          "printed_page_start": 213,
+          "printed_page_end": 213,
+          "pdf_page_start": 238,
+          "pdf_page_end": 238,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-036",
+      "canonical_name_zh": "唾液腺结石病和下颌下腺炎",
+      "consultation_branch": "salivary",
+      "patient_terms": [
+        "吃饭时颌下肿",
+        "唾液腺结石"
+      ],
+      "professional_evidence_question": "导管、腺体和影像检查",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第16章",
+          "printed_page_start": 213,
+          "printed_page_end": 214,
+          "pdf_page_start": 238,
+          "pdf_page_end": 239,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-037",
+      "canonical_name_zh": "干燥综合征",
+      "consultation_branch": "salivary",
+      "patient_terms": [
+        "口干眼干",
+        "唾液少"
+      ],
+      "professional_evidence_question": "口腔、眼部、全身和实验室联合评估",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第16章",
+          "printed_page_start": 214,
+          "printed_page_end": 215,
+          "pdf_page_start": 239,
+          "pdf_page_end": 240,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-038",
+      "canonical_name_zh": "唾液腺黏液囊肿",
+      "consultation_branch": "salivary",
+      "patient_terms": [
+        "嘴唇透明小包",
+        "反复鼓包"
+      ],
+      "professional_evidence_question": "部位、病史和临床检查",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第16章",
+          "printed_page_start": 215,
+          "printed_page_end": 216,
+          "pdf_page_start": 240,
+          "pdf_page_end": 241,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-039",
+      "canonical_name_zh": "舌下腺囊肿",
+      "consultation_branch": "salivary",
+      "patient_terms": [
+        "舌头下面鼓包",
+        "口底囊肿"
+      ],
+      "professional_evidence_question": "口底范围、深部扩展与影像",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第16章",
+          "printed_page_start": 215,
+          "printed_page_end": 216,
+          "pdf_page_start": 240,
+          "pdf_page_end": 241,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-RANULA-2022",
+          "source_title": "舌下腺囊肿诊疗指南（2022年版）",
+          "url": "https://www.nhc.gov.cn/wjw/c100378/202210/db6de17358944c8b9b270d1412d9bf62.shtml",
+          "section": "附件17",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-040",
+      "canonical_name_zh": "唾液腺良性肿瘤",
+      "consultation_branch": "salivary",
+      "patient_terms": [
+        "腮腺包块",
+        "耳前无痛肿块"
+      ],
+      "professional_evidence_question": "腺体部位、影像和病理",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第16章",
+          "printed_page_start": 216,
+          "printed_page_end": 217,
+          "pdf_page_start": 241,
+          "pdf_page_end": 242,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-PAROTID-BENIGN-2022",
+          "source_title": "腮腺浅叶良性肿瘤诊疗指南（2022年版）",
+          "url": "https://www.nhc.gov.cn/wjw/c100378/202210/db6de17358944c8b9b270d1412d9bf62.shtml",
+          "section": "附件7",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-CHSA-SALIVARY-PATH-2020",
+          "source_title": "T/CHSA 018—2020 唾液腺肿瘤病理诊断规范",
+          "url": "https://hym.cndent.com/fg5a6m/",
+          "section": "正式团体标准目录",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-041",
+      "canonical_name_zh": "唾液腺恶性肿瘤",
+      "consultation_branch": "salivary",
+      "patient_terms": [
+        "腮腺肿块长得快",
+        "包块伴面瘫"
+      ],
+      "professional_evidence_question": "影像、病理及神经受累评估",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第16章",
+          "printed_page_start": 217,
+          "printed_page_end": 218,
+          "pdf_page_start": 242,
+          "pdf_page_end": 243,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-CHSA-PAROTID-MALIGNANT-2023",
+          "source_title": "T/CHSA 004—2023 腮腺恶性肿瘤诊疗专家共识",
+          "url": "https://www.cndent.com/archives/88821",
+          "section": "正式发布标准",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-CHSA-SALIVARY-PATH-2020",
+          "source_title": "T/CHSA 018—2020 唾液腺肿瘤病理诊断规范",
+          "url": "https://hym.cndent.com/fg5a6m/",
+          "section": "正式团体标准目录",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-042",
+      "canonical_name_zh": "皮样或表皮样囊肿",
+      "consultation_branch": "mass",
+      "patient_terms": [
+        "口底或颏下包块"
+      ],
+      "professional_evidence_question": "囊肿部位、范围和影像",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 224,
+          "printed_page_end": 225,
+          "pdf_page_start": 249,
+          "pdf_page_end": 250,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-043",
+      "canonical_name_zh": "甲状舌管囊肿",
+      "consultation_branch": "mass",
+      "patient_terms": [
+        "颈部正中包块",
+        "吞咽时活动的包块"
+      ],
+      "professional_evidence_question": "颈部来源和影像",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 224,
+          "printed_page_end": 225,
+          "pdf_page_start": 249,
+          "pdf_page_end": 250,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-044",
+      "canonical_name_zh": "鳃裂囊肿",
+      "consultation_branch": "mass",
+      "patient_terms": [
+        "颈侧包块"
+      ],
+      "professional_evidence_question": "颈部解剖、影像及病理",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 224,
+          "printed_page_end": 225,
+          "pdf_page_start": 249,
+          "pdf_page_end": 250,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-045",
+      "canonical_name_zh": "牙源性颌骨囊肿",
+      "consultation_branch": "mass",
+      "patient_terms": [
+        "颌骨囊肿",
+        "拍片发现囊肿"
+      ],
+      "professional_evidence_question": "牙源关系、影像与病理",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 225,
+          "printed_page_end": 226,
+          "pdf_page_start": 250,
+          "pdf_page_end": 251,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-ODONTO-CYST-2022",
+          "source_title": "牙源性颌骨囊肿诊疗指南（2022年版）",
+          "url": "https://www.nhc.gov.cn/wjw/c100378/202210/db6de17358944c8b9b270d1412d9bf62.shtml",
+          "section": "附件11",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-046",
+      "canonical_name_zh": "色素痣",
+      "consultation_branch": "mass",
+      "patient_terms": [
+        "脸上痣",
+        "口腔里的痣"
+      ],
+      "professional_evidence_question": "临床变化和必要的病理评估",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 226,
+          "printed_page_end": 226,
+          "pdf_page_start": 251,
+          "pdf_page_end": 251,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-047",
+      "canonical_name_zh": "牙龈瘤",
+      "consultation_branch": "mass",
+      "patient_terms": [
+        "牙龈长包",
+        "牙龈肿块"
+      ],
+      "professional_evidence_question": "牙龈、牙周及病理证据",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 226,
+          "printed_page_end": 226,
+          "pdf_page_start": 251,
+          "pdf_page_end": 251,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-048",
+      "canonical_name_zh": "成釉细胞瘤",
+      "consultation_branch": "mass",
+      "patient_terms": [
+        "颌骨肿瘤",
+        "下颌骨膨隆"
+      ],
+      "professional_evidence_question": "临床、影像和病理",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 226,
+          "printed_page_end": 227,
+          "pdf_page_start": 251,
+          "pdf_page_end": 252,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-AMELO-2022",
+          "source_title": "成釉细胞瘤诊疗指南（2022年版）",
+          "url": "https://www.nhc.gov.cn/wjw/c100378/202210/db6de17358944c8b9b270d1412d9bf62.shtml",
+          "section": "附件2",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-049",
+      "canonical_name_zh": "血管瘤",
+      "consultation_branch": "mass",
+      "patient_terms": [
+        "血管瘤",
+        "红色或蓝色肿块"
+      ],
+      "professional_evidence_question": "血流性质、范围和专业影像",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 227,
+          "printed_page_end": 228,
+          "pdf_page_start": 252,
+          "pdf_page_end": 253,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-050",
+      "canonical_name_zh": "脉管畸形",
+      "consultation_branch": "mass",
+      "patient_terms": [
+        "血管畸形",
+        "静脉畸形",
+        "淋巴管畸形"
+      ],
+      "professional_evidence_question": "血流动力学、范围和影像",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 227,
+          "printed_page_end": 229,
+          "pdf_page_start": 252,
+          "pdf_page_end": 254,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-051",
+      "canonical_name_zh": "神经纤维瘤",
+      "consultation_branch": "mass",
+      "patient_terms": [
+        "神经纤维瘤",
+        "沿神经长包"
+      ],
+      "professional_evidence_question": "神经、全身及病理评估",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 228,
+          "printed_page_end": 229,
+          "pdf_page_start": 253,
+          "pdf_page_end": 254,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-052",
+      "canonical_name_zh": "骨化性纤维瘤",
+      "consultation_branch": "mass",
+      "patient_terms": [
+        "颌骨纤维瘤",
+        "颌骨膨隆"
+      ],
+      "professional_evidence_question": "影像与病理鉴别",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 229,
+          "printed_page_end": 229,
+          "pdf_page_start": 254,
+          "pdf_page_end": 254,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-053",
+      "canonical_name_zh": "口腔癌",
+      "consultation_branch": "mass",
+      "patient_terms": [
+        "口腔肿瘤",
+        "长期不愈合",
+        "持续增大的肿块"
+      ],
+      "professional_evidence_question": "临床范围、颈部、影像和病理",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 229,
+          "printed_page_end": 232,
+          "pdf_page_start": 254,
+          "pdf_page_end": 257,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-CHSA-ORAL-PATH-2020",
+          "source_title": "T/CHSA 017—2020 口腔癌及口咽癌病理诊断规范",
+          "url": "https://hym.cndent.com/fg5a6m/",
+          "section": "正式团体标准目录",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-054",
+      "canonical_name_zh": "舌癌",
+      "consultation_branch": "mass",
+      "patient_terms": [
+        "舌头肿块",
+        "舌溃疡一直不好"
+      ],
+      "professional_evidence_question": "舌部范围、颈部、影像和病理",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 229,
+          "printed_page_end": 232,
+          "pdf_page_start": 254,
+          "pdf_page_end": 257,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-NHC-TONGUE-CA-2022",
+          "source_title": "舌癌诊疗指南（2022年版）",
+          "url": "https://www.nhc.gov.cn/wjw/c100378/202210/db6de17358944c8b9b270d1412d9bf62.shtml",
+          "section": "附件16",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-055",
+      "canonical_name_zh": "口咽癌",
+      "consultation_branch": "mass",
+      "patient_terms": [
+        "咽部肿块",
+        "吞咽异常伴肿物"
+      ],
+      "professional_evidence_question": "隐蔽部位检查、影像与病理",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 231,
+          "printed_page_end": 232,
+          "pdf_page_start": 256,
+          "pdf_page_end": 257,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-CHSA-ORAL-PATH-2020",
+          "source_title": "T/CHSA 017—2020 口腔癌及口咽癌病理诊断规范",
+          "url": "https://hym.cndent.com/fg5a6m/",
+          "section": "正式团体标准目录",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-056",
+      "canonical_name_zh": "口腔颌面部肉瘤",
+      "consultation_branch": "mass",
+      "patient_terms": [
+        "颌面部快速增大的肿块"
+      ],
+      "professional_evidence_question": "影像、病理和多学科评估",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 232,
+          "printed_page_end": 233,
+          "pdf_page_start": 257,
+          "pdf_page_end": 258,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-057",
+      "canonical_name_zh": "恶性淋巴瘤的口腔颌面部表现",
+      "consultation_branch": "mass",
+      "patient_terms": [
+        "颈部淋巴结肿大",
+        "口腔颌面部肿块"
+      ],
+      "professional_evidence_question": "全身、影像、实验室与病理",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 232,
+          "printed_page_end": 233,
+          "pdf_page_start": 257,
+          "pdf_page_end": 258,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-058",
+      "canonical_name_zh": "三叉神经痛",
+      "consultation_branch": "neuro",
+      "patient_terms": [
+        "电击样脸痛",
+        "碰一下就痛",
+        "阵发面痛"
+      ],
+      "professional_evidence_question": "疼痛表型、神经检查和继发原因排查",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第18章",
+          "printed_page_start": 234,
+          "printed_page_end": 238,
+          "pdf_page_start": 259,
+          "pdf_page_end": 263,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-059",
+      "canonical_name_zh": "贝尔麻痹",
+      "consultation_branch": "neuro",
+      "patient_terms": [
+        "突然嘴歪",
+        "一边脸动不了",
+        "闭不上眼"
+      ],
+      "professional_evidence_question": "中枢与周围性面瘫鉴别及功能评估",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第18章",
+          "printed_page_start": 238,
+          "printed_page_end": 240,
+          "pdf_page_start": 263,
+          "pdf_page_end": 265,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_disease_knowledge_id": "M07-DIS-060",
+      "canonical_name_zh": "永久性面神经麻痹",
+      "consultation_branch": "neuro",
+      "patient_terms": [
+        "面瘫一直没恢复",
+        "长期口角歪"
+      ],
+      "professional_evidence_question": "病因、病程及神经肌肉功能",
+      "required_clinician_evidence": [
+        "相关专科病史与现场检查",
+        "按当前问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "runtime_scope": "adult_runtime",
+      "user_disclosure_policy": "general_disease_education_not_current_diagnosis",
+      "must_not_infer": [
+        "当前用户已确诊该病",
+        "良恶性、分期、病原或组织来源",
+        "当前用户必做检查或个人治疗方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第18章",
+          "printed_page_start": 240,
+          "printed_page_end": 241,
+          "pdf_page_start": 265,
+          "pdf_page_end": 266,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-CHSA-TRAUMATIC-FP-2024",
+          "source_title": "T/CHSA 073—2024 创伤性周围性面瘫外科治疗专家共识",
+          "url": "https://www.cndent.com/archives/94655",
+          "section": "正式发布标准",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ],
+  "assessment_methods": [
+    {
+      "maxillofacial_assessment_knowledge_id": "M07-DXM-001",
+      "canonical_name_zh": "口腔颌面专科病史与时间线",
+      "entry_type": "history",
+      "clinical_question_answered": "整理起病、演变、诱因、复发及既往处理",
+      "selection_owner": "qualified_clinician",
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "单项检查不能独立确定完整诊断、分期、病因或个人治疗方案",
+        "普通照片和文字问诊不能替代该专业评估"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第12章",
+          "printed_page_start": 156,
+          "printed_page_end": 164,
+          "pdf_page_start": 181,
+          "pdf_page_end": 189,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_assessment_knowledge_id": "M07-DXM-002",
+      "canonical_name_zh": "颞下颌关节与下颌运动临床检查",
+      "entry_type": "clinical_examination",
+      "clinical_question_answered": "评估张闭口、运动、关节与咀嚼肌表现",
+      "selection_owner": "qualified_clinician",
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "单项检查不能独立确定完整诊断、分期、病因或个人治疗方案",
+        "普通照片和文字问诊不能替代该专业评估"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第12章",
+          "printed_page_start": 156,
+          "printed_page_end": 164,
+          "pdf_page_start": 181,
+          "pdf_page_end": 189,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_assessment_knowledge_id": "M07-DXM-003",
+      "canonical_name_zh": "颌面部外形、对称及局部视诊",
+      "entry_type": "clinical_examination",
+      "clinical_question_answered": "记录外形、肿胀、伤口和动态变化",
+      "selection_owner": "qualified_clinician",
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "单项检查不能独立确定完整诊断、分期、病因或个人治疗方案",
+        "普通照片和文字问诊不能替代该专业评估"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第15章",
+          "printed_page_start": 191,
+          "printed_page_end": 209,
+          "pdf_page_start": 216,
+          "pdf_page_end": 234,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_assessment_knowledge_id": "M07-DXM-004",
+      "canonical_name_zh": "口内及口咽部临床检查",
+      "entry_type": "clinical_examination",
+      "clinical_question_answered": "评估可见感染、肿物、伤口及功能相关部位",
+      "selection_owner": "qualified_clinician",
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "单项检查不能独立确定完整诊断、分期、病因或个人治疗方案",
+        "普通照片和文字问诊不能替代该专业评估"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第14章",
+          "printed_page_start": 179,
+          "printed_page_end": 190,
+          "pdf_page_start": 204,
+          "pdf_page_end": 215,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_assessment_knowledge_id": "M07-DXM-005",
+      "canonical_name_zh": "颈部及相关淋巴结临床检查",
+      "entry_type": "clinical_examination",
+      "clinical_question_answered": "评估颈部肿块、范围和相关结构",
+      "selection_owner": "qualified_clinician",
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "单项检查不能独立确定完整诊断、分期、病因或个人治疗方案",
+        "普通照片和文字问诊不能替代该专业评估"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 219,
+          "printed_page_end": 233,
+          "pdf_page_start": 244,
+          "pdf_page_end": 258,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_assessment_knowledge_id": "M07-DXM-006",
+      "canonical_name_zh": "颅神经感觉与运动功能检查",
+      "entry_type": "neurological_examination",
+      "clinical_question_answered": "评估三叉神经感觉和面神经运动功能",
+      "selection_owner": "qualified_clinician",
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "单项检查不能独立确定完整诊断、分期、病因或个人治疗方案",
+        "普通照片和文字问诊不能替代该专业评估"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第18章",
+          "printed_page_start": 234,
+          "printed_page_end": 241,
+          "pdf_page_start": 259,
+          "pdf_page_end": 266,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_assessment_knowledge_id": "M07-DXM-007",
+      "canonical_name_zh": "生命体征与全身状态评估",
+      "entry_type": "systemic_assessment",
+      "clinical_question_answered": "识别感染、损伤或其他情况的全身影响",
+      "selection_owner": "qualified_clinician",
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "单项检查不能独立确定完整诊断、分期、病因或个人治疗方案",
+        "普通照片和文字问诊不能替代该专业评估"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第14章",
+          "printed_page_start": 179,
+          "printed_page_end": 190,
+          "pdf_page_start": 204,
+          "pdf_page_end": 215,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_assessment_knowledge_id": "M07-DXM-008",
+      "canonical_name_zh": "牙及牙槽突创伤检查",
+      "entry_type": "clinical_examination",
+      "clinical_question_answered": "评估牙、牙周膜、牙槽突及咬合",
+      "selection_owner": "qualified_clinician",
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "单项检查不能独立确定完整诊断、分期、病因或个人治疗方案",
+        "普通照片和文字问诊不能替代该专业评估"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第15章",
+          "printed_page_start": 201,
+          "printed_page_end": 202,
+          "pdf_page_start": 226,
+          "pdf_page_end": 227,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_assessment_knowledge_id": "M07-DXM-009",
+      "canonical_name_zh": "咬合关系与颌骨稳定性检查",
+      "entry_type": "clinical_examination",
+      "clinical_question_answered": "为颌骨损伤与功能变化提供临床证据",
+      "selection_owner": "qualified_clinician",
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "单项检查不能独立确定完整诊断、分期、病因或个人治疗方案",
+        "普通照片和文字问诊不能替代该专业评估"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第15章",
+          "printed_page_start": 202,
+          "printed_page_end": 207,
+          "pdf_page_start": 227,
+          "pdf_page_end": 232,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_assessment_knowledge_id": "M07-DXM-010",
+      "canonical_name_zh": "唾液腺及导管临床检查",
+      "entry_type": "clinical_examination",
+      "clinical_question_answered": "评估腺体、导管口和分泌相关表现",
+      "selection_owner": "qualified_clinician",
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "单项检查不能独立确定完整诊断、分期、病因或个人治疗方案",
+        "普通照片和文字问诊不能替代该专业评估"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第16章",
+          "printed_page_start": 210,
+          "printed_page_end": 218,
+          "pdf_page_start": 235,
+          "pdf_page_end": 243,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_assessment_knowledge_id": "M07-DXM-011",
+      "canonical_name_zh": "口腔颌面部常规影像检查",
+      "entry_type": "imaging",
+      "clinical_question_answered": "依据临床问题观察牙、颌骨或相关结构",
+      "selection_owner": "qualified_clinician",
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "单项检查不能独立确定完整诊断、分期、病因或个人治疗方案",
+        "普通照片和文字问诊不能替代该专业评估"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第14章",
+          "printed_page_start": 179,
+          "printed_page_end": 190,
+          "pdf_page_start": 204,
+          "pdf_page_end": 215,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_assessment_knowledge_id": "M07-DXM-012",
+      "canonical_name_zh": "CT或锥形束CT条件性检查",
+      "entry_type": "conditional_imaging",
+      "clinical_question_answered": "在特定颌骨、感染或肿物问题中提供断层信息",
+      "selection_owner": "qualified_clinician",
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "单项检查不能独立确定完整诊断、分期、病因或个人治疗方案",
+        "普通照片和文字问诊不能替代该专业评估"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第15章",
+          "printed_page_start": 202,
+          "printed_page_end": 209,
+          "pdf_page_start": 227,
+          "pdf_page_end": 234,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_assessment_knowledge_id": "M07-DXM-013",
+      "canonical_name_zh": "磁共振成像条件性检查",
+      "entry_type": "conditional_imaging",
+      "clinical_question_answered": "在特定关节软组织、腺体、神经或肿物问题中提供信息",
+      "selection_owner": "qualified_clinician",
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "单项检查不能独立确定完整诊断、分期、病因或个人治疗方案",
+        "普通照片和文字问诊不能替代该专业评估"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第12章",
+          "printed_page_start": 156,
+          "printed_page_end": 164,
+          "pdf_page_start": 181,
+          "pdf_page_end": 189,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_assessment_knowledge_id": "M07-DXM-014",
+      "canonical_name_zh": "超声检查",
+      "entry_type": "conditional_imaging",
+      "clinical_question_answered": "辅助评估浅表腺体、肿块或血流相关问题",
+      "selection_owner": "qualified_clinician",
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "单项检查不能独立确定完整诊断、分期、病因或个人治疗方案",
+        "普通照片和文字问诊不能替代该专业评估"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第16章",
+          "printed_page_start": 210,
+          "printed_page_end": 218,
+          "pdf_page_start": 235,
+          "pdf_page_end": 243,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_assessment_knowledge_id": "M07-DXM-015",
+      "canonical_name_zh": "血液与感染相关实验室检查",
+      "entry_type": "laboratory",
+      "clinical_question_answered": "辅助评估感染、炎症和全身状态",
+      "selection_owner": "qualified_clinician",
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "单项检查不能独立确定完整诊断、分期、病因或个人治疗方案",
+        "普通照片和文字问诊不能替代该专业评估"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第14章",
+          "printed_page_start": 179,
+          "printed_page_end": 190,
+          "pdf_page_start": 204,
+          "pdf_page_end": 215,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_assessment_knowledge_id": "M07-DXM-016",
+      "canonical_name_zh": "唾液腺功能及相关实验室检查",
+      "entry_type": "laboratory",
+      "clinical_question_answered": "在口干、腺体或系统性问题中提供辅助证据",
+      "selection_owner": "qualified_clinician",
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "单项检查不能独立确定完整诊断、分期、病因或个人治疗方案",
+        "普通照片和文字问诊不能替代该专业评估"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第16章",
+          "printed_page_start": 210,
+          "printed_page_end": 218,
+          "pdf_page_start": 235,
+          "pdf_page_end": 243,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_assessment_knowledge_id": "M07-DXM-017",
+      "canonical_name_zh": "细胞学、组织活检与病理检查",
+      "entry_type": "pathology",
+      "clinical_question_answered": "为肿物性质和分类提供病理证据",
+      "selection_owner": "qualified_clinician",
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "单项检查不能独立确定完整诊断、分期、病因或个人治疗方案",
+        "普通照片和文字问诊不能替代该专业评估"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 219,
+          "printed_page_end": 233,
+          "pdf_page_start": 244,
+          "pdf_page_end": 258,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-CHSA-ORAL-PATH-2020",
+          "source_title": "T/CHSA 017—2020 口腔癌及口咽癌病理诊断规范",
+          "url": "https://hym.cndent.com/fg5a6m/",
+          "section": "正式团体标准目录",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        },
+        {
+          "source_id": "CN-CHSA-SALIVARY-PATH-2020",
+          "source_title": "T/CHSA 018—2020 唾液腺肿瘤病理诊断规范",
+          "url": "https://hym.cndent.com/fg5a6m/",
+          "section": "正式团体标准目录",
+          "rights_scope": "public_professional_reference",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_assessment_knowledge_id": "M07-DXM-018",
+      "canonical_name_zh": "多学科联合评估",
+      "entry_type": "multidisciplinary",
+      "clinical_question_answered": "整合口腔颌面外科、急诊、神经、耳鼻咽喉、眼科、风湿免疫或肿瘤等信息",
+      "selection_owner": "qualified_clinician",
+      "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施",
+      "what_it_cannot_prove_alone": [
+        "单项检查不能独立确定完整诊断、分期、病因或个人治疗方案",
+        "普通照片和文字问诊不能替代该专业评估"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第14章",
+          "printed_page_start": 179,
+          "printed_page_end": 241,
+          "pdf_page_start": 204,
+          "pdf_page_end": 266,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ],
+  "clinical_problem_directions": [
+    {
+      "maxillofacial_problem_knowledge_id": "M07-PRB-001",
+      "canonical_name_zh": "关节区或咀嚼肌疼痛问题",
+      "entry_kind": "maxillofacial_clinical_problem_direction",
+      "consultation_branch": "tmj",
+      "patient_terms": [
+        "关节痛",
+        "耳前痛",
+        "咬肌酸痛"
+      ],
+      "professional_question_dimensions": [
+        "部位和时间线",
+        "相关功能与伴随表现",
+        "既有检查、处理和全身背景"
+      ],
+      "cross_module_targets": [
+        "M02-M06及综合医院相关专科按事实选择"
+      ],
+      "must_not_infer": [
+        "当前用户的疾病名称、严重程度或概率",
+        "当前用户的检查清单、药物、手术或操作方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第12章",
+          "printed_page_start": 156,
+          "printed_page_end": 164,
+          "pdf_page_start": 181,
+          "pdf_page_end": 189,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_problem_knowledge_id": "M07-PRB-002",
+      "canonical_name_zh": "关节弹响、摩擦感或下颌运动异常问题",
+      "entry_kind": "maxillofacial_clinical_problem_direction",
+      "consultation_branch": "tmj",
+      "patient_terms": [
+        "弹响",
+        "摩擦音",
+        "开口偏"
+      ],
+      "professional_question_dimensions": [
+        "部位和时间线",
+        "相关功能与伴随表现",
+        "既有检查、处理和全身背景"
+      ],
+      "cross_module_targets": [
+        "M02-M06及综合医院相关专科按事实选择"
+      ],
+      "must_not_infer": [
+        "当前用户的疾病名称、严重程度或概率",
+        "当前用户的检查清单、药物、手术或操作方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第12章",
+          "printed_page_start": 156,
+          "printed_page_end": 164,
+          "pdf_page_start": 181,
+          "pdf_page_end": 189,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_problem_knowledge_id": "M07-PRB-003",
+      "canonical_name_zh": "张口受限、卡住或不能正常闭口问题",
+      "entry_kind": "maxillofacial_clinical_problem_direction",
+      "consultation_branch": "tmj",
+      "patient_terms": [
+        "张不开",
+        "卡住",
+        "闭不上嘴"
+      ],
+      "professional_question_dimensions": [
+        "部位和时间线",
+        "相关功能与伴随表现",
+        "既有检查、处理和全身背景"
+      ],
+      "cross_module_targets": [
+        "M02-M06及综合医院相关专科按事实选择"
+      ],
+      "must_not_infer": [
+        "当前用户的疾病名称、严重程度或概率",
+        "当前用户的检查清单、药物、手术或操作方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第12章",
+          "printed_page_start": 156,
+          "printed_page_end": 164,
+          "pdf_page_start": 181,
+          "pdf_page_end": 189,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_problem_knowledge_id": "M07-PRB-004",
+      "canonical_name_zh": "颌面部急性肿痛及感染扩展问题",
+      "entry_kind": "maxillofacial_clinical_problem_direction",
+      "consultation_branch": "infection",
+      "patient_terms": [
+        "脸肿",
+        "颌下肿",
+        "口底肿"
+      ],
+      "professional_question_dimensions": [
+        "部位和时间线",
+        "相关功能与伴随表现",
+        "既有检查、处理和全身背景"
+      ],
+      "cross_module_targets": [
+        "M02-M06及综合医院相关专科按事实选择"
+      ],
+      "must_not_infer": [
+        "当前用户的疾病名称、严重程度或概率",
+        "当前用户的检查清单、药物、手术或操作方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第14章",
+          "printed_page_start": 179,
+          "printed_page_end": 190,
+          "pdf_page_start": 204,
+          "pdf_page_end": 215,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_problem_knowledge_id": "M07-PRB-005",
+      "canonical_name_zh": "颌骨慢性流脓、不愈或骨暴露问题",
+      "entry_kind": "maxillofacial_clinical_problem_direction",
+      "consultation_branch": "infection",
+      "patient_terms": [
+        "反复流脓",
+        "骨头露出来",
+        "伤口不愈"
+      ],
+      "professional_question_dimensions": [
+        "部位和时间线",
+        "相关功能与伴随表现",
+        "既有检查、处理和全身背景"
+      ],
+      "cross_module_targets": [
+        "M02-M06及综合医院相关专科按事实选择"
+      ],
+      "must_not_infer": [
+        "当前用户的疾病名称、严重程度或概率",
+        "当前用户的检查清单、药物、手术或操作方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第14章",
+          "printed_page_start": 179,
+          "printed_page_end": 190,
+          "pdf_page_start": 204,
+          "pdf_page_end": 215,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_problem_knowledge_id": "M07-PRB-006",
+      "canonical_name_zh": "面部或口内软组织损伤问题",
+      "entry_kind": "maxillofacial_clinical_problem_direction",
+      "consultation_branch": "trauma",
+      "patient_terms": [
+        "裂伤",
+        "淤青",
+        "血肿"
+      ],
+      "professional_question_dimensions": [
+        "部位和时间线",
+        "相关功能与伴随表现",
+        "既有检查、处理和全身背景"
+      ],
+      "cross_module_targets": [
+        "M02-M06及综合医院相关专科按事实选择"
+      ],
+      "must_not_infer": [
+        "当前用户的疾病名称、严重程度或概率",
+        "当前用户的检查清单、药物、手术或操作方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第15章",
+          "printed_page_start": 191,
+          "printed_page_end": 209,
+          "pdf_page_start": 216,
+          "pdf_page_end": 234,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_problem_knowledge_id": "M07-PRB-007",
+      "canonical_name_zh": "外伤后咬合、牙列或颌骨活动异常问题",
+      "entry_kind": "maxillofacial_clinical_problem_direction",
+      "consultation_branch": "trauma",
+      "patient_terms": [
+        "咬不上",
+        "一排牙会动",
+        "下巴歪了"
+      ],
+      "professional_question_dimensions": [
+        "部位和时间线",
+        "相关功能与伴随表现",
+        "既有检查、处理和全身背景"
+      ],
+      "cross_module_targets": [
+        "M02-M06及综合医院相关专科按事实选择"
+      ],
+      "must_not_infer": [
+        "当前用户的疾病名称、严重程度或概率",
+        "当前用户的检查清单、药物、手术或操作方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第15章",
+          "printed_page_start": 191,
+          "printed_page_end": 209,
+          "pdf_page_start": 216,
+          "pdf_page_end": 234,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_problem_knowledge_id": "M07-PRB-008",
+      "canonical_name_zh": "外伤后麻木、视力或神经功能变化问题",
+      "entry_kind": "maxillofacial_clinical_problem_direction",
+      "consultation_branch": "trauma",
+      "patient_terms": [
+        "下唇麻",
+        "看东西重影",
+        "脸动不了"
+      ],
+      "professional_question_dimensions": [
+        "部位和时间线",
+        "相关功能与伴随表现",
+        "既有检查、处理和全身背景"
+      ],
+      "cross_module_targets": [
+        "M02-M06及综合医院相关专科按事实选择"
+      ],
+      "must_not_infer": [
+        "当前用户的疾病名称、严重程度或概率",
+        "当前用户的检查清单、药物、手术或操作方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第15章",
+          "printed_page_start": 191,
+          "printed_page_end": 209,
+          "pdf_page_start": 216,
+          "pdf_page_end": 234,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_problem_knowledge_id": "M07-PRB-009",
+      "canonical_name_zh": "进食相关唾液腺肿痛问题",
+      "entry_kind": "maxillofacial_clinical_problem_direction",
+      "consultation_branch": "salivary",
+      "patient_terms": [
+        "吃饭时肿",
+        "颌下胀",
+        "耳前胀"
+      ],
+      "professional_question_dimensions": [
+        "部位和时间线",
+        "相关功能与伴随表现",
+        "既有检查、处理和全身背景"
+      ],
+      "cross_module_targets": [
+        "M02-M06及综合医院相关专科按事实选择"
+      ],
+      "must_not_infer": [
+        "当前用户的疾病名称、严重程度或概率",
+        "当前用户的检查清单、药物、手术或操作方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第16章",
+          "printed_page_start": 210,
+          "printed_page_end": 218,
+          "pdf_page_start": 235,
+          "pdf_page_end": 243,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_problem_knowledge_id": "M07-PRB-010",
+      "canonical_name_zh": "反复腮腺或颌下腺肿胀问题",
+      "entry_kind": "maxillofacial_clinical_problem_direction",
+      "consultation_branch": "salivary",
+      "patient_terms": [
+        "反复腮腺肿",
+        "颌下反复肿"
+      ],
+      "professional_question_dimensions": [
+        "部位和时间线",
+        "相关功能与伴随表现",
+        "既有检查、处理和全身背景"
+      ],
+      "cross_module_targets": [
+        "M02-M06及综合医院相关专科按事实选择"
+      ],
+      "must_not_infer": [
+        "当前用户的疾病名称、严重程度或概率",
+        "当前用户的检查清单、药物、手术或操作方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第16章",
+          "printed_page_start": 210,
+          "printed_page_end": 218,
+          "pdf_page_start": 235,
+          "pdf_page_end": 243,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_problem_knowledge_id": "M07-PRB-011",
+      "canonical_name_zh": "口干、唾液减少及全身干燥交叉问题",
+      "entry_kind": "maxillofacial_clinical_problem_direction",
+      "consultation_branch": "salivary",
+      "patient_terms": [
+        "口干",
+        "眼干",
+        "唾液少"
+      ],
+      "professional_question_dimensions": [
+        "部位和时间线",
+        "相关功能与伴随表现",
+        "既有检查、处理和全身背景"
+      ],
+      "cross_module_targets": [
+        "M02-M06及综合医院相关专科按事实选择"
+      ],
+      "must_not_infer": [
+        "当前用户的疾病名称、严重程度或概率",
+        "当前用户的检查清单、药物、手术或操作方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第16章",
+          "printed_page_start": 210,
+          "printed_page_end": 218,
+          "pdf_page_start": 235,
+          "pdf_page_end": 243,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_problem_knowledge_id": "M07-PRB-012",
+      "canonical_name_zh": "口底、耳前、颌下或颈部包块问题",
+      "entry_kind": "maxillofacial_clinical_problem_direction",
+      "consultation_branch": "mass",
+      "patient_terms": [
+        "口底鼓包",
+        "耳前包块",
+        "颈部肿块"
+      ],
+      "professional_question_dimensions": [
+        "部位和时间线",
+        "相关功能与伴随表现",
+        "既有检查、处理和全身背景"
+      ],
+      "cross_module_targets": [
+        "M02-M06及综合医院相关专科按事实选择"
+      ],
+      "must_not_infer": [
+        "当前用户的疾病名称、严重程度或概率",
+        "当前用户的检查清单、药物、手术或操作方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 219,
+          "printed_page_end": 233,
+          "pdf_page_start": 244,
+          "pdf_page_end": 258,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_problem_knowledge_id": "M07-PRB-013",
+      "canonical_name_zh": "颌骨膨隆、牙位变化或影像发现问题",
+      "entry_kind": "maxillofacial_clinical_problem_direction",
+      "consultation_branch": "mass",
+      "patient_terms": [
+        "颌骨鼓起来",
+        "拍片发现阴影",
+        "牙被顶歪"
+      ],
+      "professional_question_dimensions": [
+        "部位和时间线",
+        "相关功能与伴随表现",
+        "既有检查、处理和全身背景"
+      ],
+      "cross_module_targets": [
+        "M02-M06及综合医院相关专科按事实选择"
+      ],
+      "must_not_infer": [
+        "当前用户的疾病名称、严重程度或概率",
+        "当前用户的检查清单、药物、手术或操作方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 219,
+          "printed_page_end": 233,
+          "pdf_page_start": 244,
+          "pdf_page_end": 258,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_problem_knowledge_id": "M07-PRB-014",
+      "canonical_name_zh": "持续增大、破溃、出血或不愈合肿物问题",
+      "entry_kind": "maxillofacial_clinical_problem_direction",
+      "consultation_branch": "mass",
+      "patient_terms": [
+        "越长越大",
+        "一直不愈合",
+        "肿块出血"
+      ],
+      "professional_question_dimensions": [
+        "部位和时间线",
+        "相关功能与伴随表现",
+        "既有检查、处理和全身背景"
+      ],
+      "cross_module_targets": [
+        "M02-M06及综合医院相关专科按事实选择"
+      ],
+      "must_not_infer": [
+        "当前用户的疾病名称、严重程度或概率",
+        "当前用户的检查清单、药物、手术或操作方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 219,
+          "printed_page_end": 233,
+          "pdf_page_start": 244,
+          "pdf_page_end": 258,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_problem_knowledge_id": "M07-PRB-015",
+      "canonical_name_zh": "阵发性触发性颌面疼痛问题",
+      "entry_kind": "maxillofacial_clinical_problem_direction",
+      "consultation_branch": "neuro",
+      "patient_terms": [
+        "电击样痛",
+        "碰一下就痛",
+        "一阵阵脸痛"
+      ],
+      "professional_question_dimensions": [
+        "部位和时间线",
+        "相关功能与伴随表现",
+        "既有检查、处理和全身背景"
+      ],
+      "cross_module_targets": [
+        "M02-M06及综合医院相关专科按事实选择"
+      ],
+      "must_not_infer": [
+        "当前用户的疾病名称、严重程度或概率",
+        "当前用户的检查清单、药物、手术或操作方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第18章",
+          "printed_page_start": 234,
+          "printed_page_end": 241,
+          "pdf_page_start": 259,
+          "pdf_page_end": 266,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_problem_knowledge_id": "M07-PRB-016",
+      "canonical_name_zh": "持续麻木或感觉异常问题",
+      "entry_kind": "maxillofacial_clinical_problem_direction",
+      "consultation_branch": "neuro",
+      "patient_terms": [
+        "脸麻",
+        "下唇麻",
+        "感觉迟钝"
+      ],
+      "professional_question_dimensions": [
+        "部位和时间线",
+        "相关功能与伴随表现",
+        "既有检查、处理和全身背景"
+      ],
+      "cross_module_targets": [
+        "M02-M06及综合医院相关专科按事实选择"
+      ],
+      "must_not_infer": [
+        "当前用户的疾病名称、严重程度或概率",
+        "当前用户的检查清单、药物、手术或操作方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第18章",
+          "printed_page_start": 234,
+          "printed_page_end": 241,
+          "pdf_page_start": 259,
+          "pdf_page_end": 266,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_problem_knowledge_id": "M07-PRB-017",
+      "canonical_name_zh": "急性或持续面部运动不对称问题",
+      "entry_kind": "maxillofacial_clinical_problem_direction",
+      "consultation_branch": "neuro",
+      "patient_terms": [
+        "嘴歪",
+        "闭不上眼",
+        "一边脸动不了"
+      ],
+      "professional_question_dimensions": [
+        "部位和时间线",
+        "相关功能与伴随表现",
+        "既有检查、处理和全身背景"
+      ],
+      "cross_module_targets": [
+        "M02-M06及综合医院相关专科按事实选择"
+      ],
+      "must_not_infer": [
+        "当前用户的疾病名称、严重程度或概率",
+        "当前用户的检查清单、药物、手术或操作方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第18章",
+          "printed_page_start": 234,
+          "printed_page_end": 241,
+          "pdf_page_start": 259,
+          "pdf_page_end": 266,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "maxillofacial_problem_knowledge_id": "M07-PRB-018",
+      "canonical_name_zh": "既有影像、病理或多专科资料解释问题",
+      "entry_kind": "maxillofacial_clinical_problem_direction",
+      "consultation_branch": "cross_specialty",
+      "patient_terms": [
+        "帮我看报告",
+        "解释活检",
+        "该挂哪个科"
+      ],
+      "professional_question_dimensions": [
+        "部位和时间线",
+        "相关功能与伴随表现",
+        "既有检查、处理和全身背景"
+      ],
+      "cross_module_targets": [
+        "M02-M06及综合医院相关专科按事实选择"
+      ],
+      "must_not_infer": [
+        "当前用户的疾病名称、严重程度或概率",
+        "当前用户的检查清单、药物、手术或操作方案"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 219,
+          "printed_page_end": 241,
+          "pdf_page_start": 244,
+          "pdf_page_end": 266,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ],
+  "treatment_categories": [
+    {
+      "treatment_category_id": "M09-TRT-039",
+      "canonical_name_zh": "颞下颌关节疾病的保守治疗类别",
+      "clinical_objectives": [
+        "在专业诊断和个体评估后采用的非手术处理类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第12章",
+          "printed_page_start": 156,
+          "printed_page_end": 164,
+          "pdf_page_start": 181,
+          "pdf_page_end": 189,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "treatment_category_id": "M09-TRT-040",
+      "canonical_name_zh": "颞下颌关节疾病的介入或手术治疗类别",
+      "clinical_objectives": [
+        "在明确专业问题及适应证后讨论的介入或手术类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第12章",
+          "printed_page_start": 156,
+          "printed_page_end": 164,
+          "pdf_page_start": 181,
+          "pdf_page_end": 189,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "treatment_category_id": "M09-TRT-041",
+      "canonical_name_zh": "口腔颌面部感染的病因处理与抗感染治疗类别",
+      "clinical_objectives": [
+        "围绕感染来源、范围和全身状态开展的专业治疗类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第14章",
+          "printed_page_start": 179,
+          "printed_page_end": 190,
+          "pdf_page_start": 204,
+          "pdf_page_end": 215,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "treatment_category_id": "M09-TRT-042",
+      "canonical_name_zh": "口腔颌面部感染的专业引流与支持治疗类别",
+      "clinical_objectives": [
+        "由临床人员依据感染范围和风险决定的专业处理类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第14章",
+          "printed_page_start": 179,
+          "printed_page_end": 190,
+          "pdf_page_start": 204,
+          "pdf_page_end": 215,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "treatment_category_id": "M09-TRT-043",
+      "canonical_name_zh": "口腔颌面部损伤的急救与创口专业处理类别",
+      "clinical_objectives": [
+        "围绕生命安全、出血、污染和重要结构开展的专业处理类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第15章",
+          "printed_page_start": 191,
+          "printed_page_end": 209,
+          "pdf_page_start": 216,
+          "pdf_page_end": 234,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "treatment_category_id": "M09-TRT-044",
+      "canonical_name_zh": "牙及牙槽突损伤的保存与修复处理类别",
+      "clinical_objectives": [
+        "依据牙、牙周膜、牙槽骨和时间条件讨论的处理类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第15章",
+          "printed_page_start": 201,
+          "printed_page_end": 202,
+          "pdf_page_start": 226,
+          "pdf_page_end": 227,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "treatment_category_id": "M09-TRT-045",
+      "canonical_name_zh": "颌面部骨折的复位固定与功能重建类别",
+      "clinical_objectives": [
+        "依据骨折、咬合、伴随损伤和影像制定的专业类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第15章",
+          "printed_page_start": 202,
+          "printed_page_end": 209,
+          "pdf_page_start": 227,
+          "pdf_page_end": 234,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "treatment_category_id": "M09-TRT-046",
+      "canonical_name_zh": "唾液腺炎症或阻塞的专业治疗类别",
+      "clinical_objectives": [
+        "依据腺体、导管、感染及阻塞情况讨论的处理类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第16章",
+          "printed_page_start": 210,
+          "printed_page_end": 215,
+          "pdf_page_start": 235,
+          "pdf_page_end": 240,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "treatment_category_id": "M09-TRT-047",
+      "canonical_name_zh": "唾液腺囊肿的专业处理类别",
+      "clinical_objectives": [
+        "依据部位、范围和复发情况讨论的处理类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第16章",
+          "printed_page_start": 215,
+          "printed_page_end": 216,
+          "pdf_page_start": 240,
+          "pdf_page_end": 241,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "treatment_category_id": "M09-TRT-048",
+      "canonical_name_zh": "口腔颌面部良性肿物或囊肿的专业处理类别",
+      "clinical_objectives": [
+        "依据组织来源、范围和病理讨论的处理类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 224,
+          "printed_page_end": 229,
+          "pdf_page_start": 249,
+          "pdf_page_end": 254,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "treatment_category_id": "M09-TRT-049",
+      "canonical_name_zh": "口腔颌面部恶性肿瘤综合治疗类别",
+      "clinical_objectives": [
+        "由多学科依据病理、分期和患者情况制定的综合治疗类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 229,
+          "printed_page_end": 233,
+          "pdf_page_start": 254,
+          "pdf_page_end": 258,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "treatment_category_id": "M09-TRT-050",
+      "canonical_name_zh": "口腔颌面部缺损的修复重建类别",
+      "clinical_objectives": [
+        "依据缺损范围、功能和全身条件讨论的重建类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 219,
+          "printed_page_end": 233,
+          "pdf_page_start": 244,
+          "pdf_page_end": 258,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "treatment_category_id": "M09-TRT-051",
+      "canonical_name_zh": "三叉神经痛的药物及专业治疗类别",
+      "clinical_objectives": [
+        "确诊和排除继发原因后由专业人员选择的治疗类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第18章",
+          "printed_page_start": 234,
+          "printed_page_end": 238,
+          "pdf_page_start": 259,
+          "pdf_page_end": 263,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "treatment_category_id": "M09-TRT-052",
+      "canonical_name_zh": "面神经麻痹的病因治疗与康复类别",
+      "clinical_objectives": [
+        "依据病因、部位、病程和功能损害选择的治疗类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第18章",
+          "printed_page_start": 238,
+          "printed_page_end": 241,
+          "pdf_page_start": 263,
+          "pdf_page_end": 266,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "treatment_category_id": "M09-TRT-053",
+      "canonical_name_zh": "口腔颌面部肿物的病理诊断路径",
+      "clinical_objectives": [
+        "由临床人员选择取材、病理及必要分子检查形成诊断证据"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第17章",
+          "printed_page_start": 219,
+          "printed_page_end": 233,
+          "pdf_page_start": 244,
+          "pdf_page_end": 258,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    },
+    {
+      "treatment_category_id": "M09-TRT-054",
+      "canonical_name_zh": "口腔颌面跨专科联合诊疗类别",
+      "clinical_objectives": [
+        "按主要临床问题组织相关专科协作的类别"
+      ],
+      "candidate_contexts_for_education": [
+        "只用于介绍线下确诊后可能讨论的专业处理类别和决定条件"
+      ],
+      "required_clinical_evidence": [
+        "完整专科病史与现场检查",
+        "按问题选择的影像、实验室、病理或多学科资料"
+      ],
+      "decision_owner": "qualified_clinician_and_patient_shared_decision",
+      "must_not_infer_from": [
+        "单一症状、普通照片、用户偏好或知识检索命中"
+      ],
+      "must_not_disclose": [
+        "个人药物剂量疗程",
+        "切开、穿刺、复位、固定、器械或手术操作步骤"
+      ],
+      "source_refs": [
+        {
+          "source_id": "CN-INDEX-001",
+          "source_title": "《口腔科学》第10版",
+          "chapter": "第14章",
+          "printed_page_start": 179,
+          "printed_page_end": 241,
+          "pdf_page_start": 204,
+          "pdf_page_end": 266,
+          "rights_scope": "transformed_internal_reference_only",
+          "review_status": "approved"
+        }
+      ],
+      "review_status": "approved"
+    }
+  ]
+}

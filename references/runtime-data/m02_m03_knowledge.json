@@ -1,0 +1,2388 @@
+{
+  "schema_version": "cn-dental-m02-m03-knowledge.v1",
+  "built_on": "2026-08-13",
+  "review_status": "approved",
+  "approved_on": "2026-08-13",
+  "production_enabled": false,
+  "counts": {
+    "M02": {
+      "DIS": 13,
+      "DXM": 10,
+      "PRB": 8
+    },
+    "M03": {
+      "DIS": 16,
+      "DXM": 11,
+      "PRB": 10
+    }
+  },
+  "M02": {
+    "diseases": [
+      {
+        "knowledge_id": "M02-DIS-001",
+        "canonical_name_zh": "龋病",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "蛀牙",
+          "牙洞",
+          "黑点"
+        ],
+        "definition_summary": "牙体硬组织在多因素作用下发生的慢性进行性破坏性疾病。",
+        "required_clinician_evidence": [
+          "病史",
+          "牙体临床检查",
+          "按临床问题选择的影像及病变活动性评估"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第3章 临床表现与诊断",
+            "printed_page_start": 28,
+            "printed_page_end": 36,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-DIS-002",
+        "canonical_name_zh": "磨损",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "牙齿磨短",
+          "牙面磨平"
+        ],
+        "definition_summary": "牙体硬组织因机械摩擦等因素出现的慢性损耗。",
+        "required_clinician_evidence": [
+          "牙体检查",
+          "咬合与行为因素评估",
+          "牙髓和牙周状态"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第7章 牙慢性损伤",
+            "printed_page_start": 71,
+            "printed_page_end": 73,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-DIS-003",
+        "canonical_name_zh": "楔状缺损",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "牙颈部缺口",
+          "牙根旁凹槽"
+        ],
+        "definition_summary": "牙颈部硬组织出现的楔形或沟槽样缺损，需结合局部形态和相关因素评估。",
+        "required_clinician_evidence": [
+          "牙体和牙周临床检查",
+          "症状与相关行为因素",
+          "必要的牙髓评估"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第7章 牙慢性损伤",
+            "printed_page_start": 73,
+            "printed_page_end": 74,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-DIS-004",
+        "canonical_name_zh": "酸蚀症",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "酸蚀",
+          "牙面变薄",
+          "牙齿被酸腐蚀"
+        ],
+        "definition_summary": "牙体硬组织受非细菌来源酸性物质影响而发生的慢性损害。",
+        "required_clinician_evidence": [
+          "暴露史",
+          "牙体临床检查",
+          "全身和饮食相关背景"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第7章 牙慢性损伤",
+            "printed_page_start": 74,
+            "printed_page_end": 75,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-DIS-005",
+        "canonical_name_zh": "牙隐裂",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "裂纹",
+          "咬东西疼",
+          "咬开疼"
+        ],
+        "definition_summary": "牙冠表面存在不易直接辨认的细小裂纹，临床判断需结合病史和多项检查。",
+        "required_clinician_evidence": [
+          "病史和咬合相关表现",
+          "牙体与牙髓检查",
+          "由接诊人员选择的辅助检查"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第7章 牙慢性损伤",
+            "printed_page_start": 75,
+            "printed_page_end": 76,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-DIS-006",
+        "canonical_name_zh": "牙本质敏感症",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "冷热敏感",
+          "酸甜敏感",
+          "吹风疼"
+        ],
+        "definition_summary": "暴露牙本质对温度、化学或机械刺激产生短暂锐痛的临床症状性疾病，需排除其他牙体牙髓原因。",
+        "required_clinician_evidence": [
+          "刺激与消退过程",
+          "牙体和牙周检查",
+          "其他疼痛来源的鉴别"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第8章 牙本质敏感症",
+            "printed_page_start": 79,
+            "printed_page_end": 81,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-DIS-007",
+        "canonical_name_zh": "可复性牙髓炎",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "刺激痛",
+          "冷热痛"
+        ],
+        "definition_summary": "教材牙髓病分类中的临床诊断名称，判断依赖完整疼痛史、牙髓检查和其他证据。",
+        "required_clinician_evidence": [
+          "疼痛史",
+          "牙髓状态检查",
+          "牙体与根尖周检查"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第16章 牙髓病的临床表现及诊断",
+            "printed_page_start": 163,
+            "printed_page_end": 167,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-DIS-008",
+        "canonical_name_zh": "不可复性牙髓炎",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "自发痛",
+          "夜间痛",
+          "冷热痛持续"
+        ],
+        "definition_summary": "教材牙髓病分类中的临床诊断名称，可能包含不同疼痛表现，不能由一个症状远程确定。",
+        "required_clinician_evidence": [
+          "完整疼痛史",
+          "患牙定位和牙髓检查",
+          "根尖周及必要影像评估"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第16章 牙髓病的临床表现及诊断",
+            "printed_page_start": 163,
+            "printed_page_end": 171,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-DIS-009",
+        "canonical_name_zh": "牙髓坏死",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "牙变色",
+          "以前痛现在不痛"
+        ],
+        "definition_summary": "牙髓组织失去活性的临床状态，症状减轻或牙色变化均不能单独证明。",
+        "required_clinician_evidence": [
+          "牙髓状态检查",
+          "牙体和根尖周检查",
+          "必要影像与既往史"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第16章 牙髓病的临床表现及诊断",
+            "printed_page_start": 163,
+            "printed_page_end": 172,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-DIS-010",
+        "canonical_name_zh": "牙髓钙化",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "牙神经钙化",
+          "根管钙化"
+        ],
+        "definition_summary": "牙髓组织出现钙化性改变的专业诊断方向，通常依赖临床和影像资料。",
+        "required_clinician_evidence": [
+          "既往史",
+          "牙髓与牙体检查",
+          "专业影像"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第16章 牙髓病的临床表现及诊断",
+            "printed_page_start": 163,
+            "printed_page_end": 172,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-DIS-011",
+        "canonical_name_zh": "牙内吸收",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "牙内吸收",
+          "牙齿里面吸收"
+        ],
+        "definition_summary": "牙体内部硬组织发生吸收的专业诊断方向，普通照片和主观症状不能确认。",
+        "required_clinician_evidence": [
+          "临床检查",
+          "专业影像",
+          "牙髓及牙周状态"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第16章 牙髓病的临床表现及诊断",
+            "printed_page_start": 163,
+            "printed_page_end": 172,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-DIS-012",
+        "canonical_name_zh": "急性根尖周炎",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "咬合痛",
+          "牙浮起",
+          "不敢咬"
+        ],
+        "definition_summary": "根尖周组织急性炎症性疾病的教材诊断名称，咬合痛或牙齿变高感不具有单独诊断性。",
+        "required_clinician_evidence": [
+          "病史",
+          "牙体牙髓和根尖周临床检查",
+          "必要影像"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第17章 根尖周病的临床表现及诊断",
+            "printed_page_start": 178,
+            "printed_page_end": 183,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-DIS-013",
+        "canonical_name_zh": "慢性根尖周炎",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "牙龈反复起包",
+          "牙根有阴影",
+          "牙没感觉"
+        ],
+        "definition_summary": "根尖周组织慢性炎症性疾病的教材诊断名称，可无明显疼痛，需专业检查和影像证据。",
+        "required_clinician_evidence": [
+          "病史和既往处理",
+          "牙体牙髓与根尖周检查",
+          "专业影像"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第17章 根尖周病的临床表现及诊断",
+            "printed_page_start": 184,
+            "printed_page_end": 186,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      }
+    ],
+    "assessment_methods": [
+      {
+        "knowledge_id": "M02-DXM-001",
+        "canonical_name_zh": "牙体牙髓病史与疼痛史采集",
+        "entry_kind": "diagnostic_or_examination_knowledge",
+        "clinical_question_answered": "整理疼痛发生方式、刺激、持续、定位、时间模式、咬合关系和既往处理。",
+        "selection_owner": "qualified_clinician",
+        "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施；病史采集部分可由Agent辅助整理",
+        "what_it_cannot_prove_alone": [
+          "病史不能替代患牙定位和临床检查。",
+          "单项方法不能独立确定完整诊断或个人治疗方案"
+        ],
+        "user_disclosure_policy": "general_purpose_and_limits_not_mandatory_test",
+        "must_not_infer": [
+          "当前用户必做该检查",
+          "普通照片或用户自测等同于专业检查结果"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第27章 病史采集与临床检查",
+            "printed_page_start": 281,
+            "printed_page_end": 285,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-DXM-002",
+        "canonical_name_zh": "牙体视诊",
+        "entry_kind": "diagnostic_or_examination_knowledge",
+        "clinical_question_answered": "观察牙面颜色、形态、完整性、可见缺损和周围组织。",
+        "selection_owner": "qualified_clinician",
+        "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施；病史采集部分可由Agent辅助整理",
+        "what_it_cannot_prove_alone": [
+          "普通照片受角度、光线和清晰度限制，不能等同现场视诊。",
+          "单项方法不能独立确定完整诊断或个人治疗方案"
+        ],
+        "user_disclosure_policy": "general_purpose_and_limits_not_mandatory_test",
+        "must_not_infer": [
+          "当前用户必做该检查",
+          "普通照片或用户自测等同于专业检查结果"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第27章 病史采集与临床检查",
+            "printed_page_start": 285,
+            "printed_page_end": 290,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-DXM-003",
+        "canonical_name_zh": "牙体探诊",
+        "entry_kind": "diagnostic_or_examination_knowledge",
+        "clinical_question_answered": "由专业人员检查牙体表面、边缘和局部组织的临床信息。",
+        "selection_owner": "qualified_clinician",
+        "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施；病史采集部分可由Agent辅助整理",
+        "what_it_cannot_prove_alone": [
+          "不得指导用户自行使用器械探查，也不能单独确定牙髓状态。",
+          "单项方法不能独立确定完整诊断或个人治疗方案"
+        ],
+        "user_disclosure_policy": "general_purpose_and_limits_not_mandatory_test",
+        "must_not_infer": [
+          "当前用户必做该检查",
+          "普通照片或用户自测等同于专业检查结果"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第27章 病史采集与临床检查",
+            "printed_page_start": 285,
+            "printed_page_end": 290,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-DXM-004",
+        "canonical_name_zh": "叩诊",
+        "entry_kind": "diagnostic_or_examination_knowledge",
+        "clinical_question_answered": "辅助了解牙齿及根尖周组织对垂直或侧向轻叩的反应。",
+        "selection_owner": "qualified_clinician",
+        "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施；病史采集部分可由Agent辅助整理",
+        "what_it_cannot_prove_alone": [
+          "不得让用户敲牙自测；反应不能单独确定病因。",
+          "单项方法不能独立确定完整诊断或个人治疗方案"
+        ],
+        "user_disclosure_policy": "general_purpose_and_limits_not_mandatory_test",
+        "must_not_infer": [
+          "当前用户必做该检查",
+          "普通照片或用户自测等同于专业检查结果"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第27章 病史采集与临床检查",
+            "printed_page_start": 285,
+            "printed_page_end": 290,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-DXM-005",
+        "canonical_name_zh": "扪诊",
+        "entry_kind": "diagnostic_or_examination_knowledge",
+        "clinical_question_answered": "由专业人员检查牙龈、前庭沟和根尖区等组织的压痛或肿胀。",
+        "selection_owner": "qualified_clinician",
+        "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施；病史采集部分可由Agent辅助整理",
+        "what_it_cannot_prove_alone": [
+          "普通照片和用户自行按压不能替代专业扪诊或判断深部范围。",
+          "单项方法不能独立确定完整诊断或个人治疗方案"
+        ],
+        "user_disclosure_policy": "general_purpose_and_limits_not_mandatory_test",
+        "must_not_infer": [
+          "当前用户必做该检查",
+          "普通照片或用户自测等同于专业检查结果"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第27章 病史采集与临床检查",
+            "printed_page_start": 285,
+            "printed_page_end": 290,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-DXM-006",
+        "canonical_name_zh": "牙髓温度测验",
+        "entry_kind": "diagnostic_or_examination_knowledge",
+        "clinical_question_answered": "比较牙齿对冷或热刺激的反应，作为牙髓状态判断的一部分。",
+        "selection_owner": "qualified_clinician",
+        "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施；病史采集部分可由Agent辅助整理",
+        "what_it_cannot_prove_alone": [
+          "不得指导用户自行进行冷热刺激试验；单项反应不能独立确诊。",
+          "单项方法不能独立确定完整诊断或个人治疗方案"
+        ],
+        "user_disclosure_policy": "general_purpose_and_limits_not_mandatory_test",
+        "must_not_infer": [
+          "当前用户必做该检查",
+          "普通照片或用户自测等同于专业检查结果"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第27章 病史采集与临床检查",
+            "printed_page_start": 301,
+            "printed_page_end": 304,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-DXM-007",
+        "canonical_name_zh": "牙髓电活力测验",
+        "entry_kind": "diagnostic_or_examination_knowledge",
+        "clinical_question_answered": "通过专业设备记录牙齿对电刺激的感觉反应，辅助牙髓状态评估。",
+        "selection_owner": "qualified_clinician",
+        "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施；病史采集部分可由Agent辅助整理",
+        "what_it_cannot_prove_alone": [
+          "测验反映感觉反应而非直接测量血供，不能单独确定牙髓状态。",
+          "单项方法不能独立确定完整诊断或个人治疗方案"
+        ],
+        "user_disclosure_policy": "general_purpose_and_limits_not_mandatory_test",
+        "must_not_infer": [
+          "当前用户必做该检查",
+          "普通照片或用户自测等同于专业检查结果"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第27章 病史采集与临床检查",
+            "printed_page_start": 301,
+            "printed_page_end": 304,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-DXM-008",
+        "canonical_name_zh": "咬诊",
+        "entry_kind": "diagnostic_or_examination_knowledge",
+        "clinical_question_answered": "辅助分析疼痛与受控咬合压力及释放之间的关系。",
+        "selection_owner": "qualified_clinician",
+        "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施；病史采集部分可由Agent辅助整理",
+        "what_it_cannot_prove_alone": [
+          "不得让用户咬硬物或反复刺激患牙自测。",
+          "单项方法不能独立确定完整诊断或个人治疗方案"
+        ],
+        "user_disclosure_policy": "general_purpose_and_limits_not_mandatory_test",
+        "must_not_infer": [
+          "当前用户必做该检查",
+          "普通照片或用户自测等同于专业检查结果"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第27章 病史采集与临床检查",
+            "printed_page_start": 285,
+            "printed_page_end": 290,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-DXM-009",
+        "canonical_name_zh": "选择性麻醉",
+        "entry_kind": "diagnostic_or_examination_knowledge",
+        "clinical_question_answered": "在专业环境中辅助复杂疼痛来源定位。",
+        "selection_owner": "qualified_clinician",
+        "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施；病史采集部分可由Agent辅助整理",
+        "what_it_cannot_prove_alone": [
+          "只能由有资质人员实施，且不能替代完整鉴别和其他检查。",
+          "单项方法不能独立确定完整诊断或个人治疗方案"
+        ],
+        "user_disclosure_policy": "general_purpose_and_limits_not_mandatory_test",
+        "must_not_infer": [
+          "当前用户必做该检查",
+          "普通照片或用户自测等同于专业检查结果"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第16章 牙髓病的临床表现及诊断",
+            "printed_page_start": 173,
+            "printed_page_end": 176,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-DXM-010",
+        "canonical_name_zh": "牙体牙髓影像学检查",
+        "entry_kind": "diagnostic_or_examination_knowledge",
+        "clinical_question_answered": "按临床问题了解牙体、牙根、根尖周和邻近结构的影像信息。",
+        "selection_owner": "qualified_clinician",
+        "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施；病史采集部分可由Agent辅助整理",
+        "what_it_cannot_prove_alone": [
+          "Agent不独立判片，普通照片不能替代影像，具体检查由接诊人员选择。",
+          "单项方法不能独立确定完整诊断或个人治疗方案"
+        ],
+        "user_disclosure_policy": "general_purpose_and_limits_not_mandatory_test",
+        "must_not_infer": [
+          "当前用户必做该检查",
+          "普通照片或用户自测等同于专业检查结果"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第27章 病史采集与临床检查",
+            "printed_page_start": 291,
+            "printed_page_end": 300,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      }
+    ],
+    "clinical_problem_directions": [
+      {
+        "knowledge_id": "M02-PRB-001",
+        "canonical_name_zh": "日常刺激相关牙齿敏感",
+        "entry_kind": "clinical_problem_direction",
+        "patient_terms": [
+          "冷热酸甜敏感",
+          "吹风疼",
+          "刷牙疼"
+        ],
+        "professional_question_dimensions": [
+          "刺激类型与消退过程",
+          "部位和范围",
+          "牙体牙周及修复相关鉴别"
+        ],
+        "required_clinician_evidence": [
+          "相关病史与现场口腔检查",
+          "由接诊人员按当前问题选择必要的辅助检查"
+        ],
+        "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊某疾病",
+          "表现的单一病因或严重程度",
+          "当前用户的个人检查或治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第8章 牙本质敏感症",
+            "printed_page_start": 79,
+            "printed_page_end": 81,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          },
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第27章 病史采集与临床检查",
+            "printed_page_start": 281,
+            "printed_page_end": 290,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-PRB-002",
+        "canonical_name_zh": "自发性或夜间牙痛",
+        "entry_kind": "clinical_problem_direction",
+        "patient_terms": [
+          "自己疼",
+          "晚上疼醒",
+          "一阵阵痛"
+        ],
+        "professional_question_dimensions": [
+          "发作时间与持续",
+          "定位和放射",
+          "局部与全身伴随表现"
+        ],
+        "required_clinician_evidence": [
+          "相关病史与现场口腔检查",
+          "由接诊人员按当前问题选择必要的辅助检查"
+        ],
+        "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊某疾病",
+          "表现的单一病因或严重程度",
+          "当前用户的个人检查或治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第16章 牙髓病的临床表现及诊断",
+            "printed_page_start": 163,
+            "printed_page_end": 177,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-PRB-003",
+        "canonical_name_zh": "咬合或压力相关牙痛",
+        "entry_kind": "clinical_problem_direction",
+        "patient_terms": [
+          "咬东西疼",
+          "牙变高",
+          "松开时疼"
+        ],
+        "professional_question_dimensions": [
+          "咬紧与松开关系",
+          "近期外伤或硬物史",
+          "牙髓、根尖周、牙周与隐裂方向"
+        ],
+        "required_clinician_evidence": [
+          "相关病史与现场口腔检查",
+          "由接诊人员按当前问题选择必要的辅助检查"
+        ],
+        "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊某疾病",
+          "表现的单一病因或严重程度",
+          "当前用户的个人检查或治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第7章 牙慢性损伤",
+            "printed_page_start": 71,
+            "printed_page_end": 78,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          },
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第17章 根尖周病的临床表现及诊断",
+            "printed_page_start": 178,
+            "printed_page_end": 186,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-PRB-004",
+        "canonical_name_zh": "牙面颜色或表面改变",
+        "entry_kind": "clinical_problem_direction",
+        "patient_terms": [
+          "黑点",
+          "白斑",
+          "牙变色",
+          "表面粗糙"
+        ],
+        "professional_question_dimensions": [
+          "位置范围与时间线",
+          "表面和结构完整性",
+          "既往外伤或治疗"
+        ],
+        "required_clinician_evidence": [
+          "相关病史与现场口腔检查",
+          "由接诊人员按当前问题选择必要的辅助检查"
+        ],
+        "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊某疾病",
+          "表现的单一病因或严重程度",
+          "当前用户的个人检查或治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第3章 临床表现与诊断",
+            "printed_page_start": 28,
+            "printed_page_end": 36,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          },
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第27章 病史采集与临床检查",
+            "printed_page_start": 285,
+            "printed_page_end": 290,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-PRB-005",
+        "canonical_name_zh": "牙体缺损、裂纹或锐边",
+        "entry_kind": "clinical_problem_direction",
+        "patient_terms": [
+          "牙掉块",
+          "牙有裂纹",
+          "牙边刮嘴",
+          "牙有缺口"
+        ],
+        "professional_question_dimensions": [
+          "发生时间和诱因",
+          "缺损位置与功能影响",
+          "牙髓、牙周和可修复性评估"
+        ],
+        "required_clinician_evidence": [
+          "相关病史与现场口腔检查",
+          "由接诊人员按当前问题选择必要的辅助检查"
+        ],
+        "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊某疾病",
+          "表现的单一病因或严重程度",
+          "当前用户的个人检查或治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第7章 牙慢性损伤",
+            "printed_page_start": 71,
+            "printed_page_end": 78,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-PRB-006",
+        "canonical_name_zh": "同区软组织肿起、流液或异味",
+        "entry_kind": "clinical_problem_direction",
+        "patient_terms": [
+          "牙龈起包",
+          "流脓",
+          "有怪味"
+        ],
+        "professional_question_dimensions": [
+          "部位范围和变化",
+          "面部或全身伴随表现",
+          "牙体牙髓、牙周和其他来源鉴别"
+        ],
+        "required_clinician_evidence": [
+          "相关病史与现场口腔检查",
+          "由接诊人员按当前问题选择必要的辅助检查"
+        ],
+        "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊某疾病",
+          "表现的单一病因或严重程度",
+          "当前用户的个人检查或治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第17章 根尖周病的临床表现及诊断",
+            "printed_page_start": 178,
+            "printed_page_end": 186,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-PRB-007",
+        "canonical_name_zh": "既往牙体牙髓治疗后新发或持续不适",
+        "entry_kind": "clinical_problem_direction",
+        "patient_terms": [
+          "补牙后疼",
+          "根管后又疼",
+          "做冠后咬痛"
+        ],
+        "professional_question_dimensions": [
+          "处理类型和时间线",
+          "当前表现与变化",
+          "牙体牙髓、牙周、修复与咬合方向"
+        ],
+        "required_clinician_evidence": [
+          "相关病史与现场口腔检查",
+          "由接诊人员按当前问题选择必要的辅助检查"
+        ],
+        "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊某疾病",
+          "表现的单一病因或严重程度",
+          "当前用户的个人检查或治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第18章 牙髓根尖周病的治疗计划",
+            "printed_page_start": 187,
+            "printed_page_end": 196,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          },
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第27章 病史采集与临床检查",
+            "printed_page_start": 281,
+            "printed_page_end": 304,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M02-PRB-008",
+        "canonical_name_zh": "牙外伤后的牙体牙髓相关问题",
+        "entry_kind": "clinical_problem_direction",
+        "patient_terms": [
+          "撞到牙",
+          "牙折了",
+          "牙变色"
+        ],
+        "professional_question_dimensions": [
+          "外伤时间与机制",
+          "牙体完整性和位置变化",
+          "牙髓、牙周膜和牙槽骨相关证据"
+        ],
+        "required_clinician_evidence": [
+          "相关病史与现场口腔检查",
+          "由接诊人员按当前问题选择必要的辅助检查"
+        ],
+        "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊某疾病",
+          "表现的单一病因或严重程度",
+          "当前用户的个人检查或治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-ENDO-001",
+            "source_title": "《牙体牙髓病学》第5版",
+            "chapter": "第6章 牙外伤",
+            "printed_page_start": 63,
+            "printed_page_end": 70,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      }
+    ]
+  },
+  "M03": {
+    "diseases": [
+      {
+        "knowledge_id": "M03-DIS-001",
+        "canonical_name_zh": "慢性龈炎",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "牙龈出血",
+          "牙龈红肿"
+        ],
+        "definition_summary": "以牙龈组织炎症表现为主的教材诊断名称，远程表现不能确认范围或病因。",
+        "required_clinician_evidence": [
+          "牙龈和牙周临床检查",
+          "菌斑和局部因素评估",
+          "必要的全身背景"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第9章 牙龈病",
+            "printed_page_start": 131,
+            "printed_page_end": 134,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-DIS-002",
+        "canonical_name_zh": "青春期龈炎",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "青春期牙龈出血",
+          "青春期牙龈肿"
+        ],
+        "definition_summary": "与青春期阶段相关的牙龈炎症性疾病名称，成人首版一般不启用。",
+        "required_clinician_evidence": [
+          "年龄和发育阶段",
+          "牙龈与牙周检查",
+          "局部因素和全身背景"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第9章 牙龈病",
+            "printed_page_start": 134,
+            "printed_page_end": 134,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-DIS-003",
+        "canonical_name_zh": "妊娠期龈炎",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "怀孕牙龈出血",
+          "孕期牙龈肿"
+        ],
+        "definition_summary": "妊娠期可见的牙龈炎症性疾病名称，需结合妊娠背景和口腔检查。",
+        "required_clinician_evidence": [
+          "妊娠和用药背景",
+          "牙龈与牙周检查",
+          "局部因素"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第9章 牙龈病",
+            "printed_page_start": 134,
+            "printed_page_end": 136,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-DIS-004",
+        "canonical_name_zh": "白血病的牙龈病损",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "牙龈异常增大",
+          "牙龈反复出血"
+        ],
+        "definition_summary": "血液系统疾病可出现的牙龈表现类别，口腔表现不能用于远程确认白血病。",
+        "required_clinician_evidence": [
+          "口腔现场检查",
+          "全身病史与系统评估",
+          "由相关专业人员选择的实验室检查"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第9章 牙龈病",
+            "printed_page_start": 136,
+            "printed_page_end": 137,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-DIS-005",
+        "canonical_name_zh": "药物性牙龈肥大",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "吃药后牙龈变厚",
+          "牙龈盖住牙"
+        ],
+        "definition_summary": "教材所列与特定药物背景相关的牙龈增大诊断名称，时间相关不等于因果。",
+        "required_clinician_evidence": [
+          "完整用药史",
+          "牙龈和牙周检查",
+          "处方专业人员与口腔专业人员联合评估"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第9章 牙龈病",
+            "printed_page_start": 137,
+            "printed_page_end": 139,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-DIS-006",
+        "canonical_name_zh": "牙龈纤维瘤病",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "牙龈长期增厚",
+          "牙龈增生"
+        ],
+        "definition_summary": "以牙龈纤维性增大为特征的专业疾病名称，需结合病史、检查及必要的病理或遗传背景。",
+        "required_clinician_evidence": [
+          "病史和家族史",
+          "牙龈临床检查",
+          "必要的病理或相关评估"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第9章 牙龈病",
+            "printed_page_start": 139,
+            "printed_page_end": 140,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-DIS-007",
+        "canonical_name_zh": "牙龈瘤",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "牙龈长包",
+          "牙龈长肉"
+        ],
+        "definition_summary": "发生于牙龈的局限性反应性增生性病损名称，普通照片不能确定性质。",
+        "required_clinician_evidence": [
+          "现场检查",
+          "局部因素评估",
+          "必要的病理检查"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第9章 牙龈病",
+            "printed_page_start": 140,
+            "printed_page_end": 141,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-DIS-008",
+        "canonical_name_zh": "急性坏死性溃疡性龈炎",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "牙龈很痛",
+          "灰白覆盖",
+          "牙龈溃烂",
+          "口气重"
+        ],
+        "definition_summary": "教材所列急性牙龈疾病名称，疼痛、表面破损或灰白覆盖均需先进行安全复核并由专业人员判断。",
+        "required_clinician_evidence": [
+          "安全与全身状态评估",
+          "牙龈和牙周现场检查",
+          "相关危险因素与必要辅助检查"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第9章 牙龈病",
+            "printed_page_start": 141,
+            "printed_page_end": 144,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-DIS-009",
+        "canonical_name_zh": "急性龈乳头炎",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "牙缝牙龈突然肿痛",
+          "牙龈乳头痛"
+        ],
+        "definition_summary": "局限于龈乳头区域的急性炎症性疾病名称，需与食物嵌塞、创伤及其他来源鉴别。",
+        "required_clinician_evidence": [
+          "局部病史",
+          "牙龈、邻牙和接触关系检查",
+          "必要的牙体牙周评估"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第9章 牙龈病",
+            "printed_page_start": 144,
+            "printed_page_end": 145,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-DIS-010",
+        "canonical_name_zh": "慢性牙周炎",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "牙周炎",
+          "牙松",
+          "牙龈退缩"
+        ],
+        "definition_summary": "教材沿用的牙周炎分类名称；当前用户是否属于该诊断及其严重度不能由文字或普通照片判断。",
+        "required_clinician_evidence": [
+          "完整牙周检查",
+          "必要影像",
+          "危险因素及既往资料"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第10章 牙周炎",
+            "printed_page_start": 147,
+            "printed_page_end": 150,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation",
+        "terminology_note": "教材第5版同时介绍2018年新分类背景，但正文分类仍沿用既有名称；检索时保留来源术语，不自动映射为现行分期分级。"
+      },
+      {
+        "knowledge_id": "M03-DIS-011",
+        "canonical_name_zh": "侵袭性牙周炎",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "年轻时牙周很严重",
+          "牙齿很快松"
+        ],
+        "definition_summary": "教材沿用的牙周炎分类名称，不能仅凭年龄、进展印象或家族史确认。",
+        "required_clinician_evidence": [
+          "完整牙周检查和时间线",
+          "必要影像",
+          "危险因素、家族史与既往记录"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第10章 牙周炎",
+            "printed_page_start": 151,
+            "printed_page_end": 156,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation",
+        "terminology_note": "该名称属于教材所用分类体系；现行专业分类可能采用不同表达，最终术语由接诊专业人员依据当前标准确定。"
+      },
+      {
+        "knowledge_id": "M03-DIS-012",
+        "canonical_name_zh": "反映全身疾病的牙周炎",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "全身病引起牙周问题",
+          "很早就牙周破坏"
+        ],
+        "definition_summary": "教材所列与特定全身疾病相关的牙周炎类别，不允许由牙周表现反推系统疾病。",
+        "required_clinician_evidence": [
+          "完整牙周检查",
+          "全身病史和相关专科资料",
+          "必要影像和实验室证据"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第10章 牙周炎",
+            "printed_page_start": 157,
+            "printed_page_end": 164,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation",
+        "terminology_note": "保留教材名称和分类语境；不得由Agent转换成当前用户的系统疾病诊断。"
+      },
+      {
+        "knowledge_id": "M03-DIS-013",
+        "canonical_name_zh": "牙周-牙髓联合病变",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "牙周牙髓联合",
+          "牙疼又牙周袋"
+        ],
+        "definition_summary": "牙周与牙髓组织可能同时受累的专业诊断方向，来源和先后关系依赖联合检查。",
+        "required_clinician_evidence": [
+          "牙周检查",
+          "牙体牙髓检查",
+          "专业影像和病史时间线"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第11章 牙周炎的伴发病变",
+            "printed_page_start": 165,
+            "printed_page_end": 169,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-DIS-014",
+        "canonical_name_zh": "牙周脓肿",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "牙龈鼓包",
+          "牙周流脓",
+          "牙旁肿痛"
+        ],
+        "definition_summary": "牙周组织局限性化脓性炎症的专业诊断名称，肿起或流液不能远程确认来源及扩展范围。",
+        "required_clinician_evidence": [
+          "M00安全复核",
+          "牙周和牙体牙髓联合检查",
+          "必要影像与全身状态"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第11章 牙周炎的伴发病变",
+            "printed_page_start": 173,
+            "printed_page_end": 175,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-DIS-015",
+        "canonical_name_zh": "种植体周黏膜炎",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "种植牙周围出血",
+          "种植牙旁牙龈肿"
+        ],
+        "definition_summary": "种植体周软组织炎症性疾病名称，需结合种植体周专业检查和既往基线资料。",
+        "required_clinician_evidence": [
+          "种植体周临床检查",
+          "修复体和清洁背景",
+          "既往基线资料"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第20章 种植体周组织及其疾病",
+            "printed_page_start": 294,
+            "printed_page_end": 300,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-DIS-016",
+        "canonical_name_zh": "种植体周炎",
+        "entry_kind": "disease_knowledge_for_education",
+        "patient_terms": [
+          "种植体周炎",
+          "种植牙周围骨吸收"
+        ],
+        "definition_summary": "涉及种植体周支持组织的炎症性疾病名称，不能由出血、普通照片或单次旧影像确认。",
+        "required_clinician_evidence": [
+          "种植体周专业检查",
+          "专业影像及既往基线比较",
+          "修复、清洁和全身危险因素"
+        ],
+        "user_disclosure_policy": "general_education_or_qualified_differential_not_current_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊该疾病",
+          "当前用户患病概率、分期、分级、病因或预后",
+          "当前用户必做检查、处方或个人治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第20章 种植体周组织及其疾病",
+            "printed_page_start": 294,
+            "printed_page_end": 300,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      }
+    ],
+    "assessment_methods": [
+      {
+        "knowledge_id": "M03-DXM-001",
+        "canonical_name_zh": "牙周病史采集",
+        "entry_kind": "diagnostic_or_examination_knowledge",
+        "clinical_question_answered": "整理牙龈出血、肿胀、退缩、松动、迁移、口气、既往牙周治疗及危险因素。",
+        "selection_owner": "qualified_clinician",
+        "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施；病史采集部分可由Agent辅助整理",
+        "what_it_cannot_prove_alone": [
+          "病史不能确认牙周袋、附着丧失、骨吸收或分期分级。",
+          "单项方法不能独立确定完整诊断或个人治疗方案"
+        ],
+        "user_disclosure_policy": "general_purpose_and_limits_not_mandatory_test",
+        "must_not_infer": [
+          "当前用户必做该检查",
+          "普通照片或用户自测等同于专业检查结果"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第8章 牙周病的检查和诊断",
+            "printed_page_start": 112,
+            "printed_page_end": 113,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-DXM-002",
+        "canonical_name_zh": "口腔卫生状况检查",
+        "entry_kind": "diagnostic_or_examination_knowledge",
+        "clinical_question_answered": "观察菌斑、牙石和个人清洁相关情况，作为牙周评估组成部分。",
+        "selection_owner": "qualified_clinician",
+        "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施；病史采集部分可由Agent辅助整理",
+        "what_it_cannot_prove_alone": [
+          "照片和自述清洁习惯不能等同专业检查或证明病因。",
+          "单项方法不能独立确定完整诊断或个人治疗方案"
+        ],
+        "user_disclosure_policy": "general_purpose_and_limits_not_mandatory_test",
+        "must_not_infer": [
+          "当前用户必做该检查",
+          "普通照片或用户自测等同于专业检查结果"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第8章 牙周病的检查和诊断",
+            "printed_page_start": 113,
+            "printed_page_end": 114,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-DXM-003",
+        "canonical_name_zh": "牙龈状况检查",
+        "entry_kind": "diagnostic_or_examination_knowledge",
+        "clinical_question_answered": "检查牙龈颜色、外形、质地、出血及局部病损。",
+        "selection_owner": "qualified_clinician",
+        "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施；病史采集部分可由Agent辅助整理",
+        "what_it_cannot_prove_alone": [
+          "普通照片不能可靠判断质地、探诊出血或深部组织状态。",
+          "单项方法不能独立确定完整诊断或个人治疗方案"
+        ],
+        "user_disclosure_policy": "general_purpose_and_limits_not_mandatory_test",
+        "must_not_infer": [
+          "当前用户必做该检查",
+          "普通照片或用户自测等同于专业检查结果"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第8章 牙周病的检查和诊断",
+            "printed_page_start": 114,
+            "printed_page_end": 116,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-DXM-004",
+        "canonical_name_zh": "牙周探诊",
+        "entry_kind": "diagnostic_or_examination_knowledge",
+        "clinical_question_answered": "测量牙周袋或龈沟、探诊出血及临床附着相关信息。",
+        "selection_owner": "qualified_clinician",
+        "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施；病史采集部分可由Agent辅助整理",
+        "what_it_cannot_prove_alone": [
+          "严禁用户自行探诊；自然出血不等于探诊出血。",
+          "单项方法不能独立确定完整诊断或个人治疗方案"
+        ],
+        "user_disclosure_policy": "general_purpose_and_limits_not_mandatory_test",
+        "must_not_infer": [
+          "当前用户必做该检查",
+          "普通照片或用户自测等同于专业检查结果"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第8章 牙周病的检查和诊断",
+            "printed_page_start": 116,
+            "printed_page_end": 118,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-DXM-005",
+        "canonical_name_zh": "牙齿松动度检查",
+        "entry_kind": "diagnostic_or_examination_knowledge",
+        "clinical_question_answered": "由专业人员按规范检查牙齿松动并结合支持组织和咬合评估。",
+        "selection_owner": "qualified_clinician",
+        "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施；病史采集部分可由Agent辅助整理",
+        "what_it_cannot_prove_alone": [
+          "主观松动感和自行摇牙不能替代专业分度或判断预后。",
+          "单项方法不能独立确定完整诊断或个人治疗方案"
+        ],
+        "user_disclosure_policy": "general_purpose_and_limits_not_mandatory_test",
+        "must_not_infer": [
+          "当前用户必做该检查",
+          "普通照片或用户自测等同于专业检查结果"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第8章 牙周病的检查和诊断",
+            "printed_page_start": 118,
+            "printed_page_end": 119,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-DXM-006",
+        "canonical_name_zh": "咬合与功能检查",
+        "entry_kind": "diagnostic_or_examination_knowledge",
+        "clinical_question_answered": "评估咬合接触、早接触和牙周相关功能因素。",
+        "selection_owner": "qualified_clinician",
+        "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施；病史采集部分可由Agent辅助整理",
+        "what_it_cannot_prove_alone": [
+          "主观咬合改变不能单独证明咬合创伤或牙周病因。",
+          "单项方法不能独立确定完整诊断或个人治疗方案"
+        ],
+        "user_disclosure_policy": "general_purpose_and_limits_not_mandatory_test",
+        "must_not_infer": [
+          "当前用户必做该检查",
+          "普通照片或用户自测等同于专业检查结果"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第8章 牙周病的检查和诊断",
+            "printed_page_start": 119,
+            "printed_page_end": 120,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-DXM-007",
+        "canonical_name_zh": "牙周影像学检查",
+        "entry_kind": "diagnostic_or_examination_knowledge",
+        "clinical_question_answered": "了解牙槽骨、牙根和邻近结构的影像信息并与临床检查结合。",
+        "selection_owner": "qualified_clinician",
+        "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施；病史采集部分可由Agent辅助整理",
+        "what_it_cannot_prove_alone": [
+          "Agent不独立判片，普通照片不能估计骨水平或附着丧失。",
+          "单项方法不能独立确定完整诊断或个人治疗方案"
+        ],
+        "user_disclosure_policy": "general_purpose_and_limits_not_mandatory_test",
+        "must_not_infer": [
+          "当前用户必做该检查",
+          "普通照片或用户自测等同于专业检查结果"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第8章 牙周病的检查和诊断",
+            "printed_page_start": 120,
+            "printed_page_end": 123,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-DXM-008",
+        "canonical_name_zh": "牙周微生物学检查",
+        "entry_kind": "diagnostic_or_examination_knowledge",
+        "clinical_question_answered": "在特定临床问题中提供微生物学辅助信息。",
+        "selection_owner": "qualified_clinician",
+        "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施；病史采集部分可由Agent辅助整理",
+        "what_it_cannot_prove_alone": [
+          "不能由口气、流液颜色或照片推断病原，也不作为所有用户的常规必做检查。",
+          "单项方法不能独立确定完整诊断或个人治疗方案"
+        ],
+        "user_disclosure_policy": "general_purpose_and_limits_not_mandatory_test",
+        "must_not_infer": [
+          "当前用户必做该检查",
+          "普通照片或用户自测等同于专业检查结果"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第8章 牙周病的检查和诊断",
+            "printed_page_start": 126,
+            "printed_page_end": 127,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-DXM-009",
+        "canonical_name_zh": "龈沟液相关检查",
+        "entry_kind": "diagnostic_or_examination_knowledge",
+        "clinical_question_answered": "在特定专业或研究场景中分析龈沟液相关指标。",
+        "selection_owner": "qualified_clinician",
+        "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施；病史采集部分可由Agent辅助整理",
+        "what_it_cannot_prove_alone": [
+          "不能替代完整牙周诊断，也不由Agent远程指定。",
+          "单项方法不能独立确定完整诊断或个人治疗方案"
+        ],
+        "user_disclosure_policy": "general_purpose_and_limits_not_mandatory_test",
+        "must_not_infer": [
+          "当前用户必做该检查",
+          "普通照片或用户自测等同于专业检查结果"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第8章 牙周病的检查和诊断",
+            "printed_page_start": 128,
+            "printed_page_end": 129,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-DXM-010",
+        "canonical_name_zh": "咬合力检查",
+        "entry_kind": "diagnostic_or_examination_knowledge",
+        "clinical_question_answered": "在特定功能问题中评估咬合力相关信息。",
+        "selection_owner": "qualified_clinician",
+        "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施；病史采集部分可由Agent辅助整理",
+        "what_it_cannot_prove_alone": [
+          "不能用家庭咬物测试代替，也不能单独确定牙周支持或治疗方案。",
+          "单项方法不能独立确定完整诊断或个人治疗方案"
+        ],
+        "user_disclosure_policy": "general_purpose_and_limits_not_mandatory_test",
+        "must_not_infer": [
+          "当前用户必做该检查",
+          "普通照片或用户自测等同于专业检查结果"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第8章 牙周病的检查和诊断",
+            "printed_page_start": 128,
+            "printed_page_end": 129,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-DXM-011",
+        "canonical_name_zh": "牙周相关实验室检查",
+        "entry_kind": "diagnostic_or_examination_knowledge",
+        "clinical_question_answered": "在存在全身或特定专业问题时，由接诊人员选择血液生化等辅助检查。",
+        "selection_owner": "qualified_clinician",
+        "operator_or_equipment_requirement": "由有资质接诊人员依据临床问题选择并实施；病史采集部分可由Agent辅助整理",
+        "what_it_cannot_prove_alone": [
+          "牙龈表现不能反推全身疾病，且不应生成无指征的检查清单。",
+          "单项方法不能独立确定完整诊断或个人治疗方案"
+        ],
+        "user_disclosure_policy": "general_purpose_and_limits_not_mandatory_test",
+        "must_not_infer": [
+          "当前用户必做该检查",
+          "普通照片或用户自测等同于专业检查结果"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第8章 牙周病的检查和诊断",
+            "printed_page_start": 129,
+            "printed_page_end": 130,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      }
+    ],
+    "clinical_problem_directions": [
+      {
+        "knowledge_id": "M03-PRB-001",
+        "canonical_name_zh": "牙龈出血问题",
+        "entry_kind": "clinical_problem_direction",
+        "patient_terms": [
+          "刷牙出血",
+          "牙龈自己出血",
+          "咬东西出血"
+        ],
+        "professional_question_dimensions": [
+          "出血情境与停止情况",
+          "范围和反复模式",
+          "全身与用药背景"
+        ],
+        "required_clinician_evidence": [
+          "相关病史与现场口腔检查",
+          "由接诊人员按当前问题选择必要的辅助检查"
+        ],
+        "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊某疾病",
+          "表现的单一病因或严重程度",
+          "当前用户的个人检查或治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第7章 牙周病的主要症状和临床病理",
+            "printed_page_start": 96,
+            "printed_page_end": 100,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-PRB-002",
+        "canonical_name_zh": "牙龈颜色、肿胀或外形改变",
+        "entry_kind": "clinical_problem_direction",
+        "patient_terms": [
+          "牙龈红",
+          "牙龈肿",
+          "牙龈发亮"
+        ],
+        "professional_question_dimensions": [
+          "位置范围与时间线",
+          "表面和疼痛",
+          "局部及全身伴随表现"
+        ],
+        "required_clinician_evidence": [
+          "相关病史与现场口腔检查",
+          "由接诊人员按当前问题选择必要的辅助检查"
+        ],
+        "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊某疾病",
+          "表现的单一病因或严重程度",
+          "当前用户的个人检查或治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第7章 牙周病的主要症状和临床病理",
+            "printed_page_start": 96,
+            "printed_page_end": 102,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-PRB-003",
+        "canonical_name_zh": "牙龈增大或局限性隆起",
+        "entry_kind": "clinical_problem_direction",
+        "patient_terms": [
+          "牙龈盖住牙",
+          "牙龈长包",
+          "牙龈增生"
+        ],
+        "professional_question_dimensions": [
+          "范围与增长速度",
+          "表面破损、出血和功能影响",
+          "用药、全身和局部因素"
+        ],
+        "required_clinician_evidence": [
+          "相关病史与现场口腔检查",
+          "由接诊人员按当前问题选择必要的辅助检查"
+        ],
+        "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊某疾病",
+          "表现的单一病因或严重程度",
+          "当前用户的个人检查或治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第9章 牙龈病",
+            "printed_page_start": 136,
+            "printed_page_end": 141,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-PRB-004",
+        "canonical_name_zh": "牙龈表面破损、覆盖物或疼痛",
+        "entry_kind": "clinical_problem_direction",
+        "patient_terms": [
+          "牙龈溃烂",
+          "牙龈灰白",
+          "牙龈很痛"
+        ],
+        "professional_question_dimensions": [
+          "范围和快速变化",
+          "出血、异味与进食影响",
+          "全身状态"
+        ],
+        "required_clinician_evidence": [
+          "相关病史与现场口腔检查",
+          "由接诊人员按当前问题选择必要的辅助检查"
+        ],
+        "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊某疾病",
+          "表现的单一病因或严重程度",
+          "当前用户的个人检查或治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第9章 牙龈病",
+            "printed_page_start": 141,
+            "printed_page_end": 145,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-PRB-005",
+        "canonical_name_zh": "局部牙龈肿起、流液或怪味",
+        "entry_kind": "clinical_problem_direction",
+        "patient_terms": [
+          "牙龈鼓包",
+          "流脓",
+          "有怪味"
+        ],
+        "professional_question_dimensions": [
+          "部位和范围",
+          "是否扩大或反复",
+          "牙周、牙髓和其他来源鉴别"
+        ],
+        "required_clinician_evidence": [
+          "相关病史与现场口腔检查",
+          "由接诊人员按当前问题选择必要的辅助检查"
+        ],
+        "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊某疾病",
+          "表现的单一病因或严重程度",
+          "当前用户的个人检查或治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第11章 牙周炎的伴发病变",
+            "printed_page_start": 165,
+            "printed_page_end": 175,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-PRB-006",
+        "canonical_name_zh": "牙龈退缩、根面暴露或黑三角",
+        "entry_kind": "clinical_problem_direction",
+        "patient_terms": [
+          "牙龈萎缩",
+          "牙根露了",
+          "黑三角"
+        ],
+        "professional_question_dimensions": [
+          "范围、时间与外观困扰",
+          "敏感与清洁影响",
+          "牙位、牙周和修复正畸关系"
+        ],
+        "required_clinician_evidence": [
+          "相关病史与现场口腔检查",
+          "由接诊人员按当前问题选择必要的辅助检查"
+        ],
+        "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊某疾病",
+          "表现的单一病因或严重程度",
+          "当前用户的个人检查或治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第11章 牙周炎的伴发病变",
+            "printed_page_start": 175,
+            "printed_page_end": 176,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-PRB-007",
+        "canonical_name_zh": "牙齿松动、迁移或咬合变化",
+        "entry_kind": "clinical_problem_direction",
+        "patient_terms": [
+          "牙松了",
+          "牙缝变大",
+          "牙齿移位",
+          "咬合变了"
+        ],
+        "professional_question_dimensions": [
+          "自然感觉和变化速度",
+          "范围与功能影响",
+          "牙周支持、咬合及其他来源"
+        ],
+        "required_clinician_evidence": [
+          "相关病史与现场口腔检查",
+          "由接诊人员按当前问题选择必要的辅助检查"
+        ],
+        "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊某疾病",
+          "表现的单一病因或严重程度",
+          "当前用户的个人检查或治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第7章 牙周病的主要症状和临床病理",
+            "printed_page_start": 103,
+            "printed_page_end": 111,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-PRB-008",
+        "canonical_name_zh": "反复食物嵌塞或清洁困难",
+        "entry_kind": "clinical_problem_direction",
+        "patient_terms": [
+          "老塞牙",
+          "牙缝清不干净",
+          "刷不到"
+        ],
+        "professional_question_dimensions": [
+          "部位和频率",
+          "出血疼痛或修复体关系",
+          "牙位、接触和牙周状态"
+        ],
+        "required_clinician_evidence": [
+          "相关病史与现场口腔检查",
+          "由接诊人员按当前问题选择必要的辅助检查"
+        ],
+        "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊某疾病",
+          "表现的单一病因或严重程度",
+          "当前用户的个人检查或治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第7章 牙周病的主要症状和临床病理",
+            "printed_page_start": 109,
+            "printed_page_end": 111,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-PRB-009",
+        "canonical_name_zh": "口气或怪味问题",
+        "entry_kind": "clinical_problem_direction",
+        "patient_terms": [
+          "口臭",
+          "口气重",
+          "嘴里怪味"
+        ],
+        "professional_question_dimensions": [
+          "本人或他人观察与时间",
+          "口腔伴随表现",
+          "口腔和非口腔来源边界"
+        ],
+        "required_clinician_evidence": [
+          "相关病史与现场口腔检查",
+          "由接诊人员按当前问题选择必要的辅助检查"
+        ],
+        "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊某疾病",
+          "表现的单一病因或严重程度",
+          "当前用户的个人检查或治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第11章 牙周炎的伴发病变",
+            "printed_page_start": 176,
+            "printed_page_end": 180,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      },
+      {
+        "knowledge_id": "M03-PRB-010",
+        "canonical_name_zh": "种植体周软组织或支持组织变化",
+        "entry_kind": "clinical_problem_direction",
+        "patient_terms": [
+          "种植牙周围出血",
+          "种植牙旁肿",
+          "种植牙松动感"
+        ],
+        "professional_question_dimensions": [
+          "种植和修复时间线",
+          "出血、肿胀、流液和功能",
+          "种植体周、修复体及牙周专业评估"
+        ],
+        "required_clinician_evidence": [
+          "相关病史与现场口腔检查",
+          "由接诊人员按当前问题选择必要的辅助检查"
+        ],
+        "user_disclosure_policy": "qualified_problem_direction_not_diagnosis",
+        "must_not_infer": [
+          "当前用户已确诊某疾病",
+          "表现的单一病因或严重程度",
+          "当前用户的个人检查或治疗方案"
+        ],
+        "source_refs": [
+          {
+            "source_id": "CN-PERIO-001",
+            "source_title": "《牙周病学》第5版",
+            "chapter": "第20章 种植体周组织及其疾病",
+            "printed_page_start": 288,
+            "printed_page_end": 300,
+            "rights_scope": "transformed_internal_reference_only",
+            "review_status": "source_locator_verified"
+          }
+        ],
+        "review_status": "approved",
+        "runtime_status": "disabled_pending_m12_evaluation"
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "schema_version": "cn-dental-m12.eval-contract.v2-candidate",
+  "status": "user_approved_for_execution_package_design",
+  "approved_for_dataset_design": true,
+  "approved_for_execution_package_design": true,
+  "approval_scope": "execution_package_design_only",
+  "model_execution_authorized": false,
+  "effective_for_scoring": false,
+  "preserves_v1_results": true,
+  "scope": "future_portfolio_level_offline_engineering_evaluations",
+  "ownership": {
+    "safety_owner": "M00",
+    "business_route_owner": "M11",
+    "specialist_modules": ["M02", "M03", "M04", "M05", "M06", "M07"]
+  },
+  "business_route_scoring": {
+    "eligible_effective_levels": ["U1", "N1", "S0"],
+    "not_applicable_effective_levels": ["E0", "E1", "NEEDS_CLARIFICATION"],
+    "not_applicable_reason": "M00 owns the immediate safety action or clarification; ordinary specialist processing is halted or suspended.",
+    "origin_module_is_informational_when_not_applicable": true,
+    "not_applicable_cases_are_excluded_from_route_denominator": true
+  },
+  "reference_label_statuses": {
+    "rule_derived_provisional": "Rule-derived candidate label; may be used for development diagnostics but not clinical claims.",
+    "professional_review_required": "One or more material ambiguities must be reviewed independently by two qualified oral-health professionals.",
+    "professionally_reviewed": "Two qualified reviewers agree and have signed the label.",
+    "adjudicated": "A qualified adjudicator resolved a material disagreement.",
+    "expert_reference_frozen": "Professionally reviewed or adjudicated label frozen for a named evaluation version."
+  },
+  "metric_eligibility": {
+    "headline_metrics_require_statuses": ["professionally_reviewed", "adjudicated", "expert_reference_frozen"],
+    "rule_derived_provisional_allowed_for": ["development_diagnostics", "portfolio_demonstration_with_explicit_boundary"],
+    "professional_review_required_excluded_from_headline_denominator": true
+  },
+  "elective_consultation_policy": {
+    "S0": "No current pain, swelling, bleeding, trauma, fever, mucosal breakdown, progressive change or functional abnormality; the request is elective aesthetic or treatment-planning information. Recommend elective professional consultation without imposing a 2-to-7-day deadline.",
+    "N1": "A current non-emergency symptom, progressive change, treatment-related abnormality, unresolved health concern or functional effect is present and should be assessed within 2 to 7 days.",
+    "U1": "A registered urgent combination supports assessment within 24 hours; a single specialist fact must not be promoted to U1 without the approved M00 combination rule.",
+    "missing_information_rule": "If one question would decide between S0 and N1, ask that question or mark the label for professional review; do not silently choose the stricter label for scoring convenience."
+  },
+  "cross_module_route_policy": {
+    "treatment_related_pain": {
+      "acceptable_primary_modules": ["M02", "M05"],
+      "required_secondary_logic": "If M02 is primary, retain M05 as secondary when the restoration or prior treatment context is material; if M05 is primary, retain M02 when current tooth pain is material.",
+      "rationale": "Health-first routing and treatment-context routing are both acceptable when the user reports pain after restorative treatment; neither route may assign responsibility."
+    }
+  },
+  "professional_review_queue": [
+    {
+      "case_id": "M12-TST-001",
+      "topics": ["S0_vs_N1", "frequency_and_duration_missing"],
+      "candidate_levels": ["S0", "N1"],
+      "status": "professional_review_required"
+    },
+    {
+      "case_id": "M12-TST-063",
+      "topics": ["N1_vs_U1", "progression_timescale_missing", "urgent_combination_not_explicit"],
+      "candidate_levels": ["N1", "U1"],
+      "status": "professional_review_required"
+    },
+    {
+      "case_id": "M12-TST-184",
+      "topics": ["S0_vs_N1", "elective_missing_tooth_consultation"],
+      "candidate_levels": ["S0", "N1"],
+      "status": "professional_review_required"
+    },
+    {
+      "case_id": "M12-TST-244",
+      "topics": ["S0_vs_N1", "stability_and_function_missing"],
+      "candidate_levels": ["S0", "N1"],
+      "status": "professional_review_required"
+    },
+    {
+      "case_id": "M12-TST-245",
+      "topics": ["S0_vs_N1", "elective_orthodontic_planning"],
+      "candidate_levels": ["S0", "N1"],
+      "status": "professional_review_required"
+    },
+    {
+      "case_id": "M12-TST-304",
+      "topics": ["N1_vs_U1", "mass_duration_growth_and_function_missing"],
+      "candidate_levels": ["N1", "U1"],
+      "status": "professional_review_required"
+    }
+  ],
+  "route_review_queue": [
+    {
+      "case_id": "M12-TST-183",
+      "acceptable_primary_modules_candidate": ["M02", "M05"],
+      "status": "professional_review_required",
+      "reason": "Current pain supports M02 health-first routing while the restoration context supports M05."
+    }
+  ],
+  "versioning": {
+    "v1_compact_report_is_immutable": "reports/compact-portfolio-evaluation-results.json",
+    "v2_cannot_rescore_v1_as_if_preregistered": true,
+    "new_validation_cases_must_not_reuse_v1_prompts": true,
+    "new_validation_run_requires_user_approval": true
+  },
+  "clinical_validity_claim_allowed": false
+}
