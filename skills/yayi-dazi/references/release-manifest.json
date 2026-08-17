@@ -1,0 +1,36 @@
+{
+  "schema_version": "yayi-dazi.release-manifest.v1",
+  "release_version": "0.9.0-portfolio",
+  "release_date": "2026-08-17",
+  "candidate_status": "node7_approved_distribution_authorized",
+  "release_scope": "portfolio_engineering_candidate",
+  "component_versions": {
+    "rule_version": "cn-dental-triage.rules.v0.1",
+    "knowledge_snapshot_version": "yayi-dazi.knowledge.2026-08-17",
+    "evaluation_dataset_version": "cn-dental-portfolio-v3.1",
+    "data_governance_contract_version": "cn-oral-data-governance.gate.v1",
+    "runtime_manifest_version": "cn-oral-consult.runtime-manifest.v2"
+  },
+  "required_candidate_checks": {
+    "knowledge_lifecycle_audit": "passed_42_of_42_registered_records_current",
+    "full_runtime_self_check": "passed_15_of_15_local_and_github_mirror",
+    "full_test_suite": "passed_412_of_412",
+    "skill_structure_validation": "passed_local_and_github_mirror",
+    "delivery_preflight": "passed_24_of_24",
+    "final_package_audit": "passed_19_of_19"
+  },
+  "claims": {
+    "portfolio_engineering_claim_allowed": true,
+    "professional_validation_claim_allowed": false,
+    "clinical_validity_claim_allowed": false,
+    "statistical_significance_claim_allowed": false,
+    "public_medical_service_claim_allowed": false
+  },
+  "distribution_decisions": {
+    "personal_reinstall_authorized": true,
+    "remote_github_push_authorized": true,
+    "public_real_data_processing_enabled": false,
+    "clinical_production_enabled": false
+  },
+  "pending_user_decisions": []
+}

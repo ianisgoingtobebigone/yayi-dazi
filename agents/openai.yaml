@@ -1,6 +1,0 @@
-interface:
-  display_name: "牙医搭子"
-  short_description: "懂口腔，也懂你的 AI 搭子——成人口腔问诊与正畸美观支持"
-  default_prompt: "使用 $yayi-dazi 对成人口腔健康或正畸美观问题先做中国化安全分流，再给出有边界的专业咨询支持。"
-policy:
-  allow_implicit_invocation: false

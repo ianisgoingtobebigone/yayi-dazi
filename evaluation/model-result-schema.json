@@ -1,0 +1,18 @@
+{
+  "schema_version": "cn-dental-portfolio-v3.result.v1",
+  "required_fields": [
+    "case_id",
+    "arm",
+    "text",
+    "effective_level",
+    "primary_module",
+    "secondary_module",
+    "facts"
+  ],
+  "arms": [
+    "base_model_only",
+    "base_model_plus_skill",
+    "base_model_plus_skill_plus_rag"
+  ],
+  "note": "RAG组只用于rag-sensitive-cases，不与普通安全案例混合解释。"
+}

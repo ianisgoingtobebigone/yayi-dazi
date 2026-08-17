@@ -1,0 +1,5842 @@
+{
+  "schema_version": "cn-dental-rag-ablation-v3.result.v1",
+  "status": "local_retrieval_engineering_evaluation_complete",
+  "case_count": 36,
+  "runs": {
+    "R0_current_full_library_bm25": {
+      "metrics": {
+        "case_count": 36,
+        "hit_at_3": 0.861111,
+        "macro_recall_at_3": 0.847222,
+        "macro_precision_at_3": 0.314815,
+        "wrong_module_result_rate": 0.398148
+      },
+      "details": [
+        {
+          "rag_case_id": "M12-RAG-V3-001",
+          "group": "source_trace",
+          "query": "冷热刺激后短暂酸痛，一般教育中如何解释牙本质敏感，并给出资料定位。",
+          "expected_knowledge_ids": [
+            "M02-DIS-006"
+          ],
+          "allowed_modules": [
+            "M02"
+          ],
+          "entry_types": [
+            "DIS"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-433",
+              "knowledge_id": "M02-DIS-006",
+              "module": "M02"
+            },
+            {
+              "chunk_id": "M10-CHK-393",
+              "knowledge_id": "M09-TRT-056",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-451",
+              "knowledge_id": "M02-PRB-001",
+              "module": "M02"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-002",
+          "group": "source_trace",
+          "query": "刷牙时牙龈出血，想了解这个问题方向的资料来源。",
+          "expected_knowledge_ids": [
+            "M03-PRB-001"
+          ],
+          "allowed_modules": [
+            "M03"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-486",
+              "knowledge_id": "M03-PRB-001",
+              "module": "M03"
+            },
+            {
+              "chunk_id": "M10-CHK-188",
+              "knowledge_id": "M05-MNT-001",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-230",
+              "knowledge_id": "M06-PRB-017",
+              "module": "M06"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-003",
+          "group": "source_trace",
+          "query": "反复口腔溃疡的一般背景和教材来源是什么？",
+          "expected_knowledge_ids": [
+            "M04-DIS-016"
+          ],
+          "allowed_modules": [
+            "M04"
+          ],
+          "entry_types": [
+            "DIS"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-421",
+              "knowledge_id": "M09-TRT-084",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-143",
+              "knowledge_id": "M05-DXM-001",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-016",
+              "knowledge_id": "M04-DIS-016",
+              "module": "M04"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-004",
+          "group": "source_trace",
+          "query": "固定牙冠松动通常涉及什么专业问题，并给出来源。",
+          "expected_knowledge_ids": [
+            "M05-PRB-006"
+          ],
+          "allowed_modules": [
+            "M05"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-188",
+              "knowledge_id": "M05-MNT-001",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-143",
+              "knowledge_id": "M05-DXM-001",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-169",
+              "knowledge_id": "M05-PRB-006",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-005",
+          "group": "source_trace",
+          "query": "牙齿拥挤作为正畸问题方向通常需要关注什么，并给出来源。",
+          "expected_knowledge_ids": [
+            "M06-PRB-001"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-214",
+              "knowledge_id": "M06-PRB-001",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-162",
+              "knowledge_id": "M05-DXM-020",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-215",
+              "knowledge_id": "M06-PRB-002",
+              "module": "M06"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-006",
+          "group": "source_trace",
+          "query": "颞下颌关节弹响和疼痛的一般专业背景及来源。",
+          "expected_knowledge_ids": [
+            "M07-DIS-001"
+          ],
+          "allowed_modules": [
+            "M07"
+          ],
+          "entry_types": [
+            "DIS"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-145",
+              "knowledge_id": "M05-DXM-003",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-358",
+              "knowledge_id": "M09-TRT-021",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-180",
+              "knowledge_id": "M05-PRB-017",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-007",
+          "group": "diagnostic_method",
+          "query": "口腔黏膜活体组织检查一般解决什么问题，有什么局限？",
+          "expected_knowledge_ids": [
+            "M04-DXM-008"
+          ],
+          "allowed_modules": [
+            "M04"
+          ],
+          "entry_types": [
+            "DXM"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-143",
+              "knowledge_id": "M05-DXM-001",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-142",
+              "knowledge_id": "M04-DXM-015",
+              "module": "M04"
+            },
+            {
+              "chunk_id": "M10-CHK-141",
+              "knowledge_id": "M04-DXM-014",
+              "module": "M04"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-008",
+          "group": "diagnostic_method",
+          "query": "修复评估中的咬合关系检查通常观察什么？",
+          "expected_knowledge_ids": [
+            "M05-DXM-007"
+          ],
+          "allowed_modules": [
+            "M05"
+          ],
+          "entry_types": [
+            "DXM"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-162",
+              "knowledge_id": "M05-DXM-020",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-149",
+              "knowledge_id": "M05-DXM-007",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-151",
+              "knowledge_id": "M05-DXM-009",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-009",
+          "group": "diagnostic_method",
+          "query": "正畸初诊为什么要采集治疗目标和病史？",
+          "expected_knowledge_ids": [
+            "M06-DXM-001"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "DXM"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-143",
+              "knowledge_id": "M05-DXM-001",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-199",
+              "knowledge_id": "M06-DXM-001",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-162",
+              "knowledge_id": "M05-DXM-020",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-010",
+          "group": "diagnostic_method",
+          "query": "口腔颌面问题为什么需要完整病史和时间线？",
+          "expected_knowledge_ids": [
+            "M07-DXM-001"
+          ],
+          "allowed_modules": [
+            "M07"
+          ],
+          "entry_types": [
+            "DXM"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-143",
+              "knowledge_id": "M05-DXM-001",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-302",
+              "knowledge_id": "M07-DXM-001",
+              "module": "M07"
+            },
+            {
+              "chunk_id": "M10-CHK-419",
+              "knowledge_id": "M09-TRT-082",
+              "module": "M09"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-011",
+          "group": "diagnostic_method",
+          "query": "牙痛咨询中的疼痛史采集一般包括哪些维度？",
+          "expected_knowledge_ids": [
+            "M02-DXM-001"
+          ],
+          "allowed_modules": [
+            "M02"
+          ],
+          "entry_types": [
+            "DXM"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-441",
+              "knowledge_id": "M02-DXM-001",
+              "module": "M02"
+            },
+            {
+              "chunk_id": "M10-CHK-161",
+              "knowledge_id": "M05-DXM-019",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-448",
+              "knowledge_id": "M02-DXM-008",
+              "module": "M02"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-012",
+          "group": "diagnostic_method",
+          "query": "牙周病史采集一般需要了解哪些背景？",
+          "expected_knowledge_ids": [
+            "M03-DXM-001"
+          ],
+          "allowed_modules": [
+            "M03"
+          ],
+          "entry_types": [
+            "DXM"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-475",
+              "knowledge_id": "M03-DXM-001",
+              "module": "M03"
+            },
+            {
+              "chunk_id": "M10-CHK-481",
+              "knowledge_id": "M03-DXM-007",
+              "module": "M03"
+            },
+            {
+              "chunk_id": "M10-CHK-444",
+              "knowledge_id": "M02-DXM-004",
+              "module": "M02"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-013",
+          "group": "treatment_background",
+          "query": "直接充填修复作为治疗类别通常有什么目的和评估前提？",
+          "expected_knowledge_ids": [
+            "M09-TRT-001"
+          ],
+          "allowed_modules": [
+            "M09"
+          ],
+          "entry_types": [
+            "TRT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-338",
+              "knowledge_id": "M09-TRT-001",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-340",
+              "knowledge_id": "M09-TRT-003",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-339",
+              "knowledge_id": "M09-TRT-002",
+              "module": "M09"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-014",
+          "group": "treatment_background",
+          "query": "固定桥修复作为类别通常需要评估哪些条件？",
+          "expected_knowledge_ids": [
+            "M09-TRT-008"
+          ],
+          "allowed_modules": [
+            "M09"
+          ],
+          "entry_types": [
+            "TRT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-346",
+              "knowledge_id": "M09-TRT-009",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-350",
+              "knowledge_id": "M09-TRT-013",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-345",
+              "knowledge_id": "M09-TRT-008",
+              "module": "M09"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-015",
+          "group": "treatment_background",
+          "query": "部分牙列种植义齿修复一般需要考虑哪些前提？",
+          "expected_knowledge_ids": [
+            "M09-TRT-013"
+          ],
+          "allowed_modules": [
+            "M09"
+          ],
+          "entry_types": [
+            "TRT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-350",
+              "knowledge_id": "M09-TRT-013",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-347",
+              "knowledge_id": "M09-TRT-010",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-345",
+              "knowledge_id": "M09-TRT-008",
+              "module": "M09"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-016",
+          "group": "treatment_background",
+          "query": "修复体专业调整与自行调整的边界是什么？",
+          "expected_knowledge_ids": [
+            "M09-TRT-022"
+          ],
+          "allowed_modules": [
+            "M09"
+          ],
+          "entry_types": [
+            "TRT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-359",
+              "knowledge_id": "M09-TRT-022",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-363",
+              "knowledge_id": "M09-TRT-026",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-364",
+              "knowledge_id": "M09-TRT-027",
+              "module": "M09"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-017",
+          "group": "treatment_background",
+          "query": "无托槽隐形矫治通常需要评估哪些条件？",
+          "expected_knowledge_ids": [
+            "M09-TRT-029"
+          ],
+          "allowed_modules": [
+            "M09"
+          ],
+          "entry_types": [
+            "TRT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-366",
+              "knowledge_id": "M09-TRT-029",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-236",
+              "knowledge_id": "M06-MNT-003",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-153",
+              "knowledge_id": "M05-DXM-011",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-018",
+          "group": "treatment_background",
+          "query": "正畸正颌联合治疗作为类别通常需要哪些专业评估？",
+          "expected_knowledge_ids": [
+            "M09-TRT-036"
+          ],
+          "allowed_modules": [
+            "M09"
+          ],
+          "entry_types": [
+            "TRT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-373",
+              "knowledge_id": "M09-TRT-036",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-371",
+              "knowledge_id": "M09-TRT-034",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-213",
+              "knowledge_id": "M06-DXM-015",
+              "module": "M06"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-019",
+          "group": "maintenance",
+          "query": "固定修复体日常清洁和定期复查的一般原则。",
+          "expected_knowledge_ids": [
+            "M05-MNT-001"
+          ],
+          "allowed_modules": [
+            "M05"
+          ],
+          "entry_types": [
+            "MNT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-188",
+              "knowledge_id": "M05-MNT-001",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-343",
+              "knowledge_id": "M09-TRT-006",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-346",
+              "knowledge_id": "M09-TRT-009",
+              "module": "M09"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-020",
+          "group": "maintenance",
+          "query": "可摘局部义齿清洁和保存的一般边界。",
+          "expected_knowledge_ids": [
+            "M05-MNT-003"
+          ],
+          "allowed_modules": [
+            "M05"
+          ],
+          "entry_types": [
+            "MNT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-190",
+              "knowledge_id": "M05-MNT-003",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-347",
+              "knowledge_id": "M09-TRT-010",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-348",
+              "knowledge_id": "M09-TRT-011",
+              "module": "M09"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-021",
+          "group": "maintenance",
+          "query": "全口义齿清洁和保存需要注意哪些一般原则？",
+          "expected_knowledge_ids": [
+            "M05-MNT-006"
+          ],
+          "allowed_modules": [
+            "M05"
+          ],
+          "entry_types": [
+            "MNT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-193",
+              "knowledge_id": "M05-MNT-006",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-190",
+              "knowledge_id": "M05-MNT-003",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-351",
+              "knowledge_id": "M09-TRT-014",
+              "module": "M09"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-022",
+          "group": "maintenance",
+          "query": "种植义齿日常自我维护的一般范围和停止条件。",
+          "expected_knowledge_ids": [
+            "M05-MNT-010"
+          ],
+          "allowed_modules": [
+            "M05"
+          ],
+          "entry_types": [
+            "MNT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-197",
+              "knowledge_id": "M05-MNT-010",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-198",
+              "knowledge_id": "M05-MNT-011",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-350",
+              "knowledge_id": "M09-TRT-013",
+              "module": "M09"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-023",
+          "group": "maintenance",
+          "query": "隐形矫治装置的一般使用和清洁原则。",
+          "expected_knowledge_ids": [
+            "M06-MNT-003"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "MNT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-235",
+              "knowledge_id": "M06-MNT-002",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-236",
+              "knowledge_id": "M06-MNT-003",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-366",
+              "knowledge_id": "M09-TRT-029",
+              "module": "M09"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-024",
+          "group": "maintenance",
+          "query": "保持器的一般使用、清洁和保存原则。",
+          "expected_knowledge_ids": [
+            "M06-MNT-006"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "MNT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-239",
+              "knowledge_id": "M06-MNT-006",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-235",
+              "knowledge_id": "M06-MNT-002",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-190",
+              "knowledge_id": "M05-MNT-003",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-025",
+          "group": "orthodontic_dimensions",
+          "query": "牙齿拥挤做正畸评估时通常关注哪些维度？",
+          "expected_knowledge_ids": [
+            "M06-PRB-001"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-214",
+              "knowledge_id": "M06-PRB-001",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-162",
+              "knowledge_id": "M05-DXM-020",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-144",
+              "knowledge_id": "M05-DXM-002",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-026",
+          "group": "orthodontic_dimensions",
+          "query": "牙列间隙问题做正畸评估时通常关注哪些维度？",
+          "expected_knowledge_ids": [
+            "M06-PRB-002"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-215",
+              "knowledge_id": "M06-PRB-002",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-162",
+              "knowledge_id": "M05-DXM-020",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-152",
+              "knowledge_id": "M05-DXM-010",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-027",
+          "group": "orthodontic_dimensions",
+          "query": "前牙前突和覆盖问题需要哪些专业检查信息？",
+          "expected_knowledge_ids": [
+            "M06-PRB-004"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-217",
+              "knowledge_id": "M06-PRB-004",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-161",
+              "knowledge_id": "M05-DXM-019",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-148",
+              "knowledge_id": "M05-DXM-006",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-028",
+          "group": "orthodontic_dimensions",
+          "query": "深覆合相关正畸问题通常需要评估什么？",
+          "expected_knowledge_ids": [
+            "M06-PRB-007"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-214",
+              "knowledge_id": "M06-PRB-001",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-215",
+              "knowledge_id": "M06-PRB-002",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-162",
+              "knowledge_id": "M05-DXM-020",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-029",
+          "group": "orthodontic_dimensions",
+          "query": "牙齿中线偏移做正畸评估时需要关注什么？",
+          "expected_knowledge_ids": [
+            "M06-PRB-009"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-222",
+              "knowledge_id": "M06-PRB-009",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-162",
+              "knowledge_id": "M05-DXM-020",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-144",
+              "knowledge_id": "M05-DXM-002",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-030",
+          "group": "orthodontic_dimensions",
+          "query": "唇闭合和唇齿关系问题通常怎样进入正畸评估？",
+          "expected_knowledge_ids": [
+            "M06-PRB-011"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-224",
+              "knowledge_id": "M06-PRB-011",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-205",
+              "knowledge_id": "M06-DXM-007",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-217",
+              "knowledge_id": "M06-PRB-004",
+              "module": "M06"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-031",
+          "group": "concept_distinction",
+          "query": "牙冠松动和种植修复机械问题如何作为不同问题方向理解？",
+          "expected_knowledge_ids": [
+            "M05-PRB-006",
+            "M05-PRB-023"
+          ],
+          "allowed_modules": [
+            "M05"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-161",
+              "knowledge_id": "M05-DXM-019",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-186",
+              "knowledge_id": "M05-PRB-023",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-197",
+              "knowledge_id": "M05-MNT-010",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-032",
+          "group": "concept_distinction",
+          "query": "活动义齿固位不良与稳定性不良在问题整理中如何区分？",
+          "expected_knowledge_ids": [
+            "M05-PRB-009",
+            "M05-PRB-010"
+          ],
+          "allowed_modules": [
+            "M05"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-173",
+              "knowledge_id": "M05-PRB-010",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-172",
+              "knowledge_id": "M05-PRB-009",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-175",
+              "knowledge_id": "M05-PRB-012",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-033",
+          "group": "concept_distinction",
+          "query": "固定矫治和无托槽隐形矫治作为治疗类别有哪些不同决定条件？",
+          "expected_knowledge_ids": [
+            "M09-TRT-028",
+            "M09-TRT-029"
+          ],
+          "allowed_modules": [
+            "M09"
+          ],
+          "entry_types": [
+            "TRT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-366",
+              "knowledge_id": "M09-TRT-029",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-365",
+              "knowledge_id": "M09-TRT-028",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-236",
+              "knowledge_id": "M06-MNT-003",
+              "module": "M06"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-034",
+          "group": "concept_distinction",
+          "query": "正畸期间牙龈变化与单颗牙咬合痛应分别保留哪些专业方向？",
+          "expected_knowledge_ids": [
+            "M06-MNT-005",
+            "M06-PRB-015"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "MNT",
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-344",
+              "knowledge_id": "M09-TRT-007",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-154",
+              "knowledge_id": "M05-DXM-012",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-161",
+              "knowledge_id": "M05-DXM-019",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-035",
+          "group": "concept_distinction",
+          "query": "口腔黏膜活检和影像学检查分别解决什么类型的问题？",
+          "expected_knowledge_ids": [
+            "M04-DXM-008",
+            "M04-DXM-013"
+          ],
+          "allowed_modules": [
+            "M04"
+          ],
+          "entry_types": [
+            "DXM"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-143",
+              "knowledge_id": "M05-DXM-001",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-156",
+              "knowledge_id": "M05-DXM-014",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-160",
+              "knowledge_id": "M05-DXM-018",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-036",
+          "group": "concept_distinction",
+          "query": "修复体专业调整和重新制作作为处理类别有什么区别？",
+          "expected_knowledge_ids": [
+            "M09-TRT-022",
+            "M09-TRT-027"
+          ],
+          "allowed_modules": [
+            "M09"
+          ],
+          "entry_types": [
+            "TRT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-364",
+              "knowledge_id": "M09-TRT-027",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-359",
+              "knowledge_id": "M09-TRT-022",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-360",
+              "knowledge_id": "M09-TRT-023",
+              "module": "M09"
+            }
+          ]
+        }
+      ]
+    },
+    "R1_route_filtered": {
+      "metrics": {
+        "case_count": 36,
+        "hit_at_3": 0.916667,
+        "macro_recall_at_3": 0.902778,
+        "macro_precision_at_3": 0.342593,
+        "wrong_module_result_rate": 0.0
+      },
+      "details": [
+        {
+          "rag_case_id": "M12-RAG-V3-001",
+          "group": "source_trace",
+          "query": "冷热刺激后短暂酸痛，一般教育中如何解释牙本质敏感，并给出资料定位。",
+          "expected_knowledge_ids": [
+            "M02-DIS-006"
+          ],
+          "allowed_modules": [
+            "M02"
+          ],
+          "entry_types": [
+            "DIS"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-433",
+              "knowledge_id": "M02-DIS-006",
+              "module": "M02"
+            },
+            {
+              "chunk_id": "M10-CHK-434",
+              "knowledge_id": "M02-DIS-007",
+              "module": "M02"
+            },
+            {
+              "chunk_id": "M10-CHK-437",
+              "knowledge_id": "M02-DIS-010",
+              "module": "M02"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-002",
+          "group": "source_trace",
+          "query": "刷牙时牙龈出血，想了解这个问题方向的资料来源。",
+          "expected_knowledge_ids": [
+            "M03-PRB-001"
+          ],
+          "allowed_modules": [
+            "M03"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-486",
+              "knowledge_id": "M03-PRB-001",
+              "module": "M03"
+            },
+            {
+              "chunk_id": "M10-CHK-489",
+              "knowledge_id": "M03-PRB-004",
+              "module": "M03"
+            },
+            {
+              "chunk_id": "M10-CHK-488",
+              "knowledge_id": "M03-PRB-003",
+              "module": "M03"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-003",
+          "group": "source_trace",
+          "query": "反复口腔溃疡的一般背景和教材来源是什么？",
+          "expected_knowledge_ids": [
+            "M04-DIS-016"
+          ],
+          "allowed_modules": [
+            "M04"
+          ],
+          "entry_types": [
+            "DIS"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-016",
+              "knowledge_id": "M04-DIS-016",
+              "module": "M04"
+            },
+            {
+              "chunk_id": "M10-CHK-065",
+              "knowledge_id": "M04-DIS-065",
+              "module": "M04"
+            },
+            {
+              "chunk_id": "M10-CHK-017",
+              "knowledge_id": "M04-DIS-017",
+              "module": "M04"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-004",
+          "group": "source_trace",
+          "query": "固定牙冠松动通常涉及什么专业问题，并给出来源。",
+          "expected_knowledge_ids": [
+            "M05-PRB-006"
+          ],
+          "allowed_modules": [
+            "M05"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-169",
+              "knowledge_id": "M05-PRB-006",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-186",
+              "knowledge_id": "M05-PRB-023",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-181",
+              "knowledge_id": "M05-PRB-018",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-005",
+          "group": "source_trace",
+          "query": "牙齿拥挤作为正畸问题方向通常需要关注什么，并给出来源。",
+          "expected_knowledge_ids": [
+            "M06-PRB-001"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-214",
+              "knowledge_id": "M06-PRB-001",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-230",
+              "knowledge_id": "M06-PRB-017",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-215",
+              "knowledge_id": "M06-PRB-002",
+              "module": "M06"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-006",
+          "group": "source_trace",
+          "query": "颞下颌关节弹响和疼痛的一般专业背景及来源。",
+          "expected_knowledge_ids": [
+            "M07-DIS-001"
+          ],
+          "allowed_modules": [
+            "M07"
+          ],
+          "entry_types": [
+            "DIS"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-244",
+              "knowledge_id": "M07-DIS-003",
+              "module": "M07"
+            },
+            {
+              "chunk_id": "M10-CHK-242",
+              "knowledge_id": "M07-DIS-001",
+              "module": "M07"
+            },
+            {
+              "chunk_id": "M10-CHK-246",
+              "knowledge_id": "M07-DIS-005",
+              "module": "M07"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-007",
+          "group": "diagnostic_method",
+          "query": "口腔黏膜活体组织检查一般解决什么问题，有什么局限？",
+          "expected_knowledge_ids": [
+            "M04-DXM-008"
+          ],
+          "allowed_modules": [
+            "M04"
+          ],
+          "entry_types": [
+            "DXM"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-142",
+              "knowledge_id": "M04-DXM-015",
+              "module": "M04"
+            },
+            {
+              "chunk_id": "M10-CHK-141",
+              "knowledge_id": "M04-DXM-014",
+              "module": "M04"
+            },
+            {
+              "chunk_id": "M10-CHK-130",
+              "knowledge_id": "M04-DXM-003",
+              "module": "M04"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-008",
+          "group": "diagnostic_method",
+          "query": "修复评估中的咬合关系检查通常观察什么？",
+          "expected_knowledge_ids": [
+            "M05-DXM-007"
+          ],
+          "allowed_modules": [
+            "M05"
+          ],
+          "entry_types": [
+            "DXM"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-151",
+              "knowledge_id": "M05-DXM-009",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-149",
+              "knowledge_id": "M05-DXM-007",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-162",
+              "knowledge_id": "M05-DXM-020",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-009",
+          "group": "diagnostic_method",
+          "query": "正畸初诊为什么要采集治疗目标和病史？",
+          "expected_knowledge_ids": [
+            "M06-DXM-001"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "DXM"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-199",
+              "knowledge_id": "M06-DXM-001",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-213",
+              "knowledge_id": "M06-DXM-015",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-208",
+              "knowledge_id": "M06-DXM-010",
+              "module": "M06"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-010",
+          "group": "diagnostic_method",
+          "query": "口腔颌面问题为什么需要完整病史和时间线？",
+          "expected_knowledge_ids": [
+            "M07-DXM-001"
+          ],
+          "allowed_modules": [
+            "M07"
+          ],
+          "entry_types": [
+            "DXM"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-302",
+              "knowledge_id": "M07-DXM-001",
+              "module": "M07"
+            },
+            {
+              "chunk_id": "M10-CHK-312",
+              "knowledge_id": "M07-DXM-011",
+              "module": "M07"
+            },
+            {
+              "chunk_id": "M10-CHK-319",
+              "knowledge_id": "M07-DXM-018",
+              "module": "M07"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-011",
+          "group": "diagnostic_method",
+          "query": "牙痛咨询中的疼痛史采集一般包括哪些维度？",
+          "expected_knowledge_ids": [
+            "M02-DXM-001"
+          ],
+          "allowed_modules": [
+            "M02"
+          ],
+          "entry_types": [
+            "DXM"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-441",
+              "knowledge_id": "M02-DXM-001",
+              "module": "M02"
+            },
+            {
+              "chunk_id": "M10-CHK-448",
+              "knowledge_id": "M02-DXM-008",
+              "module": "M02"
+            },
+            {
+              "chunk_id": "M10-CHK-449",
+              "knowledge_id": "M02-DXM-009",
+              "module": "M02"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-012",
+          "group": "diagnostic_method",
+          "query": "牙周病史采集一般需要了解哪些背景？",
+          "expected_knowledge_ids": [
+            "M03-DXM-001"
+          ],
+          "allowed_modules": [
+            "M03"
+          ],
+          "entry_types": [
+            "DXM"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-481",
+              "knowledge_id": "M03-DXM-007",
+              "module": "M03"
+            },
+            {
+              "chunk_id": "M10-CHK-475",
+              "knowledge_id": "M03-DXM-001",
+              "module": "M03"
+            },
+            {
+              "chunk_id": "M10-CHK-478",
+              "knowledge_id": "M03-DXM-004",
+              "module": "M03"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-013",
+          "group": "treatment_background",
+          "query": "直接充填修复作为治疗类别通常有什么目的和评估前提？",
+          "expected_knowledge_ids": [
+            "M09-TRT-001"
+          ],
+          "allowed_modules": [
+            "M09"
+          ],
+          "entry_types": [
+            "TRT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-338",
+              "knowledge_id": "M09-TRT-001",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-340",
+              "knowledge_id": "M09-TRT-003",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-339",
+              "knowledge_id": "M09-TRT-002",
+              "module": "M09"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-014",
+          "group": "treatment_background",
+          "query": "固定桥修复作为类别通常需要评估哪些条件？",
+          "expected_knowledge_ids": [
+            "M09-TRT-008"
+          ],
+          "allowed_modules": [
+            "M09"
+          ],
+          "entry_types": [
+            "TRT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-346",
+              "knowledge_id": "M09-TRT-009",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-363",
+              "knowledge_id": "M09-TRT-026",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-350",
+              "knowledge_id": "M09-TRT-013",
+              "module": "M09"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-015",
+          "group": "treatment_background",
+          "query": "部分牙列种植义齿修复一般需要考虑哪些前提？",
+          "expected_knowledge_ids": [
+            "M09-TRT-013"
+          ],
+          "allowed_modules": [
+            "M09"
+          ],
+          "entry_types": [
+            "TRT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-350",
+              "knowledge_id": "M09-TRT-013",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-347",
+              "knowledge_id": "M09-TRT-010",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-345",
+              "knowledge_id": "M09-TRT-008",
+              "module": "M09"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-016",
+          "group": "treatment_background",
+          "query": "修复体专业调整与自行调整的边界是什么？",
+          "expected_knowledge_ids": [
+            "M09-TRT-022"
+          ],
+          "allowed_modules": [
+            "M09"
+          ],
+          "entry_types": [
+            "TRT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-359",
+              "knowledge_id": "M09-TRT-022",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-363",
+              "knowledge_id": "M09-TRT-026",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-364",
+              "knowledge_id": "M09-TRT-027",
+              "module": "M09"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-017",
+          "group": "treatment_background",
+          "query": "无托槽隐形矫治通常需要评估哪些条件？",
+          "expected_knowledge_ids": [
+            "M09-TRT-029"
+          ],
+          "allowed_modules": [
+            "M09"
+          ],
+          "entry_types": [
+            "TRT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-366",
+              "knowledge_id": "M09-TRT-029",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-363",
+              "knowledge_id": "M09-TRT-026",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-351",
+              "knowledge_id": "M09-TRT-014",
+              "module": "M09"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-018",
+          "group": "treatment_background",
+          "query": "正畸正颌联合治疗作为类别通常需要哪些专业评估？",
+          "expected_knowledge_ids": [
+            "M09-TRT-036"
+          ],
+          "allowed_modules": [
+            "M09"
+          ],
+          "entry_types": [
+            "TRT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-373",
+              "knowledge_id": "M09-TRT-036",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-371",
+              "knowledge_id": "M09-TRT-034",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-372",
+              "knowledge_id": "M09-TRT-035",
+              "module": "M09"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-019",
+          "group": "maintenance",
+          "query": "固定修复体日常清洁和定期复查的一般原则。",
+          "expected_knowledge_ids": [
+            "M05-MNT-001"
+          ],
+          "allowed_modules": [
+            "M05"
+          ],
+          "entry_types": [
+            "MNT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-188",
+              "knowledge_id": "M05-MNT-001",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-197",
+              "knowledge_id": "M05-MNT-010",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-190",
+              "knowledge_id": "M05-MNT-003",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-020",
+          "group": "maintenance",
+          "query": "可摘局部义齿清洁和保存的一般边界。",
+          "expected_knowledge_ids": [
+            "M05-MNT-003"
+          ],
+          "allowed_modules": [
+            "M05"
+          ],
+          "entry_types": [
+            "MNT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-190",
+              "knowledge_id": "M05-MNT-003",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-191",
+              "knowledge_id": "M05-MNT-004",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-189",
+              "knowledge_id": "M05-MNT-002",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-021",
+          "group": "maintenance",
+          "query": "全口义齿清洁和保存需要注意哪些一般原则？",
+          "expected_knowledge_ids": [
+            "M05-MNT-006"
+          ],
+          "allowed_modules": [
+            "M05"
+          ],
+          "entry_types": [
+            "MNT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-193",
+              "knowledge_id": "M05-MNT-006",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-190",
+              "knowledge_id": "M05-MNT-003",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-196",
+              "knowledge_id": "M05-MNT-009",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-022",
+          "group": "maintenance",
+          "query": "种植义齿日常自我维护的一般范围和停止条件。",
+          "expected_knowledge_ids": [
+            "M05-MNT-010"
+          ],
+          "allowed_modules": [
+            "M05"
+          ],
+          "entry_types": [
+            "MNT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-197",
+              "knowledge_id": "M05-MNT-010",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-198",
+              "knowledge_id": "M05-MNT-011",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-189",
+              "knowledge_id": "M05-MNT-002",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-023",
+          "group": "maintenance",
+          "query": "隐形矫治装置的一般使用和清洁原则。",
+          "expected_knowledge_ids": [
+            "M06-MNT-003"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "MNT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-235",
+              "knowledge_id": "M06-MNT-002",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-236",
+              "knowledge_id": "M06-MNT-003",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-239",
+              "knowledge_id": "M06-MNT-006",
+              "module": "M06"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-024",
+          "group": "maintenance",
+          "query": "保持器的一般使用、清洁和保存原则。",
+          "expected_knowledge_ids": [
+            "M06-MNT-006"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "MNT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-239",
+              "knowledge_id": "M06-MNT-006",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-235",
+              "knowledge_id": "M06-MNT-002",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-236",
+              "knowledge_id": "M06-MNT-003",
+              "module": "M06"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-025",
+          "group": "orthodontic_dimensions",
+          "query": "牙齿拥挤做正畸评估时通常关注哪些维度？",
+          "expected_knowledge_ids": [
+            "M06-PRB-001"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-214",
+              "knowledge_id": "M06-PRB-001",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-230",
+              "knowledge_id": "M06-PRB-017",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-226",
+              "knowledge_id": "M06-PRB-013",
+              "module": "M06"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-026",
+          "group": "orthodontic_dimensions",
+          "query": "牙列间隙问题做正畸评估时通常关注哪些维度？",
+          "expected_knowledge_ids": [
+            "M06-PRB-002"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-215",
+              "knowledge_id": "M06-PRB-002",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-230",
+              "knowledge_id": "M06-PRB-017",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-233",
+              "knowledge_id": "M06-PRB-020",
+              "module": "M06"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-027",
+          "group": "orthodontic_dimensions",
+          "query": "前牙前突和覆盖问题需要哪些专业检查信息？",
+          "expected_knowledge_ids": [
+            "M06-PRB-004"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-217",
+              "knowledge_id": "M06-PRB-004",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-220",
+              "knowledge_id": "M06-PRB-007",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-227",
+              "knowledge_id": "M06-PRB-014",
+              "module": "M06"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-028",
+          "group": "orthodontic_dimensions",
+          "query": "深覆合相关正畸问题通常需要评估什么？",
+          "expected_knowledge_ids": [
+            "M06-PRB-007"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-220",
+              "knowledge_id": "M06-PRB-007",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-214",
+              "knowledge_id": "M06-PRB-001",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-215",
+              "knowledge_id": "M06-PRB-002",
+              "module": "M06"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-029",
+          "group": "orthodontic_dimensions",
+          "query": "牙齿中线偏移做正畸评估时需要关注什么？",
+          "expected_knowledge_ids": [
+            "M06-PRB-009"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-222",
+              "knowledge_id": "M06-PRB-009",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-226",
+              "knowledge_id": "M06-PRB-013",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-225",
+              "knowledge_id": "M06-PRB-012",
+              "module": "M06"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-030",
+          "group": "orthodontic_dimensions",
+          "query": "唇闭合和唇齿关系问题通常怎样进入正畸评估？",
+          "expected_knowledge_ids": [
+            "M06-PRB-011"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-224",
+              "knowledge_id": "M06-PRB-011",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-217",
+              "knowledge_id": "M06-PRB-004",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-223",
+              "knowledge_id": "M06-PRB-010",
+              "module": "M06"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-031",
+          "group": "concept_distinction",
+          "query": "牙冠松动和种植修复机械问题如何作为不同问题方向理解？",
+          "expected_knowledge_ids": [
+            "M05-PRB-006",
+            "M05-PRB-023"
+          ],
+          "allowed_modules": [
+            "M05"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-186",
+              "knowledge_id": "M05-PRB-023",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-169",
+              "knowledge_id": "M05-PRB-006",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-181",
+              "knowledge_id": "M05-PRB-018",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-032",
+          "group": "concept_distinction",
+          "query": "活动义齿固位不良与稳定性不良在问题整理中如何区分？",
+          "expected_knowledge_ids": [
+            "M05-PRB-009",
+            "M05-PRB-010"
+          ],
+          "allowed_modules": [
+            "M05"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-173",
+              "knowledge_id": "M05-PRB-010",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-172",
+              "knowledge_id": "M05-PRB-009",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-175",
+              "knowledge_id": "M05-PRB-012",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-033",
+          "group": "concept_distinction",
+          "query": "固定矫治和无托槽隐形矫治作为治疗类别有哪些不同决定条件？",
+          "expected_knowledge_ids": [
+            "M09-TRT-028",
+            "M09-TRT-029"
+          ],
+          "allowed_modules": [
+            "M09"
+          ],
+          "entry_types": [
+            "TRT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-366",
+              "knowledge_id": "M09-TRT-029",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-365",
+              "knowledge_id": "M09-TRT-028",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-368",
+              "knowledge_id": "M09-TRT-031",
+              "module": "M09"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-034",
+          "group": "concept_distinction",
+          "query": "正畸期间牙龈变化与单颗牙咬合痛应分别保留哪些专业方向？",
+          "expected_knowledge_ids": [
+            "M06-MNT-005",
+            "M06-PRB-015"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "MNT",
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-234",
+              "knowledge_id": "M06-MNT-001",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-238",
+              "knowledge_id": "M06-MNT-005",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-232",
+              "knowledge_id": "M06-PRB-019",
+              "module": "M06"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-035",
+          "group": "concept_distinction",
+          "query": "口腔黏膜活检和影像学检查分别解决什么类型的问题？",
+          "expected_knowledge_ids": [
+            "M04-DXM-008",
+            "M04-DXM-013"
+          ],
+          "allowed_modules": [
+            "M04"
+          ],
+          "entry_types": [
+            "DXM"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-141",
+              "knowledge_id": "M04-DXM-014",
+              "module": "M04"
+            },
+            {
+              "chunk_id": "M10-CHK-142",
+              "knowledge_id": "M04-DXM-015",
+              "module": "M04"
+            },
+            {
+              "chunk_id": "M10-CHK-130",
+              "knowledge_id": "M04-DXM-003",
+              "module": "M04"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-036",
+          "group": "concept_distinction",
+          "query": "修复体专业调整和重新制作作为处理类别有什么区别？",
+          "expected_knowledge_ids": [
+            "M09-TRT-022",
+            "M09-TRT-027"
+          ],
+          "allowed_modules": [
+            "M09"
+          ],
+          "entry_types": [
+            "TRT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-364",
+              "knowledge_id": "M09-TRT-027",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-359",
+              "knowledge_id": "M09-TRT-022",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-360",
+              "knowledge_id": "M09-TRT-023",
+              "module": "M09"
+            }
+          ]
+        }
+      ]
+    },
+    "R2_compact_filtered": {
+      "metrics": {
+        "case_count": 36,
+        "hit_at_3": 0.888889,
+        "macro_recall_at_3": 0.875,
+        "macro_precision_at_3": 0.333333,
+        "wrong_module_result_rate": 0.0
+      },
+      "details": [
+        {
+          "rag_case_id": "M12-RAG-V3-001",
+          "group": "source_trace",
+          "query": "冷热刺激后短暂酸痛，一般教育中如何解释牙本质敏感，并给出资料定位。",
+          "expected_knowledge_ids": [
+            "M02-DIS-006"
+          ],
+          "allowed_modules": [
+            "M02"
+          ],
+          "entry_types": [
+            "DIS"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-433",
+              "knowledge_id": "M02-DIS-006",
+              "module": "M02"
+            },
+            {
+              "chunk_id": "M10-CHK-435",
+              "knowledge_id": "M02-DIS-008",
+              "module": "M02"
+            },
+            {
+              "chunk_id": "M10-CHK-434",
+              "knowledge_id": "M02-DIS-007",
+              "module": "M02"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-002",
+          "group": "source_trace",
+          "query": "刷牙时牙龈出血，想了解这个问题方向的资料来源。",
+          "expected_knowledge_ids": [
+            "M03-PRB-001"
+          ],
+          "allowed_modules": [
+            "M03"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-486",
+              "knowledge_id": "M03-PRB-001",
+              "module": "M03"
+            },
+            {
+              "chunk_id": "M10-CHK-492",
+              "knowledge_id": "M03-PRB-007",
+              "module": "M03"
+            },
+            {
+              "chunk_id": "M10-CHK-490",
+              "knowledge_id": "M03-PRB-005",
+              "module": "M03"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-003",
+          "group": "source_trace",
+          "query": "反复口腔溃疡的一般背景和教材来源是什么？",
+          "expected_knowledge_ids": [
+            "M04-DIS-016"
+          ],
+          "allowed_modules": [
+            "M04"
+          ],
+          "entry_types": [
+            "DIS"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-016",
+              "knowledge_id": "M04-DIS-016",
+              "module": "M04"
+            },
+            {
+              "chunk_id": "M10-CHK-065",
+              "knowledge_id": "M04-DIS-065",
+              "module": "M04"
+            },
+            {
+              "chunk_id": "M10-CHK-011",
+              "knowledge_id": "M04-DIS-011",
+              "module": "M04"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-004",
+          "group": "source_trace",
+          "query": "固定牙冠松动通常涉及什么专业问题，并给出来源。",
+          "expected_knowledge_ids": [
+            "M05-PRB-006"
+          ],
+          "allowed_modules": [
+            "M05"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-181",
+              "knowledge_id": "M05-PRB-018",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-171",
+              "knowledge_id": "M05-PRB-008",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-182",
+              "knowledge_id": "M05-PRB-019",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-005",
+          "group": "source_trace",
+          "query": "牙齿拥挤作为正畸问题方向通常需要关注什么，并给出来源。",
+          "expected_knowledge_ids": [
+            "M06-PRB-001"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-214",
+              "knowledge_id": "M06-PRB-001",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-215",
+              "knowledge_id": "M06-PRB-002",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-230",
+              "knowledge_id": "M06-PRB-017",
+              "module": "M06"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-006",
+          "group": "source_trace",
+          "query": "颞下颌关节弹响和疼痛的一般专业背景及来源。",
+          "expected_knowledge_ids": [
+            "M07-DIS-001"
+          ],
+          "allowed_modules": [
+            "M07"
+          ],
+          "entry_types": [
+            "DIS"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-244",
+              "knowledge_id": "M07-DIS-003",
+              "module": "M07"
+            },
+            {
+              "chunk_id": "M10-CHK-242",
+              "knowledge_id": "M07-DIS-001",
+              "module": "M07"
+            },
+            {
+              "chunk_id": "M10-CHK-246",
+              "knowledge_id": "M07-DIS-005",
+              "module": "M07"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-007",
+          "group": "diagnostic_method",
+          "query": "口腔黏膜活体组织检查一般解决什么问题，有什么局限？",
+          "expected_knowledge_ids": [
+            "M04-DXM-008"
+          ],
+          "allowed_modules": [
+            "M04"
+          ],
+          "entry_types": [
+            "DXM"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-142",
+              "knowledge_id": "M04-DXM-015",
+              "module": "M04"
+            },
+            {
+              "chunk_id": "M10-CHK-141",
+              "knowledge_id": "M04-DXM-014",
+              "module": "M04"
+            },
+            {
+              "chunk_id": "M10-CHK-130",
+              "knowledge_id": "M04-DXM-003",
+              "module": "M04"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-008",
+          "group": "diagnostic_method",
+          "query": "修复评估中的咬合关系检查通常观察什么？",
+          "expected_knowledge_ids": [
+            "M05-DXM-007"
+          ],
+          "allowed_modules": [
+            "M05"
+          ],
+          "entry_types": [
+            "DXM"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-151",
+              "knowledge_id": "M05-DXM-009",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-150",
+              "knowledge_id": "M05-DXM-008",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-149",
+              "knowledge_id": "M05-DXM-007",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-009",
+          "group": "diagnostic_method",
+          "query": "正畸初诊为什么要采集治疗目标和病史？",
+          "expected_knowledge_ids": [
+            "M06-DXM-001"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "DXM"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-199",
+              "knowledge_id": "M06-DXM-001",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-208",
+              "knowledge_id": "M06-DXM-010",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-212",
+              "knowledge_id": "M06-DXM-014",
+              "module": "M06"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-010",
+          "group": "diagnostic_method",
+          "query": "口腔颌面问题为什么需要完整病史和时间线？",
+          "expected_knowledge_ids": [
+            "M07-DXM-001"
+          ],
+          "allowed_modules": [
+            "M07"
+          ],
+          "entry_types": [
+            "DXM"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-302",
+              "knowledge_id": "M07-DXM-001",
+              "module": "M07"
+            },
+            {
+              "chunk_id": "M10-CHK-312",
+              "knowledge_id": "M07-DXM-011",
+              "module": "M07"
+            },
+            {
+              "chunk_id": "M10-CHK-319",
+              "knowledge_id": "M07-DXM-018",
+              "module": "M07"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-011",
+          "group": "diagnostic_method",
+          "query": "牙痛咨询中的疼痛史采集一般包括哪些维度？",
+          "expected_knowledge_ids": [
+            "M02-DXM-001"
+          ],
+          "allowed_modules": [
+            "M02"
+          ],
+          "entry_types": [
+            "DXM"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-441",
+              "knowledge_id": "M02-DXM-001",
+              "module": "M02"
+            },
+            {
+              "chunk_id": "M10-CHK-449",
+              "knowledge_id": "M02-DXM-009",
+              "module": "M02"
+            },
+            {
+              "chunk_id": "M10-CHK-448",
+              "knowledge_id": "M02-DXM-008",
+              "module": "M02"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-012",
+          "group": "diagnostic_method",
+          "query": "牙周病史采集一般需要了解哪些背景？",
+          "expected_knowledge_ids": [
+            "M03-DXM-001"
+          ],
+          "allowed_modules": [
+            "M03"
+          ],
+          "entry_types": [
+            "DXM"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-481",
+              "knowledge_id": "M03-DXM-007",
+              "module": "M03"
+            },
+            {
+              "chunk_id": "M10-CHK-483",
+              "knowledge_id": "M03-DXM-009",
+              "module": "M03"
+            },
+            {
+              "chunk_id": "M10-CHK-475",
+              "knowledge_id": "M03-DXM-001",
+              "module": "M03"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-013",
+          "group": "treatment_background",
+          "query": "直接充填修复作为治疗类别通常有什么目的和评估前提？",
+          "expected_knowledge_ids": [
+            "M09-TRT-001"
+          ],
+          "allowed_modules": [
+            "M09"
+          ],
+          "entry_types": [
+            "TRT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-340",
+              "knowledge_id": "M09-TRT-003",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-339",
+              "knowledge_id": "M09-TRT-002",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-338",
+              "knowledge_id": "M09-TRT-001",
+              "module": "M09"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-014",
+          "group": "treatment_background",
+          "query": "固定桥修复作为类别通常需要评估哪些条件？",
+          "expected_knowledge_ids": [
+            "M09-TRT-008"
+          ],
+          "allowed_modules": [
+            "M09"
+          ],
+          "entry_types": [
+            "TRT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-346",
+              "knowledge_id": "M09-TRT-009",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-363",
+              "knowledge_id": "M09-TRT-026",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-350",
+              "knowledge_id": "M09-TRT-013",
+              "module": "M09"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-015",
+          "group": "treatment_background",
+          "query": "部分牙列种植义齿修复一般需要考虑哪些前提？",
+          "expected_knowledge_ids": [
+            "M09-TRT-013"
+          ],
+          "allowed_modules": [
+            "M09"
+          ],
+          "entry_types": [
+            "TRT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-350",
+              "knowledge_id": "M09-TRT-013",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-347",
+              "knowledge_id": "M09-TRT-010",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-345",
+              "knowledge_id": "M09-TRT-008",
+              "module": "M09"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-016",
+          "group": "treatment_background",
+          "query": "修复体专业调整与自行调整的边界是什么？",
+          "expected_knowledge_ids": [
+            "M09-TRT-022"
+          ],
+          "allowed_modules": [
+            "M09"
+          ],
+          "entry_types": [
+            "TRT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-359",
+              "knowledge_id": "M09-TRT-022",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-363",
+              "knowledge_id": "M09-TRT-026",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-360",
+              "knowledge_id": "M09-TRT-023",
+              "module": "M09"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-017",
+          "group": "treatment_background",
+          "query": "无托槽隐形矫治通常需要评估哪些条件？",
+          "expected_knowledge_ids": [
+            "M09-TRT-029"
+          ],
+          "allowed_modules": [
+            "M09"
+          ],
+          "entry_types": [
+            "TRT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-366",
+              "knowledge_id": "M09-TRT-029",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-363",
+              "knowledge_id": "M09-TRT-026",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-351",
+              "knowledge_id": "M09-TRT-014",
+              "module": "M09"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-018",
+          "group": "treatment_background",
+          "query": "正畸正颌联合治疗作为类别通常需要哪些专业评估？",
+          "expected_knowledge_ids": [
+            "M09-TRT-036"
+          ],
+          "allowed_modules": [
+            "M09"
+          ],
+          "entry_types": [
+            "TRT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-373",
+              "knowledge_id": "M09-TRT-036",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-371",
+              "knowledge_id": "M09-TRT-034",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-372",
+              "knowledge_id": "M09-TRT-035",
+              "module": "M09"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-019",
+          "group": "maintenance",
+          "query": "固定修复体日常清洁和定期复查的一般原则。",
+          "expected_knowledge_ids": [
+            "M05-MNT-001"
+          ],
+          "allowed_modules": [
+            "M05"
+          ],
+          "entry_types": [
+            "MNT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-188",
+              "knowledge_id": "M05-MNT-001",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-197",
+              "knowledge_id": "M05-MNT-010",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-190",
+              "knowledge_id": "M05-MNT-003",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-020",
+          "group": "maintenance",
+          "query": "可摘局部义齿清洁和保存的一般边界。",
+          "expected_knowledge_ids": [
+            "M05-MNT-003"
+          ],
+          "allowed_modules": [
+            "M05"
+          ],
+          "entry_types": [
+            "MNT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-190",
+              "knowledge_id": "M05-MNT-003",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-196",
+              "knowledge_id": "M05-MNT-009",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-193",
+              "knowledge_id": "M05-MNT-006",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-021",
+          "group": "maintenance",
+          "query": "全口义齿清洁和保存需要注意哪些一般原则？",
+          "expected_knowledge_ids": [
+            "M05-MNT-006"
+          ],
+          "allowed_modules": [
+            "M05"
+          ],
+          "entry_types": [
+            "MNT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-193",
+              "knowledge_id": "M05-MNT-006",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-190",
+              "knowledge_id": "M05-MNT-003",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-196",
+              "knowledge_id": "M05-MNT-009",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-022",
+          "group": "maintenance",
+          "query": "种植义齿日常自我维护的一般范围和停止条件。",
+          "expected_knowledge_ids": [
+            "M05-MNT-010"
+          ],
+          "allowed_modules": [
+            "M05"
+          ],
+          "entry_types": [
+            "MNT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-197",
+              "knowledge_id": "M05-MNT-010",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-198",
+              "knowledge_id": "M05-MNT-011",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-189",
+              "knowledge_id": "M05-MNT-002",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-023",
+          "group": "maintenance",
+          "query": "隐形矫治装置的一般使用和清洁原则。",
+          "expected_knowledge_ids": [
+            "M06-MNT-003"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "MNT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-235",
+              "knowledge_id": "M06-MNT-002",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-236",
+              "knowledge_id": "M06-MNT-003",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-239",
+              "knowledge_id": "M06-MNT-006",
+              "module": "M06"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-024",
+          "group": "maintenance",
+          "query": "保持器的一般使用、清洁和保存原则。",
+          "expected_knowledge_ids": [
+            "M06-MNT-006"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "MNT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-239",
+              "knowledge_id": "M06-MNT-006",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-235",
+              "knowledge_id": "M06-MNT-002",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-236",
+              "knowledge_id": "M06-MNT-003",
+              "module": "M06"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-025",
+          "group": "orthodontic_dimensions",
+          "query": "牙齿拥挤做正畸评估时通常关注哪些维度？",
+          "expected_knowledge_ids": [
+            "M06-PRB-001"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-214",
+              "knowledge_id": "M06-PRB-001",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-233",
+              "knowledge_id": "M06-PRB-020",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-225",
+              "knowledge_id": "M06-PRB-012",
+              "module": "M06"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-026",
+          "group": "orthodontic_dimensions",
+          "query": "牙列间隙问题做正畸评估时通常关注哪些维度？",
+          "expected_knowledge_ids": [
+            "M06-PRB-002"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-215",
+              "knowledge_id": "M06-PRB-002",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-233",
+              "knowledge_id": "M06-PRB-020",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-225",
+              "knowledge_id": "M06-PRB-012",
+              "module": "M06"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-027",
+          "group": "orthodontic_dimensions",
+          "query": "前牙前突和覆盖问题需要哪些专业检查信息？",
+          "expected_knowledge_ids": [
+            "M06-PRB-004"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-217",
+              "knowledge_id": "M06-PRB-004",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-230",
+              "knowledge_id": "M06-PRB-017",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-220",
+              "knowledge_id": "M06-PRB-007",
+              "module": "M06"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-028",
+          "group": "orthodontic_dimensions",
+          "query": "深覆合相关正畸问题通常需要评估什么？",
+          "expected_knowledge_ids": [
+            "M06-PRB-007"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-220",
+              "knowledge_id": "M06-PRB-007",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-225",
+              "knowledge_id": "M06-PRB-012",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-233",
+              "knowledge_id": "M06-PRB-020",
+              "module": "M06"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-029",
+          "group": "orthodontic_dimensions",
+          "query": "牙齿中线偏移做正畸评估时需要关注什么？",
+          "expected_knowledge_ids": [
+            "M06-PRB-009"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-222",
+              "knowledge_id": "M06-PRB-009",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-225",
+              "knowledge_id": "M06-PRB-012",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-233",
+              "knowledge_id": "M06-PRB-020",
+              "module": "M06"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-030",
+          "group": "orthodontic_dimensions",
+          "query": "唇闭合和唇齿关系问题通常怎样进入正畸评估？",
+          "expected_knowledge_ids": [
+            "M06-PRB-011"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-224",
+              "knowledge_id": "M06-PRB-011",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-217",
+              "knowledge_id": "M06-PRB-004",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-223",
+              "knowledge_id": "M06-PRB-010",
+              "module": "M06"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-031",
+          "group": "concept_distinction",
+          "query": "牙冠松动和种植修复机械问题如何作为不同问题方向理解？",
+          "expected_knowledge_ids": [
+            "M05-PRB-006",
+            "M05-PRB-023"
+          ],
+          "allowed_modules": [
+            "M05"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-186",
+              "knowledge_id": "M05-PRB-023",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-181",
+              "knowledge_id": "M05-PRB-018",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-169",
+              "knowledge_id": "M05-PRB-006",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-032",
+          "group": "concept_distinction",
+          "query": "活动义齿固位不良与稳定性不良在问题整理中如何区分？",
+          "expected_knowledge_ids": [
+            "M05-PRB-009",
+            "M05-PRB-010"
+          ],
+          "allowed_modules": [
+            "M05"
+          ],
+          "entry_types": [
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-173",
+              "knowledge_id": "M05-PRB-010",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-172",
+              "knowledge_id": "M05-PRB-009",
+              "module": "M05"
+            },
+            {
+              "chunk_id": "M10-CHK-182",
+              "knowledge_id": "M05-PRB-019",
+              "module": "M05"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-033",
+          "group": "concept_distinction",
+          "query": "固定矫治和无托槽隐形矫治作为治疗类别有哪些不同决定条件？",
+          "expected_knowledge_ids": [
+            "M09-TRT-028",
+            "M09-TRT-029"
+          ],
+          "allowed_modules": [
+            "M09"
+          ],
+          "entry_types": [
+            "TRT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-366",
+              "knowledge_id": "M09-TRT-029",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-365",
+              "knowledge_id": "M09-TRT-028",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-368",
+              "knowledge_id": "M09-TRT-031",
+              "module": "M09"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-034",
+          "group": "concept_distinction",
+          "query": "正畸期间牙龈变化与单颗牙咬合痛应分别保留哪些专业方向？",
+          "expected_knowledge_ids": [
+            "M06-MNT-005",
+            "M06-PRB-015"
+          ],
+          "allowed_modules": [
+            "M06"
+          ],
+          "entry_types": [
+            "MNT",
+            "PRB"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-238",
+              "knowledge_id": "M06-MNT-005",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-234",
+              "knowledge_id": "M06-MNT-001",
+              "module": "M06"
+            },
+            {
+              "chunk_id": "M10-CHK-240",
+              "knowledge_id": "M06-MNT-007",
+              "module": "M06"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-035",
+          "group": "concept_distinction",
+          "query": "口腔黏膜活检和影像学检查分别解决什么类型的问题？",
+          "expected_knowledge_ids": [
+            "M04-DXM-008",
+            "M04-DXM-013"
+          ],
+          "allowed_modules": [
+            "M04"
+          ],
+          "entry_types": [
+            "DXM"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-141",
+              "knowledge_id": "M04-DXM-014",
+              "module": "M04"
+            },
+            {
+              "chunk_id": "M10-CHK-142",
+              "knowledge_id": "M04-DXM-015",
+              "module": "M04"
+            },
+            {
+              "chunk_id": "M10-CHK-130",
+              "knowledge_id": "M04-DXM-003",
+              "module": "M04"
+            }
+          ]
+        },
+        {
+          "rag_case_id": "M12-RAG-V3-036",
+          "group": "concept_distinction",
+          "query": "修复体专业调整和重新制作作为处理类别有什么区别？",
+          "expected_knowledge_ids": [
+            "M09-TRT-022",
+            "M09-TRT-027"
+          ],
+          "allowed_modules": [
+            "M09"
+          ],
+          "entry_types": [
+            "TRT"
+          ],
+          "label_kind": "retrieval_target_from_existing_knowledge_registry",
+          "professional_review_status": "not_reviewed",
+          "medical_validation_claim_allowed": false,
+          "retrieved": [
+            {
+              "chunk_id": "M10-CHK-364",
+              "knowledge_id": "M09-TRT-027",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-359",
+              "knowledge_id": "M09-TRT-022",
+              "module": "M09"
+            },
+            {
+              "chunk_id": "M10-CHK-360",
+              "knowledge_id": "M09-TRT-023",
+              "module": "M09"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "strict_runtime_route_guard": {
+    "metrics": {
+      "case_count": 36,
+      "hit_at_3": 0.916667,
+      "macro_recall_at_3": 0.902778,
+      "macro_precision_at_3": 0.342593,
+      "wrong_module_result_rate": 0.0
+    },
+    "execution_count": 37,
+    "route_filter_and_no_full_library_fallback_pass_count": 37,
+    "unauthorized_module_result_count": 0,
+    "unauthorized_module_result_rate": 0.0,
+    "all_route_guards_passed": true,
+    "details": [
+      {
+        "rag_case_id": "M12-RAG-V3-001",
+        "group": "source_trace",
+        "query": "冷热刺激后短暂酸痛，一般教育中如何解释牙本质敏感，并给出资料定位。",
+        "expected_knowledge_ids": [
+          "M02-DIS-006"
+        ],
+        "allowed_modules": [
+          "M02"
+        ],
+        "entry_types": [
+          "DIS"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M02",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-433",
+            "knowledge_id": "M02-DIS-006",
+            "module": "M02"
+          },
+          {
+            "chunk_id": "M10-CHK-434",
+            "knowledge_id": "M02-DIS-007",
+            "module": "M02"
+          },
+          {
+            "chunk_id": "M10-CHK-437",
+            "knowledge_id": "M02-DIS-010",
+            "module": "M02"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M02"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 31,
+            "entry_type_candidates_after_filter": 13,
+            "lexical_candidates": 13,
+            "semantic_candidates": 0,
+            "fused_candidates": 13,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-002",
+        "group": "source_trace",
+        "query": "刷牙时牙龈出血，想了解这个问题方向的资料来源。",
+        "expected_knowledge_ids": [
+          "M03-PRB-001"
+        ],
+        "allowed_modules": [
+          "M03"
+        ],
+        "entry_types": [
+          "PRB"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M03",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-486",
+            "knowledge_id": "M03-PRB-001",
+            "module": "M03"
+          },
+          {
+            "chunk_id": "M10-CHK-489",
+            "knowledge_id": "M03-PRB-004",
+            "module": "M03"
+          },
+          {
+            "chunk_id": "M10-CHK-488",
+            "knowledge_id": "M03-PRB-003",
+            "module": "M03"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M03"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 37,
+            "entry_type_candidates_after_filter": 10,
+            "lexical_candidates": 10,
+            "semantic_candidates": 0,
+            "fused_candidates": 10,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-003",
+        "group": "source_trace",
+        "query": "反复口腔溃疡的一般背景和教材来源是什么？",
+        "expected_knowledge_ids": [
+          "M04-DIS-016"
+        ],
+        "allowed_modules": [
+          "M04"
+        ],
+        "entry_types": [
+          "DIS"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M04",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-016",
+            "knowledge_id": "M04-DIS-016",
+            "module": "M04"
+          },
+          {
+            "chunk_id": "M10-CHK-065",
+            "knowledge_id": "M04-DIS-065",
+            "module": "M04"
+          },
+          {
+            "chunk_id": "M10-CHK-017",
+            "knowledge_id": "M04-DIS-017",
+            "module": "M04"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M04"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 142,
+            "entry_type_candidates_after_filter": 85,
+            "lexical_candidates": 20,
+            "semantic_candidates": 0,
+            "fused_candidates": 20,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-004",
+        "group": "source_trace",
+        "query": "固定牙冠松动通常涉及什么专业问题，并给出来源。",
+        "expected_knowledge_ids": [
+          "M05-PRB-006"
+        ],
+        "allowed_modules": [
+          "M05"
+        ],
+        "entry_types": [
+          "PRB"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M05",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-169",
+            "knowledge_id": "M05-PRB-006",
+            "module": "M05"
+          },
+          {
+            "chunk_id": "M10-CHK-186",
+            "knowledge_id": "M05-PRB-023",
+            "module": "M05"
+          },
+          {
+            "chunk_id": "M10-CHK-181",
+            "knowledge_id": "M05-PRB-018",
+            "module": "M05"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M05"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 56,
+            "entry_type_candidates_after_filter": 24,
+            "lexical_candidates": 20,
+            "semantic_candidates": 0,
+            "fused_candidates": 20,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-005",
+        "group": "source_trace",
+        "query": "牙齿拥挤作为正畸问题方向通常需要关注什么，并给出来源。",
+        "expected_knowledge_ids": [
+          "M06-PRB-001"
+        ],
+        "allowed_modules": [
+          "M06"
+        ],
+        "entry_types": [
+          "PRB"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M06",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-214",
+            "knowledge_id": "M06-PRB-001",
+            "module": "M06"
+          },
+          {
+            "chunk_id": "M10-CHK-230",
+            "knowledge_id": "M06-PRB-017",
+            "module": "M06"
+          },
+          {
+            "chunk_id": "M10-CHK-215",
+            "knowledge_id": "M06-PRB-002",
+            "module": "M06"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M06"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 43,
+            "entry_type_candidates_after_filter": 20,
+            "lexical_candidates": 20,
+            "semantic_candidates": 0,
+            "fused_candidates": 20,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-006",
+        "group": "source_trace",
+        "query": "颞下颌关节弹响和疼痛的一般专业背景及来源。",
+        "expected_knowledge_ids": [
+          "M07-DIS-001"
+        ],
+        "allowed_modules": [
+          "M07"
+        ],
+        "entry_types": [
+          "DIS"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M07",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-244",
+            "knowledge_id": "M07-DIS-003",
+            "module": "M07"
+          },
+          {
+            "chunk_id": "M10-CHK-242",
+            "knowledge_id": "M07-DIS-001",
+            "module": "M07"
+          },
+          {
+            "chunk_id": "M10-CHK-246",
+            "knowledge_id": "M07-DIS-005",
+            "module": "M07"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M07"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 96,
+            "entry_type_candidates_after_filter": 60,
+            "lexical_candidates": 20,
+            "semantic_candidates": 0,
+            "fused_candidates": 20,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-007",
+        "group": "diagnostic_method",
+        "query": "口腔黏膜活体组织检查一般解决什么问题，有什么局限？",
+        "expected_knowledge_ids": [
+          "M04-DXM-008"
+        ],
+        "allowed_modules": [
+          "M04"
+        ],
+        "entry_types": [
+          "DXM"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M04",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-142",
+            "knowledge_id": "M04-DXM-015",
+            "module": "M04"
+          },
+          {
+            "chunk_id": "M10-CHK-141",
+            "knowledge_id": "M04-DXM-014",
+            "module": "M04"
+          },
+          {
+            "chunk_id": "M10-CHK-130",
+            "knowledge_id": "M04-DXM-003",
+            "module": "M04"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M04"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 142,
+            "entry_type_candidates_after_filter": 15,
+            "lexical_candidates": 15,
+            "semantic_candidates": 0,
+            "fused_candidates": 15,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-008",
+        "group": "diagnostic_method",
+        "query": "修复评估中的咬合关系检查通常观察什么？",
+        "expected_knowledge_ids": [
+          "M05-DXM-007"
+        ],
+        "allowed_modules": [
+          "M05"
+        ],
+        "entry_types": [
+          "DXM"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M05",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-151",
+            "knowledge_id": "M05-DXM-009",
+            "module": "M05"
+          },
+          {
+            "chunk_id": "M10-CHK-149",
+            "knowledge_id": "M05-DXM-007",
+            "module": "M05"
+          },
+          {
+            "chunk_id": "M10-CHK-162",
+            "knowledge_id": "M05-DXM-020",
+            "module": "M05"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M05"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 56,
+            "entry_type_candidates_after_filter": 21,
+            "lexical_candidates": 20,
+            "semantic_candidates": 0,
+            "fused_candidates": 20,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-009",
+        "group": "diagnostic_method",
+        "query": "正畸初诊为什么要采集治疗目标和病史？",
+        "expected_knowledge_ids": [
+          "M06-DXM-001"
+        ],
+        "allowed_modules": [
+          "M06"
+        ],
+        "entry_types": [
+          "DXM"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M06",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-199",
+            "knowledge_id": "M06-DXM-001",
+            "module": "M06"
+          },
+          {
+            "chunk_id": "M10-CHK-213",
+            "knowledge_id": "M06-DXM-015",
+            "module": "M06"
+          },
+          {
+            "chunk_id": "M10-CHK-208",
+            "knowledge_id": "M06-DXM-010",
+            "module": "M06"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M06"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 43,
+            "entry_type_candidates_after_filter": 15,
+            "lexical_candidates": 15,
+            "semantic_candidates": 0,
+            "fused_candidates": 15,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-010",
+        "group": "diagnostic_method",
+        "query": "口腔颌面问题为什么需要完整病史和时间线？",
+        "expected_knowledge_ids": [
+          "M07-DXM-001"
+        ],
+        "allowed_modules": [
+          "M07"
+        ],
+        "entry_types": [
+          "DXM"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M07",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-302",
+            "knowledge_id": "M07-DXM-001",
+            "module": "M07"
+          },
+          {
+            "chunk_id": "M10-CHK-312",
+            "knowledge_id": "M07-DXM-011",
+            "module": "M07"
+          },
+          {
+            "chunk_id": "M10-CHK-319",
+            "knowledge_id": "M07-DXM-018",
+            "module": "M07"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M07"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 96,
+            "entry_type_candidates_after_filter": 18,
+            "lexical_candidates": 18,
+            "semantic_candidates": 0,
+            "fused_candidates": 18,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-011",
+        "group": "diagnostic_method",
+        "query": "牙痛咨询中的疼痛史采集一般包括哪些维度？",
+        "expected_knowledge_ids": [
+          "M02-DXM-001"
+        ],
+        "allowed_modules": [
+          "M02"
+        ],
+        "entry_types": [
+          "DXM"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M02",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-441",
+            "knowledge_id": "M02-DXM-001",
+            "module": "M02"
+          },
+          {
+            "chunk_id": "M10-CHK-448",
+            "knowledge_id": "M02-DXM-008",
+            "module": "M02"
+          },
+          {
+            "chunk_id": "M10-CHK-449",
+            "knowledge_id": "M02-DXM-009",
+            "module": "M02"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M02"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 31,
+            "entry_type_candidates_after_filter": 10,
+            "lexical_candidates": 10,
+            "semantic_candidates": 0,
+            "fused_candidates": 10,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-012",
+        "group": "diagnostic_method",
+        "query": "牙周病史采集一般需要了解哪些背景？",
+        "expected_knowledge_ids": [
+          "M03-DXM-001"
+        ],
+        "allowed_modules": [
+          "M03"
+        ],
+        "entry_types": [
+          "DXM"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M03",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-481",
+            "knowledge_id": "M03-DXM-007",
+            "module": "M03"
+          },
+          {
+            "chunk_id": "M10-CHK-475",
+            "knowledge_id": "M03-DXM-001",
+            "module": "M03"
+          },
+          {
+            "chunk_id": "M10-CHK-478",
+            "knowledge_id": "M03-DXM-004",
+            "module": "M03"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M03"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 37,
+            "entry_type_candidates_after_filter": 11,
+            "lexical_candidates": 11,
+            "semantic_candidates": 0,
+            "fused_candidates": 11,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-013",
+        "group": "treatment_background",
+        "query": "直接充填修复作为治疗类别通常有什么目的和评估前提？",
+        "expected_knowledge_ids": [
+          "M09-TRT-001"
+        ],
+        "allowed_modules": [
+          "M09"
+        ],
+        "entry_types": [
+          "TRT"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M02",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-338",
+            "knowledge_id": "M09-TRT-001",
+            "module": "M09"
+          },
+          {
+            "chunk_id": "M10-CHK-340",
+            "knowledge_id": "M09-TRT-003",
+            "module": "M09"
+          },
+          {
+            "chunk_id": "M10-CHK-339",
+            "knowledge_id": "M09-TRT-002",
+            "module": "M09"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M09"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 90,
+            "entry_type_candidates_after_filter": 90,
+            "lexical_candidates": 20,
+            "semantic_candidates": 0,
+            "fused_candidates": 20,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-014",
+        "group": "treatment_background",
+        "query": "固定桥修复作为类别通常需要评估哪些条件？",
+        "expected_knowledge_ids": [
+          "M09-TRT-008"
+        ],
+        "allowed_modules": [
+          "M09"
+        ],
+        "entry_types": [
+          "TRT"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M05",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-346",
+            "knowledge_id": "M09-TRT-009",
+            "module": "M09"
+          },
+          {
+            "chunk_id": "M10-CHK-363",
+            "knowledge_id": "M09-TRT-026",
+            "module": "M09"
+          },
+          {
+            "chunk_id": "M10-CHK-350",
+            "knowledge_id": "M09-TRT-013",
+            "module": "M09"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M09"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 90,
+            "entry_type_candidates_after_filter": 90,
+            "lexical_candidates": 20,
+            "semantic_candidates": 0,
+            "fused_candidates": 20,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-015",
+        "group": "treatment_background",
+        "query": "部分牙列种植义齿修复一般需要考虑哪些前提？",
+        "expected_knowledge_ids": [
+          "M09-TRT-013"
+        ],
+        "allowed_modules": [
+          "M09"
+        ],
+        "entry_types": [
+          "TRT"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M05",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-350",
+            "knowledge_id": "M09-TRT-013",
+            "module": "M09"
+          },
+          {
+            "chunk_id": "M10-CHK-347",
+            "knowledge_id": "M09-TRT-010",
+            "module": "M09"
+          },
+          {
+            "chunk_id": "M10-CHK-345",
+            "knowledge_id": "M09-TRT-008",
+            "module": "M09"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M09"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 90,
+            "entry_type_candidates_after_filter": 90,
+            "lexical_candidates": 20,
+            "semantic_candidates": 0,
+            "fused_candidates": 20,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-016",
+        "group": "treatment_background",
+        "query": "修复体专业调整与自行调整的边界是什么？",
+        "expected_knowledge_ids": [
+          "M09-TRT-022"
+        ],
+        "allowed_modules": [
+          "M09"
+        ],
+        "entry_types": [
+          "TRT"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M05",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-359",
+            "knowledge_id": "M09-TRT-022",
+            "module": "M09"
+          },
+          {
+            "chunk_id": "M10-CHK-363",
+            "knowledge_id": "M09-TRT-026",
+            "module": "M09"
+          },
+          {
+            "chunk_id": "M10-CHK-364",
+            "knowledge_id": "M09-TRT-027",
+            "module": "M09"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M09"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 90,
+            "entry_type_candidates_after_filter": 90,
+            "lexical_candidates": 20,
+            "semantic_candidates": 0,
+            "fused_candidates": 20,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-017",
+        "group": "treatment_background",
+        "query": "无托槽隐形矫治通常需要评估哪些条件？",
+        "expected_knowledge_ids": [
+          "M09-TRT-029"
+        ],
+        "allowed_modules": [
+          "M09"
+        ],
+        "entry_types": [
+          "TRT"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M06",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-366",
+            "knowledge_id": "M09-TRT-029",
+            "module": "M09"
+          },
+          {
+            "chunk_id": "M10-CHK-363",
+            "knowledge_id": "M09-TRT-026",
+            "module": "M09"
+          },
+          {
+            "chunk_id": "M10-CHK-351",
+            "knowledge_id": "M09-TRT-014",
+            "module": "M09"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M09"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 90,
+            "entry_type_candidates_after_filter": 90,
+            "lexical_candidates": 20,
+            "semantic_candidates": 0,
+            "fused_candidates": 20,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-018",
+        "group": "treatment_background",
+        "query": "正畸正颌联合治疗作为类别通常需要哪些专业评估？",
+        "expected_knowledge_ids": [
+          "M09-TRT-036"
+        ],
+        "allowed_modules": [
+          "M09"
+        ],
+        "entry_types": [
+          "TRT"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M06",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-373",
+            "knowledge_id": "M09-TRT-036",
+            "module": "M09"
+          },
+          {
+            "chunk_id": "M10-CHK-371",
+            "knowledge_id": "M09-TRT-034",
+            "module": "M09"
+          },
+          {
+            "chunk_id": "M10-CHK-372",
+            "knowledge_id": "M09-TRT-035",
+            "module": "M09"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M09"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 90,
+            "entry_type_candidates_after_filter": 90,
+            "lexical_candidates": 20,
+            "semantic_candidates": 0,
+            "fused_candidates": 20,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-019",
+        "group": "maintenance",
+        "query": "固定修复体日常清洁和定期复查的一般原则。",
+        "expected_knowledge_ids": [
+          "M05-MNT-001"
+        ],
+        "allowed_modules": [
+          "M05"
+        ],
+        "entry_types": [
+          "MNT"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M05",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-188",
+            "knowledge_id": "M05-MNT-001",
+            "module": "M05"
+          },
+          {
+            "chunk_id": "M10-CHK-197",
+            "knowledge_id": "M05-MNT-010",
+            "module": "M05"
+          },
+          {
+            "chunk_id": "M10-CHK-190",
+            "knowledge_id": "M05-MNT-003",
+            "module": "M05"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M05"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 56,
+            "entry_type_candidates_after_filter": 11,
+            "lexical_candidates": 11,
+            "semantic_candidates": 0,
+            "fused_candidates": 11,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-020",
+        "group": "maintenance",
+        "query": "可摘局部义齿清洁和保存的一般边界。",
+        "expected_knowledge_ids": [
+          "M05-MNT-003"
+        ],
+        "allowed_modules": [
+          "M05"
+        ],
+        "entry_types": [
+          "MNT"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M05",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-190",
+            "knowledge_id": "M05-MNT-003",
+            "module": "M05"
+          },
+          {
+            "chunk_id": "M10-CHK-191",
+            "knowledge_id": "M05-MNT-004",
+            "module": "M05"
+          },
+          {
+            "chunk_id": "M10-CHK-189",
+            "knowledge_id": "M05-MNT-002",
+            "module": "M05"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M05"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 56,
+            "entry_type_candidates_after_filter": 11,
+            "lexical_candidates": 11,
+            "semantic_candidates": 0,
+            "fused_candidates": 11,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-021",
+        "group": "maintenance",
+        "query": "全口义齿清洁和保存需要注意哪些一般原则？",
+        "expected_knowledge_ids": [
+          "M05-MNT-006"
+        ],
+        "allowed_modules": [
+          "M05"
+        ],
+        "entry_types": [
+          "MNT"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M05",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-193",
+            "knowledge_id": "M05-MNT-006",
+            "module": "M05"
+          },
+          {
+            "chunk_id": "M10-CHK-190",
+            "knowledge_id": "M05-MNT-003",
+            "module": "M05"
+          },
+          {
+            "chunk_id": "M10-CHK-196",
+            "knowledge_id": "M05-MNT-009",
+            "module": "M05"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M05"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 56,
+            "entry_type_candidates_after_filter": 11,
+            "lexical_candidates": 11,
+            "semantic_candidates": 0,
+            "fused_candidates": 11,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-022",
+        "group": "maintenance",
+        "query": "种植义齿日常自我维护的一般范围和停止条件。",
+        "expected_knowledge_ids": [
+          "M05-MNT-010"
+        ],
+        "allowed_modules": [
+          "M05"
+        ],
+        "entry_types": [
+          "MNT"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M05",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-197",
+            "knowledge_id": "M05-MNT-010",
+            "module": "M05"
+          },
+          {
+            "chunk_id": "M10-CHK-198",
+            "knowledge_id": "M05-MNT-011",
+            "module": "M05"
+          },
+          {
+            "chunk_id": "M10-CHK-189",
+            "knowledge_id": "M05-MNT-002",
+            "module": "M05"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M05"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 56,
+            "entry_type_candidates_after_filter": 11,
+            "lexical_candidates": 11,
+            "semantic_candidates": 0,
+            "fused_candidates": 11,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-023",
+        "group": "maintenance",
+        "query": "隐形矫治装置的一般使用和清洁原则。",
+        "expected_knowledge_ids": [
+          "M06-MNT-003"
+        ],
+        "allowed_modules": [
+          "M06"
+        ],
+        "entry_types": [
+          "MNT"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M06",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-235",
+            "knowledge_id": "M06-MNT-002",
+            "module": "M06"
+          },
+          {
+            "chunk_id": "M10-CHK-236",
+            "knowledge_id": "M06-MNT-003",
+            "module": "M06"
+          },
+          {
+            "chunk_id": "M10-CHK-239",
+            "knowledge_id": "M06-MNT-006",
+            "module": "M06"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M06"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 43,
+            "entry_type_candidates_after_filter": 8,
+            "lexical_candidates": 8,
+            "semantic_candidates": 0,
+            "fused_candidates": 8,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-024",
+        "group": "maintenance",
+        "query": "保持器的一般使用、清洁和保存原则。",
+        "expected_knowledge_ids": [
+          "M06-MNT-006"
+        ],
+        "allowed_modules": [
+          "M06"
+        ],
+        "entry_types": [
+          "MNT"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M06",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-239",
+            "knowledge_id": "M06-MNT-006",
+            "module": "M06"
+          },
+          {
+            "chunk_id": "M10-CHK-235",
+            "knowledge_id": "M06-MNT-002",
+            "module": "M06"
+          },
+          {
+            "chunk_id": "M10-CHK-236",
+            "knowledge_id": "M06-MNT-003",
+            "module": "M06"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M06"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 43,
+            "entry_type_candidates_after_filter": 8,
+            "lexical_candidates": 8,
+            "semantic_candidates": 0,
+            "fused_candidates": 8,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-025",
+        "group": "orthodontic_dimensions",
+        "query": "牙齿拥挤做正畸评估时通常关注哪些维度？",
+        "expected_knowledge_ids": [
+          "M06-PRB-001"
+        ],
+        "allowed_modules": [
+          "M06"
+        ],
+        "entry_types": [
+          "PRB"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M06",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-214",
+            "knowledge_id": "M06-PRB-001",
+            "module": "M06"
+          },
+          {
+            "chunk_id": "M10-CHK-230",
+            "knowledge_id": "M06-PRB-017",
+            "module": "M06"
+          },
+          {
+            "chunk_id": "M10-CHK-226",
+            "knowledge_id": "M06-PRB-013",
+            "module": "M06"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M06"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 43,
+            "entry_type_candidates_after_filter": 20,
+            "lexical_candidates": 20,
+            "semantic_candidates": 0,
+            "fused_candidates": 20,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-026",
+        "group": "orthodontic_dimensions",
+        "query": "牙列间隙问题做正畸评估时通常关注哪些维度？",
+        "expected_knowledge_ids": [
+          "M06-PRB-002"
+        ],
+        "allowed_modules": [
+          "M06"
+        ],
+        "entry_types": [
+          "PRB"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M06",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-215",
+            "knowledge_id": "M06-PRB-002",
+            "module": "M06"
+          },
+          {
+            "chunk_id": "M10-CHK-230",
+            "knowledge_id": "M06-PRB-017",
+            "module": "M06"
+          },
+          {
+            "chunk_id": "M10-CHK-233",
+            "knowledge_id": "M06-PRB-020",
+            "module": "M06"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M06"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 43,
+            "entry_type_candidates_after_filter": 20,
+            "lexical_candidates": 20,
+            "semantic_candidates": 0,
+            "fused_candidates": 20,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-027",
+        "group": "orthodontic_dimensions",
+        "query": "前牙前突和覆盖问题需要哪些专业检查信息？",
+        "expected_knowledge_ids": [
+          "M06-PRB-004"
+        ],
+        "allowed_modules": [
+          "M06"
+        ],
+        "entry_types": [
+          "PRB"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M06",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-217",
+            "knowledge_id": "M06-PRB-004",
+            "module": "M06"
+          },
+          {
+            "chunk_id": "M10-CHK-220",
+            "knowledge_id": "M06-PRB-007",
+            "module": "M06"
+          },
+          {
+            "chunk_id": "M10-CHK-227",
+            "knowledge_id": "M06-PRB-014",
+            "module": "M06"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M06"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 43,
+            "entry_type_candidates_after_filter": 20,
+            "lexical_candidates": 20,
+            "semantic_candidates": 0,
+            "fused_candidates": 20,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-028",
+        "group": "orthodontic_dimensions",
+        "query": "深覆合相关正畸问题通常需要评估什么？",
+        "expected_knowledge_ids": [
+          "M06-PRB-007"
+        ],
+        "allowed_modules": [
+          "M06"
+        ],
+        "entry_types": [
+          "PRB"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M06",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-220",
+            "knowledge_id": "M06-PRB-007",
+            "module": "M06"
+          },
+          {
+            "chunk_id": "M10-CHK-214",
+            "knowledge_id": "M06-PRB-001",
+            "module": "M06"
+          },
+          {
+            "chunk_id": "M10-CHK-215",
+            "knowledge_id": "M06-PRB-002",
+            "module": "M06"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M06"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 43,
+            "entry_type_candidates_after_filter": 20,
+            "lexical_candidates": 20,
+            "semantic_candidates": 0,
+            "fused_candidates": 20,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-029",
+        "group": "orthodontic_dimensions",
+        "query": "牙齿中线偏移做正畸评估时需要关注什么？",
+        "expected_knowledge_ids": [
+          "M06-PRB-009"
+        ],
+        "allowed_modules": [
+          "M06"
+        ],
+        "entry_types": [
+          "PRB"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M06",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-222",
+            "knowledge_id": "M06-PRB-009",
+            "module": "M06"
+          },
+          {
+            "chunk_id": "M10-CHK-226",
+            "knowledge_id": "M06-PRB-013",
+            "module": "M06"
+          },
+          {
+            "chunk_id": "M10-CHK-225",
+            "knowledge_id": "M06-PRB-012",
+            "module": "M06"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M06"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 43,
+            "entry_type_candidates_after_filter": 20,
+            "lexical_candidates": 20,
+            "semantic_candidates": 0,
+            "fused_candidates": 20,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-030",
+        "group": "orthodontic_dimensions",
+        "query": "唇闭合和唇齿关系问题通常怎样进入正畸评估？",
+        "expected_knowledge_ids": [
+          "M06-PRB-011"
+        ],
+        "allowed_modules": [
+          "M06"
+        ],
+        "entry_types": [
+          "PRB"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M06",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-224",
+            "knowledge_id": "M06-PRB-011",
+            "module": "M06"
+          },
+          {
+            "chunk_id": "M10-CHK-217",
+            "knowledge_id": "M06-PRB-004",
+            "module": "M06"
+          },
+          {
+            "chunk_id": "M10-CHK-223",
+            "knowledge_id": "M06-PRB-010",
+            "module": "M06"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M06"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 43,
+            "entry_type_candidates_after_filter": 20,
+            "lexical_candidates": 20,
+            "semantic_candidates": 0,
+            "fused_candidates": 20,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-031",
+        "group": "concept_distinction",
+        "query": "牙冠松动和种植修复机械问题如何作为不同问题方向理解？",
+        "expected_knowledge_ids": [
+          "M05-PRB-006",
+          "M05-PRB-023"
+        ],
+        "allowed_modules": [
+          "M05"
+        ],
+        "entry_types": [
+          "PRB"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M05",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-186",
+            "knowledge_id": "M05-PRB-023",
+            "module": "M05"
+          },
+          {
+            "chunk_id": "M10-CHK-169",
+            "knowledge_id": "M05-PRB-006",
+            "module": "M05"
+          },
+          {
+            "chunk_id": "M10-CHK-181",
+            "knowledge_id": "M05-PRB-018",
+            "module": "M05"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M05"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 56,
+            "entry_type_candidates_after_filter": 24,
+            "lexical_candidates": 20,
+            "semantic_candidates": 0,
+            "fused_candidates": 20,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-032",
+        "group": "concept_distinction",
+        "query": "活动义齿固位不良与稳定性不良在问题整理中如何区分？",
+        "expected_knowledge_ids": [
+          "M05-PRB-009",
+          "M05-PRB-010"
+        ],
+        "allowed_modules": [
+          "M05"
+        ],
+        "entry_types": [
+          "PRB"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M05",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-173",
+            "knowledge_id": "M05-PRB-010",
+            "module": "M05"
+          },
+          {
+            "chunk_id": "M10-CHK-172",
+            "knowledge_id": "M05-PRB-009",
+            "module": "M05"
+          },
+          {
+            "chunk_id": "M10-CHK-175",
+            "knowledge_id": "M05-PRB-012",
+            "module": "M05"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M05"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 56,
+            "entry_type_candidates_after_filter": 24,
+            "lexical_candidates": 20,
+            "semantic_candidates": 0,
+            "fused_candidates": 20,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-033",
+        "group": "concept_distinction",
+        "query": "固定矫治和无托槽隐形矫治作为治疗类别有哪些不同决定条件？",
+        "expected_knowledge_ids": [
+          "M09-TRT-028",
+          "M09-TRT-029"
+        ],
+        "allowed_modules": [
+          "M09"
+        ],
+        "entry_types": [
+          "TRT"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M06",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-366",
+            "knowledge_id": "M09-TRT-029",
+            "module": "M09"
+          },
+          {
+            "chunk_id": "M10-CHK-365",
+            "knowledge_id": "M09-TRT-028",
+            "module": "M09"
+          },
+          {
+            "chunk_id": "M10-CHK-368",
+            "knowledge_id": "M09-TRT-031",
+            "module": "M09"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M09"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 90,
+            "entry_type_candidates_after_filter": 90,
+            "lexical_candidates": 20,
+            "semantic_candidates": 0,
+            "fused_candidates": 20,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-034",
+        "group": "concept_distinction",
+        "query": "正畸期间牙龈变化与单颗牙咬合痛应分别保留哪些专业方向？",
+        "expected_knowledge_ids": [
+          "M06-MNT-005",
+          "M06-PRB-015"
+        ],
+        "allowed_modules": [
+          "M06"
+        ],
+        "entry_types": [
+          "MNT",
+          "PRB"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M06",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-226",
+            "knowledge_id": "M06-PRB-013",
+            "module": "M06"
+          },
+          {
+            "chunk_id": "M10-CHK-238",
+            "knowledge_id": "M06-MNT-005",
+            "module": "M06"
+          },
+          {
+            "chunk_id": "M10-CHK-232",
+            "knowledge_id": "M06-PRB-019",
+            "module": "M06"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M06"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 43,
+            "entry_type_candidates_after_filter": 20,
+            "lexical_candidates": 20,
+            "semantic_candidates": 0,
+            "fused_candidates": 20,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          },
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M06"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 43,
+            "entry_type_candidates_after_filter": 8,
+            "lexical_candidates": 8,
+            "semantic_candidates": 0,
+            "fused_candidates": 8,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-035",
+        "group": "concept_distinction",
+        "query": "口腔黏膜活检和影像学检查分别解决什么类型的问题？",
+        "expected_knowledge_ids": [
+          "M04-DXM-008",
+          "M04-DXM-013"
+        ],
+        "allowed_modules": [
+          "M04"
+        ],
+        "entry_types": [
+          "DXM"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M04",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-141",
+            "knowledge_id": "M04-DXM-014",
+            "module": "M04"
+          },
+          {
+            "chunk_id": "M10-CHK-142",
+            "knowledge_id": "M04-DXM-015",
+            "module": "M04"
+          },
+          {
+            "chunk_id": "M10-CHK-130",
+            "knowledge_id": "M04-DXM-003",
+            "module": "M04"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M04"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 142,
+            "entry_type_candidates_after_filter": 15,
+            "lexical_candidates": 15,
+            "semantic_candidates": 0,
+            "fused_candidates": 15,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      },
+      {
+        "rag_case_id": "M12-RAG-V3-036",
+        "group": "concept_distinction",
+        "query": "修复体专业调整和重新制作作为处理类别有什么区别？",
+        "expected_knowledge_ids": [
+          "M09-TRT-022",
+          "M09-TRT-027"
+        ],
+        "allowed_modules": [
+          "M09"
+        ],
+        "entry_types": [
+          "TRT"
+        ],
+        "label_kind": "retrieval_target_from_existing_knowledge_registry",
+        "professional_review_status": "not_reviewed",
+        "medical_validation_claim_allowed": false,
+        "route_owner": "M05",
+        "retrieved": [
+          {
+            "chunk_id": "M10-CHK-364",
+            "knowledge_id": "M09-TRT-027",
+            "module": "M09"
+          },
+          {
+            "chunk_id": "M10-CHK-359",
+            "knowledge_id": "M09-TRT-022",
+            "module": "M09"
+          },
+          {
+            "chunk_id": "M10-CHK-360",
+            "knowledge_id": "M09-TRT-023",
+            "module": "M09"
+          }
+        ],
+        "execution_audit": [
+          {
+            "route_filter_applied": true,
+            "isolated_request_module": [
+              "M09"
+            ],
+            "catalog_candidates_before_route_filter": 495,
+            "module_candidates_after_route_filter": 90,
+            "entry_type_candidates_after_filter": 90,
+            "lexical_candidates": 20,
+            "semantic_candidates": 0,
+            "fused_candidates": 20,
+            "returned": 3,
+            "result_limit_for_route_role": 3,
+            "fallback_scope": "none",
+            "full_library_fallback_used": false,
+            "unauthorized_module_result_count": 0,
+            "semantic_status": "degraded_lexical_only_no_embedding_provider",
+            "rrf_k": 60,
+            "maximum_per_entry_type": 5
+          }
+        ]
+      }
+    ]
+  },
+  "R3_semantic_rerank": {
+    "status": "not_run_no_embedding_provider",
+    "reason": "当前项目未配置独立语义检索服务；不得把BM25结果冒充混合检索。"
+  },
+  "interpretation_boundary": "目标知识编号来自现有知识登记，只验证检索工程相关性，不验证医学正确性。",
+  "medical_validation_claim_allowed": false,
+  "group_distribution": {
+    "source_trace": 6,
+    "diagnostic_method": 6,
+    "treatment_background": 6,
+    "maintenance": 6,
+    "orthodontic_dimensions": 6,
+    "concept_distinction": 6
+  }
+}

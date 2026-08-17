@@ -1,0 +1,6 @@
+interface:
+  display_name: "牙医搭子"
+  short_description: "中国成人口腔健康与正畸美学预评估，生成精简就诊信息"
+  default_prompt: "使用 $yayi-dazi 帮我完成中国成人口腔或正畸美学问题的安全预评估，并在必要问询后生成精简的智慧口腔记录。"
+policy:
+  allow_implicit_invocation: false

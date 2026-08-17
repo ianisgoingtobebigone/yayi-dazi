@@ -1,0 +1,144 @@
+{
+  "schema_version": "cn-oral-consult.release-status.v1",
+  "as_of": "2026-08-17",
+  "public_product_status": "PORTFOLIO_ENGINEERING_PROTOTYPE",
+  "engineering_status": "ENGINEERING_READY_NOT_RELEASE_VALIDATED",
+  "instruction_skill_preflight_status": "node7_approved_distribution_authorized_install_pending",
+  "repository_visibility": "public",
+  "versioning": {
+    "skill_release_version": "0.9.0-portfolio",
+    "rule_version": "cn-dental-triage.rules.v0.1",
+    "knowledge_snapshot_version": "yayi-dazi.knowledge.2026-08-17",
+    "evaluation_dataset_version": "cn-dental-portfolio-v3.1",
+    "candidate_validation_status": "node7_approved_distribution_authorized",
+    "version_1_release_condition_met": false
+  },
+  "knowledge_maintenance": {
+    "contract_version": "yayi-dazi.knowledge-maintenance.v1",
+    "registered_source_count": 41,
+    "catalog_snapshot_count": 1,
+    "as_of": "2026-08-17",
+    "audit_status": "current_42_of_42_registered_records",
+    "next_review_on": "2026-11-05",
+    "runtime_network_update_enabled": false,
+    "automatic_medical_rule_update_enabled": false
+  },
+  "product_definition": {
+    "primary_form": "china_localized_adult_oral_and_orthodontic_aesthetic_preassessment_skill",
+    "primary_outcome": "concise_adaptive_smart_oral_record_for_visit_preparation",
+    "direct_repository_audience": [
+      "medical_ai_product_professionals",
+      "agent_developers",
+      "digital_health_teams"
+    ],
+    "final_beneficiary": "chinese_adult_oral_health_user",
+    "clinical_diagnosis_claimed": false
+  },
+  "data_governance": {
+    "contract_version": "cn-oral-data-governance.gate.v1",
+    "current_repository_mode": "personal_local_portfolio_prototype",
+    "personal_real_text_requires_governance_gate": true,
+    "real_photo_requires_separate_consent": true,
+    "public_demo_real_data_enabled": false,
+    "public_or_institution_real_data_enabled": false,
+    "skill_persistent_storage_enabled": false,
+    "host_storage_controlled_by_skill": false,
+    "secondary_use_enabled": false,
+    "training_use_enabled": false,
+    "legal_compliance_certified": false
+  },
+  "capability_tiers": {
+    "core": ["M00", "M01", "M02", "M03", "M04", "M05", "M06", "M07", "M11"],
+    "experimental_not_validated": ["M08", "M09", "M10", "M12"]
+  },
+  "production_enabled": false,
+  "clinical_validity_claim_allowed": false,
+  "portfolio_forward_validation": {
+    "case_count_per_arm": 22,
+    "pair_count_per_arm": 11,
+    "arm_count": 3,
+    "output_count": 66,
+    "reference_label_status": "rule_derived_provisional",
+    "professionally_reviewed": false,
+    "exact_safety": {"base": "20/22", "skill": "22/22", "skill_plus_rag": "22/22"},
+    "pair_safety_exact": {"base": "9/11", "skill": "11/11", "skill_plus_rag": "11/11"},
+    "rag_incremental_gain_detected_in_this_batch": false,
+    "statistical_significance_claim_allowed": false,
+    "medical_accuracy_claim_allowed": false
+  },
+  "portfolio_v3_dataset": {
+    "dataset_version": "cn-dental-portfolio-v3.1",
+    "asset_status": "frozen_and_structure_audited",
+    "case_count": 144,
+    "minimal_pair_count": 36,
+    "paired_case_count": 72,
+    "split_counts": {
+      "development": 48,
+      "locked_test": 72,
+      "challenge": 24
+    },
+    "professional_review_status": "not_reviewed",
+    "model_comparison_status": "not_run",
+    "lay_user_test_status": "protocol_ready_not_run",
+    "real_patient_data_count": 0,
+    "real_image_count": 0,
+    "medical_accuracy_claim_allowed": false
+  },
+  "rag_engineering_diagnostic": {
+    "case_count": 36,
+    "status": "local_retrieval_engineering_evaluation_complete",
+    "full_library_bm25": {
+      "hit_at_3": 0.861111,
+      "wrong_module_result_rate": 0.398148
+    },
+    "route_and_type_filtered_bm25": {
+      "hit_at_3": 0.916667,
+      "wrong_module_result_rate": 0.0
+    },
+    "filtered_compact_text_bm25": {
+      "hit_at_3": 0.888889,
+      "wrong_module_result_rate": 0.0
+    },
+    "strict_runtime_route_guard": {
+      "contract_version": "m10-route-guard.v2",
+      "case_count": 36,
+      "isolated_execution_count": 37,
+      "route_filter_and_no_full_library_fallback_pass_count": 37,
+      "hit_at_3": 0.916667,
+      "macro_recall_at_3": 0.902778,
+      "macro_precision_at_3": 0.342593,
+      "unauthorized_module_result_count": 0,
+      "wrong_module_result_rate": 0.0,
+      "all_route_guards_passed": true
+    },
+    "semantic_rerank_status": "not_run_no_embedding_provider",
+    "generation_gain_claim_allowed": false,
+    "medical_validation_claim_allowed": false
+  },
+  "release_blockers": [
+    "Public or institutional real-data deployment governance, privacy, security, and regulatory review are incomplete.",
+    "Two-person qualified oral-health professional review and adjudication are incomplete.",
+    "Calibrated model-grader validation is incomplete.",
+    "Legally sourced real-image dual annotation and validation are incomplete.",
+    "Release-level professional blind review is incomplete."
+  ],
+  "personal_installation": {
+    "recommended": true,
+    "scope": "personal_local_skill",
+    "invocation_policy": "explicit_only",
+    "install_target": "$CODEX_HOME/skills/yayi-dazi",
+    "target_conflict_detected": true,
+    "installed": true,
+    "installation_authorized": true,
+    "installed_and_verified_at": "2026-08-13T18:08:53+08:00",
+    "current_optimization_candidate_installed": false,
+    "reinstall_deferred_until_final_audit": false,
+    "installation_execution_status": "authorized_pending_safe_update",
+    "final_package_audit_checks": "19/19",
+    "note": "The user approved the Node 7 candidate for a recoverable personal update. The previously approved version remains active until the safe update succeeds. Personal installation does not enable production use or permit clinical-validity claims."
+  },
+  "compatibility": {
+    "legacy_internal_schema_prefix": "cn-dental-triage",
+    "note": "Legacy input, output, and rule schema identifiers are retained for compatibility and are not the public skill name."
+  }
+}

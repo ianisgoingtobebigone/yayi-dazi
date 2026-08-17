@@ -1,0 +1,59 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="30" x2="1120" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="0.55" stop-color="#10283B"/>
+      <stop offset="1" stop-color="#123D42"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="220" y1="70" x2="1000" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EEAD4"/>
+      <stop offset="0.52" stop-color="#7DD3FC"/>
+      <stop offset="1" stop-color="#F9A8D4"/>
+    </linearGradient>
+    <linearGradient id="tooth" x1="870" y1="60" x2="1080" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ECFEFF"/>
+      <stop offset="1" stop-color="#99F6E4"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="42"/></filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#020617" flood-opacity="0.35"/></filter>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <circle cx="1050" cy="74" r="176" fill="#2DD4BF" fill-opacity="0.14" filter="url(#blur)"/>
+  <circle cx="755" cy="400" r="190" fill="#38BDF8" fill-opacity="0.1" filter="url(#blur)"/>
+  <path d="M0 350C184 302 309 399 500 357C692 315 835 254 1200 333V420H0V350Z" fill="#E0F2FE" fill-opacity="0.035"/>
+  <g transform="translate(74 58)">
+    <rect width="178" height="34" rx="17" fill="#5EEAD4" fill-opacity="0.13" stroke="#5EEAD4" stroke-opacity="0.35"/>
+    <circle cx="20" cy="17" r="5" fill="#5EEAD4"/>
+    <text x="35" y="22" fill="#CCFBF1" font-size="14" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">中国成人口腔 AI Skill</text>
+  </g>
+  <text x="72" y="174" fill="#F8FAFC" font-size="66" font-weight="760" letter-spacing="1" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">牙医搭子</text>
+  <rect x="72" y="192" width="418" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="72" y="244" fill="#D8E8EF" font-size="26" font-weight="500" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">懂口腔，也懂你的 AI 搭子</text>
+  <text x="72" y="284" fill="#93AFC0" font-size="18" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">安全分流 · 健康与正畸美学双主线 · 智慧口腔记录</text>
+  <g transform="translate(72 326)">
+    <rect width="158" height="48" rx="14" fill="#FFFFFF" fill-opacity="0.075" stroke="#FFFFFF" stroke-opacity="0.1"/>
+    <text x="18" y="21" fill="#94A3B8" font-size="11" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">工程回归</text>
+    <text x="18" y="39" fill="#F8FAFC" font-size="17" font-weight="700" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">412 / 412</text>
+  </g>
+  <g transform="translate(244 326)">
+    <rect width="158" height="48" rx="14" fill="#FFFFFF" fill-opacity="0.075" stroke="#FFFFFF" stroke-opacity="0.1"/>
+    <text x="18" y="21" fill="#94A3B8" font-size="11" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">运行模块</text>
+    <text x="18" y="39" fill="#F8FAFC" font-size="17" font-weight="700" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">M00 — M12</text>
+  </g>
+  <g transform="translate(416 326)">
+    <rect width="196" height="48" rx="14" fill="#FFFFFF" fill-opacity="0.075" stroke="#FFFFFF" stroke-opacity="0.1"/>
+    <text x="18" y="21" fill="#94A3B8" font-size="11" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">当前版本</text>
+    <text x="18" y="39" fill="#F8FAFC" font-size="17" font-weight="700" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">0.9.0 Portfolio</text>
+  </g>
+  <g transform="translate(826 54)" filter="url(#shadow)">
+    <rect width="294" height="310" rx="38" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <rect x="22" y="22" width="250" height="266" rx="28" fill="#07111F" fill-opacity="0.42"/>
+    <path d="M147 62C107 62 83 90 84 126C85 154 99 172 104 209C108 240 114 263 129 263C141 263 141 224 147 214C153 224 153 263 165 263C180 263 186 240 190 209C195 172 209 154 210 126C211 90 187 62 147 62Z" fill="url(#tooth)" fill-opacity="0.96"/>
+    <path d="M111 120C123 109 137 105 147 105C157 105 171 109 183 120" stroke="#0F766E" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+    <circle cx="228" cy="72" r="30" fill="#5EEAD4"/>
+    <path d="M216 72L224 80L241 62" stroke="#083344" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="54" y="244" width="186" height="24" rx="12" fill="#FFFFFF" fill-opacity="0.08"/>
+    <circle cx="70" cy="256" r="4" fill="#7DD3FC"/>
+    <text x="82" y="261" fill="#CDECF2" font-size="12" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">作品集级工程原型 · 非医疗诊断</text>
+  </g>
+</svg>

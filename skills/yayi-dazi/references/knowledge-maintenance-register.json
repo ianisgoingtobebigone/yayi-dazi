@@ -1,0 +1,220 @@
+{
+  "schema_version": "yayi-dazi.knowledge-maintenance.v1",
+  "as_of": "2026-08-17",
+  "release_baseline": {
+    "skill_release_version": "0.9.0-portfolio",
+    "rule_version": "cn-dental-triage.rules.v0.1",
+    "knowledge_snapshot_version": "yayi-dazi.knowledge.2026-08-17",
+    "evaluation_dataset_version": "cn-dental-portfolio-v3.1"
+  },
+  "source_sets": {
+    "m10_registry_path": "runtime-data/m10_catalog.json#/source_registry",
+    "baseline_m10_source_count": 31,
+    "additional_source_count": 10,
+    "expected_total_source_count": 41
+  },
+  "review_intervals_days": {
+    "safety_triage_and_public_guidance": 90,
+    "chinese_guideline_and_professional_standard": 90,
+    "general_knowledge_catalog": 180,
+    "edition_locked_textbook_new_edition_check": 365,
+    "privacy_ai_and_medical_regulation": 90,
+    "formal_literature_metadata_max_age": 30
+  },
+  "minimum_incremental_cases": {
+    "safety_rule": {
+      "total": 6,
+      "required_mix": {"clear_positive": 2, "near_negative": 2, "ambiguous": 1, "user_correction": 1}
+    },
+    "professional_route": {
+      "total": 4,
+      "required_mix": {"expected_route": 2, "confusable_route": 2}
+    },
+    "knowledge_record": {
+      "total": 3,
+      "required_mix": {"direct_query": 1, "synonym_query": 1, "expected_no_result": 1}
+    },
+    "output_or_privacy_rule": {
+      "total": 2,
+      "required_mix": {"allowed": 1, "blocked": 1}
+    }
+  },
+  "version_policy": {
+    "major": "不兼容的数据契约、能力边界或输出结构变化",
+    "minor": "新增审核后的能力、规则或知识范围",
+    "patch": "不改变行为的文字、来源元数据或错误修复",
+    "version_1_release_condition": "完成独立专业验证及相应发布条件后另行审核"
+  },
+  "catalog_snapshots": [
+    {
+      "snapshot_id": "M02-M10-STRUCTURED-KNOWLEDGE",
+      "title": "M02至M10结构化知识目录",
+      "last_reviewed_on": "2026-08-17",
+      "next_review_on": "2027-02-13",
+      "review_interval_days": 180,
+      "impact_modules": ["M02", "M03", "M04", "M05", "M06", "M07", "M08", "M09", "M10"],
+      "overdue_action": "block_new_knowledge_snapshot_release",
+      "professional_or_clinical_validation_completed": false
+    }
+  ],
+  "additional_sources": [
+    {
+      "source_id": "TRIAGE-NHS-ENGLAND-2025",
+      "title": "NHS England Clinical guidance: unscheduled urgent and non-urgent dental care",
+      "source_type": "safety_triage_guidance",
+      "jurisdiction": "UK",
+      "url": "https://www.england.nhs.uk/long-read/clinical-guidance-unscheduled-urgent-and-non-urgent-dental-care/",
+      "rights": "link_and_transformed_summary",
+      "redistribution": "link_only",
+      "impact_modules": ["M00"],
+      "last_reviewed_on": "2026-08-07",
+      "next_review_on": "2026-11-05",
+      "review_interval_days": 90,
+      "review_status": "engineering_source_reviewed",
+      "overdue_action": "block_affected_rule_release_and_latest_claim",
+      "localization_guard": "never_expose_foreign_phone_or_service_pathway"
+    },
+    {
+      "source_id": "TRIAGE-SDCEP-ADP-2026",
+      "title": "SDCEP Management of Acute Dental Problems, 2nd edition",
+      "source_type": "safety_triage_guidance",
+      "jurisdiction": "UK",
+      "url": "https://www.acutedentalproblems.sdcep.org.uk/",
+      "rights": "link_and_transformed_summary",
+      "redistribution": "link_only",
+      "impact_modules": ["M00", "M09"],
+      "last_reviewed_on": "2026-08-07",
+      "next_review_on": "2026-11-05",
+      "review_interval_days": 90,
+      "review_status": "engineering_source_reviewed",
+      "overdue_action": "block_affected_rule_release_and_latest_claim",
+      "localization_guard": "never_expose_foreign_phone_or_service_pathway"
+    },
+    {
+      "source_id": "TRIAGE-NHS-TOOTHACHE",
+      "title": "NHS Toothache",
+      "source_type": "public_health_safety_cross_check",
+      "jurisdiction": "UK",
+      "url": "https://www.nhs.uk/symptoms/toothache/",
+      "rights": "link_and_transformed_summary",
+      "redistribution": "link_only",
+      "impact_modules": ["M00"],
+      "last_reviewed_on": "2026-08-07",
+      "next_review_on": "2026-11-05",
+      "review_interval_days": 90,
+      "review_status": "engineering_source_reviewed",
+      "overdue_action": "block_affected_rule_release_and_latest_claim",
+      "localization_guard": "never_expose_foreign_phone_or_service_pathway"
+    },
+    {
+      "source_id": "TRIAGE-NHS-DENTAL-ABSCESS",
+      "title": "NHS Dental abscess",
+      "source_type": "public_health_safety_cross_check",
+      "jurisdiction": "UK",
+      "url": "https://www.nhs.uk/conditions/dental-abscess/",
+      "rights": "link_and_transformed_summary",
+      "redistribution": "link_only",
+      "impact_modules": ["M00"],
+      "last_reviewed_on": "2026-08-07",
+      "next_review_on": "2026-11-05",
+      "review_interval_days": 90,
+      "review_status": "engineering_source_reviewed",
+      "overdue_action": "block_affected_rule_release_and_latest_claim",
+      "localization_guard": "never_expose_foreign_phone_or_service_pathway"
+    },
+    {
+      "source_id": "TRIAGE-NHS-HEART-ATTACK",
+      "title": "NHS Heart attack",
+      "source_type": "public_health_safety_cross_check",
+      "jurisdiction": "UK",
+      "url": "https://www.nhs.uk/conditions/heart-attack/",
+      "rights": "link_and_transformed_summary",
+      "redistribution": "link_only",
+      "impact_modules": ["M00"],
+      "last_reviewed_on": "2026-08-07",
+      "next_review_on": "2026-11-05",
+      "review_interval_days": 90,
+      "review_status": "engineering_source_reviewed",
+      "overdue_action": "block_affected_rule_release_and_latest_claim",
+      "localization_guard": "never_expose_foreign_phone_or_service_pathway"
+    },
+    {
+      "source_id": "BOUNDARY-ADA-ANTIBIOTICS-2019",
+      "title": "ADA Antibiotics for Dental Pain and Swelling Guideline",
+      "source_type": "treatment_boundary_cross_check",
+      "jurisdiction": "US",
+      "url": "https://www.ada.org/resources/research/science/evidence-based-dental-research/antibiotics-for-dental-pain-and-swelling",
+      "rights": "link_and_transformed_summary",
+      "redistribution": "link_only",
+      "impact_modules": ["M00", "M09"],
+      "last_reviewed_on": "2026-08-07",
+      "next_review_on": "2026-11-05",
+      "review_interval_days": 90,
+      "review_status": "engineering_source_reviewed",
+      "overdue_action": "block_affected_rule_release_and_latest_claim",
+      "localization_guard": "not_for_china_timing_or_prescription"
+    },
+    {
+      "source_id": "GOV-CN-PIPL",
+      "title": "中华人民共和国个人信息保护法",
+      "source_type": "privacy_regulation",
+      "jurisdiction": "CN",
+      "url": "https://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html",
+      "rights": "official_link_and_legal_fact_summary",
+      "redistribution": "link_only",
+      "impact_modules": ["DATA_GOVERNANCE", "M08", "M11"],
+      "last_reviewed_on": "2026-08-16",
+      "next_review_on": "2026-11-14",
+      "review_interval_days": 90,
+      "review_status": "engineering_source_reviewed",
+      "overdue_action": "block_public_real_data_release"
+    },
+    {
+      "source_id": "GOV-CN-NETWORK-DATA-REGULATION",
+      "title": "网络数据安全管理条例",
+      "source_type": "privacy_regulation",
+      "jurisdiction": "CN",
+      "url": "https://app.www.gov.cn/govdata/gov/202409/30/520076/article.html",
+      "rights": "official_link_and_legal_fact_summary",
+      "redistribution": "link_only",
+      "impact_modules": ["DATA_GOVERNANCE", "M08"],
+      "last_reviewed_on": "2026-08-16",
+      "next_review_on": "2026-11-14",
+      "review_interval_days": 90,
+      "review_status": "engineering_source_reviewed",
+      "overdue_action": "block_public_real_data_release"
+    },
+    {
+      "source_id": "GOV-CN-INTERNET-DIAGNOSIS-RULES",
+      "title": "互联网诊疗监管细则（试行）",
+      "source_type": "medical_service_regulation",
+      "jurisdiction": "CN",
+      "url": "https://www.nhc.gov.cn/yzygj/c100068/202203/2072f0e8988249e59d942e1b2a933916.shtml",
+      "rights": "official_link_and_legal_fact_summary",
+      "redistribution": "link_only",
+      "impact_modules": ["PRODUCT_BOUNDARY", "M09", "M11"],
+      "last_reviewed_on": "2026-08-16",
+      "next_review_on": "2026-11-14",
+      "review_interval_days": 90,
+      "review_status": "engineering_source_reviewed",
+      "overdue_action": "block_public_medical_service_release"
+    },
+    {
+      "source_id": "GOV-CN-AI-CONTENT-LABELING",
+      "title": "人工智能生成合成内容标识办法",
+      "source_type": "ai_service_regulation",
+      "jurisdiction": "CN",
+      "url": "https://www.cac.gov.cn/2025-03/14/c_1743654685899683.htm",
+      "rights": "official_link_and_legal_fact_summary",
+      "redistribution": "link_only",
+      "impact_modules": ["OUTPUT_GOVERNANCE", "M11"],
+      "last_reviewed_on": "2026-08-16",
+      "next_review_on": "2026-11-14",
+      "review_interval_days": 90,
+      "review_status": "engineering_source_reviewed",
+      "overdue_action": "block_public_output_release"
+    }
+  ],
+  "professional_or_clinical_validation_completed": false,
+  "production_enabled": false
+}

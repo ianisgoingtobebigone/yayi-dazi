@@ -1,0 +1,47 @@
+{
+  "schema_version": "cn-oral-data-governance.status.v1",
+  "as_of": "2026-08-17",
+  "current_repository_mode": "personal_local_portfolio_prototype",
+  "public_real_data_processing_enabled": false,
+  "public_demo_real_data_processing_enabled": false,
+  "skill_persistent_storage_enabled": false,
+  "host_storage_controlled_by_skill": false,
+  "supported_deployment_modes": [
+    "personal_local",
+    "public_demo",
+    "public_or_institution"
+  ],
+  "supported_data_modes": [
+    "fictional",
+    "real_text",
+    "real_photo"
+  ],
+  "sensitive_data_categories": [
+    "oral_health_text",
+    "medical_record",
+    "intraoral_photo",
+    "facial_photo",
+    "derived_health_assessment"
+  ],
+  "separate_consent_defaults": {
+    "secondary_use_consent": false,
+    "training_use_consent": false,
+    "photo_processing_consent_required_for_real_photo": true
+  },
+  "public_or_institution_blockers": [
+    "privacy_notice_missing",
+    "sensitive_consent_missing",
+    "photo_consent_missing",
+    "processor_unknown",
+    "processing_location_unknown",
+    "retention_undefined",
+    "cross_border_unknown",
+    "age_scope_unconfirmed",
+    "deletion_capability_unknown",
+    "withdrawal_route_missing",
+    "deployment_review_incomplete"
+  ],
+  "smart_record_disclosure_zh": "本记录由人工智能根据用户提供的信息生成，用于整理就诊信息和提供就医准备参考，不构成诊断、处方或治疗决定。",
+  "legal_compliance_certified": false,
+  "production_enabled": false
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "cn-dental-portfolio-v3.audit.v1",
+  "checks": {
+    "case_count_144": true,
+    "unique_case_ids": true,
+    "unique_prompt_texts": true,
+    "split_48_72_24": true,
+    "six_modules_18_each": true,
+    "m08_count_12": true,
+    "cross_count_24": true,
+    "minimal_pair_count_36": true,
+    "paired_case_count_72": true,
+    "paired_ratio_50_percent": true,
+    "pair_members_same_split": true,
+    "professional_review_not_claimed": true,
+    "rag_case_count_36": true,
+    "rag_six_groups_six_each": true
+  },
+  "distribution": {
+    "split": {
+      "development": 48,
+      "locked_test": 72,
+      "challenge": 24
+    },
+    "coverage_bucket": {
+      "M02": 18,
+      "M03": 18,
+      "M04": 18,
+      "M05": 18,
+      "M06": 18,
+      "M07": 18,
+      "M08": 12,
+      "CROSS": 24
+    },
+    "label_kind": {
+      "behavioral_invariant": 72,
+      "source_anchored_provisional": 60,
+      "product_usability_only": 12
+    }
+  },
+  "sha256": {
+    "dataset": "01571a3baea922e429e583393d327404fae0c3e6aee01e15b459325f7dd50864",
+    "pair_map": "4597d3ad18a8ea21db1ea8a691e74a01a0e6cf795aed079f2b762d8d60a2e8e4",
+    "rag_cases": "cd77fe1c5a98d1141447be3aa38d0c578f87585d086211a6fa05d092e7f42bf3"
+  },
+  "all_checks_passed": true
+}
